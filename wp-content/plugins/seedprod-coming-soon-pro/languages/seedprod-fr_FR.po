@@ -1,0 +1,1758 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Coming Soon Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-31 22:36+0100\n"
+"PO-Revision-Date: 2013-04-24 22:37+0100\n"
+"Last-Translator: FxB <traductions@fxbenard.com>\n"
+"Language-Team: FxB <traductions@fxbenard.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;"
+"_x;_n:1,2;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: seedprod-coming-soon-pro.php:34 inc/config.php:26
+msgid "Coming Soon Pro"
+msgstr "Coming Soon Pro"
+
+#: seedprod-coming-soon-pro.php:59
+#, php-format
+msgid ""
+"WordPress %s and higher required. The plugin has now disabled itself. On a "
+"side note why are you running an old version :( Upgrade!"
+msgstr ""
+"WordPress %s ou supérieur requis. L'extension est maintenant désactivée. En "
+"passant pourquoi utilisez vous une ancienne version :( Mettez à jour !"
+
+#: framework/framework.php:68
+msgid "Settings reset."
+msgstr "Réglages réinitialisés."
+
+#: framework/framework.php:223
+msgid "&larr; Close Window"
+msgstr "&larr;  Fermer la fenêtre."
+
+#: framework/framework.php:223
+msgid "Live Preview"
+msgstr "Prévisualisation"
+
+#: framework/framework.php:225
+msgid "Support"
+msgstr "Aide"
+
+#: framework/framework.php:279 framework/framework.php:326
+#: framework/framework.php:543
+msgid "Save All Changes"
+msgstr "Tout sauvegarder"
+
+#: framework/framework.php:281 framework/framework.php:327
+msgid "Reset Settings"
+msgstr "Réinitialiser les réglages"
+
+#: framework/framework.php:345
+msgid ""
+"This tabs settings be deleted and reset to the defaults. Are you sure you "
+"want to reset?"
+msgstr ""
+"Les réglages des onglets seront supprimés et remis à leurs valeurs par "
+"défaut. Êtes-vous sûr de vouloir réinitialiser ?"
+
+#: framework/field-types/customaweberauth.php:11
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: framework/field-types/customaweberlists.php:25
+#: framework/field-types/customcampaignmonitorclients.php:25
+#: framework/field-types/customcampaignmonitorlists.php:26
+#: framework/field-types/customconstantcontactlist.php:26
+#: framework/field-types/customgetresponse.php:25
+#: framework/field-types/custommadmini.php:25
+#: framework/field-types/custommailchimplist.php:25
+msgid "Refresh List"
+msgstr "Raffraichir la liste"
+
+#: framework/field-types/customcontainereffects.php:21
+msgid "Width"
+msgstr "Largeur"
+
+#: framework/field-types/customcontainereffects.php:33
+msgid "Color"
+msgstr "Couleur "
+
+#: framework/field-types/customcontainereffects.php:46
+msgid "Radius"
+msgstr "Rayon d'angle"
+
+#: framework/field-types/customcountdown.php:8
+#: framework/field-types/date.php:8 framework/field-types/daterange.php:8
+msgid "01-Jan"
+msgstr "Jan"
+
+#: framework/field-types/customcountdown.php:9
+#: framework/field-types/date.php:9 framework/field-types/daterange.php:9
+msgid "02-Feb"
+msgstr "Fév"
+
+#: framework/field-types/customcountdown.php:10
+#: framework/field-types/date.php:10 framework/field-types/daterange.php:10
+msgid "03-Mar"
+msgstr "Mar"
+
+#: framework/field-types/customcountdown.php:11
+#: framework/field-types/date.php:11 framework/field-types/daterange.php:11
+msgid "04-Apr"
+msgstr "Avr"
+
+#: framework/field-types/customcountdown.php:12
+#: framework/field-types/date.php:12 framework/field-types/daterange.php:12
+msgid "05-May"
+msgstr "Mai"
+
+#: framework/field-types/customcountdown.php:13
+#: framework/field-types/date.php:13 framework/field-types/daterange.php:13
+msgid "06-Jun"
+msgstr "Juin"
+
+#: framework/field-types/customcountdown.php:14
+#: framework/field-types/date.php:14 framework/field-types/daterange.php:14
+msgid "07-Jul"
+msgstr "Juil"
+
+#: framework/field-types/customcountdown.php:15
+#: framework/field-types/date.php:15 framework/field-types/daterange.php:15
+msgid "08-Aug"
+msgstr "Août"
+
+#: framework/field-types/customcountdown.php:16
+#: framework/field-types/date.php:16 framework/field-types/daterange.php:16
+msgid "09-Sep"
+msgstr "Sept"
+
+#: framework/field-types/customcountdown.php:17
+#: framework/field-types/date.php:17 framework/field-types/daterange.php:17
+msgid "10-Oct"
+msgstr "Oct"
+
+#: framework/field-types/customcountdown.php:18
+#: framework/field-types/date.php:18 framework/field-types/daterange.php:18
+msgid "11-Nov"
+msgstr "Nov"
+
+#: framework/field-types/customcountdown.php:19
+#: framework/field-types/date.php:19 framework/field-types/daterange.php:19
+msgid "12-Dec"
+msgstr "Déc"
+
+#: framework/field-types/customcountdown.php:32
+#: framework/field-types/date.php:29 framework/field-types/daterange.php:29
+#: framework/field-types/daterange.php:42
+msgid "day"
+msgstr "jour"
+
+#: framework/field-types/customcountdown.php:35
+#: framework/field-types/date.php:32 framework/field-types/daterange.php:32
+#: framework/field-types/daterange.php:45
+msgid "year"
+msgstr "année"
+
+#: framework/field-types/customcountdown.php:38
+msgid "hh"
+msgstr "HH"
+
+#: framework/field-types/customcountdown.php:39
+msgid "mm"
+msgstr "mm"
+
+#: framework/field-types/customemaillist.php:22
+msgid ""
+"This option will bypass the builtin referral system, after form confirmation "
+"and social share buttons. Entires will on be available on FeedBurner."
+msgstr ""
+"Cette option permet de contourner le système de référence intégré, après la "
+"confirmation du formulaire et des boutons de partage sociaux. Les entrées "
+"seront aussi disponibles dans FeedBurner."
+
+#: framework/field-types/customemaillist.php:23
+msgid ""
+"Click \"Save Changes\" after selectiing this option to populate the forms. "
+"This option will bypass the builtin referral system, after form confirmation "
+"and social share buttons. Entires will on be available in Gravity Forms."
+msgstr ""
+"Cliquez sur \"Sauvegarder les modifications\" après avoir sélectionné cette "
+"option pour remplir les formulaires. Cette option permet de contourner le "
+"système de référence intégré, après la confirmation du formulaire et des "
+"boutons de partage sociaux. Les entrées seront aussi disponibles dans "
+"Gravity Forms."
+
+#: framework/field-types/customsharebuttons.php:14
+msgid "Optional Tweet Text"
+msgstr "Texte de Tweet facultatif"
+
+#: framework/field-types/customsharebuttons.php:18
+msgid "Image for Facebook Like. Optimal Size: 50px x 50px"
+msgstr "Image pour le Aime de Facebook. Taille : 50px x 50px"
+
+#: framework/field-types/customsharebuttons.php:19
+#: framework/field-types/customsharebuttons.php:30
+#: framework/field-types/upload.php:8
+msgid "Media Image Library"
+msgstr "Bibliothèque de médias"
+
+#: framework/field-types/customsharebuttons.php:29
+msgid "Image for Pinterest"
+msgstr "Image pour Pinterest"
+
+#: framework/field-types/customsocialfollow.php:32
+msgid ""
+"Enter your social profile url's. Drag &amp; Drop the icons to reorder. "
+"Remember to save your changes. <a href='https://seedprod.zendesk.com/"
+"entries/21778652-adding-custom-icons' target='_blank'>Learn how to add your "
+"own custom icons</a>."
+msgstr ""
+"Entrez les urls de vos profils sociaux. Glissez-déposez les icônes pour les "
+"réorganiser. N'oubliez pas d'enregistrer vos modifications. <a href='https://"
+"seedprod.zendesk.com/entries/21778652-adding-custom-icons' target='_blank'> "
+"Apprendre comment ajouter vos propres icônes personnalisées</a>."
+
+#: framework/field-types/daterange.php:22
+msgid "Start Date"
+msgstr "Date de début"
+
+#: framework/field-types/daterange.php:35
+msgid "End Date"
+msgstr "Date de fin"
+
+#: framework/validations/color.php:13
+msgid "Please enter a valid color value."
+msgstr "Veuillez entrer une valeur colorimétrique valide."
+
+#: framework/validations/email.php:10 framework/validations/escurlraw.php:11
+#: inc/config.php:745
+msgid "Please enter a valid email."
+msgstr "Veuillez entrer un e-mail valide."
+
+#: framework/validations/number.php:11
+msgid "Please enter a valid number."
+msgstr "Veuillez entrer un nombre valide."
+
+#: framework/validations/required.php:10
+msgid "is required."
+msgstr "est requis."
+
+#: inc/class-plugin.php:222
+msgid "Coming Soon Mode Active"
+msgstr "Mode Coming Soon activé"
+
+#: inc/class-plugin.php:224
+msgid "Maintenance Mode Active"
+msgstr "Mode maintenance activé"
+
+#: inc/class-plugin.php:251
+msgid "Are you sure you want to DELETE all subscribers?"
+msgstr "Etes-vous sûr de vouloir SUPPRIMER tous les abonnés ?"
+
+#: inc/class-plugin.php:252
+msgid ""
+"Are you sure you want to IMPORT these settings? Current settings will be "
+"erased!"
+msgstr ""
+"Etes-vous sur de vouloir IMPORTER ces réglages ? Les réglages actuels seront "
+"écrasés !"
+
+#: inc/class-plugin.php:361 inc/class-plugin.php:412 inc/class-plugin.php:454
+msgid "No lists Found"
+msgstr "Aucune liste trouvée."
+
+#: inc/class-plugin.php:365
+msgid "Unable to load MailChimp lists, check your API Key."
+msgstr "Impossible de charger les listes de MailChimp, vérifiez votre clé API."
+
+#: inc/class-plugin.php:407
+msgid "Unable to authenticate"
+msgstr "Authentification impossible"
+
+#: inc/class-plugin.php:509
+msgid "Unable to load Constant Contact lists"
+msgstr "Impossible de charger les listes de Constant Contact"
+
+#: inc/class-plugin.php:562
+msgid "Unable to load Campaign Monitor lists"
+msgstr "Impossible de charger les listes de Campaign Monitor"
+
+#: inc/class-plugin.php:610
+msgid "Unable to load Campaign Monitor clients"
+msgstr "Impossible de charger les clients de Campaign Monitor"
+
+#: inc/class-plugin.php:667
+msgid "Unable to load Aweber lists"
+msgstr "Impossible de charger les listes Aweber"
+
+#: inc/class-plugin.php:793
+msgid "New Email Subscriber"
+msgstr "Nouvel abonné à l'e-mail"
+
+#: inc/class-plugin.php:1389
+msgid "Do not display an Email SignUp"
+msgstr "Ne pas afficher de formulaire d'E-mail"
+
+#: inc/class-plugin.php:1390
+msgid "Database"
+msgstr "Base de données"
+
+#: inc/class-plugin.php:1391
+msgid "FeedBurner"
+msgstr "FeedBurner"
+
+#: inc/class-plugin.php:1478
+msgid "All subscribers deleted."
+msgstr "Tous abonnés ont été supprimés."
+
+#: inc/class-plugin.php:1485
+msgid "Selected subscribers deleted."
+msgstr "Les abonnés sélectionnés ont été supprimé."
+
+#: inc/class-plugin.php:1608
+msgid "Subscribed on: "
+msgstr "Date d'inscription :"
+
+#: inc/class-plugin.php:1662 inc/config.php:1322
+msgid "Subscribers"
+msgstr "Abonnés"
+
+#: inc/class-plugin.php:1663
+msgid "Clicks"
+msgstr "Clics"
+
+#: inc/class-plugin.php:1664
+msgid "# People Signed Up"
+msgstr "# Personnes se sont inscrites"
+
+#: inc/class-plugin.php:1665
+msgid "Conversion Rate"
+msgstr "Taux de conversion"
+
+#: inc/class-plugin.php:1666
+msgid "Created"
+msgstr "Créé"
+
+#: inc/class-plugin.php:1702
+msgid "Export All"
+msgstr "Tout exporter"
+
+#: inc/class-plugin.php:1703
+msgid "Delete All"
+msgstr "Tout supprimer "
+
+#: inc/class-plugin.php:1704
+msgid "Delete Selected"
+msgstr "Supprimer la sélection"
+
+#: inc/config.php:37
+msgid "Settings"
+msgstr "Réglages"
+
+#: inc/config.php:48
+msgid "General"
+msgstr "Général"
+
+#: inc/config.php:54
+msgid "Status"
+msgstr "Etat"
+
+#: inc/config.php:56
+msgid "Disabled"
+msgstr "Désactiver"
+
+#: inc/config.php:57
+msgid "Enable Coming Soon Mode"
+msgstr "Activer le mode Coming Soon"
+
+#: inc/config.php:58
+msgid "Enable Maintenance Mode"
+msgstr "Activer le Mode Maintenance"
+
+#: inc/config.php:60
+msgid ""
+"Coming Soon Mode will be available to search engines if your site is not "
+"private. Maintenance Mode will notify search engines that the site is "
+"unavailable."
+msgstr ""
+"Le Mode Coming Soon sera disponible pour les moteurs de recherche si votre "
+"site n'est pas privé.  Le Mode de Maintenance informera les moteurs de "
+"recherche que le site n'est pas disponible."
+
+#: inc/config.php:70
+msgid "Use maintenance.php"
+msgstr "Utilisez maintenance.php"
+
+#: inc/config.php:71
+msgid ""
+"maintenance.php detected, would you like to use this for your maintenance "
+"page?"
+msgstr ""
+"maintenance.php détecté, voulez-vous l'utiliser pour votre page de "
+"maintenance ?"
+
+#: inc/config.php:73 inc/config.php:186 inc/config.php:369 inc/config.php:415
+#: inc/config.php:457 inc/config.php:474 inc/config.php:520 inc/config.php:545
+#: inc/config.php:819 inc/config.php:883 inc/config.php:894
+#: inc/config.php:1040 inc/config.php:1235 inc/config.php:1246
+#: inc/config.php:1258 inc/config.php:1292
+msgid "Yes"
+msgstr "Oui"
+
+#: inc/config.php:84
+msgid "API key"
+msgstr "Clé API "
+
+#: inc/config.php:85
+msgid ""
+"Enter your <a href='http://app.seedprod.com' target='_blank'>API Key</a> to "
+"receive automatic plugin updates."
+msgstr ""
+"Entrer votre <a href='http://app.seedprod.com' target='_blank'>clé API</a> "
+"pour recevoir les mises à jour automatiques de l'extension."
+
+#: inc/config.php:94
+msgid "Page Settings"
+msgstr "Réglages de la Page"
+
+#: inc/config.php:100
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/config.php:101
+msgid "Upload a logo or teaser image (or) enter the url to your image."
+msgstr ""
+"Envoyer une image ou une image accompagnant le chapeau (ou) entrer l'url de "
+"votre image."
+
+#: inc/config.php:108
+msgid "Headline"
+msgstr "En-tête"
+
+#: inc/config.php:109
+msgid ""
+"Enter a headline for your page. Replace the default headline if it exists."
+msgstr ""
+"Entrer un gros titre pour votre page. Cela remplace le gros titre par défaut "
+"s'il existe."
+
+#: inc/config.php:115
+msgid "Description"
+msgstr "Description"
+
+#: inc/config.php:116
+msgid ""
+"Tell the visitor what to expect from your site. Also supports WordPress "
+"shortcodes and <a href='http://codex.wordpress.org/Embeds' "
+"target='_target'>video embeds</a>."
+msgstr ""
+"Informer le visiteur quoi attendre de votre site. Prend également en charge "
+"les shortcodes WordPress et les <a href='http://codex.wordpress.org/Embeds' "
+"target='_target'>video intégrés</a>."
+
+#: inc/config.php:132
+msgid "Form Settings"
+msgstr "Réglages du Formulaire"
+
+#: inc/config.php:138
+msgid "Save subscribers to:"
+msgstr "Sauvegarder les abonnés dans :"
+
+#: inc/config.php:146
+msgid "Name Field"
+msgstr "Nom du champ"
+
+#: inc/config.php:147
+msgid "Ask for the visitors name."
+msgstr "Demander le nom des visiteurs."
+
+#: inc/config.php:149
+msgid "Display Name Field"
+msgstr "Afficher le nom du champ"
+
+#: inc/config.php:177
+msgid "Database Settings"
+msgstr "Réglages de la Base de données"
+
+#: inc/config.php:183
+msgid "Enable New Subscriber Notifications"
+msgstr "Activer les notifications de nouveaux abonnés"
+
+#: inc/config.php:184
+msgid "Get an email notification when some subscribes."
+msgstr "Recevoir une notification par e-mail lorsque quelqu'un s'abonne."
+
+#: inc/config.php:194
+msgid "FeedBurner Settings"
+msgstr "Réglages de FeedBurner"
+
+#: inc/config.php:200
+msgid "Address"
+msgstr "Adresse"
+
+#: inc/config.php:201
+msgid "Enter your FeedBurner address."
+msgstr "Entrez votre adresse FeedBurner."
+
+#: inc/config.php:207
+msgid "Local"
+msgstr "Local"
+
+#: inc/config.php:210
+msgid ""
+"The language the FeedBurner form is displayed in. The default is English. <a "
+"href=\"http://support.google.com/feedburner/bin/answer.py?"
+"hl=en&answer=81423\">Learn more</a>."
+msgstr ""
+"La langue dans laquelle le formulaire FeedBurner est affiché. La valeur par "
+"défaut est l'anglais. <a href=\"http://support.google.com/feedburner/bin/"
+"answer.py?hl=en&answer=81423\">En savoir plus</a>."
+
+#: inc/config.php:217
+msgid "Aweber Settings"
+msgstr "Réglages d'Aweber"
+
+#: inc/config.php:224
+msgid ""
+"<a href=\"https://auth.aweber.com/1.0/oauth/authorize_app/a662998e\" target="
+"\"_blank\">Authorize App</a> &larr; Click the link to get you Authorization "
+"Code."
+msgstr ""
+"<a href=\"https://auth.aweber.com/1.0/oauth/authorize_app/a662998e\" target="
+"\"_blank\">App d'autorisation</a> &larr; Cliquez le lien pour obtenir votre "
+"Code d'Autorisation."
+
+#: inc/config.php:230
+msgid "Authorization Code"
+msgstr "Code d'autorisation"
+
+#: inc/config.php:231
+msgid ""
+"Paste in the Authorization Code you received when authorizing the app and "
+"click <strong>Save</strong>."
+msgstr ""
+"Collez le code d'autorisation que vous avez reçu lors de l'autorisation de "
+"l'application et cliquez sur <strong>Enregistrer</strong>."
+
+#: inc/config.php:237 inc/config.php:265 inc/config.php:294 inc/config.php:383
+#: inc/config.php:405
+msgid "List"
+msgstr "Liste"
+
+#: inc/config.php:245
+msgid "Campaign Monitor Settings"
+msgstr "Paramètres de l'écran de la campagne"
+
+#: inc/config.php:251 inc/config.php:308 inc/config.php:337 inc/config.php:398
+msgid "API Key"
+msgstr "Clé API"
+
+#: inc/config.php:252
+msgid ""
+"Get your <a target=\"_blank\" href=\"http://help.campaignmonitor.com/topic."
+"aspx?t=206\">API key</a>"
+msgstr ""
+"Obtenez votre <a target=\"_blank\" href=\"http://help.campaignmonitor.com/"
+"topic.aspx?t=206\">clé API</a>"
+
+#: inc/config.php:258
+msgid "Client"
+msgstr "Client"
+
+#: inc/config.php:274
+msgid "Constant Contact Settings"
+msgstr "Réglages de Constant Contact"
+
+#: inc/config.php:280
+msgid "Username"
+msgstr "Identifiant"
+
+#: inc/config.php:281
+msgid "Enter your Constant Contact username."
+msgstr "Saisissez votre nom d'utilisateur de Constant Contact."
+
+#: inc/config.php:287
+msgid "Password"
+msgstr "Mot de passe"
+
+#: inc/config.php:288
+msgid "Enter your Constant Contact password."
+msgstr "Entrez votre nouveau mot de Constant Contact"
+
+#: inc/config.php:302
+msgid "GetResponse Settings"
+msgstr "Réglages de GetResponse"
+
+#: inc/config.php:309
+msgid ""
+"Enter your API Key. <a target=\"_blank\" href=\"https://app.getresponse.com/"
+"my_account.html\" target=\"_blank\">Get your API key</a>"
+msgstr ""
+"Entrer votre clé API. <a target=\"_blank\" href=\"https://app.getresponse."
+"com/my_account.html\" target=\"_blank\">Récupérer votre clé API</a>"
+
+#: inc/config.php:315 inc/config.php:344
+msgid "Campaign"
+msgstr "Campagne"
+
+#: inc/config.php:324
+msgid "Mad Mimi Settings"
+msgstr "Réglages de Mad Mini"
+
+#: inc/config.php:330
+msgid "Username or Email"
+msgstr "Identifiant ou adresse e-mail"
+
+#: inc/config.php:331
+msgid "Enter your username or email."
+msgstr "Saisir votre identifiant ou votre adresse e-mail."
+
+#: inc/config.php:338
+msgid ""
+"Enter your API Key. <a target=\"_blank\" href=\"https://madmimi.com/user/"
+"edit?set_api&account_info_tabs=account_info_personal\" target=\"_blank\">Get "
+"your API key</a>"
+msgstr ""
+"Enter your API Key. <a target=\"_blank\" href=\"https://madmimi.com/user/"
+"edit?set_api&account_info_tabs=account_info_personal\" target=\"_blank\">Get "
+"your API key</a>"
+
+#: inc/config.php:352
+msgid "Gravity Forms Settings"
+msgstr "Réglages de Gravity Forms"
+
+#: inc/config.php:358
+msgid "Form"
+msgstr "Formulaire"
+
+#: inc/config.php:360
+msgid "Select a form to display on your page."
+msgstr "Selectionner le formulaire à afficher sur votre page."
+
+#: inc/config.php:366
+msgid "Override Gravity Form's confirmation page"
+msgstr "Remplacer la page de confirmation de Gravity Form"
+
+#: inc/config.php:367
+msgid ""
+"Redirect to this plugin's Thank You page instead of the default Gravity "
+"Forms Confirmation page."
+msgstr ""
+"Redirection vers la page de Remerciements de l'extension au lieu de la page "
+"par défaut de confirmation de Gravity Forms."
+
+#: inc/config.php:377
+msgid "WYSIJA Settings"
+msgstr "Réglages de Wysija "
+
+#: inc/config.php:385
+msgid "Select a list to save your contacts to."
+msgstr "Sélectionnez une liste pour sauvegarder vos contacts."
+
+#: inc/config.php:392
+msgid "MailChimp Settings"
+msgstr "Réglages de MailChimp"
+
+#: inc/config.php:399
+msgid ""
+"Enter your API Key. <a target=\"_blank\" href=\"http://admin.mailchimp.com/"
+"account/api-key-popup\" target=\"_blank\">Get your API key</a>"
+msgstr ""
+"Entrez votre clé API. <a target=\"_blank\" href=\"http://admin.mailchimp.com/"
+"account/api-key-popup\" target=\"_blank\">Obtenez votre clé API</a>"
+
+#: inc/config.php:412
+msgid "Enable Double Opt-In"
+msgstr "Activer Double Opt-In"
+
+#: inc/config.php:413
+msgid ""
+"Learn  more about <a href=\"http://kb.mailchimp.com/article/how-does-"
+"confirmed-optin-or-double-optin-work\">Double Opt-In</a>"
+msgstr ""
+"En savoir plus sur la <a href=\"http://kb.mailchimp.com/article/how-does-"
+"confirmed-optin-or-double-optin-work\">Double Opt-In</a>"
+
+#: inc/config.php:423
+msgid "After Subscribe Settings"
+msgstr "Réglages de l'Après Souscription"
+
+#: inc/config.php:429
+msgid "Thank You or Incentive Message"
+msgstr "Merci ou message incitatif"
+
+#: inc/config.php:430
+msgid ""
+"Leave a thank you or incentive information after the user has subscribed. "
+"This will override the default success message."
+msgstr ""
+"Laisser un merci ou un message d'incitatif après la souscription de "
+"l'utilisateur. Cela remplacera le message de succès par défaut."
+
+#: inc/config.php:437
+msgid "Share Buttons"
+msgstr "Boutons de partage"
+
+#: inc/config.php:438
+msgid ""
+"Select the checkboxes above to display Social Share Buttons after you "
+"capture an email."
+msgstr ""
+"Cochez les cases ci-dessus pour afficher les boutons de partage sociaux "
+"après la saisie d'un e-mail."
+
+#: inc/config.php:440
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/config.php:441
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/config.php:442
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/config.php:443
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/config.php:444
+msgid "PinIt"
+msgstr "PinIt"
+
+#: inc/config.php:446
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/config.php:454
+msgid "Display Referrer Link"
+msgstr "Afficher le lien de référence"
+
+#: inc/config.php:455
+msgid ""
+"The referrer link is a special link that you can encourage your subscribers "
+"to share so you track who referred who."
+msgstr ""
+"Le lien de référence est un lien spécial pour encourager vos abonnés à "
+"partager et ainsi suivre qui se reférencie à qui."
+
+#: inc/config.php:465
+msgid "Progress Bar Settings"
+msgstr "Réglages de la Barre de progression"
+
+#: inc/config.php:471
+msgid "Enable Progress Bar"
+msgstr "Activer la Barre de progression"
+
+#: inc/config.php:472
+msgid "Displays a progress bar on your site."
+msgstr "Affiche une barre de progression sur votre site."
+
+#: inc/config.php:481
+msgid "Start and End Date"
+msgstr "Date de début et de fin"
+
+#: inc/config.php:482
+msgid ""
+"The percent complete will be automatically calculated if you enter a start "
+"and end date."
+msgstr ""
+"Le pourcentage d'avancement sera calculé automatiquement si vous entrez une "
+"date de début et de fin."
+
+#: inc/config.php:489
+msgid "Percent Complete Override"
+msgstr "Outrepasser le pourcentage d'avancement"
+
+#: inc/config.php:490
+msgid ""
+"Enter the percentage complete without the percentage sign. This will "
+"override the date calculation above."
+msgstr ""
+"Entrez le pourcentage d'avancement sans le signe de pourcentage. Cela "
+"remplacera le calcul de la date ci-dessus."
+
+#: inc/config.php:497
+msgid "Progress Bar Effect"
+msgstr "Effet de la Barre de progression"
+
+#: inc/config.php:499
+msgid "Basic"
+msgstr "Basique"
+
+#: inc/config.php:500
+msgid "Striped"
+msgstr "Rayures"
+
+#: inc/config.php:501
+msgid "Animated"
+msgstr "Animé"
+
+#: inc/config.php:504
+msgid "Striped and Animated are not supported in Internet Explorer"
+msgstr ""
+"Les rayures et l'animation ne sont pas pris en charge dans Internet Explorer"
+
+#: inc/config.php:511
+msgid "Countdown Settings"
+msgstr "Réglages du Décompte"
+
+#: inc/config.php:517
+msgid "Enable Countdown"
+msgstr "Activer le décompte"
+
+#: inc/config.php:518
+msgid "Displays a countdown on your site."
+msgstr "Afficher le décompte sur votre site"
+
+#: inc/config.php:527
+msgid "End DateTime"
+msgstr "Temps de fin"
+
+#: inc/config.php:528
+msgid "Enter the datetime to countdown to."
+msgstr "Saisissez la date et heure de la fin du compte à rebours."
+
+#: inc/config.php:542
+msgid "Auto Launch"
+msgstr "Lancement automatique"
+
+#: inc/config.php:543
+msgid ""
+"This will automatically launch your site when countdown reaches the end."
+msgstr ""
+"Cela lancera automatiquement votre site lorsque le compte à rebours arrive à "
+"la fin."
+
+#: inc/config.php:552 inc/config.php:696
+msgid "Language Strings"
+msgstr "Chaînes de langue"
+
+#: inc/config.php:553
+msgid "Translate the text strings below into your language if not English."
+msgstr ""
+"Traduire les chaînes de texte ci-dessous dans votre propre langue si elle "
+"n'est pas l'anglais."
+
+#: inc/config.php:560
+msgid "Days"
+msgstr "Jours"
+
+#: inc/config.php:561 inc/config.php:569 inc/config.php:578 inc/config.php:587
+msgid "Translate into your language."
+msgstr "Traduire dans votre langue."
+
+#: inc/config.php:568
+msgid "Hours"
+msgstr "Heures"
+
+#: inc/config.php:577
+msgid "Minutes"
+msgstr "Minutes"
+
+#: inc/config.php:586
+msgid "Seconds"
+msgstr "Secondes"
+
+#: inc/config.php:599
+msgid "Header"
+msgstr "En-tête"
+
+#: inc/config.php:604
+msgid "Favicon"
+msgstr "Favicon"
+
+#: inc/config.php:605
+msgid ""
+"Favicons are displayed in a browser tab. Need Help <a href=\"http://tools."
+"dynamicdrive.com/favicon/\" target=\"_blank\">creating a favicon</a>?"
+msgstr ""
+"Les favicons sont affichés dans un onglet du navigateur. Besoin d'aide pour "
+"<a href=\"http://tools.dynamicdrive.com/favicon/\" target=\"_blank\">créer "
+"un favicon </a>?"
+
+#: inc/config.php:611
+msgid "SEO Title"
+msgstr "Titre SEO"
+
+#: inc/config.php:612
+msgid ""
+"If left empty the <a href=\"http://www.seomoz.org/learn-seo/title-tag\" "
+"target=\"_blank\">title tag</a> of your page will be: "
+msgstr ""
+"Si laisser vide <a href=\"http://www.seomoz.org/learn-seo/meta-description\" "
+"target=\"_blank\">la balise de titre</a> de votre page sera :"
+
+#: inc/config.php:618
+msgid "SEO Meta Description"
+msgstr "SEO Méta description"
+
+#: inc/config.php:619
+msgid ""
+"If left empty the <a href=\"http://www.seomoz.org/learn-seo/meta-description"
+"\" target=\"_blank\">meta description</a> of your page will be: "
+msgstr ""
+"Si laisser vide <a href=\"http://www.seomoz.org/learn-seo/meta-description\" "
+"target=\"_blank\">la méta description</a> de votre page sera :"
+
+#: inc/config.php:627
+msgid "Analytics Code"
+msgstr "Code Analytiques"
+
+#: inc/config.php:628
+msgid ""
+"Paste in your <a href=\"http://www.google.com/analytics/\" target=\"_blank"
+"\">Google Analytics</a> code. Example: UA-xxxxxxxxx"
+msgstr ""
+"Collez votre code <a href=\"http://www.google.com/analytics/\" target="
+"\"_blank\">Google Analytics</a>. Par exemple : UA-xxxxxxxxx"
+
+#: inc/config.php:635
+msgid "Footer Credit"
+msgstr "Crédit du Pied de page"
+
+#: inc/config.php:647
+msgid "Credit Image"
+msgstr "Crédit des images"
+
+#: inc/config.php:648
+msgid "Use an image to add a footer credit."
+msgstr "Utiliser une image pour votre crédit de bas de page."
+
+#: inc/config.php:654
+msgid "Link to be used for your footer credit."
+msgstr "Lien à utiliser pour votre crédit de pied de page."
+
+#: inc/config.php:655
+msgid "Credit Link"
+msgstr "Lien du crédit"
+
+#: inc/config.php:670
+msgid "Social Media Profiles"
+msgstr "Profils des Médias Sociaux"
+
+#: inc/config.php:676
+msgid "Social Media Icons Size"
+msgstr "Taille des icônes des médias sociaux"
+
+#: inc/config.php:678
+msgid "Small 16px"
+msgstr "Petite 16px"
+
+#: inc/config.php:679
+msgid "Medium 24px"
+msgstr "Moyenne 24px"
+
+#: inc/config.php:680
+msgid "Large 32px"
+msgstr "Grande 32px"
+
+#: inc/config.php:682
+msgid "The size of your Social Media Icons"
+msgstr "Taille de vos icônes des médias sociaux"
+
+#: inc/config.php:689
+msgid "Social Profiles"
+msgstr "Profils sociaux"
+
+#: inc/config.php:702
+msgid "Subscribe Button"
+msgstr "Bouton de souscription"
+
+#: inc/config.php:703
+msgid "Notify Me"
+msgstr "Informez moi"
+
+#: inc/config.php:709
+msgid "Subscribe Field"
+msgstr "Champ de souscription"
+
+#: inc/config.php:710
+msgid "Enter Your Email"
+msgstr "Entrez votre adresse e-mail"
+
+#: inc/config.php:716
+msgid "First Name Field"
+msgstr "Champ du prénom"
+
+#: inc/config.php:717
+msgid "First Name"
+msgstr "Prénom"
+
+#: inc/config.php:723
+msgid "Last Name Field"
+msgstr "Champ du nom"
+
+#: inc/config.php:724
+msgid "Last Name"
+msgstr "Nom"
+
+#: inc/config.php:730
+msgid "Success"
+msgstr "Succès"
+
+#: inc/config.php:731
+msgid "You'll be notified soon!"
+msgstr "Vous serez tenu informé !"
+
+#: inc/config.php:737
+msgid "Already Subscribed"
+msgstr "D&egrave;j&agrave; abonn&eacute;"
+
+#: inc/config.php:738
+msgid "You're already subscribed."
+msgstr "Vous êtes déjà abonné."
+
+#: inc/config.php:744
+msgid "Invalid Email"
+msgstr "E-mail incorrect"
+
+#: inc/config.php:751
+msgid "API Error"
+msgstr "Erreur d'API"
+
+#: inc/config.php:752
+msgid "Error, please try again."
+msgstr "Une erreur est survenue, veuillez réessayer."
+
+#: inc/config.php:762
+msgid "Design"
+msgstr "Design"
+
+#: inc/config.php:793
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: inc/config.php:800
+msgid "Background Color"
+msgstr "Couleur d'arrière plan"
+
+#: inc/config.php:803
+msgid ""
+"Choose between having a solid color background or uploading an image. By "
+"default images will cover the entire background."
+msgstr ""
+"Choisir entre un fond de couleur unie ou une image téléchargée. Par défaut "
+"les images recouvriront tout le fond."
+
+#: inc/config.php:810
+msgid "Background Image"
+msgstr "Image d&rsquo;arrière-plan"
+
+#: inc/config.php:816
+msgid "Cover or Stretch"
+msgstr "Couvrir ou étirer"
+
+#: inc/config.php:817
+msgid ""
+"Cover will scale the image to the smallest size such that both its width and "
+"its height can fit inside the content area. The image will be stretched for "
+"older browsers."
+msgstr ""
+"Couvrir redimensionnera l'image à la plus petite taille pour que sa largeur "
+"et sa hauteur s'adaptent à l'intérieur de la zone du contenu. L'image sera "
+"étirée dans les navigateurs plus anciens."
+
+#: inc/config.php:827
+msgid "Background Repeat"
+msgstr "Répétition de l&rsquo;arrière-plan"
+
+#: inc/config.php:829
+msgid "No-Repeat"
+msgstr "Pas de répétition"
+
+#: inc/config.php:830
+msgid "Tile"
+msgstr "Répetition"
+
+#: inc/config.php:831
+msgid "Tile Horizontally"
+msgstr "Répétition horizontale"
+
+#: inc/config.php:832
+msgid "Tile Vertically"
+msgstr "Répétition verticale"
+
+#: inc/config.php:840
+msgid "Background Position"
+msgstr "Position d&rsquo;arrière-plan"
+
+#: inc/config.php:842
+msgid "Left Top"
+msgstr "En haut à gauche"
+
+#: inc/config.php:843
+msgid "Left Center"
+msgstr "Centre gauche"
+
+#: inc/config.php:844
+msgid "Left Bottom"
+msgstr "En bas à gauche"
+
+#: inc/config.php:845
+msgid "Right Top"
+msgstr "En haut à droite"
+
+#: inc/config.php:846
+msgid "Right Center"
+msgstr "Centré à droite"
+
+#: inc/config.php:847
+msgid "Right Bottom"
+msgstr "Bas droite"
+
+#: inc/config.php:848
+msgid "Center Top"
+msgstr "Aligné en haut"
+
+#: inc/config.php:849
+msgid "Center Center"
+msgstr "Centré au centre"
+
+#: inc/config.php:850
+msgid "Center Bottom"
+msgstr "Centré en bas "
+
+#: inc/config.php:857
+msgid "Background Attachment"
+msgstr "Position de l&rsquo;arrière-plan"
+
+#: inc/config.php:859
+msgid "Fixed"
+msgstr "Fixe"
+
+#: inc/config.php:860
+msgid "Scroll"
+msgstr "Défilant"
+
+#: inc/config.php:867
+msgid "Background Effects"
+msgstr "Effets sur l'arrière-plan"
+
+#: inc/config.php:869
+msgid "None"
+msgstr "Aucun"
+
+#: inc/config.php:870
+msgid "Noise"
+msgstr "Bruit"
+
+#: inc/config.php:872
+msgid ""
+"Background effects can be applied to Background Colors or Background Images."
+msgstr ""
+"Les effets du fond peuvent être appliqués aux couleurs de fond ou aux images "
+"de fond."
+
+#: inc/config.php:880
+msgid "Background Slideshow"
+msgstr "Diaporama de fond"
+
+#: inc/config.php:881
+msgid "This will override the setting above and create a background slideshow."
+msgstr ""
+"Cela remplacera le réglage ci-dessus et créera un diaporama d'arrière-plan."
+
+#: inc/config.php:891
+msgid "Slideshow Randomize"
+msgstr "Diaporama aléatoire "
+
+#: inc/config.php:892
+msgid ""
+"This will display a random slideshow each time as oppose to the order listed "
+"below."
+msgstr ""
+"Cela affichera un diaporama aléatoire à chaque fois, par opposition à "
+"l'ordre indiqué ci-dessous."
+
+#: inc/config.php:902
+msgid "Slideshow Images"
+msgstr "Images du diaporama"
+
+#: inc/config.php:903
+msgid ""
+"Paste in the urls to the images you like to use for your slideshow one per "
+"line. <a href=\"https://seedprod.zendesk.com/entries/22545416-how-to-create-"
+"a-background-slideshow\" target=\"_blank\">Learn How</a>"
+msgstr ""
+"Coller une url par ligne des images que vous souhaitez utiliser pour votre "
+"diaporama. <a href=\"https://seedprod.zendesk.com/entries/22545416-how-to-"
+"create-a-background-slideshow\" target=\"_blank\"> Apprendre comment</a>"
+
+#: inc/config.php:911
+msgid "Text"
+msgstr "Texte"
+
+#: inc/config.php:917
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: inc/config.php:927
+msgid "Link &amp; Button Color"
+msgstr "Lien &amp; Couleur du bouton"
+
+#: inc/config.php:935
+msgid "Headline Color"
+msgstr "Couleur de l'en-tête"
+
+#: inc/config.php:937
+msgid ""
+"If no Headline Color is choosen then the Link &amp; Button Color will be "
+"used. "
+msgstr ""
+"Si aucun couleur d'en-tête n'est choisie alors la couleur des liens &amp; du "
+"bouton sera utilisée."
+
+#: inc/config.php:945
+msgid "Text Font"
+msgstr "Police du texte"
+
+#: inc/config.php:966
+msgid "Headline Font"
+msgstr "Police du titre"
+
+#: inc/config.php:982
+msgid ""
+"If you choose 'Inherit' as a headline font then the text font will be used."
+msgstr ""
+"Si vous choisissez \"Hériter\" pour la police du titre alors la police du "
+"texte sera utilisée."
+
+#: inc/config.php:988
+msgid "Button Font"
+msgstr "Police du bouton"
+
+#: inc/config.php:1004
+msgid ""
+"If you choose 'Inherit' as a button font then the headline font will be used."
+msgstr ""
+"Si vous choisissez \"Hériter\" pour la police du bouton alors la police du "
+"titre sera utilisée."
+
+#: inc/config.php:1011
+msgid "Typekit Kit ID"
+msgstr "ID du Kit Typekit"
+
+#: inc/config.php:1012
+msgid ""
+"Enter your <a href=\"https://typekit.com\" target=\"_blank\">Typekit</a> Kit "
+"ID. This will override the fonts above."
+msgstr ""
+"Entrer votre ID Kit <a href=\"https://typekit.com\" target=\"_blank"
+"\">Typekit</a>. Cela écrasera les polices ci-dessus."
+
+#: inc/config.php:1018
+msgid "Text Effects"
+msgstr "Effets de texte"
+
+#: inc/config.php:1020
+msgid "Inset <small class=\"description\">: Adds a subtle inset shadow</small>"
+msgstr ""
+"Insert <small class=\"description\">: Ajoute une légère et subtile ombre</ "
+"small>"
+
+#: inc/config.php:1031
+msgid "Container"
+msgstr "Conteneur"
+
+#: inc/config.php:1037
+msgid "Enable Container"
+msgstr "Activer le conteneur"
+
+#: inc/config.php:1038
+msgid ""
+"A container is a wrapper that will encapsulate your coming soon content."
+msgstr ""
+"Un conteneur est une enveloppe qui va encapsuler votre contenu coming soon."
+
+#: inc/config.php:1047
+msgid "Container Color"
+msgstr "Couleur du conteneur"
+
+#: inc/config.php:1055
+msgid "Container Position"
+msgstr "Position du conteneur"
+
+#: inc/config.php:1057
+msgid "Left"
+msgstr "À gauche"
+
+#: inc/config.php:1058
+msgid "Center"
+msgstr "Centré"
+
+#: inc/config.php:1059
+msgid "Right"
+msgstr "À droite"
+
+#: inc/config.php:1067
+msgid "Container Effects"
+msgstr "Effets du conteneur"
+
+#: inc/config.php:1069
+msgid "Fade In"
+msgstr "Fondu"
+
+#: inc/config.php:1070
+msgid "Drop Shadow"
+msgstr "Ombre portée"
+
+#: inc/config.php:1071
+msgid "Glow"
+msgstr "Brillant"
+
+#: inc/config.php:1072
+msgid "Border"
+msgstr "Bordure"
+
+#: inc/config.php:1073
+msgid "Rounded Corners"
+msgstr "Coins arrondis"
+
+#: inc/config.php:1074
+msgid "Opacity"
+msgstr "Opacité"
+
+#: inc/config.php:1076
+msgid ""
+"These effects only work in modern browsers. Not sure what a <a target="
+"\"_blank\" href=\"http://browsehappy.com/\">modern browser</a> is?"
+msgstr ""
+"Ces effets ne fonctionnent que dans les navigateurs modernes. Vous n'êtes "
+"pas sur de savoir ce qu'est un <a target=\"_blank\" href=\"http://"
+"browsehappy.com/\">navigateur moderne</a>"
+
+#: inc/config.php:1097
+msgid "Template"
+msgstr "Modèle"
+
+#: inc/config.php:1105
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: inc/config.php:1106
+msgid "Need to tweaks the styles? Add your custom CSS here."
+msgstr ""
+"Vous avez besoin de modifier les styles ? Ajoutez votre CSS personnalisé ici."
+
+#: inc/config.php:1113
+msgid "Code"
+msgstr "Code"
+
+#: inc/config.php:1114
+msgid ""
+"If you need to make some advanced changes to the template you can edit the "
+"code above directly."
+msgstr ""
+"Si vous avez besoin de faire des changements complexes au modèle que vous "
+"pouvez modifier le code ci-dessus directement."
+
+#: inc/config.php:1121
+msgid "Template Tags"
+msgstr "Modèle des mots-clefs"
+
+#: inc/config.php:1122
+msgid ""
+"\n"
+"            <code>{Title}</code> - Display your title. Settings > Coming "
+"Soon Pro Settings > Header > SEO Title <br>\n"
+"            <code>{MetaDescription}</code> - Displays your description along "
+"with the proper meta tags. Settings > Coming Soon Pro > Settings > Header > "
+"SEO Meta Description <br>\n"
+"            <code>{Privacy}</code> - Displays noindex tag if set to private. "
+"Settings > Privacy <br>\n"
+"            <code>{Favicon}</code> - Displays favicon tag. Settings > Coming "
+"Soon Pro > Settings > Header > Favicon <br>\n"
+"            <code>{Head}</code> - Required in the <head> Displays custom "
+"scripts for the page. Settings > Coming Soon Pro > Advanced > Scripts<br>\n"
+"            <code>{Custom CSS}</code> - Displays custom css page. Settings > "
+"Coming Soon Pro > Design > Template > Custom CSS<br>\n"
+"            <code>{Logo}</code> - Displays your logo if set. Settings > "
+"Coming Soon Pro > Settings > Page Settings > Logo<br>\n"
+"            <code>{Headline}</code> - Displays your headline if set. "
+"Settings > Coming Soon Pro > Settings > Page Settings > Headline<br>\n"
+"            <code>{Description}</code> - Displays your description if set. "
+"Settings > Coming Soon Pro > Settings > Page Settings > Description<br>\n"
+"            <code>{ProgressBar}</code> - Displays a progress bar if enabled. "
+"Settings > Coming Soon Pro > Settings > Progress Bar Settings<br>\n"
+"            <code>{Countdown}</code> - Displays a countdown if enabled. "
+"Settings > Coming Soon Pro > Settings > Countdown Settings<br>\n"
+"            <code>{Form}</code> - Displays signup form and thank you page. "
+"Settings > Coming Soon Pro > Settings<br>\n"
+"            <code>{SocialProfiles}</code> - Displays your social profiles if "
+"set. Settings > Coming Soon Pro > Settings > Social Media Profiles<br>\n"
+"            <code>{Credit}</code> - Displays your footer credit if set. "
+"Settings > Coming Soon Pro > Settings > Footer Credit<br>\n"
+"            <code>{Footer}</code> - Displays required scripts for the page."
+"<br>\n"
+"            "
+msgstr ""
+"\n"
+"            <code>{Title}</code> - Affiche votre titre. Réglages > Réglages "
+"de Coming Soon Pro > En-tête > Titre SEO <br>\n"
+"            <code>{MetaDescription}</code> - Affiche votre description avec "
+"les métadonnées appropriées. Réglages > Coming Soon Pro > Réglages > En-tête "
+"> SEO Méta Description <br>\n"
+"            <code>{Privacy}</code> - Affiche la balise noindex s'il est "
+"réglé sur privée. Réglages > Privé <br>\n"
+"            <code>{Favicon}</code> - Affiche la balise favicon. Réglages > "
+"Coming Soon Pro > Réglages > En-tête > Favicon <br>\n"
+"            <code>{Head}</code> - Requis dans <l'en-tête> Affiche les "
+"scripts personnalisés dans la page. Réglages > Coming Soon Pro > Avancés > "
+"Scripts<br>\n"
+"            <code>{Custom CSS}</code> - Affiche la page de css personnalisé. "
+"Réglages > Coming Soon Pro > Design > Modèle > CSS personnalisé<br>\n"
+"            <code>{Logo}</code> -Affiche votre logo si réglé. Réglages > "
+"Coming Soon Pro > Réglages > Réglage Page > Logo<br>\n"
+"            <code>{Headline}</code> - Affiche votre gros titre si réglé . "
+"Réglages > Coming Soon Pro > Réglages > Réglages pages > En-tête<br>\n"
+"            <code>{Description}</code> - Affiche votre description si "
+"réglée. Réglages > Coming Soon Pro >Réglages > Réglages pages > "
+"Description<br>\n"
+"            <code>{ProgressBar}</code> - Affiche une barre de progression si "
+"réglée. Réglages > Coming Soon Pro > Settings > Réglages de la barre de "
+"progression<br>\n"
+"            <code>{Countdown}</code> - Affiche le compte à rebours si réglé. "
+"Réglages > Coming Soon Pro > Réglages > Réglages du compte à rebours<br>\n"
+"            <code>{Form}</code> - Affiche le formulaire et la page de "
+"remerciements. Réglages > Coming Soon Pro > Réglages<br>\n"
+"            <code>{SocialProfiles}</code> - Affiche vos profils sociaux si "
+"réglé. Réglages > Coming Soon Pro > Réglages >Profils Médias Sociaux<br>\n"
+"            <code>{Credit}</code> - Affiche vos crédits de pied de page si "
+"réglé. Réglages > Coming Soon Pro > Réglages > Crédit du pied de page<br>\n"
+"            <code>{Footer}</code> - Affiche les scripts necessaire à la page."
+"<br>\n"
+"            "
+
+#: inc/config.php:1148
+msgid "Advanced"
+msgstr "Avancés"
+
+#: inc/config.php:1159
+msgid "Access"
+msgstr "Autorisations"
+
+#: inc/config.php:1166
+msgid "Client View URL"
+msgstr "URL pour l'aperçu au Client"
+
+#: inc/config.php:1167
+msgid ""
+"Enter a phrase above and give your client a secret url that will allow them "
+"to bypass the Coming Soon page. The cookie life is 6 hours. After the cookie "
+"expires they will need to revisit the client view url to regain access."
+msgstr ""
+"Entrez une phrase ci-dessus et donner à vos clients une url secrete qui leur "
+"permettra de contourner la page Coming Soon. La durée de vie du cookie est "
+"de 6 heures. Après l'expiration du cookie, ils devront revisiter l'url pour "
+"avoir à nouveau l'accès."
+
+#: inc/config.php:1173
+msgid "Access by IP"
+msgstr "Autorisations par IP"
+
+#: inc/config.php:1174
+msgid ""
+"All visitors from certain IP's to bypass the Coming Soon page. Put each IP "
+"on it's own line."
+msgstr ""
+"Tous les visiteurs avec certaines adresses IP peuvent contourner la page "
+"Coming Soon. Mettez une IP par ligne."
+
+#: inc/config.php:1180
+msgid "Acess by Role"
+msgstr "Autorisation par rôle"
+
+#: inc/config.php:1181
+msgid ""
+"By default anyone logged in will see the regular site and not the coming "
+"soon page. To override this select Roles that will be given access to see "
+"the regular site."
+msgstr ""
+"Par défaut, toute personne connecté verra le site, et non la page Coming "
+"Soon. Pour changer cela, sélectionner les rôles qui auront les droits "
+"d'accès au site."
+
+#: inc/config.php:1190
+msgid "Landing Page Mode"
+msgstr "Mode Landing Page"
+
+#: inc/config.php:1191
+msgid ""
+"Only display the coming soon page on one page of your site and use it as a "
+"landing page. Leave unselected if you want the coming soon page to be "
+"display on your entire site."
+msgstr ""
+"Afficher uniquement la page coming soon sur une page de votre site et "
+"l'utiliser comme une page d'accueil. Laisser décochée si vous voulez "
+"afficher la page coming soon sur l'ensemble de votre site."
+
+#: inc/config.php:1199
+msgid "Include URL Pattern"
+msgstr "Inclure la règle URL"
+
+#: inc/config.php:1200
+msgid ""
+"Include certain urls to only diplay the coming soon page on a section of "
+"your site using <a href=\"http://en.wikipedia.org/wiki/Regex\" target="
+"\"_blank\">regular expressions</a>. For example enter \"blog\" will include "
+"pages with the url: http://example.org/blog/*. <a href=\"https://seedprod."
+"zendesk.com/entries/23050096-exclude-and-include-urls-pattern-examples\" "
+"target=\"_blank\">See more examples</a> and learn how to include multiple "
+"pages. This is useful if you are working on a new section of your site."
+msgstr ""
+"Exclure certaines urls d'afficher la page Coming Soon en utilisant des <a "
+"href=\"http://en.wikipedia.org/wiki/Regex\" target=\"_blank\">expressions "
+"régulières </a>. Par exemple, entrez \"blog\" exclura l'url : http://example."
+"org/blog/. <a href=\"https://seedprod.zendesk.com/entries/23050096-exclude-"
+"and-include-urls-pattern-examples\" target=\"_blank\"> Voir d'autres "
+"exemples </a> et apprendre comment inclure plusieurs pages. Ceci est utile "
+"si vous travaillez une une nouvelle partie de votre site."
+
+#: inc/config.php:1206
+msgid "Exclude URL Pattern"
+msgstr "Exclure la règle URL"
+
+#: inc/config.php:1207
+msgid ""
+"Exclude certain urls from displaying the Coming Soon page using <a href="
+"\"http://en.wikipedia.org/wiki/Regex\" target=\"_blank\">regular "
+"expressions</a>. For example enter \"blog\" will exclude the url: http://"
+"example.org/blog/. <a href=\"https://seedprod.zendesk.com/entries/23050096-"
+"exclude-and-include-urls-pattern-examples\" target=\"_blank\">See more "
+"examples</a> and learn how to exclue multiple pages. This is useful if a "
+"section of you site is ready to be viewed or you have a login page on the "
+"frontend."
+msgstr ""
+"Exclure certaines urls d'afficher la page Coming Soon en utilisant des <a "
+"href=\"http://en.wikipedia.org/wiki/Regex\" target=\"_blank\">expressions "
+"régulières </a>. Par exemple, entrez \"blog\" exclura l'url : http://example."
+"org/blog/. <a href=\"https://seedprod.zendesk.com/entries/23050096-exclude-"
+"and-include-urls-pattern-examples\" target=\"_blank\"> Voir d'autres "
+"exemples </a> et apprendre comment exclure plusieurs pages. Ceci est utile "
+"si une partie de votre site est prêt à être vu ou si vous avez une page de "
+"connexion."
+
+#: inc/config.php:1215
+msgid "Scripts"
+msgstr "Scripts"
+
+#: inc/config.php:1232
+msgid "Enable Responsiveness"
+msgstr "Activer la réactivité"
+
+#: inc/config.php:1233
+msgid "Makes the page responsive."
+msgstr "Rendre la page responsive."
+
+#: inc/config.php:1243
+msgid "Enable FitVid"
+msgstr "Activer FitVid"
+
+#: inc/config.php:1244
+msgid "Makes your videos responsive."
+msgstr "Rend vos vidéos responsive."
+
+#: inc/config.php:1255
+msgid "Enable wp_head &amp; wp_footer"
+msgstr "Activer wp_head &amp; wp_footer"
+
+#: inc/config.php:1256
+msgid ""
+"The <a href=\"http://codex.wordpress.org/Plugin_API/Action_Reference/wp_head"
+"\" target=\"_blank\">wp_head</a> and <a href=\"http://codex.wordpress.org/"
+"Plugin_API/Action_Reference/wp_footer\" target=\"_blank\">wp_footer</a> "
+"functions are required by some plugins. If you are unsure do not enable it. "
+"These functions can cause styling issues with the page."
+msgstr ""
+"Les <a href=\"http://codex.wordpress.org/Plugin_API/Action_Reference/wp_head"
+"\" target=\"_blank\">wp_head</a> et <a href=\"http://codex.wordpress.org/"
+"Plugin_API/Action_Reference/wp_footer\" target=\"_blank\">wp_footer</a> sont "
+"des fonctions requises par certaines extensions. Ces fonctions peuvent "
+"provoquer des problèmes de style avec la page."
+
+#: inc/config.php:1265
+msgid "Header Scripts"
+msgstr "Scripts dans l&rsquo;en-tête"
+
+#: inc/config.php:1266
+msgid ""
+"Enter any custom scripts. You can enter Javascript or CSS. This will be "
+"rendered before the closing head tag."
+msgstr ""
+"Entrez vos scripts personnalisés. Vous pouvez entrer du Javascript ou du "
+"CSS. Ils seront lancés avant la balise de fermeture de l'en-tête."
+
+#: inc/config.php:1273
+msgid "Footer Scripts"
+msgstr "Scripts dans le pied de page"
+
+#: inc/config.php:1274
+msgid ""
+"Enter any custom scripts. This will be rendered before the closing body tag."
+msgstr ""
+"Entrer n'importe quel script personnalisé. Il sera éxécuté avant la balise "
+"de fermeture du body."
+
+#: inc/config.php:1281
+msgid "Conversion Scripts"
+msgstr "Scripts de conversion"
+
+#: inc/config.php:1282
+msgid ""
+"This will render only after the form has been submitted. This will be "
+"rendered before the closing body tag."
+msgstr ""
+"Cela ne sera éxécuté qu'après l'envois du formulaire. Cela sera éxécuté "
+"avant la balise de fermeture du body."
+
+#: inc/config.php:1289
+msgid "Disable Custom Code Template"
+msgstr "Désactiver le modèle de code personalisé"
+
+#: inc/config.php:1290
+msgid ""
+"Mod_security will cause false positive 400 error on some host. Disable the "
+"custom template to avoid this error and notify your host of the false "
+"positive."
+msgstr ""
+"Mod_security créera un faux positif erreur 400 sur certain hôte. Désactiver "
+"le modèle personnalisé pour éviter cette erreur et informez votre hôte du "
+"faux positif."
+
+#: inc/config.php:1299
+msgid "Import / Export"
+msgstr "Importer / Exporter"
+
+#: inc/config.php:1305
+msgid "Import"
+msgstr "Importer"
+
+#: inc/config.php:1306
+msgid "Paste settings form another Coming Soon Pro instance to import."
+msgstr ""
+"Coller les réglages d'une autre instance de Coming Soon Pro à importer."
+
+#: inc/config.php:1312
+msgid "Export"
+msgstr "Exporter"
+
+#: inc/config.php:1313
+msgid ""
+"Copy these settings and use the import them to another Coming Soon Pro "
+"instance."
+msgstr ""
+"Copiez ces réglages et utiliser l'importation vers une autre instance de "
+"Coming Soon Pro."
+
+#: themes/default/functions.php:659
+msgid "Your Referral URL is:"
+msgstr "Votre URL de référence est :"
+
+#: themes/default/functions.php:660
+msgid "Your Referral Stats"
+msgstr "Vos statistiques de références"
+
+#~ msgid "Show Some Love"
+#~ msgstr "Montrer votre amour"
+
+#~ msgid "Like this plugin? Show your support by:"
+#~ msgstr "Vous aimez cette extension ? Montrez votre soutien :"
+
+#~ msgid "Rating It"
+#~ msgstr "Notez la"
+
+#~ msgid "Tweet It"
+#~ msgstr "Tweetez"
+
+#~ msgid "SeedProd Blog"
+#~ msgstr "Blog SeedProd"
+
+#~ msgid ""
+#~ "Note: The automatic screenshot is produced from a service on WordPress."
+#~ "com. There is no way to manually refresh the screenshot once taken. "
+#~ "WordPress.com should refresh it within a few days."
+#~ msgstr ""
+#~ "Remarque : La capture d'écran automatique est produite à partir d'un "
+#~ "service sur WordPress.com. Il n'existe aucun moyen pour actualiser "
+#~ "manuellement la capture d'écran une fois prise. WordPress.com devrait la "
+#~ "rafraîchir dans quelques jours."
+
+#~ msgid "Settings saved.  <a href='%s/?mm_preview=true'>Preview &raquo;</a>"
+#~ msgstr ""
+#~ "Réglages sauvegardés.  <a href='%s/?mm_preview=true'>Aperçu &raquo;</a>"
+
+#~ msgid ""
+#~ "Enable if you enter Maintenance Mode. <a href='%s/?"
+#~ "mm_preview=true'>Preview</a>"
+#~ msgstr ""
+#~ "Activer pour entrer en mode maintenance. <a href='%s/?"
+#~ "mm_preview=true'>Aperçu</a>"
+
+#~ msgid ""
+#~ "This will override the captured screenshot. If left empty a screenshot of "
+#~ "your website will be shown."
+#~ msgstr ""
+#~ "Ceci remplacera la capture d'écran capturée. Si laissé vide une capture "
+#~ "d'écran de votre site web sera affichée."
+
+#~ msgid ""
+#~ "This will override the default headline. If left empty the default "
+#~ "headline will be shown."
+#~ msgstr ""
+#~ "Ceci remplacera le titre par défaut. Si laissé vide le titre par défaut "
+#~ "sera affiché."
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Write a message to be displayed."
+#~ msgstr "Ecrire le message à afficher."
+
+#~ msgid "Powered By SeedProd"
+#~ msgstr "Propulsé par SeedProd"
+
+#~ msgid "Nope - Got No Love"
+#~ msgstr "Non - Pas d'amour"
+
+#~ msgid "Yep - I Love You Man"
+#~ msgstr "Yeah - Je kiffe"
+
+#~ msgid ""
+#~ "Can we show a <strong>cool stylish</strong> footer credit at the bottom "
+#~ "the page."
+#~ msgstr ""
+#~ "Pouvons-nous montrer un<strong> élégant et stylé</strong> crédit de pied "
+#~ "de page en bas de la page."
+
+#~ msgid "is Down for Maintenance"
+#~ msgstr "est fermé pour maintenance"
+
+#~ msgid "Got a Question, Idea, Problem or Praise?"
+#~ msgstr "Vous avez une question, idée, un problème ou un voeu ?"
+
+#~ msgid "Support Request"
+#~ msgstr "Demande de support"
+
+#~ msgid "Powered By SeedProd Affiliate ID"
+#~ msgstr "Propulsé par ID d'affilié SeedProd"
+
+#~ msgid ""
+#~ "Enter your affiliate ID and earn commisions on sales referred to SeedProd "
+#~ "from your page. <a href='http://www.seedprod.com/affiliates/' "
+#~ "target='_blank'>Learn More</a>. "
+#~ msgstr ""
+#~ "Entrez votre ID d'affilié et gagner des commisions sur les ventes de "
+#~ "SeedProd en provenance de votre page. <a href='http://www.seedprod.com/"
+#~ "affiliates/' target='_blank'> En savoir plus </a>."

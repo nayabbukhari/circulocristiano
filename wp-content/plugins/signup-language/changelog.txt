@@ -1,0 +1,42 @@
+Plugin Name: Signup Language
+Author: S H Mohanjith (Incsub), Andrew Billits (Incsub), Ignacio (Incsub)
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.0.5.1 - 12/17/2013
+----------------------------------------------------------------------
+- WordPress 3.8 compatibility
+
+1.0.5 - 04/30/2013
+----------------------------------------------------------------------
+- Blog languages are not set without any table.
+- Plugin recoded.
+- Fixed notices when getting key.
+- Fixed SQL Injection issue
+- Changed styles on signup form
+- Added more error control on signup form.
+
+1.0.4 - 06/19/2011
+----------------------------------------------------------------------
+- Fixed: Language list not to include irrelevant language files
+
+1.0.3 - 01/08/2011
+----------------------------------------------------------------------
+- 3.1+ compatibility update
+
+1.0.2 - 11/30/2010
+----------------------------------------------------------------------
+- Internationalization
+
+1.0.1 - 06/01/2010
+----------------------------------------------------------------------
+- 3.0+ compatibility update
+
+1.0.0 - 03/26/2009
+----------------------------------------------------------------------
+Initial Release.
+
+
+147928-1450298786-ai

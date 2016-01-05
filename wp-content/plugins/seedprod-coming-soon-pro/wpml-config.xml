@@ -1,0 +1,29 @@
+<wpml-config>
+    <admin-texts>
+        <key name="seed_cspv4">
+            <key name="headline" />
+            <key name="description" />
+            <key name="thankyou_msg" />
+            <key name="seo_title" />
+            <key name="seo_description" />
+            <key name="txt_countdown_days" />
+            <key name="txt_countdown_hours" />
+            <key name="txt_countdown_minutes" />
+            <key name="txt_countdown_seconds" />
+            <key name="txt_countdown_day" />
+            <key name="txt_countdown_hour" />
+            <key name="txt_countdown_minute" />
+            <key name="txt_countdown_second" />
+            <key name="txt_subscribe_button" />
+            <key name="txt_already_subscribed_msg" />
+            <key name="txt_name_field" />
+            <key name="txt_email_field" />
+            <key name="txt_success_msg" />
+            <key name="txt_invalid_email_msg" />
+            <key name="txt_invalid_name_msg" />
+            <key name="txt_api_error_msg" />
+            <key name="privacy_policy_link_text" />
+            <key name="footer_credit_text" />
+        </key>
+    </admin-texts>
+</wpml-config>

@@ -1,0 +1,76 @@
+/*
+
+Theme Name: X – Child Theme
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+/***************************** custom css below************************************/
+td #addressInput{ background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;}
+.x_sermon_profile .item-wrap {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+   background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0.15em 0.35em 0 rgba(0, 0, 0, 0.133);
+    display: block;
+	padding-bottom: 10px;
+}
+.x_sermon_profile .item-wrap:hover {
+	box-shadow: 0 0.15em 0.35em 0 gray;
+}
+.x_sermon_profile .item-wrap .item-cover {
+  background-size: 100% auto !important;
+  padding-top: 10%;
+  position: relative;
+  transition: background 0.4s ease 0s;
+}
+.x_sermon_profile .item-wrap .item-cover .item-avatar {
+  display: inline-block;
+  left: 50%;
+  margin-left: -40px;
+  position: absolute;
+  z-index: 10;
+}
+.x_sermon_profile .item-wrap .item-cover:not(.has-cover) .item-avatar {
+  position: relative;
+}
+.x_sermon_profile .item-wrap .item-cover .item-avatar img.avatar {
+  height: auto;
+  width: 80px;
+   border-radius: 50%;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.x_sermon_profile .item-wrap .item-cover .item-avatar img.avatar:hover{box-shadow: 0 0.15em 0.35em 0 rgba(0, 0, 0, 0.133);}
+.x_sermon_profile .item-wrap .item-title, .x_sermon_profile .item-wrap .item-meta {
+  align-self: center;
+  margin: auto;
+  text-align:center;
+}
+.x_sermon_profile .item-wrap .item-meta {
+   font-size: 12px;
+}
+/* pastor widget by mana */
+ul.x_pastor_conatiner { list-style: outside none none;margin:0;}
+ul.x_pastor_conatiner  li{ border-radius: 5px;
+    box-shadow: 0 0.15em 0.35em 0 rgba(0, 0, 0, 0.133);
+    margin-top: 16px;
+    padding: 5px;
+    width: 100%;}
+ul.x_pastor_conatiner  li:hover{  box-shadow: 0 0.15em 0.35em 0 gray;}
+ul.x_pastor_conatiner  li .item-cover{display: inline-block;
+    width: 40%;}
+ul.x_pastor_conatiner  li .item-cover .item-avatar{}
+ul.x_pastor_conatiner  li .item{display: inline-block;
+    vertical-align: top;
+    width: 50%;}
+ul.x_pastor_conatiner  li .item .item-title{ font-size: 16px;}
+ul.x_pastor_conatiner  li .item .item-title span{ font-size: 14px; display:block;}
+ul.x_pastor_conatiner  li .item .item-meta{ font-size: 14px;}
+.buddypress #members-dir-search  input#members_search_submit{display:block;}
+
+

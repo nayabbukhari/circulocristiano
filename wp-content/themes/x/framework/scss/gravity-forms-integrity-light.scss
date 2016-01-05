@@ -1,0 +1,28 @@
+// =============================================================================
+// SCSS/GRAVITY-FORMS-INTEGRITY-LIGHT.SCSS
+// -----------------------------------------------------------------------------
+// Contains all Gravity Forms styles for the Integrity Stack (light version).
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. Gravity Forms
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "site/inc/functions";
+@import "site/inc/variables";
+@import "site/stacks/integrity/inc/variables-light";
+@import "site/inc/mixins";
+@import "site/stacks/integrity/inc/mixins";
+
+
+
+// Gravity Forms
+// =============================================================================
+
+@import "site/stacks/integrity/gravity-forms";

@@ -1,0 +1,29 @@
+// =============================================================================
+// SCSS/WOOCOMMERCE-ETHOS.SCSS
+// -----------------------------------------------------------------------------
+// Contains all WooCommerce styles for the Ethos Stack.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. WooCommerce
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "site/inc/functions";
+@import "site/inc/variables";
+@import "site/stacks/ethos/inc/variables";
+@import "site/inc/mixins";
+@import "site/stacks/ethos/inc/mixins";
+
+
+
+// WooCommerce
+// =============================================================================
+
+@import "site/woocommerce";
+@import "site/stacks/ethos/woocommerce";

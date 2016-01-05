@@ -1,0 +1,5 @@
+Library source:
+https://bitbucket.org/mailchimp/mailchimp-api-php/
+
+
+147928-1451556935-au

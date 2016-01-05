@@ -1,0 +1,612 @@
+
+/* query-monitor.css */
+
+/* 1   */ /*
+/* 2   *| Copyright 2009-2015 John Blackbourn
+/* 3   *| 
+/* 4   *| This program is free software; you can redistribute it and/or modify
+/* 5   *| it under the terms of the GNU General Public License as published by
+/* 6   *| the Free Software Foundation; either version 2 of the License, or
+/* 7   *| (at your option) any later version.
+/* 8   *| 
+/* 9   *| This program is distributed in the hope that it will be useful,
+/* 10  *| but WITHOUT ANY WARRANTY; without even the implied warranty of
+/* 11  *| MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+/* 12  *| GNU General Public License for more details.
+/* 13  *| 
+/* 14  *| */
+/* 15  */ 
+/* 16  */ #wpadminbar .quicklinks .menupop ul li.qm-true > a {
+/* 17  */ 	color: #8c8 !important;
+/* 18  */ }
+/* 19  */ 
+/* 20  */ #wpadminbar .quicklinks .menupop ul li.qm-true > a:focus,
+/* 21  */ #wpadminbar .quicklinks .menupop ul li.qm-true > a:hover {
+/* 22  */ 	color: #4a4 !important;
+/* 23  */ }
+/* 24  */ 
+/* 25  */ #wp-admin-bar-query-monitor-notices {
+/* 26  */ 	background-color: #740 !important;
+/* 27  */ }
+/* 28  */ 
+/* 29  */ #wpadminbar .qm-notice {
+/* 30  */ 	background-color: #740;
+/* 31  */ }
+/* 32  */ 
+/* 33  */ #wp-admin-bar-query-monitor-deprecated,
+/* 34  */ #wp-admin-bar-query-monitor-stricts {
+/* 35  */ 	background-color: #555 !important;
+/* 36  */ }
+/* 37  */ 
+/* 38  */ #wpadminbar .qm-deprecated,
+/* 39  */ #wpadminbar .qm-strict {
+/* 40  */ 	background-color: #3c3c3c;
+/* 41  */ }
+/* 42  */ 
+/* 43  */ #wp-admin-bar-query-monitor-expensive {
+/* 44  */ 	background-color: #b60 !important;
+/* 45  */ }
+/* 46  */ 
+/* 47  */ #wpadminbar .qm-expensive {
+/* 48  */ 	background-color: #b60;
+/* 49  */ }
+/* 50  */ 
+
+/* query-monitor.css */
+
+/* 51  */ #wp-admin-bar-query-monitor-warnings {
+/* 52  */ 	background-color: #c00 !important;
+/* 53  */ }
+/* 54  */ 
+/* 55  */ #wpadminbar .qm-warning {
+/* 56  */ 	background-color: #c00;
+/* 57  */ }
+/* 58  */ 
+/* 59  */ #wpadminbar .qm-warning > a {
+/* 60  */ 	color: #fff !important;
+/* 61  */ }
+/* 62  */ 
+/* 63  */ #wp-admin-bar-query-monitor-errors {
+/* 64  */ 	background-color: #c00 !important;
+/* 65  */ }
+/* 66  */ 
+/* 67  */ #wpadminbar .qm-error {
+/* 68  */ 	background-color: #c00 !important;
+/* 69  */ }
+/* 70  */ 
+/* 71  */ #wpadminbar .qm-error > a {
+/* 72  */ 	color: #fff !important;
+/* 73  */ }
+/* 74  */ 
+/* 75  */ #wp-admin-bar-query-monitor-deprecated a,
+/* 76  */ #wp-admin-bar-query-monitor-stricts a,
+/* 77  */ #wp-admin-bar-query-monitor-notices a,
+/* 78  */ #wp-admin-bar-query-monitor-expensive a,
+/* 79  */ #wp-admin-bar-query-monitor-warnings a,
+/* 80  */ #wp-admin-bar-query-monitor-errors a {
+/* 81  */ 	color: #eee !important;
+/* 82  */ }
+/* 83  */ 
+/* 84  */ #wp-admin-bar-query-monitor small {
+/* 85  */ 	font-size: 11px !important;
+/* 86  */ }
+/* 87  */ 
+/* 88  */ #wp-admin-bar-query-monitor.hover a small,
+/* 89  */ #wp-admin-bar-query-monitor.hover a .ab-label {
+/* 90  */ 	text-shadow: none !important;
+/* 91  */ }
+/* 92  */ 
+/* 93  */ #wp-admin-bar-query-monitor-placeholder,
+/* 94  */ #wp-admin-bar-query-monitor-default {
+/* 95  */ 	display: none;
+/* 96  */ }
+/* 97  */ 
+/* 98  */ #wpadminbar #wp-admin-bar-query-monitor .ab-icon {
+/* 99  */ 	font: 18px/44px 'Open Sans', sans-serif !important;
+/* 100 */ 	width: auto !important;
+
+/* query-monitor.css */
+
+/* 101 */ 	padding: 0 10px !important;
+/* 102 */ 	color: #aaa !important;
+/* 103 */ 	display: none !important;
+/* 104 */ }
+/* 105 */ 
+/* 106 */ @media screen and (max-width: 782px) {
+/* 107 */ 	/* force menu icon to show up */
+/* 108 */ 	#wpadminbar #wp-admin-bar-query-monitor .ab-icon {
+/* 109 */ 		display: block !important;
+/* 110 */ 	}
+/* 111 */ 	/* hide menu text */
+/* 112 */ 	#wpadminbar #wp-admin-bar-query-monitor .ab-label {
+/* 113 */ 		display: none !important;
+/* 114 */ 	}
+/* 115 */ }
+/* 116 */ 
+/* 117 */ #qm {
+/* 118 */ 	clear: both !important;
+/* 119 */ 	background: #f1f1f1 !important;
+/* 120 */ 	margin: 25px 0 0 !important;
+/* 121 */ 	border-top: 1px solid #ccc !important;
+/* 122 */ 	padding: 0 0 35px !important;
+/* 123 */ 	text-align: left !important;
+/* 124 */ 	display: none;
+/* 125 */ }
+/* 126 */ 
+/* 127 */ #qm.qm-absolute {
+/* 128 */ 	z-index: 9999 !important;
+/* 129 */ 	position: absolute !important;
+/* 130 */ }
+/* 131 */ 
+/* 132 */ #qm.qm-show,
+/* 133 */ .no-js #qm,
+/* 134 */ .nojs #qm {
+/* 135 */ 	display: block;
+/* 136 */ }
+/* 137 */ 
+/* 138 */ #qm:after {
+/* 139 */ 	display: block !important;
+/* 140 */ 	content: '' !important;
+/* 141 */ 	clear: both !important;
+/* 142 */ 	height: 0 !important;
+/* 143 */ }
+/* 144 */ 
+/* 145 */ body.wp-admin #qm {
+/* 146 */ 	margin: 0 0 0 160px !important;
+/* 147 */ }
+/* 148 */ 
+/* 149 */ body.wp-admin.folded #qm {
+/* 150 */ 	margin-left: 36px !important;
+
+/* query-monitor.css */
+
+/* 151 */ }
+/* 152 */ 
+/* 153 */ @media screen and (max-width: 782px) {
+/* 154 */ 	body.wp-admin #qm {
+/* 155 */ 		margin-left: 0 !important;
+/* 156 */ 	}
+/* 157 */ }
+/* 158 */ 
+/* 159 */ #qm-wrapper {
+/* 160 */ 	margin: 0 auto;
+/* 161 */ }
+/* 162 */ 
+/* 163 */ #qm-wrapper > p {
+/* 164 */ 	color: #777 !important;
+/* 165 */ 	font: 13px/15px 'Open Sans', Arial !important;
+/* 166 */ 	margin: 20px 20px -15px !important;
+/* 167 */ 	font-style: italic !important;
+/* 168 */ }
+/* 169 */ 
+/* 170 */ .qm {
+/* 171 */ 	margin: 0 1% !important;
+/* 172 */ 	padding: 40px 0 0 !important;
+/* 173 */ 	clear: both !important;
+/* 174 */ }
+/* 175 */ 
+/* 176 */ .qm-half {
+/* 177 */ 	float: left !important;
+/* 178 */ 	width: 48% !important;
+/* 179 */ 	clear: none !important;
+/* 180 */ }
+/* 181 */ 
+/* 182 */ @media all and (max-width: 900px) {
+/* 183 */ 	.qm-half {
+/* 184 */ 		float: none !important;
+/* 185 */ 		width: 100% !important;
+/* 186 */ 		clear: both !important;
+/* 187 */ 	}
+/* 188 */ }
+/* 189 */ 
+/* 190 */ .qm-clear {
+/* 191 */ 	clear: left !important;
+/* 192 */ }
+/* 193 */ 
+/* 194 */ .qm table {
+/* 195 */ 	color: #444 !important;
+/* 196 */ 	border-collapse: collapse !important;
+/* 197 */ 	box-shadow: none !important;
+/* 198 */ 	width: 100% !important;
+/* 199 */ 	table-layout: auto !important;
+/* 200 */ 	margin: 0 !important;
+
+/* query-monitor.css */
+
+/* 201 */ }
+/* 202 */ 
+/* 203 */ .qm td,
+/* 204 */ .qm th {
+/* 205 */ 	background: #fff !important;
+/* 206 */ 	box-sizing: border-box !important;
+/* 207 */ 	text-align: left !important;
+/* 208 */ 	font-family: Menlo, Monaco, Consolas, monospace !important;
+/* 209 */ 	font-size: 11px !important;
+/* 210 */ 	font-weight: normal !important;
+/* 211 */ 	font-style: normal !important;
+/* 212 */ 	line-height: 16px !important;
+/* 213 */ 	border: 1px solid #e8e8e8 !important;
+/* 214 */ 	padding: 5px 8px 4px !important;
+/* 215 */ 	vertical-align: top !important;
+/* 216 */ 	text-shadow: none !important;
+/* 217 */ 	text-transform: none !important;
+/* 218 */ }
+/* 219 */ 
+/* 220 */ .qm .qm-totally-legit-spacer td {
+/* 221 */ 	background-color: #f1f1f1 !important;
+/* 222 */ 	border-right-color: #f1f1f1 !important;
+/* 223 */ 	border-left-color: #f1f1f1 !important;
+/* 224 */ 	height: 20px !important;
+/* 225 */ }
+/* 226 */ 
+/* 227 */ .qm tbody tr:hover th,
+/* 228 */ .qm tbody tr:hover td {
+/* 229 */ 	background: #f9f9f9 !important;
+/* 230 */ }
+/* 231 */ 
+/* 232 */ .qm-debug-bar tbody tr:hover th,
+/* 233 */ .qm-debug-bar tbody tr:hover td,
+/* 234 */ #qm-conditionals tbody tr:hover td,
+/* 235 */ #qm-overview tbody tr:hover td,
+/* 236 */ #qm-authentication tbody tr:hover td,
+/* 237 */ .qm tbody tr:hover th[rowspan],
+/* 238 */ .qm tbody tr:hover td[rowspan] {
+/* 239 */ 	background: #fff !important;
+/* 240 */ }
+/* 241 */ 
+/* 242 */ .qm th {
+/* 243 */ 	color: #444 !important;
+/* 244 */ }
+/* 245 */ 
+/* 246 */ .qm th.qm-num {
+/* 247 */ 	width: 5.5em !important;
+/* 248 */ 	text-align: center !important;
+/* 249 */ }
+/* 250 */ 
+
+/* query-monitor.css */
+
+/* 251 */ .qm td.qm-num {
+/* 252 */ 	text-align: right !important;
+/* 253 */ }
+/* 254 */ 
+/* 255 */ .qm td.qm-has-toggle {
+/* 256 */ 	padding: 0 !important;
+/* 257 */ }
+/* 258 */ 
+/* 259 */ .qm td .qm-toggler {
+/* 260 */ 	padding: 5px 8px 4px !important;
+/* 261 */ 	position: relative !important;
+/* 262 */ }
+/* 263 */ 
+/* 264 */ .qm .qm-inner-toggle {
+/* 265 */ 	padding: 5px 8px 4px !important;
+/* 266 */ }
+/* 267 */ 
+/* 268 */ .qm-has-inner .qm-toggled > table {
+/* 269 */ 	border-top: 1px solid #eee !important;
+/* 270 */ }
+/* 271 */ 
+/* 272 */ .qm-inner {
+/* 273 */ 	border-collapse: collapse !important;
+/* 274 */ 	margin: 0 !important;
+/* 275 */ 	background: #fff !important;
+/* 276 */ 	color: #444 !important;
+/* 277 */ 	border-style: hidden !important;
+/* 278 */ 	width: 100% !important;
+/* 279 */ }
+/* 280 */ 
+/* 281 */ .qm td.qm-has-inner .qm-toggler,
+/* 282 */ .qm td.qm-has-inner {
+/* 283 */ 	padding: 0 !important;
+/* 284 */ }
+/* 285 */ 
+/* 286 */ .qm ol {
+/* 287 */ 	margin: 0 !important;
+/* 288 */ 	padding: 0 0 0 30px !important;
+/* 289 */ 	list-style: decimal !important;
+/* 290 */ }
+/* 291 */ 
+/* 292 */ .qm ul {
+/* 293 */ 	margin: 0 !important;
+/* 294 */ 	padding: 0 0 0 10px !important;
+/* 295 */ 	list-style: none !important;
+/* 296 */ }
+/* 297 */ 
+/* 298 */ .qm li {
+/* 299 */ 	margin-bottom: 2px !important;
+/* 300 */ }
+
+/* query-monitor.css */
+
+/* 301 */ 
+/* 302 */ .qm pre {
+/* 303 */ 	font-family: Menlo, Monaco, Consolas, monospace !important;
+/* 304 */ 	font-size: 11px !important;
+/* 305 */ 	font-weight: normal !important;
+/* 306 */ 	font-style: normal !important;
+/* 307 */ 	line-height: 16px !important;
+/* 308 */ 	color: inherit !important;
+/* 309 */ 	background: transparent; !important;
+/* 310 */ 	border: none !important;
+/* 311 */ 	margin: 0 !important;
+/* 312 */ 	padding: 0 !important;
+/* 313 */ }
+/* 314 */ 
+/* 315 */ .qm code {
+/* 316 */ 	font-family: Menlo, Monaco, Consolas, monospace !important;
+/* 317 */ 	font-size: 11px !important;
+/* 318 */ 	font-weight: normal !important;
+/* 319 */ 	font-style: normal !important;
+/* 320 */ 	line-height: 16px !important;
+/* 321 */ 	color: inherit !important;
+/* 322 */ 	background: #f1f1f1 !important;
+/* 323 */ 	padding: 3px 4px 2px !important;
+/* 324 */ 	margin: 0 !important;
+/* 325 */ }
+/* 326 */ 
+/* 327 */ .qm span.qm-true,
+/* 328 */ .qm td.qm-true {
+/* 329 */ 	color: #4a4 !important;
+/* 330 */ }
+/* 331 */ 
+/* 332 */ .qm span.qm-false,
+/* 333 */ .qm td.qm-false {
+/* 334 */ 	color: #ccc !important;
+/* 335 */ }
+/* 336 */ 
+/* 337 */ .qm .qm-wrap {
+/* 338 */ 	word-wrap: break-word !important;
+/* 339 */ 	word-break: break-all !important;
+/* 340 */ }
+/* 341 */ 
+/* 342 */ .qm .qm-nowrap {
+/* 343 */ 	white-space: nowrap !important;
+/* 344 */ }
+/* 345 */ 
+/* 346 */ .qm .qm-nonselectsql {
+/* 347 */ 	color: #a0a !important;
+/* 348 */ }
+/* 349 */ 
+/* 350 */ .qm .qm-current {
+
+/* query-monitor.css */
+
+/* 351 */ 	color: #a0a !important;
+/* 352 */ }
+/* 353 */ 
+/* 354 */ .qm .qm-info {
+/* 355 */ 	color: #999 !important;
+/* 356 */ }
+/* 357 */ 
+/* 358 */ .qm td .qm-toggled {
+/* 359 */ 	display: none;
+/* 360 */ }
+/* 361 */ 
+/* 362 */ .qm a {
+/* 363 */ 	color: #2ea2cc !important;
+/* 364 */ 	text-decoration: none !important;
+/* 365 */ 	text-shadow: none !important;
+/* 366 */ 	font-weight: normal !important;
+/* 367 */ }
+/* 368 */ .qm a:focus,
+/* 369 */ .qm a:hover {
+/* 370 */ 	text-decoration: underline !important;
+/* 371 */ 	color: #2ea2cc !important;
+/* 372 */ }
+/* 373 */ 
+/* 374 */ .qm a.qm-warn {
+/* 375 */ 	text-decoration: underline !important;
+/* 376 */ }
+/* 377 */ 
+/* 378 */ .qm a.qm-toggle {
+/* 379 */ 	color: #bbb !important;
+/* 380 */ 	padding: 2px 7px !important;
+/* 381 */ 	border-left: 1px solid #e1e1e1 !important;
+/* 382 */ 	border-bottom: 1px solid #e1e1e1 !important;
+/* 383 */ 	position: absolute !important;
+/* 384 */ 	top: 0 !important;
+/* 385 */ 	right: 0 !important;
+/* 386 */ 	background: #fff !important;
+/* 387 */ }
+/* 388 */ 
+/* 389 */ .qm a.qm-toggle:focus,
+/* 390 */ .qm a.qm-toggle:hover {
+/* 391 */ 	text-decoration: none !important;
+/* 392 */ 	border-color: #e1e1e1 !important;
+/* 393 */ 	color: #888 !important;
+/* 394 */ 	background: #eee !important;
+/* 395 */ }
+/* 396 */ 
+/* 397 */ .qm tr.error,
+/* 398 */ .qm .qm-warn,
+/* 399 */ .qm .qm-warn td,
+/* 400 */ .qm .qm-warn th,
+
+/* query-monitor.css */
+
+/* 401 */ .qm .qm-warn td .qm-nonselectsql,
+/* 402 */ .qm .qm-warn td .qm-info {
+/* 403 */ 	color: #f00 !important;
+/* 404 */ }
+/* 405 */ 
+/* 406 */ .qm tbody tr td.qm-highlight,
+/* 407 */ .qm .qm-highlight td {
+/* 408 */ 	background-color: #ffd !important;
+/* 409 */ }
+/* 410 */ 
+/* 411 */ .qm span.qm-expensive,
+/* 412 */ .qm td.qm-expensive {
+/* 413 */ 	color: #f44 !important;
+/* 414 */ }
+/* 415 */ 
+/* 416 */ /* Filters */
+/* 417 */ 
+/* 418 */ select.qm-filter {
+/* 419 */ 	display: block !important;
+/* 420 */ 	font-family: Menlo, Monaco, Consolas, monospace !important;
+/* 421 */ 	font-weight: normal !important;
+/* 422 */ 	font-size: 10px !important;
+/* 423 */ 	margin: 4px 0 2px !important;
+/* 424 */ 	border: 1px solid #e6e6e6 !important;
+/* 425 */ 	padding: 1px !important;
+/* 426 */ 	background: #fff !important;
+/* 427 */ 	color: #444 !important;
+/* 428 */ 	height: 2em !important;
+/* 429 */ 	width: auto !important;
+/* 430 */ 	border-radius: 0 !important;
+/* 431 */ 	float: none !important;
+/* 432 */ 	cursor: pointer !important;
+/* 433 */ 	text-transform: none !important;
+/* 434 */ 	-webkit-appearance: menulist !important;
+/* 435 */ 	-moz-appearance: menulist !important;
+/* 436 */ }
+/* 437 */ 
+/* 438 */ .qm-hide,
+/* 439 */ .qm-hide-name,
+/* 440 */ .qm-hide-type,
+/* 441 */ .qm-hide-caller,
+/* 442 */ .qm-hide-component {
+/* 443 */ 	display: none !important;
+/* 444 */ }
+/* 445 */ 
+/* 446 */ /* Sorters */
+/* 447 */ 
+/* 448 */ .qm .qm-sort-controls {
+/* 449 */ 	display: block !important;
+/* 450 */ 	margin-top: 4px !important;
+
+/* query-monitor.css */
+
+/* 451 */ 	text-align: center !important;
+/* 452 */ }
+/* 453 */ 
+/* 454 */ .qm .qm-sort {
+/* 455 */ 	color: #ddd !important;
+/* 456 */ 	display: block !important;
+/* 457 */ 	font-size: 14px !important;
+/* 458 */ 	line-height: 11px !important;
+/* 459 */ 	text-decoration: none !important;
+/* 460 */ }
+/* 461 */ 
+/* 462 */ .qm .qm-sort:hover,
+/* 463 */ .qm .qm-sort:focus,
+/* 464 */ .qm .qm-sorted-asc .qm-sort-asc,
+/* 465 */ .qm .qm-sorted-desc .qm-sort-desc {
+/* 466 */ 	color: #777 !important;
+/* 467 */ 	text-decoration: none !important;
+/* 468 */ }
+/* 469 */ 
+/* 470 */ /* RTL */
+/* 471 */ 
+/* 472 */ html[dir="rtl"] .qm-ltr {
+/* 473 */ 	direction: ltr !important;
+/* 474 */ 	text-align: right !important;
+/* 475 */ }
+/* 476 */ 
+/* 477 */ html[dir="rtl"] body.wp-admin #qm {
+/* 478 */ 	margin-right: 160px !important;
+/* 479 */ 	margin-left: 0 !important;
+/* 480 */ }
+/* 481 */ 
+/* 482 */ @media all and (max-width: 782px) {
+/* 483 */ 	html[dir="rtl"] body.wp-admin #qm {
+/* 484 */ 		margin-right: 36px !important;
+/* 485 */ 		margin-left: 0 !important;
+/* 486 */ 	}
+/* 487 */ }
+/* 488 */ 
+/* 489 */ html[dir="rtl"] body.wp-admin.folded #qm {
+/* 490 */ 	margin-right: 36px !important;
+/* 491 */ 	margin-left: 0 !important;
+/* 492 */ }
+/* 493 */ 
+/* 494 */ html[dir="rtl"] #qm {
+/* 495 */ 	text-align: right !important;
+/* 496 */ }
+/* 497 */ 
+/* 498 */ html[dir="rtl"] .qm td,
+/* 499 */ html[dir="rtl"] .qm th {
+/* 500 */ 	text-align: right !important;
+
+/* query-monitor.css */
+
+/* 501 */ }
+/* 502 */ 
+/* 503 */ /* No-JS tweaks */
+/* 504 */ 
+/* 505 */ .qm-no-js #qm-authentication,
+/* 506 */ .qm-no-js .qm-sort-controls,
+/* 507 */ .qm-no-js a.qm-toggle,
+/* 508 */ .qm-no-js select.qm-filter {
+/* 509 */ 	display: none !important;
+/* 510 */ }
+/* 511 */ 
+/* 512 */ /* Debug bar add-ons */
+/* 513 */ 
+/* 514 */ .qm-debug-bar textarea,
+/* 515 */ .qm-debug-bar pre {
+/* 516 */ 	font-size: 11px !important;
+/* 517 */ 	padding: 10px !important;
+/* 518 */ 	border: 1px solid #e8e8e8 !important;
+/* 519 */ 	margin: 4px 0 !important;
+/* 520 */ 	color: inherit !important;
+/* 521 */ 	background: transparent !important;
+/* 522 */ 	font-family: Menlo, Monaco, Consolas, monospace !important;
+/* 523 */ }
+/* 524 */ 
+/* 525 */ .qm-debug-bar textarea {
+/* 526 */ 	resize: vertical !important;
+/* 527 */ }
+/* 528 */ 
+/* 529 */ .qm-debug-bar .left {
+/* 530 */ 	float: left !important;
+/* 531 */ }
+/* 532 */ 
+/* 533 */ .qm-debug-bar .right {
+/* 534 */ 	float: right !important;
+/* 535 */ }
+/* 536 */ 
+/* 537 */ .qm-debug-bar h1, .qm-debug-bar h2, .qm-debug-bar h3 {
+/* 538 */ 	font-family: Menlo, Monaco, Consolas, monospace !important;
+/* 539 */ 	font-weight: normal !important;
+/* 540 */ }
+/* 541 */ 
+/* 542 */ .qm-debug-bar h2 {
+/* 543 */ 	float: left !important;
+/* 544 */ 	min-width: 150px !important;
+/* 545 */ 	padding: 5px 10px 15px !important;
+/* 546 */ 	clear: none !important;
+/* 547 */ 	text-align: center !important;
+/* 548 */ 	font-size: 16px !important;
+/* 549 */ 	margin: 3px 8px 15px 0 !important;
+/* 550 */ }
+
+/* query-monitor.css */
+
+/* 551 */ 
+/* 552 */ .qm-debug-bar h2 span {
+/* 553 */ 	font-size: 11px !important;
+/* 554 */ 	white-space: nowrap !important;
+/* 555 */ 	display: block !important;
+/* 556 */ 	margin-bottom: 8px !important;
+/* 557 */ }
+/* 558 */ 
+/* 559 */ .qm-debug-bar h3 {
+/* 560 */ 	margin: 15px 0 5px !important;
+/* 561 */ 	font-size: 13px !important;
+/* 562 */ }
+/* 563 */ 
+/* 564 */ .qm-debug-bar .qm-debug-bar-output {
+/* 565 */ 	position: relative !important;
+/* 566 */ }
+/* 567 */ 
+/* 568 */ .qm-debug-bar .qm-debug-bar-output table {
+/* 569 */ 	margin-top: 4px !important;
+/* 570 */ 	margin-bottom: 4px !important;
+/* 571 */ }
+/* 572 */ 
+/* 573 */ #qm #debug-menu-target-Debug_Bar_Console {
+/* 574 */ 	min-height: 400px !important;
+/* 575 */ }
+/* 576 */ 

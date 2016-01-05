@@ -1,0 +1,607 @@
+# Copyright (C) 2015 YouTube for WordPress
+# This file is distributed under the same license as the YouTube for WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YouTube for WordPress 2.0.4.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/wp2yt-uploader\n"
+"POT-Creation-Date: 2015-03-18 16:00:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-03-24 13:46+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.7.4\n"
+"Language: sr_RS\n"
+
+#: classes/class.youtube-for-wordpress.php:262
+msgid ""
+"You have been using <strong>YouTube for WordPress</strong> for 2 weeks now. We hope "
+"you're enjoying the power and all the features packed into the free version.  If so, "
+"please leave us a review, we'd love to hear what you have to say. <br /><br /> <a "
+"href='%s' target='_blank' class='button-secondary'>Leave A Review</a> <a href='%s?"
+"utm_source=yt4wp-2week-notice&utm_medium=button&utm_campaign=yt4wp-2week-notice' "
+"target='_blank' class='button-secondary'>Fill Out Our User Feedback Survey</a> <a "
+"href='%s' class='button-secondary'>Dismiss</a>"
+msgstr ""
+"Vi koristite <strong>You Tube for WordPress</strong> vec 2 sedmice. Nadamo se da ste "
+"zadovoljni snagom i svim prednostima nase nove verzije. Ako je tako, molimo vas da "
+"ostavite vase misljenje, jer celimo da cujemo sta mislite . <br/><br/><a href='%s' "
+"target='_blank class=' button_secondary'>Leave A Review</a> <href= '%s?"
+"utm_source=yt4wp_2week_notice&utm_medium=button&utm_campaign=yt4wp_2week-notice' "
+"target= 'button-secondary'>Fill Out Our User Feedback Survey</a> <a href= '%s' "
+"class='button-secondary'>Dismiss</a>"
+
+#: classes/class.youtube-for-wordpress.php:607
+msgid "Need Help?"
+msgstr "Treba vam pomoć?"
+
+#: classes/class.youtube-for-wordpress.php:608
+msgid "Get Support!"
+msgstr "Obezbedite podršku!"
+
+#: classes/class.youtube-for-wordpress.php:616
+msgid "Enjoying the plugin?"
+msgstr "Sviđa vam se plugin?"
+
+#: classes/class.youtube-for-wordpress.php:617
+msgid "Leave us a review"
+msgstr "Napišite pregled"
+
+#: classes/class.youtube-for-wordpress.php:1331
+#: classes/class.youtube-for-wordpress.php:1775
+#: classes/class.youtube-for-wordpress.php:1878
+#: classes/class.youtube-for-wordpress.php:1971
+#: classes/class.youtube-for-wordpress.php:2527
+#: classes/class.youtube-for-wordpress.php:2893
+msgid "YouTube Access Token Has Expired - Please ReAuthenticate"
+msgstr "Token za YouTube pristup je istekao - prijavite se ponovo"
+
+#: classes/class.youtube-for-wordpress.php:1332
+#: classes/class.youtube-for-wordpress.php:1776
+#: classes/class.youtube-for-wordpress.php:1879
+#: classes/class.youtube-for-wordpress.php:1972
+#: classes/class.youtube-for-wordpress.php:2528
+#: classes/class.youtube-for-wordpress.php:2894 inc/youtube_subscriptions.php:92
+#: lib/google_api_wrapper_clientid_clientsecret.php:110
+#: templates/browse_channel_videos.php:192
+#: templates/browse_subscription_videos.php:202
+msgid "You need to"
+msgstr "Treba da"
+
+#: classes/class.youtube-for-wordpress.php:1332
+#: classes/class.youtube-for-wordpress.php:1776
+#: classes/class.youtube-for-wordpress.php:1879
+#: classes/class.youtube-for-wordpress.php:1972
+#: classes/class.youtube-for-wordpress.php:2528
+#: classes/class.youtube-for-wordpress.php:2894 inc/youtube_subscriptions.php:92
+#: lib/google_api_wrapper_clientid_clientsecret.php:110
+#: templates/browse_channel_videos.php:192
+#: templates/browse_subscription_videos.php:202
+msgid "authorize access"
+msgstr "autorizujete pristup"
+
+#: classes/class.youtube-for-wordpress.php:1332
+#: classes/class.youtube-for-wordpress.php:1776
+#: classes/class.youtube-for-wordpress.php:1879
+#: classes/class.youtube-for-wordpress.php:1972
+#: classes/class.youtube-for-wordpress.php:2528
+#: classes/class.youtube-for-wordpress.php:2894 inc/youtube_subscriptions.php:92
+#: lib/google_api_wrapper_clientid_clientsecret.php:110
+#: templates/browse_channel_videos.php:192
+#: templates/browse_subscription_videos.php:202
+msgid "before proceeding."
+msgstr "pre nego što nastavite."
+
+#: classes/class.youtube-for-wordpress.php:4661
+#: classes/class.youtube-for-wordpress.php:4663
+msgid "YouTube for WP"
+msgstr "YouTube for WP"
+
+#: classes/class.youtube-for-wordpress.php:4664 inc/upload_content.php:201
+msgid "Settings"
+msgstr "Podešavanja"
+
+#: classes/class.youtube-for-wordpress.php:4665 pages/addons.php:37
+msgid "Add Ons"
+msgstr "Dodaci"
+
+#: classes/class.youtube-for-wordpress.php:4666 inc/upload_content.php:207
+msgid "Support"
+msgstr "Podrška"
+
+#: classes/class.youtube-for-wordpress.php:4668
+msgid "Welcome"
+msgstr "Dobro došli"
+
+#: inc/upload_content.php:97
+msgid "Successfuly authenticated. Redirecting you now..."
+msgstr "Uspešno ste se prijavili. Sada ćete biti preusmereni..."
+
+#: inc/upload_content.php:192 templates/admin/welcome.php:31
+msgid "Welcome to YouTube for WordPress"
+msgstr "Dobro došli na YouTube for WordPress"
+
+#: inc/upload_content.php:196
+msgid "It looks like you need to set things up before you can connect "
+msgstr "Čini se da su vam potrebna određena podešavanja pre nego što se povežete"
+
+#: inc/upload_content.php:196
+msgid " with your YouTube account."
+msgstr "sa svojim YouTube nalogom."
+
+#: inc/upload_content.php:204
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: inc/upload_content.php:211
+msgid "if this is your first time using the plugin, it's recommended you watch our "
+msgstr "ako koristite ovaj plugin prvi put, preporučujemo vam da pogledate naš"
+
+#: inc/upload_content.php:211
+msgid "video walkthrough"
+msgstr "video o proceduri"
+
+#: inc/upload_content.php:211
+msgid " on properly setting everything up."
+msgstr "da biste sve podesili kako treba."
+
+#: inc/upload_content.php:220
+msgid "You need to authorize access using your Google account before you can continue"
+msgstr ""
+"Treba da autorizujete pristup uz pomoć svog Google naloga pre nego što nastavite"
+
+#: inc/upload_content.php:224
+msgid "Authorize Now"
+msgstr "Autorizujte se sada"
+
+#: inc/youtube_subscriptions.php:91
+#: lib/google_api_wrapper_clientid_clientsecret.php:109
+#: templates/browse_channel_videos.php:191
+#: templates/browse_subscription_videos.php:201
+#: templates/yt4wp-rss-feed-widget.php:156
+msgid "Access Token Has Expired - Please ReAuthenticate"
+msgstr "Istekao je token za pristup - autorizujte se ponovo"
+
+#: pages/addons.php:33
+msgid "YouTube for WordPress - Add Ons"
+msgstr "YouTube for WordPress - Dodaci "
+
+#: pages/addons.php:38
+msgid "Themes (coming soon)"
+msgstr "Teme (uskoro)"
+
+#: pages/addons.php:42
+msgid ""
+"Purchase premium add ons to extend the functionality of what YouTube for WordPress "
+"can do out of the box."
+msgstr ""
+"Kupite premium dodatke da proširite funkcionalnosti koje plugin You Tube for Word "
+"Press može da iskoristi odmah. "
+
+#: pages/addons.php:114 templates/admin/support.php:63
+msgid ""
+"Interested in release dates? Follow along with the <a href=\"%s\">release cycle</a>."
+msgstr ""
+"Zanimaju vas datumi objavljivanja? Pratite <a href=\"%s\">ciklus objavljivanja</a>."
+
+#: pages/options.php:48 pages/options.php:82
+msgid "Options saved successfully."
+msgstr "Opcije uspešno sačuvane."
+
+#: pages/options.php:52 pages/options.php:86
+msgid "No changes have been made."
+msgstr "Nisu napravljene izmene."
+
+#: pages/options.php:102
+msgid ""
+"Are you sure you want to reset YouTube for WordPress back to default? This cannot be "
+"undone."
+msgstr ""
+"Jeste li sigurni kako želite da vratite opcije You Tube for Word Press na "
+"podrazumevane vrednosti? Ova aktivnost ne može se poništiti."
+
+#: pages/options.php:119
+msgid "YouTube for WordPress settings have successfully been reset"
+msgstr "You Tube for Word Press podešavanja uspešno su poništena "
+
+#: pages/options.php:143
+msgid ""
+"Are you sure you want to revoke permissions? This cannot be undone and you will need "
+"to re-authenticate to regain access."
+msgstr ""
+"Sigurni ste da hoćete ponovo da poništite dozvole? Ova aktivnost ne može se "
+"opozvati. Moraćete ponovo da se autorizujete kako biste dobili pristup."
+
+#: pages/options.php:161
+msgid ""
+"YouTube for WordPress permissions have successfully been revoked. You can now re-"
+"authenticate."
+msgstr ""
+"You Tube for Word Press dozvole uspešno su opozvane. Sad možete ponovo da se "
+"autorizujete."
+
+#. Plugin Name of the plugin/theme
+#: pages/options.php:312 pages/yt4wp_main.php:24
+msgid "YouTube for WordPress"
+msgstr "YouTube for WordPress"
+
+#: pages/options.php:317
+msgid "YouTube Settings"
+msgstr "YouTube Podešavanja"
+
+#: pages/options.php:318 pages/options.php:509
+msgid "Debug Settings"
+msgstr "Podešavanja za otklanjanje grešaka"
+
+#: pages/options.php:319 pages/options.php:617
+msgid "Support License"
+msgstr "Licenca za podršku"
+
+#: pages/options.php:329
+msgid "YouTube for WordPress Settings"
+msgstr "You Tube for Word Press podešavanja"
+
+#: pages/options.php:335
+msgid "WordPress Version Number Error"
+msgstr "Greška u broju WordPress verzije "
+
+#: pages/options.php:336
+msgid ""
+"We're sorry, but it looks like your using an outdated version of WordPress. You "
+"won't be able to access the tinyMCE button to insert forms into pages and posts "
+"unless you update to 3.9 or later."
+msgstr ""
+"Žao nam je, ali izgleda da koristite zastarelu verziju WordPress-a. Nećete moći da "
+"pristupite tinyMCE tasteru za ubacivanje obrazaca na stranice i postove ako ne "
+"ažurirate na 3.9 ili noviju verziju."
+
+#: pages/options.php:346
+msgid "LocalHost Detected :"
+msgstr "Primećen LocalHost: "
+
+#: pages/options.php:347
+msgid "It looks like your using YouTube for WordPress on localhost."
+msgstr "Čini se da koristite You Tube for Word Press na localhost-u."
+
+#: pages/options.php:348
+msgid ""
+"You will want to setup a <strong>global API key</strong> and set your "
+"<strong>redirect URI</strong> as "
+msgstr ""
+"Poželećete da podesite <strong>opšti API ključ</strong> i podesite svoj <strong>URI "
+"za preusmeravanje </strong> kao"
+
+#: pages/options.php:356
+msgid "Outdated Version of PHP :"
+msgstr "Zastarela PHP verzija:"
+
+#: pages/options.php:357
+msgid ""
+"It looks like your site is running an outdated version of PHP. YouTube for WordPress "
+"requires a minimum of PHP 5.3."
+msgstr ""
+"Izgleda da vaš site ima zastarelu verziju PHP-a. You Tube for Word Press zahteva "
+"minimum PHP 5.3."
+
+#: pages/options.php:358
+msgid "Your site is currently running PHP v."
+msgstr "Vaš site trenutno ima PHP v."
+
+#: pages/options.php:367
+msgid "Setup Guide"
+msgstr "Vodič za podešavanje"
+
+#: pages/options.php:368
+msgid "Google Developer Console"
+msgstr "Google Developer Console"
+
+#: pages/options.php:373
+msgid "Google OAUTH2 Client ID"
+msgstr "Google OAUTH2 ID klijenta"
+
+#: pages/options.php:379
+msgid "Google OAUTH2 Client Secret"
+msgstr "Google OAUTH2 tajna klijenta"
+
+#: pages/options.php:387
+msgid "Please enter your Google OAUTH2 Keys above."
+msgstr "Unesite svoje Google OAUTH2 ključeve gore"
+
+#: pages/options.php:392
+msgid "Google Public API Key"
+msgstr "Google javni API ključ"
+
+#: pages/options.php:400
+msgid "Please enter your Google API Key above."
+msgstr "Unesite svoj Google API ključ gore."
+
+#: pages/options.php:408
+msgid "Select Your Region"
+msgstr "Odaberite svoj region"
+
+#: pages/options.php:416
+msgid ""
+"Your region will determine some data returned from the API. For example, when "
+"searching, YouTube will return videos from your country first."
+msgstr ""
+"Vaš region odrediće podatke koji se vraćaju iz API-ja. Na primer, kad tražite, "
+"YouTube će prvo prikazati video sadržaje iz vaše zemlje."
+
+#: pages/options.php:422
+msgid "Note : Use Wordlwide if you are in the United States."
+msgstr "Napomena: Koristite opciju ‘svet’ ako ste u SAD-u."
+
+#: pages/options.php:427
+msgid "Select Your Language"
+msgstr "Odaberite svoj jezik"
+
+#: pages/options.php:435
+msgid ""
+"This will determine the language of some data returned from the YouTube API (ie: "
+"category names)."
+msgstr ""
+"Ova opcija će odrediti jezik nekih podataka koji se vraćaju iz YouTube API-ja (npr. "
+"nazivi kategorije)."
+
+#: pages/options.php:443
+msgid "YouTube Player Style"
+msgstr "Stil za YouTube Player"
+
+#: pages/options.php:446
+msgid "YouTube Default"
+msgstr "YouTube podrazumevani"
+
+#: pages/options.php:447
+msgid "Media Element Player"
+msgstr "Media Element Player"
+
+#: pages/options.php:455
+msgid "Select your video style above."
+msgstr "Gore odaberite svoj stil za video"
+
+#: pages/options.php:460
+msgid "Display Video Statistics"
+msgstr "Prikaži statistiku za video"
+
+#: pages/options.php:463
+msgid "Enable Video Stats"
+msgstr "Aktiviraj video statistiku"
+
+#: pages/options.php:464
+msgid "Disable Video Stats"
+msgstr "Deaktiviraj video statistiku"
+
+#: pages/options.php:472
+msgid ""
+"Select if you would like the video statistics to be displayed below videos. Video "
+"stats include view count, dislikes, likes and favorites."
+msgstr ""
+"Odaberite ovu opciju ako želite da statistika bude prikazana ispod videa. Video-"
+"statistika obuhvata broj pregleda, sviđanja, nesviđanja i omiljene video sadržaje."
+
+#: pages/options.php:473
+msgid ""
+"Note : including stats will significantly increase page load times in the dashboard."
+msgstr ""
+"Napomena: uključivanje statistike značajno će povećati vreme učitavanja stranice na "
+"kontrolnoj tabli."
+
+#: pages/options.php:478
+msgid "Background Updates"
+msgstr "Ažuriranje pozadine"
+
+#: pages/options.php:480
+msgid "Yes, keep YouTube for WordPress up to date at all times."
+msgstr "Da, uvek ažuriraj YouTube for  WordPress. "
+
+#: pages/options.php:480
+msgid "No, I will keep YouTube for WordPress up to date myself."
+msgstr "Ne, sam ću ažurirati You Tube for Word Press. "
+
+#: pages/options.php:487
+msgid ""
+"Enable this setting if you would like <strong>YouTube for WordPress</strong> to be "
+"automatically updated. This will ensure you always have the most up to date version "
+"of the plugin."
+msgstr ""
+"Aktivirajte ovu opciju ako želite da se <strong>You Tube for Word Press</strong> "
+"automatski ažurira. Tako ćete osigurati da uvek imate najnoviju verziju plugin-a."
+
+#: pages/options.php:517
+msgid "Plugin Information"
+msgstr "Podaci o plugin-u"
+
+#: pages/options.php:520
+msgid "If you experience any issues with YouTube for WordPress, please "
+msgstr "Ako imate bilo kakvih problema sa plugin-om YouTube for WordPress,"
+
+#: pages/options.php:520
+msgid "submit a new ticket"
+msgstr "podnesite novu karticu"
+
+#: pages/options.php:520
+msgid "with the YouTube for WordPress support team"
+msgstr "sa YouTube for WordPress timom za podršku"
+
+#: pages/options.php:520
+msgid ""
+"You will need to be a support license holder to receive any level of support. Please "
+"include the information below and any eror messages or error numbers to help us "
+"troubleshoot your problem."
+msgstr ""
+"Biće vam potrebna licenca za podršku da biste dobili bilo koji nivo podrške. Podatke "
+"koji slede uključite u bilo koju poruku o grešci ili broj greške kako biste nam "
+"pomogli da rešimo vaš problem. "
+
+#: pages/options.php:525
+msgid "Plugin Version"
+msgstr "Verzija plugin-a"
+
+#: pages/options.php:529
+msgid "Wordpress Version"
+msgstr "Wordpress verzija"
+
+#: pages/options.php:542
+msgid "PHP Version"
+msgstr "PHP verzija"
+
+#: pages/options.php:554
+msgid "Browser Information"
+msgstr "Podaci o pretraživaču"
+
+#: pages/options.php:566
+msgid "Error Log"
+msgstr "Greška u registru"
+
+#: pages/options.php:566
+msgid "clear log"
+msgstr "Obriši registar"
+
+#: pages/options.php:577
+msgid "Error Message"
+msgstr "Poruka o grešci"
+
+#: pages/options.php:578
+msgid "Error Number"
+msgstr "Broj greške"
+
+#: pages/options.php:579
+msgid "Time"
+msgstr "Vreme"
+
+#: pages/options.php:596
+msgid "no errors logged"
+msgstr "Vreme"
+
+#: pages/options.php:625
+msgid "Support License Key"
+msgstr "Ključ licence za podršku"
+
+#: pages/options.php:633
+msgid ""
+"The license key is used for access to automatic upgrades and support. Please see the"
+msgstr ""
+"Ključ licence koristi se za pristup automatskom nadograđivanju i podršci. Pogledajte"
+
+#: pages/options.php:633
+msgid "support"
+msgstr "stranicu za podršku"
+
+#: pages/options.php:633
+msgid "page for further details about purchasing a support license."
+msgstr "za više detalja o nabavci i za licencu za podršku."
+
+#: pages/yt4wp_main.php:59 pages/yt4wp_main.php:172
+msgid "Upload"
+msgstr "Otpremi"
+
+#: pages/yt4wp_main.php:60 pages/yt4wp_main.php:173
+msgid "Browse"
+msgstr "Pretraži"
+
+#: pages/yt4wp_main.php:61 pages/yt4wp_main.php:174
+msgid "Search"
+msgstr "Traži"
+
+#: pages/yt4wp_main.php:62 pages/yt4wp_main.php:175
+msgid "Subscriptions"
+msgstr "Pretplate"
+
+#: templates/admin/support.php:23
+msgid "YouTube for WordPress - Support"
+msgstr "You Tube for Word Press - podrška"
+
+#: templates/admin/support.php:32
+msgid ""
+"Thank you for installing and trying out YouTube for WordPress. Free users receive "
+"limited support. Please consider purchasing a support license to access our support "
+"ticketing system."
+msgstr ""
+"Hvala što ste instalirali i isprobali You Tube for Word Press. Korisnici besplatne "
+"verzije dobijaju ograničenu podršku. Razmislite o kupovini licence za podršku kako "
+"biste dobili pristup našem sistemu za podršku preko kartica. "
+
+#: templates/admin/support.php:36
+msgid ""
+"If you're running into issues, please reach out for support. We're working to make "
+"this plugin better, so your inqueries and comments are invaluable."
+msgstr ""
+"Ako naiđete na problem, obratite se podršci. Radimo na poboljšanju ovog plugin-a. "
+"Vaši komentari i pitanja su nam neprocenjivi."
+
+#: templates/admin/welcome.php:35
+msgid ""
+"Thank you for updating to the latest version! YouTube for WordPress v%s is ready to "
+"make integration with YouTube, safer and easier! Check out some of the newest "
+"features below."
+msgstr ""
+"Hvala što ste ažurirali na poslednju verziju. You Tube for Word Press v%s spremna je "
+"za integraciju sa YouTube-om, na bezbedniji i jednostavniji način. Pogledajte "
+"najnovije funkcionalnosti u nastavku!"
+
+#: templates/yt4wp-rss-feed-widget.php:17
+msgid "YouTube for WordPress : RSS Feed"
+msgstr "YouTube for WordPress: RSS Feed"
+
+#: templates/yt4wp-rss-feed-widget.php:20
+msgid "Display latest content from a YouTube user or channel."
+msgstr "Prikaži poslednji sadržaj YouTube korisnika ili kanala."
+
+#: templates/yt4wp-rss-feed-widget.php:367
+msgid " from "
+msgstr "od"
+
+#: templates/yt4wp-rss-feed-widget.php:463
+msgid "Sign Up For Our Newsletter"
+msgstr "Prijavite se da biste dobijali naše novosti"
+
+#: templates/yt4wp-rss-feed-widget.php:470
+msgid "Sign Me Up"
+msgstr "Prijavi me"
+
+#: templates/yt4wp-rss-feed-widget.php:479
+msgid "Widget Title :"
+msgstr "Naziv widget-a:"
+
+#: templates/yt4wp-rss-feed-widget.php:485
+msgid "Select Feed :"
+msgstr "Odaberi feed:"
+
+#: templates/yt4wp-rss-feed-widget.php:491
+msgid "Feed Limit :"
+msgstr "Ograničenje feed-a:"
+
+#: templates/yt4wp-rss-feed-widget.php:502
+msgid "Feed To Display :"
+msgstr "Feed za prikazivanje:"
+
+#: templates/yt4wp-rss-feed-widget.php:513
+msgid "Randomize Feed? :"
+msgstr "Nasumično prikazivanje feed-a?"
+
+#: templates/yt4wp-upload-widget.php:13
+msgid "YouTube Plus : User Upload Widget"
+msgstr "YouTube Plus: User Upload Widget"
+
+#: templates/yt4wp-upload-widget.php:16
+msgid "Allow visitors to upload content from a simple sidebar widget."
+msgstr ""
+"Omogućava posetiocima da otpreme sadržaj sa jednostavnog widget-a na bočnom meniju."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.yt4wp.com"
+msgstr "http://www.yt4wp.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Upload videos, browse your account, and insert them in to posts without having to "
+"leave your blog! Now built with YouTube API v3 and lots of love"
+msgstr ""
+"Otpremite video-sadržaje, pretražite svoj nalog i ubacite video u svoje postove bez "
+"napuštanja svog bloga! Napravljen je uz pomoć YouTube API v3 i sa mnogo ljubavi!"
+
+#. Author of the plugin/theme
+msgid "YouTubeforWordPress, Evan Herman"
+msgstr "YouTubeforWordPress, Evan Herman"

@@ -1,0 +1,35 @@
+.seedredux-container-multi_text {
+    ul.seedredux-multi-text {
+        margin: 0;
+        padding: 0;
+    }
+
+    .seedredux-multi-text-remove {
+        color: #F00;
+        padding: 2px 4px;
+        margin-left: 5px;
+        &:hover {
+            background: red;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    .seedredux-multi-text-add {
+        margin: 5px 0;
+    }
+
+}
+
+@media screen and (max-width: 782px) {
+    .seedredux-container-multi_text {
+        input {
+            clear: both;
+        }
+
+        .seedredux-multi-text-remove {
+            margin: 0;
+            float: right;
+        }
+    }
+}

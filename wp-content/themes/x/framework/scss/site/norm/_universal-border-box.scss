@@ -1,0 +1,21 @@
+// =============================================================================
+// SCSS/SITE/NORM/_UNIVERSAL-BORDER-BOX.SCSS
+// -----------------------------------------------------------------------------
+// Normalizes the box-model for all elements so that declaring the width of an
+// element isn't expanded by adding padding or borders. More information
+// regarding this technique and issues concering the universal * selector can
+// be found at http://paulirish.com/2012/box-sizing-border-box-ftw/
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Base Styles
+// =============================================================================
+
+// Base Styles
+// =============================================================================
+
+* {
+  @include box-sizing(border-box);
+}

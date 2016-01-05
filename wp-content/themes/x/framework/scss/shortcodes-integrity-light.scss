@@ -1,0 +1,50 @@
+// =============================================================================
+// SCSS/SHORTCODES-INTEGRITY-LIGHT.SCSS
+// -----------------------------------------------------------------------------
+// Contains all shortcode styles for the Integrity Stack (light version).
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. Shortcodes
+//   03. Animations
+//   04. Utilities
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "site/inc/functions";
+@import "site/inc/variables";
+@import "site/stacks/integrity/inc/variables-light";
+@import "site/inc/mixins";
+@import "site/stacks/integrity/inc/mixins";
+
+
+
+// Shortcodes
+// =============================================================================
+
+@import "site/shortcodes";
+@import "site/stacks/integrity/shortcodes";
+@import "site/mejs";
+@import "site/stacks/integrity/mejs";
+
+
+
+// Animations
+// =============================================================================
+
+@import "site/animate";
+
+
+
+// Utilities
+// =============================================================================
+
+@import "site/util/main";
+@import "site/util/type";
+@import "site/util/responsive";
+@import "site/util/spacing-helpers";

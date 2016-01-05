@@ -1,0 +1,50 @@
+// =============================================================================
+// SCSS/SHORTCODES-RENEW.SCSS
+// -----------------------------------------------------------------------------
+// Contains all shortcode styles for the Renew Stack.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. Shortcodes
+//   03. Animations
+//   04. Utilities
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "site/inc/functions";
+@import "site/inc/variables";
+@import "site/stacks/renew/inc/variables";
+@import "site/inc/mixins";
+@import "site/stacks/renew/inc/mixins";
+
+
+
+// Shortcodes
+// =============================================================================
+
+@import "site/shortcodes";
+@import "site/stacks/renew/shortcodes";
+@import "site/mejs";
+@import "site/stacks/renew/mejs";
+
+
+
+// Animations
+// =============================================================================
+
+@import "site/animate";
+
+
+
+// Utilities
+// =============================================================================
+
+@import "site/util/main";
+@import "site/util/type";
+@import "site/util/responsive";
+@import "site/util/spacing-helpers";

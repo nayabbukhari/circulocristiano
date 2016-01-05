@@ -1,0 +1,228 @@
+/* ***** - xbuttons - ***** */	
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #333333;
+  background-color: #fff;
+  *background-color: #d9d9d9;
+}
+
+.btn {
+	font-weight: 1em;
+	font-weight: bold;
+	background-image: none;
+	color: #777;
+	border: 0;
+	min-height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+
+	-webkit-box-shadow: none;
+	box-shadow: none;
+
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+
+	background-color: #fff;
+
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.08);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.08);
+	box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.08);
+
+	border: 1px solid #c4c4c4;
+}
+
+.btn.btn-large {
+	font-size: 1.14em;
+	min-height: 50px;
+	line-height: 50px;
+	padding: 0 50px;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+.btn:active {
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 0 0 rgba(0,0,0,0);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 0 0 rgba(0,0,0,0);
+	box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 0 0 rgba(0,0,0,0);
+}
+
+.btn.btn-primary {
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: #239fdb;
+
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.12), inset 0 1px 0 rgba(255,255,255,.3);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.12), inset 0 1px 0 rgba(255,255,255,.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.12), inset 0 1px 0 rgba(255,255,255,.3);
+
+	border: 1px solid #1682b6;
+}
+
+.btn.btn-primary:hover {
+	background-color: #2ca8e4;
+}
+
+.btn.btn-primary:active, .btn.btn-info:active, .btn.btn-success:active, .btn.btn-inverse:active, .btn.btn-warning:active, .btn.btn-danger:active {
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.2), inset 0 -2px 0 rgba(0,0,0,0);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2), inset 0 -2px 0 rgba(0,0,0,0);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2), inset 0 -2px 0 rgba(0,0,0,0);
+}
+
+.btn.btn-info {
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: #35c1db;
+	border: 1px solid #21a5bd;
+
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.08), inset 0 1px 0 rgba(255,255,255,.3);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.08), inset 0 1px 0 rgba(255,255,255,.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.08), inset 0 1px 0 rgba(255,255,255,.3);
+}
+
+.btn.btn-info:hover {
+	background-color: #41cae4;
+}
+
+.btn.btn-success {
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: #48c253;
+	border: 1px solid #2ca137;
+
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.12), inset 0 1px 0 rgba(255,255,255,.3);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.12), inset 0 1px 0 rgba(255,255,255,.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.12), inset 0 1px 0 rgba(255,255,255,.3);
+}
+
+.btn.btn-success:hover {
+	background-color: #55cc60;
+}
+
+.btn.btn-inverse {
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: #2b2b2b;
+	border: 1px solid black;
+
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.3);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.3);
+}
+
+.btn.btn-inverse:hover {
+	background-color: #343434;
+}
+
+.btn.btn-warning {
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: #edcd1e;
+	border: 1px solid #d3b510;
+
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.08), inset 0 1px 0 rgba(255,255,255,.3);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.08), inset 0 1px 0 rgba(255,255,255,.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.08), inset 0 1px 0 rgba(255,255,255,.3);
+}
+
+.btn.btn-warning:hover {
+	background-color: #f9d92c;
+}
+
+.btn.btn-danger {
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: #c02121;
+	border: 1px solid #9b0f0f;
+
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.15), inset 0 1px 0 rgba(255,255,255,.3);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.15), inset 0 1px 0 rgba(255,255,255,.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,.05), inset 0 -2px 0 rgba(0,0,0,.15), inset 0 1px 0 rgba(255,255,255,.3);
+}
+
+.btn.btn-danger:hover {
+	background-color: #cd2b2b;
+}
+
+/* ***** - xalert - ***** */
+
+.alert.alert-block {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(237,205,30,.5);
+
+	color: #705f24;
+}
+
+.alert.alert-error {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(192,33,33,.5);
+
+	color: #753c3c;
+	text-shadow: 0 1px 0 rgba(255,255,255,.2);
+}
+
+.alert.alert-success {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(72,194,83,.5);
+
+	color: #2d5f32;
+	text-shadow: 0 1px 0 rgba(255,255,255,.2);
+}
+
+.alert.alert-info {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(35,159,219,.5);
+
+	color: #006291;
+	text-shadow: 0 1px 0 rgba(255,255,255,.2);
+}
+
+/* ***** - xthumbnail - ***** */
+
+.thumbnail {
+	padding: 0;
+
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+
+	background-color: #fff;
+	border: 0;
+
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.2), inset 0 -2px 0 rgba(0,0,0,.06);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2), inset 0 -2px 0 rgba(0,0,0,.06);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2), inset 0 -2px 0 rgba(0,0,0,.06);
+}
+
+.thumbnail .caption {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.thumbnail .caption p {
+	margin-bottom: 20px;
+}

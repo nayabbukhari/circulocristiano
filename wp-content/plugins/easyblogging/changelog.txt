@@ -1,0 +1,186 @@
+Plugin Name: Easy Blogging
+Author: Incsub
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+3.3.4 - 2014-09-30
+----------------------------------------------------------------------
+- Fix for deprecated API calls.
+- Fix for CSS conflicts and widths issues.
+- Fix for localization issues.
+- Fix for media display mode.
+
+3.3.3 - 2014-07-09
+----------------------------------------------------------------------
+- Fix for enabling live preview in non-active themes.
+- Fix for the default link type option.
+- Fix for getting the proper logo URL in different contexts.
+
+3.3.2 - 2013-12-23
+----------------------------------------------------------------------
+- Fix for the start page l10n.
+- Fix for the tooltip style issues (props Ashok).
+- Fix for tooltip quoting issue.
+- Wizard admin style update.
+
+3.3.1 - 2013-09-19
+----------------------------------------------------------------------
+- Added the Compatibility mode add-on.
+- Added admin rescue define switch.
+- Fix for remove link issue in manage items add-on.
+- Fix for menu links floating coverage.
+
+3.3 - 2013-02-04
+----------------------------------------------------------------------
+- Fix for post-3.3.3 Pro Sites integration.
+- Added Admin footer add-on.
+- Added Admin toolbar redirection add-on.
+- Added Small switch button add-on.
+- Added Toolbar switch link add-on.
+
+3.2.5 - 2013-01-02
+----------------------------------------------------------------------
+- Added easy start profile section.
+
+3.2.4 - 2012-12-06
+----------------------------------------------------------------------
+- Added Author Comments scope add-on.
+- Added conditional admin header redo.
+- Fix for admin bar reappearing issue.
+- Fix for wizard redirection after leaving customizer.
+- WordPress 3.5 compatibility update.
+
+3.2.3 - 2012-10-20
+----------------------------------------------------------------------
+- Additional define and keys presence checks.
+- Fix for wrap only for positive width values.
+- Animating padding for webkit browser menu movement instead.
+
+3.2.2 - 2012-07-18
+----------------------------------------------------------------------
+- Fix for videos page scroll issue.
+- Fix for theme preview links.
+- Fix for logo with admin toolbar overlapping issue.
+- Fix for scroll menu background stretching issue.
+- Added Customizer support as an add-on.
+- Added Product metaboxes control add-on.
+
+3.2.1 - 2012-06-16
+----------------------------------------------------------------------
+- Fix for quoting issue.
+
+3.2 - 2012-06-14
+----------------------------------------------------------------------
+- Fix for wizard page redirects on non-CPT pages.
+- Fix for stylesheet conflicts.
+- Fix for roles instantiation.
+- Added BLOG_PATH and LOGOUT_URL macros.
+- WordPress 3.4 comptibility update.
+
+3.1.9.1 - 2012-04-04
+----------------------------------------------------------------------
+- Easy bar exit link fix.
+- Easy bar RTL support.
+
+3.1.9 - 2012-04-27
+----------------------------------------------------------------------
+- Added Dashboard widgets setup add-on.
+- Fix for next step redirection for post publishing in wizard mode.
+- Added custom logo reset.
+- Fix for intermittent plugin clashes.
+
+3.1.8.1 - 2012-02-15
+----------------------------------------------------------------------
+- Allowing Avatar redirects in wizard.
+- Improved role/capability assigning in menu editor plugin.
+- Improved scrollable menu mouse and window size detection.
+
+3.1.8 - 2012-02-07
+----------------------------------------------------------------------
+- Dynamic roles fetching.
+- Fix for admin notices. 
+
+3.1.7 - 2012-01-27
+----------------------------------------------------------------------
+- Using jQuery UI bundled with WP, where possible.
+- Added scrollable menu add-on.
+
+3.1.6 - 2012-01-21
+----------------------------------------------------------------------
+- Better switch to easy mode button style selection.
+- Fix for menu item text inputs.
+
+3.1.5 - 2011-12-22
+----------------------------------------------------------------------
+- Fix for text shadow issue.
+- Fix for button height issue.
+- Fix for small screen menu bug with wizard.
+
+3.1.4 - 2011-12-14
+----------------------------------------------------------------------
+- Added Ultimate Facebook permissions widget add-on - props pbink.
+- Fix for WordPress 3.3 admin bar switch.
+
+3.1.3 - 2011-11-27
+----------------------------------------------------------------------
+- Fix for BuddyBar handling.
+
+3.1.2 - 2011-11-24
+----------------------------------------------------------------------
+- Fixed some typos.
+- Fixed duplicated scripts triggering.
+- Fix for Admin bar toggling to be applied to BuddyBar too.
+- Implemented some of the changed ProSites API calls.
+
+3.1.1 - 2011-11-15
+----------------------------------------------------------------------
+- Renamed "Plugins" to "Add-ons".
+- Fixed incorrect spelling.
+- Fix for adding a step instructions in wizard mode.
+- Better URL sanitization for wizard steps on save.
+- Accounting for SSL access for external stylesheet inclusion.
+- Fix for author comments access.
+- Fix for duplicated "My items".
+- Added Pending Comments add-on.
+
+3.1 - 2011-11-12
+----------------------------------------------------------------------
+- Fix for SSL warnings.
+- Fix for Easy Mode forcing: don't force Easy Mode on super admins.
+- Added plugins support for extending.
+- Added Pro Sites integration plugin: force Easy Mode on free sites.
+- Added menu management plugin.
+
+3.0.4 - 2011-11-03
+----------------------------------------------------------------------
+- Fix for easy mode forcing on roles
+- Added granular control for easy mode forcing
+
+3.0.3 - 2011-10-22
+----------------------------------------------------------------------
+- Fix for conflict with Chat plugin.
+- Natively integrated Pro Sites/Blogs menu items.
+- Applied Safari scroll fix (thank you, Mason!)
+- Fix for excessive whitespace in tips.
+- Added Dashboard item to menu.
+
+3.0.2 - 2011-10-08
+----------------------------------------------------------------------
+- Added role dependency for Easy Bar.
+- Added optional Easy Bar and Admin bar visibility.
+- Fixed translation.
+- Fixed tooltips.
+
+3.0.1 - 2011-09-20
+----------------------------------------------------------------------
+- Fixed logo upload checking.
+- Fixed access method storage.
+
+3.0 - 2011-09-15
+----------------------------------------------------------------------
+- Project rewrite, initial release.
+
+
+147928-1450539010-ai

@@ -1,0 +1,53 @@
+/* This is just a template for testing. */
+/* Admin Menu */
+li#test-hook-name {
+  background: #aa524c;
+  /* Admin Menu: submenu */
+  /* Admin Menu: current */
+  /* Admin Menu: bubble */ }
+  li#test-hook-name a {
+    color: white; }
+  li#test-hook-name div.wp-menu-image:before {
+    color: #f3f1f1; }
+  li#test-hook-name a:hover, li#test-hook-name.menu-top:hover, li#test-hook-name.opensub > a.menu-top, li#test-hook-name > a.menu-top:focus {
+    color: white;
+    background-color: #ff2e46; }
+  li#test-hook-name.menu-top:hover div.wp-menu-image:before, li#test-hook-name.opensub > a.menu-top div.wp-menu-image:before {
+    color: white; }
+  li#test-hook-name .wp-submenu, li#test-hook-name.wp-has-current-submenu .wp-submenu, li#test-hook-name.wp-has-current-submenu.opensub .wp-submenu, .folded li#test-hook-name.wp-has-current-submenu .wp-submenu
+  a.wp-has-current-submenu:focus + .wp-submenu {
+    background: #914641; }
+  #adminmenu li#test-hook-name.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
+    border-right-color: #914641; }
+  li#test-hook-name .wp-submenu .wp-submenu-head {
+    color: #e5cbc9; }
+  li#test-hook-name .wp-submenu a, li#test-hook-name.wp-has-current-submenu .wp-submenu a,
+  li#test-hook-name a.wp-has-current-submenu:focus + .wp-submenu a, .folded li#test-hook-name.wp-has-current-submenu .wp-submenu a
+  li#test-hook-name.wp-has-current-submenu.opensub .wp-submenu a {
+    color: #e5cbc9; }
+    li#test-hook-name .wp-submenu a:focus, li#test-hook-name .wp-submenu a:hover, li#test-hook-name.wp-has-current-submenu .wp-submenu a:focus, li#test-hook-name.wp-has-current-submenu .wp-submenu a:hover,
+    li#test-hook-name a.wp-has-current-submenu:focus + .wp-submenu a:focus,
+    li#test-hook-name a.wp-has-current-submenu:focus + .wp-submenu a:hover, .folded li#test-hook-name.wp-has-current-submenu .wp-submenu a
+    li#test-hook-name.wp-has-current-submenu.opensub .wp-submenu a:focus, .folded li#test-hook-name.wp-has-current-submenu .wp-submenu a
+    li#test-hook-name.wp-has-current-submenu.opensub .wp-submenu a:hover {
+      color: #ff2e46; }
+  li#test-hook-name .wp-submenu li.current a,
+  li#test-hook-name a.wp-has-current-submenu:focus + .wp-submenu li.current a, li#test-hook-name.wp-has-current-submenu.opensub .wp-submenu li.current a {
+    color: white; }
+    li#test-hook-name .wp-submenu li.current a:hover, li#test-hook-name .wp-submenu li.current a:focus,
+    li#test-hook-name a.wp-has-current-submenu:focus + .wp-submenu li.current a:hover,
+    li#test-hook-name a.wp-has-current-submenu:focus + .wp-submenu li.current a:focus, li#test-hook-name.wp-has-current-submenu.opensub .wp-submenu li.current a:hover, li#test-hook-name.wp-has-current-submenu.opensub .wp-submenu li.current a:focus {
+      color: #ff2e46; }
+  li#test-hook-name.current a.menu-top, li#test-hook-name.wp-has-current-submenu a.wp-has-current-submenu, li#test-hook-name.wp-has-current-submenu .wp-submenu .wp-submenu-head, .folded li#test-hook-name.current.menu-top {
+    color: white;
+    background: #ff2e46; }
+  li#test-hook-name.wp-has-current-submenu div.wp-menu-image:before {
+    color: white; }
+  li#test-hook-name .awaiting-mod,
+  li#test-hook-name .update-plugins {
+    color: white;
+    background: #9ea476; }
+  li#test-hook-name .current a .awaiting-mod,
+  li#test-hook-name a.wp-has-current-submenu .update-plugins, li#test-hook-name:hover a .awaiting-mod, li#test-hook-name.menu-top:hover > a .update-plugins {
+    color: white;
+    background: #914641; }

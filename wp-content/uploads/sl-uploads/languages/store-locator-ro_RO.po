@@ -1,0 +1,608 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: translation-template.2.4\n"
+"POT-Creation-Date: 2013-09-12 23:46-0500\n"
+"PO-Revision-Date: 2013-10-11 11:19+0200\n"
+"Last-Translator: G\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0\n"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-define.php:18
+msgid "Manage Locations"
+msgstr "Gestioneaza Locatii"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:287
+msgid "Address "
+msgstr "Adresa"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:288
+msgid "Received status "
+msgstr "Status"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:436
+msgid "Store Locator"
+msgstr "Store Locator"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:437
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:3
+msgid "News & Upgrades"
+msgstr "Noutati"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:438
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:31
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:6
+msgid "Locations"
+msgstr "Locatii"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:439
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:70
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:11
+msgid "MapDesigner&trade;"
+msgstr "MapDesigner&trade;"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:562
+msgid "You haven't activated this upgrade yet"
+msgstr "Nu ai activat inca acest upgrade"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:564
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/module-keys.php:46
+msgid "Activate"
+msgstr "Activeaza"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:566
+msgid "Go to pull-out Dashboard, and activate under 'Activation Keys' section."
+msgstr "Acceseaza Panoul Modulului si activeaza in zona 'Chei de Activare'"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:676
+msgid "Love it! I've made my site more user-friendly with"
+msgstr "Super! Mi-am facut site-ul mult mai usor de utilizat cu"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:677
+msgid "Great! I can now easily display my locations using"
+msgstr "Splendid! Acum pot afisa usor locatiile folosind "
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:680
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:687
+msgid "<b>Let us know how fantastic you think WordPress Store Locator is!</b> <br><a href='#' class='star_button'>Go to our page in the WordPress plugin repository and rate us</a>.<br><br><b>Any problems?</b><br><a href='http://docs.viadat.com/' target='_blank'>Documentation</a> is available or <a href='http://www.viadat.com/contact/' target='_blank'>contact us</a>."
+msgstr "<b>Vrem sa aflam opinia ta despre WordPress Store Locator!</b> <br><a href='#' class='star_button'>Acceseaza pagina modului in WordPress plugin repository si voteaza-ne</a>.<br><br><b>Ai neclaritati?</b><br> Cauta in <a href='http://docs.viadat.com/' target='_blank'>Documentatie</a>  sau<a href='http://www.viadat.com/contact/' target='_blank'>contacteaza-ne</a>."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:682
+msgid "Want to Help Us Improve WordPress?"
+msgstr "Vrei sa ne ajuti sa imbunatim WordPress?"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:683
+msgid "Buttons to Spread the Word!"
+msgstr "Spune si altora despre noi!"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:694
+msgid "Done!  I've tweeted about / rated it"
+msgstr "S-a facut! Am dat un tweet / am votat"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:695
+msgid "Don't show this message again"
+msgstr "Nu mai arata din nou acest mesaj"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:812
+msgid "Type&nbsp;Address"
+msgstr "Tip&nbsp;Adresa"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:816
+msgid "The General Address Format"
+msgstr "Format General Adresa"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:816
+msgid "show/hide"
+msgstr "arata/ascunde"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:817
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:821
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:903
+msgid "Name of Location"
+msgstr "Denumire Locatie"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:818
+msgid "Address (Street - Line1)"
+msgstr "Adresa (Strada - Linia 1)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:819
+msgid "Address (Street - Line2 - optional)"
+msgstr "Adresa (Strada - Linia 2 - optional)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:820
+msgid "City, State Zip"
+msgstr "Oras, Judet Cod Postal"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:822
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:904
+msgid "Address"
+msgstr "Adresa"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:822
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:904
+msgid "Street - Line1"
+msgstr "Strada - Linia 1"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:823
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:905
+msgid "Street - Line 2 - optional"
+msgstr "Strada - Linia 2 - optional"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:824
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:906
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:125
+msgid "City"
+msgstr "Oras"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:825
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:907
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:126
+msgid "State"
+msgstr "Judet"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:826
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:908
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:127
+msgid "Zip"
+msgstr "Cod postal"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:828
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:918
+msgid "Additional Information"
+msgstr "Informatii suplimentare"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:829
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:919
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:131
+msgid "Description"
+msgstr "Descriere"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:830
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:920
+msgid "Tags (seperate with commas)"
+msgstr "Etichete (separate prin virgula)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:831
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:921
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:132
+msgid "URL"
+msgstr "URL"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:832
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:922
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:133
+msgid "Hours"
+msgstr "Program"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:833
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:923
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:134
+msgid "Phone"
+msgstr "Tel"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:834
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:924
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:135
+msgid "Fax"
+msgstr "Fax"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:835
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:925
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:136
+msgid "Email"
+msgstr "Email"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:836
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:926
+msgid "Image URL (shown with location)"
+msgstr "URL Imagine (afisata cu locatia)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:841
+msgid "Add Location"
+msgstr "Adauga Locatie"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:916
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:68
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "Update"
+msgstr "Updateaza"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:916
+msgid "Cancel"
+msgstr "Anuleaza"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:1192
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:161
+msgid "Search By City"
+msgstr "Cauta dupa Oras"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/add-locations.php:18
+msgid "Successful Addition"
+msgstr "Adaugare cu Succes"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:42
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:44
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:142
+msgid "Normal"
+msgstr "Normal"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:42
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:44
+msgid "Expanded"
+msgstr "Extins"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:48
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:50
+msgid "Tagging"
+msgstr "Etichetare"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:48
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:50
+msgid "Multiple Fields"
+msgstr "Campuri Multiple"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:59
+msgid "Re-Geocode Selected"
+msgstr "Re-Geocode Selectat"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:67
+msgid "Un-Geocoded"
+msgstr "Un-Geocoded"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:116
+msgid "Actions"
+msgstr "Actiuni"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:117
+msgid "ID"
+msgstr "ID"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:122
+msgid "Name"
+msgstr "Denumire"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:123
+msgid "Street"
+msgstr "Strada"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:124
+msgid "Street2"
+msgstr "Strada2"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:128
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:32
+msgid "Tags"
+msgstr "Etichete"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:137
+msgid "Image"
+msgstr "Imagine"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:167
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:168
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:169
+msgid "View"
+msgstr "Vezi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:176
+msgid "Edit"
+msgstr "Editeaza"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:176
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:5
+msgid "Delete"
+msgstr "Sterge"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:205
+msgid "No Locations Showing for this Search of "
+msgstr "Nici o Locatie disponibila pentru Cautarea "
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:205
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:51
+msgid "Clear&nbsp;Results"
+msgstr "Sterge&nbsp;Rezultatele"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:205
+msgid "No Locations Currently in Database"
+msgstr "Nu exista Locatii in baza de date"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:206
+msgid "Add Locations"
+msgstr "Adauga Locatii"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:49
+msgid "Successful Update"
+msgstr "Update finalizat cu succes"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:55
+msgid "Select Your Location"
+msgstr "Selecteaza tara"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:61
+msgid "Select Map Language"
+msgstr "Selecteaza limba pentru harta"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:70
+msgid "API Key "
+msgstr "Cheie API"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "API Key"
+msgstr "Cheie API"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "Google Maps API V3 actually doesn't require an API Key, however, if needed (it appears that high usage requires a key)"
+msgstr "Google Maps API V3 nu necesita de fapt o cheie API, totusi, daca este necesar (ise pare ca utilizarea intensa necesita o cheie)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "get your key here"
+msgstr "obtineti o cheie aici"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "Designer"
+msgstr "Designer"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:143
+msgid "Normal + Terrain (Physical)"
+msgstr "Harta + Teren (Relief)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:144
+msgid "Satellite"
+msgstr "Satelit"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:145
+msgid "Satellite + Labels (Hybrid)"
+msgstr "Satelit + Denumiri (Hibrid)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:152
+msgid "You have switched from <strong>'wordpress-store-locator-location-finder'</strong> to <strong>'store-locator'</strong> --- great!<br>Now, please re-select your <b>'Home Icon'</b> and <b>'Destination Icon'</b> below, so that they show up properly on your store locator map."
+msgstr "Ati schimbat de la <strong>'wordpress-store-locator-location-finder'</strong> la <strong>'store-locator'</strong> --- super!<br>Acum, te rog sa reselectezi mai jos optiunea ta pentru <b>'Icon Acasa'</b> si <b>'Icon Destinatie'</b>, pentru a fi afisate corect pe harta cu locatiile."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:155
+msgid "Defaults"
+msgstr "Setari Implicite"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:157
+msgid "Default Map Type"
+msgstr "Tip Implicit Harta"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:159
+msgid "Number of Locations in Results"
+msgstr "Numarul de Locatii in Rezultate"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:160
+msgid "Recommended Max: 50"
+msgstr "Recomandat Maxim: 50"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:162
+msgid "Show Map Inset Box"
+msgstr "Afiseaza Fereastra de selectie Tip Harta"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:163
+msgid "Try to Auto-Locate User"
+msgstr "Incearca sa Auto-Localizezi Utilizatorul"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:164
+msgid "Auto-Load Locations"
+msgstr "Incarca Automat Locatiile"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:164
+msgid "with Results Listing"
+msgstr "cu afisare Rezultate "
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:164
+msgid "<h2 style='margin-top:0px'>Search Results Listing By Default</h2>Determine whether or not both the map icons and the results listing show when loading locations by default. <br><Br>No results listings are shown even if this is checked, but 'Auto-Load Locations' is unchecked"
+msgstr "<h2 style='margin-top:0px'>Lista Rezultate Cautare afisata implicit</h2>Optiune pentru a afisa icon-urile si lista cu rezultatele cautarii, cand ai setat ca lista cu locatii sa se incarce in mod implicit (daca optiunea nu e bifata se vor afisa doar icon-urile de pe harta). <br><Br>Atentie: daca ai bifat aici, dar nu ai bifat si 'Incarca Automat Locatiile', nici o locatie nu va fi afisata."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:171
+msgid "Allow User Search By Name of Location?"
+msgstr "Permiti cautarea dupa Denumirea locatiei?"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:177
+msgid "Labels"
+msgstr "Denumiri campuri de cautare"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:179
+msgid "Address Input Label"
+msgstr "denumire camp Adresa"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:180
+msgid "Radius Dropdown Label"
+msgstr "dropdown Raza de cautare"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:181
+msgid "Website URL Label"
+msgstr "denumire Website URL"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:182
+msgid "Directions URL Label"
+msgstr "denumire URL Indicatii"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:187
+msgid "Instruction Message to Users"
+msgstr "Mesaj cu Instructiuni pentru Utilizator"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:192
+msgid "Location Doesn't Exist Message"
+msgstr "Mesaj pentru Locatia nu Exista"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:194
+msgid "No Results Are Found Message"
+msgstr "Mesaj pentru Nu s-a gasit nici un Rezultat"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:199
+msgid "Dimensions"
+msgstr "Dimensiuni"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:200
+msgid "Zoom Level"
+msgstr "Nivel Zoom"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:202
+msgid "Map Dimensions (H x W)"
+msgstr "Dimensiuni Harta (I x L)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:204
+msgid "Map Width"
+msgstr "Latime Harta"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:206
+msgid "Radii Options"
+msgstr "Raza cautare"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:207
+msgid "Km"
+msgstr "Km"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:208
+msgid "Miles"
+msgstr "Mile"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:214
+msgid "Parentheses '( )' are for the default radius</span>"
+msgstr "Parantezele '( )' sunt pentru raza implicita de cautare</span>"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:215
+msgid "Distance Unit"
+msgstr "Unitate masura distanta"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:218
+msgid "Design"
+msgstr "Design"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:221
+msgid "Choose Theme"
+msgstr "Alege Tema"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:221
+msgid "No Theme Selected"
+msgstr "Nici o Tema selectata"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:221
+msgid "Get&nbsp;Themes"
+msgstr "Gaseste&nbsp;Teme"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:222
+msgid "Remove Credits"
+msgstr "Inlatura link modul"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:224
+msgid "Home Icon"
+msgstr "Icon Acasa"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:224
+msgid "Click icon to change"
+msgstr "Click pe icon pentru a-l modifica"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:224
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:225
+msgid "Choose"
+msgstr "Alege"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:225
+msgid "Destination Icon"
+msgstr "Icon Destinatie"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:229
+msgid "For more unique icons, visit"
+msgstr "Pentru mai multe icon-uri, viziteaza"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/news-upgrades.php:9
+msgid "<b>Note:</b> Your directory is <b>'wordpress-store-locator-location-finder'</b>. Please rename to <b>'store-locator'</b> to continue receiving notifications of future updates in your admin panel. After changing to <b>'store-locator'</b>, make sure to also update your icon URLs on the 'Map Designer' page."
+msgstr "<b>Nota:</b> Folderul tau este <b>'wordpress-store-locator-location-finder'</b>. Redenumeste-l in <b>'store-locator'</b> pentru a primi in continuare notificari despre update-uri in panoul de administrare. Dupa modificarea denumirii in <b>'store-locator'</b>, updateaza URL-urile pentru icon-uri in 'Map Designer'."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/news-upgrades.php:21
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:110
+msgid "Latest News"
+msgstr "Ultimele Noutati"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/news-upgrades.php:69
+msgid "For Your Information"
+msgstr "Informatie pentru tine"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/news-upgrades.php:142
+msgid "Addons & Themes"
+msgstr "Addon-uri & Teme"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:5
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:32
+msgid "You sure"
+msgstr "Sigur"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:32
+msgid "Add Tag"
+msgstr "Adauga Eticheta"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:32
+msgid "Remove Tag"
+msgstr "Sterge Eticheta"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/module-keys.php:30
+msgid "Key"
+msgstr "Cheie"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/module-keys.php:46
+msgid "Looking for more addons & themes"
+msgstr "Vrei mai multe addon-uri & teme"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/module-keys.php:46
+msgid "They're all right here"
+msgstr "Le gasesti aici"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:51
+msgid "for your search of"
+msgstr "pentru cautarea"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:58
+msgid "Results"
+msgstr "Rezultate"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:60
+msgid "total"
+msgstr "total"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:71
+msgid "Previous"
+msgstr "Precedentele"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:80
+msgid "Next"
+msgstr "Urmatoarele"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:7
+msgid "Manage"
+msgstr "Gestioneaza"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:8
+msgid "Add"
+msgstr "Adauga"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:104
+msgid "Dashboard"
+msgstr "Panou Modul"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:108
+msgid "Rate Us"
+msgstr "Voteaza-ne"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:109
+msgid "Information & ReadMe Instructions"
+msgstr "Informatii & Instructiuni utilizare"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:111
+msgid "Activation Keys"
+msgstr "Chei de Activare"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/via-latest.php:26
+msgid "Latest about Store Locator for WordPress"
+msgstr "Ultimele noutati despre Store Locator for WordPress"
+

@@ -1,0 +1,489 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajax BootModal Login v1.2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-28 22:29+0330\n"
+"PO-Revision-Date: 2014-09-28 22:29+0330\n"
+"Last-Translator: Alimir <info@alimir.ir>\n"
+"Language-Team: \n"
+"Language: es_UY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ alimir
+#: alimir-bootmodal-login.php:23 inc/functions.php:5 inc/widget.php:27
+msgid "Login"
+msgstr "Login"
+
+# @ alimir
+#: alimir-bootmodal-login.php:24 inc/functions.php:11 tmp/user-profile.php:37
+msgid "Profile"
+msgstr "Perfil"
+
+# @ alimir
+#: inc/authenticate.php:48 inc/authenticate.php:81 inc/authenticate.php:126
+msgid ""
+"<p class=\"alert alert-info\" data-alert=\"alert\">Please fill all the "
+"fields.</p>"
+msgstr ""
+"<p class=\"alert alert-info\" data-alert=\"alert\">Por favor completar todos "
+"los campos.</p>"
+
+# @ alimir
+#: inc/authenticate.php:51 inc/authenticate.php:84 inc/authenticate.php:129
+msgid ""
+"<p class=\"alert alert-error\" data-alert=\"alert\">captcha invalid.</p>"
+msgstr ""
+"<p class=\"alert alert-error\" data-alert=\"alert\">captcha invalido.</p>"
+
+# @ alimir
+#: inc/authenticate.php:58
+msgid ""
+"<p class=\"alert alert-error\" data-alert=\"alert\"><strong>ERROR</strong>: "
+"Wrong username or password.</p>"
+msgstr ""
+"<p class=\"alert alert-error\" data-alert=\"alert\"><strong>ERROR</strong>: "
+"Usuario o contraseña incorrectos.</p>"
+
+# @ alimir
+#: inc/authenticate.php:62
+msgid ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Login successful, "
+"redirecting...</p>"
+msgstr ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Inicio de sesión "
+"exitoso, redireccionando...</p>"
+
+# @ alimir
+#: inc/authenticate.php:104
+msgid ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Registration complete. "
+"Please check your e-mail.</p>"
+msgstr ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Registro completo. Por "
+"favor chequee su e-mail.</p>"
+
+# @ alimir
+#: inc/authenticate.php:156
+msgid ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Password Reset. Please "
+"check your email.</p>"
+msgstr ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Contraseña "
+"reestablecida. Por favor chequee su e-mail.</p>"
+
+# @ alimir
+#: inc/authenticate.php:171
+msgid "Please enter a username or e-mail address."
+msgstr "Por favor ingrese un usuario y dirección de e-mail."
+
+# @ alimir
+#: inc/authenticate.php:175
+msgid "There is no user registered with that email address."
+msgstr "No hay ningún usuario registrado con este e-mail."
+
+# @ alimir
+#: inc/authenticate.php:185
+msgid "Invalid username or e-mail."
+msgstr "Usuario o e-mail inválidos."
+
+# @ alimir
+#: inc/authenticate.php:197
+msgid "Password reset is not allowed for this user"
+msgstr "El usuario no tiene permitido re establecer la contraseña."
+
+# @ alimir
+#: inc/authenticate.php:210
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+"Alguien solicitó que la contraseña de este usuario fuera re establecida:"
+
+# @ default
+#: inc/authenticate.php:212
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+# @ alimir
+#: inc/authenticate.php:213
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Si fue un error, simplemente ignore este e-mail y no sucederá nada."
+
+# @ alimir
+#: inc/authenticate.php:214
+msgid "To reset your password, visit the following address:"
+msgstr "Para re establecer la contraseña, visite la siguiente dirección:"
+
+# @ alimir
+#: inc/authenticate.php:216
+msgid "powered by < http://wordpress.org/plugins/ajax-bootmodal-login >"
+msgstr "creado por < http://wordpress.org/plugins/ajax-bootmodal-login >"
+
+# @ alimir
+#: inc/authenticate.php:217
+msgid "Ali Mizraei < http://alimir.ir >"
+msgstr ""
+
+# @ default
+#: inc/authenticate.php:225
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+# @ alimir
+#: inc/authenticate.php:230
+msgid ""
+"The e-mail could not be sent.<br />Possible reason: your host may have "
+"disabled the mail() function."
+msgstr ""
+"El e-mail no se pudo enviar.<br />Posiblemente no esta habilitada la función "
+"de mail() en el servidor."
+
+# @ alimir
+#: inc/functions.php:68 inc/functions.php:82
+msgid "Username"
+msgstr "Usuario"
+
+# @ alimir
+#: inc/functions.php:70 inc/functions.php:84
+msgid "Password"
+msgstr "Contraseña"
+
+# @ alimir
+#: inc/functions.php:72 inc/functions.php:86
+msgid "E-mail"
+msgstr "E-mail"
+
+# @ alimir
+#: inc/functions.php:74 inc/functions.php:88
+msgid "Username or Email"
+msgstr "Usuario o Email"
+
+# @ alimir
+#: inc/functions.php:76 inc/functions.php:90
+msgid "Captcha"
+msgstr "Captcha"
+
+# @ alimir
+#: inc/settings.php:5
+msgid "BootModal Login Settings"
+msgstr "BootModal Opciones de Login"
+
+# @ alimir
+#: inc/settings.php:32
+msgid "Alimir Ajax BootModal Login"
+msgstr ""
+
+# @ alimir
+#: inc/settings.php:38
+msgid ""
+"Using <code>[Alimir_BootModal_Login]</code> shortcode, to display ajax "
+"bootmodal login."
+msgstr ""
+"Usar el shortcode: <code>[Alimir_BootModal_Login]</code> para mostrar el "
+"ajax bootmodal login."
+
+# @ alimir
+#: inc/settings.php:41
+msgid "Non-use BootStrap modules"
+msgstr "No usar modulos de Bootstrap"
+
+# @ alimir
+#: inc/settings.php:44
+msgid "If your theme support bootstrap, Check this option."
+msgstr "Si su theme soporta bootstrap, chequee esta opción"
+
+# @ alimir
+#: inc/settings.php:49
+msgid "Do you use from bootstrap +3?"
+msgstr "¿Tiene bootstrap +3?"
+
+# @ alimir
+#: inc/settings.php:52
+msgid "If you use from bootstrap +3 in your theme, Check this option."
+msgstr "Si usa bootstrap +3 en su theme, chequee esta opción."
+
+#: inc/settings.php:57
+msgid "Theme"
+msgstr ""
+
+#: inc/settings.php:63
+msgid "Select your favorite Theme for modal box."
+msgstr ""
+
+# @ alimir
+#: inc/settings.php:68
+msgid "Deactivate User Panel"
+msgstr "Desactivar Panel de Usuario"
+
+# @ alimir
+#: inc/settings.php:71
+msgid "This option disables user modal profile button."
+msgstr "Esta opción deshabilita el boton profile del usuario"
+
+# @ alimir
+#: inc/settings.php:76
+msgid "disable user registration?"
+msgstr "Deshabilitar el registro de usuario"
+
+# @ alimir
+#: inc/settings.php:79
+msgid "This option disables user registration form."
+msgstr "Deshabilitar el formulario de registro"
+
+#: inc/settings.php:84
+msgid "Label Setting"
+msgstr ""
+
+#: inc/settings.php:89
+msgid "Select Your favorite Setting: Placeholder/Lable"
+msgstr ""
+
+# @ alimir
+#: inc/settings.php:95
+msgid "Login Button Text"
+msgstr "Texto del botón Login"
+
+# @ alimir
+#: inc/settings.php:100
+msgid "Profile Button Text"
+msgstr "Texto del botón Profile"
+
+# @ alimir
+#: inc/settings.php:105
+msgid "Enable login captcha"
+msgstr "Habilitar captcha para el login"
+
+# @ alimir
+#: inc/settings.php:108
+msgid "This option enables captcha on login form."
+msgstr "Habilitar captcha en el formulario de login"
+
+# @ alimir
+#: inc/settings.php:113
+msgid "Enable register captcha"
+msgstr "Habilitar captcha para registro de usuario"
+
+# @ alimir
+#: inc/settings.php:116
+msgid "This option enables captcha on registration form."
+msgstr "Habilitar captcha en el formulario de registro"
+
+# @ alimir
+#: inc/settings.php:121
+msgid "Enable lostpass captcha"
+msgstr "Habilitar captcha para pérdida de contraseña"
+
+# @ alimir
+#: inc/settings.php:124
+msgid "This option enables captcha on lostpass form."
+msgstr "Habilitar captcha para formulario de pérdida de contraseña"
+
+# @ alimir
+#: inc/settings.php:129
+msgid "Captcha Font"
+msgstr ""
+
+#: inc/settings.php:139
+msgid "Select your favorite Captcha font."
+msgstr ""
+
+# @ alimir
+#: inc/settings.php:144
+msgid "Default buttons"
+msgstr "Botones por defecto"
+
+# @ alimir
+#: inc/settings.php:153
+msgid "choose your button style."
+msgstr "elija el estilo de los botones"
+
+# @ alimir
+#: inc/settings.php:159
+msgid "Button sizes"
+msgstr "Tamaño de botones"
+
+# @ alimir
+#: inc/settings.php:165
+msgid "choose your button size."
+msgstr "elija el tamaño de los botones"
+
+# @ alimir
+#: inc/settings.php:171
+msgid "login redirect URL"
+msgstr "re direccionamiento después del login"
+
+# @ alimir
+#: inc/settings.php:176
+msgid "Registration redirect URL"
+msgstr "Re direccionamiento después del registro de usuario"
+
+# @ alimir
+#: inc/settings.php:183
+msgid "Like this plugin?"
+msgstr "¿Te gusta este plugin?"
+
+# @ alimir
+#: inc/settings.php:186
+msgid ""
+"Show your support by Rating 5 Star in <a href=\"http://wordpress.org/plugins/"
+"ajax-bootmodal-login\"> Plugin Directory reviews</a>"
+msgstr ""
+"Mostrá tu apoyo puntuando con 5 estrellas en <a href=\"http://wordpress.org/"
+"plugins/ajax-bootmodal-login\"> Directorio de  Plugins</a>"
+
+# @ alimir
+#: inc/settings.php:187
+msgid ""
+"Follow me on <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>"
+msgstr ""
+"Seguime en <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>"
+
+# @ alimir
+#: inc/settings.php:188
+msgid ""
+"Plugin Author Blog: <a href=\"http://alimir.ir\"> Wordpress & Programming "
+"World.</a>"
+msgstr ""
+"Blog del autor del plugin: <a href=\"http://alimir.ir\"> Wordpress & "
+"Programming World.</a>"
+
+# @ alimir
+#: inc/widget.php:8
+msgid "Ajax BootModal Login"
+msgstr ""
+
+# @ alimir
+#: inc/widget.php:9
+msgid ""
+"Ajax BootModal Login is a WordPress plugin that is powered by bootstrap and "
+"ajax for better login, registration or lost password."
+msgstr ""
+"Ajax BootModal Login es un plugin de WordPress que esta creado con bootstrap "
+"y ajax para un mejor login, registro o pérdida de contraseña."
+
+# @ default
+#: inc/widget.php:31
+msgid "Title:"
+msgstr ""
+
+# @ alimir
+#: tmp/login-form.php:4
+msgid "User Login"
+msgstr "Login de Usuario"
+
+# @ alimir
+#: tmp/login-form.php:15 tmp/lostpass-form.php:14 tmp/registrer-form.php:15
+msgid "Click to refresh captcha"
+msgstr "Click para actualizar captcha"
+
+# @ alimir
+#: tmp/login-form.php:19
+msgid "Remember Me"
+msgstr "Recordarme"
+
+# @ alimir
+#: tmp/login-form.php:22
+msgid "Not registered?"
+msgstr "Registrarse"
+
+# @ alimir
+#: tmp/login-form.php:24
+msgid "Lost your password?"
+msgstr "Re establecer contraseña"
+
+# @ alimir
+#: tmp/login-form.php:28 tmp/lostpass-form.php:21 tmp/registrer-form.php:23
+msgid "loading..."
+msgstr "cargando..."
+
+# @ alimir
+#: tmp/login-form.php:28 tmp/lostpass-form.php:21 tmp/registrer-form.php:23
+msgid "Submit"
+msgstr "Ingresar"
+
+# @ alimir
+#: tmp/lostpass-form.php:4
+msgid "User LostPassword"
+msgstr "Pérdida de contraseña"
+
+# @ default
+#: tmp/lostpass-form.php:7
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+# @ alimir
+#: tmp/lostpass-form.php:17
+msgid "Log in"
+msgstr "Login"
+
+# @ alimir
+#: tmp/registrer-form.php:4
+msgid "User Registration"
+msgstr "Registro de Usuario"
+
+# @ alimir
+#: tmp/registrer-form.php:18
+msgid "Already registered? Login"
+msgstr "Login"
+
+# @ alimir
+#: tmp/registrer-form.php:19
+msgid "A password will be emailed to you."
+msgstr "Una contraseña será enviada a su e-mail."
+
+# @ alimir
+#: tmp/user-profile.php:8
+msgid "Welcome Dear"
+msgstr "Bienvenido"
+
+# @ alimir
+#: tmp/user-profile.php:16
+msgid "User Name:"
+msgstr "Usuario:"
+
+# @ alimir
+#: tmp/user-profile.php:17
+msgid "User ID:"
+msgstr "ID del Usuario:"
+
+# @ alimir
+#: tmp/user-profile.php:18
+msgid "Display Name:"
+msgstr "Nombre:"
+
+# @ alimir
+#: tmp/user-profile.php:19
+msgid "E-mail:"
+msgstr "E-mail:"
+
+# @ alimir
+#: tmp/inc/recent-comments.php:1
+msgid "Recent Comments"
+msgstr "Ultimos Comentarios"
+
+# @ alimir
+#: tmp/inc/recent-comments.php:21
+msgid "You have not made any comment."
+msgstr "No hiciste ningún comentario."
+
+# @ alimir
+#: tmp/inc/recent-Viewed.php:1
+msgid "Recently Viewed Posts"
+msgstr "Ultimos Post Visitados"
+
+# @ alimir
+#: tmp/inc/recent-Viewed.php:13
+msgid "You have not viewed any posts recently."
+msgstr "No visitaste ningún post últimamente."

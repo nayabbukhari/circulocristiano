@@ -1,0 +1,57 @@
+# Copyright (C) 2013 Select Language At Signup
+# This file is distributed under the same license as the Select Language At Signup package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Select Language At Signup 1.0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/signup-language\n"
+"POT-Creation-Date: 2013-10-15 07:57:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: signup-language.php:61
+msgid ""
+"The <strong>Select Language At Signup</strong> plugin is only compatible "
+"with WordPress Multisite."
+msgstr ""
+
+#: signup-language.php:80
+msgid "Select a language"
+msgstr ""
+
+#: signup-language.php:106
+msgid "Language not allowed"
+msgstr ""
+
+#: signup-language.php:155
+msgid ""
+"Please install the latest version of <a href=\"http://premium.wpmudev.org/"
+"project/update-notifications/\" title=\"Download Now &raquo;\">our free "
+"Update Notifications plugin</a> which helps you stay up-to-date with the "
+"most stable, secure versions of WPMU DEV themes and plugins. <a href="
+"\"http://premium.wpmudev.org/wpmu-dev/update-notifications-plugin-"
+"information/\">More information &raquo;</a>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Select Language At Signup"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://premium.wpmudev.org/project/select-language-at-signup"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allows new users to select the language they use at signup"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "S H Mohanjith (Incsub), Andrew Billits (Incsub)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://premium.wpmudev.org"
+msgstr ""

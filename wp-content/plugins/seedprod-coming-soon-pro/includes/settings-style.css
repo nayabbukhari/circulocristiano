@@ -1,0 +1,8 @@
+/* Hide unneeded slideshow fields */
+#seed_cspv4-bg_slideshow_images .slide-title, #seed_cspv4-bg_slideshow_images .large-text{
+	display:none !important;
+}
+
+#seed_cspv4-bg_slideshow_images .slide-title{
+	display: inline-block;
+}

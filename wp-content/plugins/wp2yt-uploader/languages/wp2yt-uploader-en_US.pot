@@ -1,0 +1,569 @@
+# Copyright (C) 2015 YouTube for WordPress
+# This file is distributed under the same license as the YouTube for WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YouTube for WordPress 2.0.4.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/wp2yt-uploader\n"
+"POT-Creation-Date: 2015-03-25 14:17:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/class.youtube-for-wordpress.php:262
+msgid ""
+"You have been using <strong>YouTube for WordPress</strong> for 2 weeks now. "
+"We hope you're enjoying the power and all the features packed into the free "
+"version.  If so, please leave us a review, we'd love to hear what you have "
+"to say. <br /><br /> <a href='%s' target='_blank' class='button-"
+"secondary'>Leave A Review</a> <a href='%s?utm_source=yt4wp-2week-"
+"notice&utm_medium=button&utm_campaign=yt4wp-2week-notice' target='_blank' "
+"class='button-secondary'>Fill Out Our User Feedback Survey</a> <a href='%s' "
+"class='button-secondary'>Dismiss</a>"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:607
+msgid "Need Help?"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:608
+msgid "Get Support!"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:616
+msgid "Enjoying the plugin?"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:617
+msgid "Leave us a review"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:1331
+#: classes/class.youtube-for-wordpress.php:1775
+#: classes/class.youtube-for-wordpress.php:1878
+#: classes/class.youtube-for-wordpress.php:1971
+#: classes/class.youtube-for-wordpress.php:2527
+#: classes/class.youtube-for-wordpress.php:2893
+msgid "YouTube Access Token Has Expired - Please ReAuthenticate"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:1332
+#: classes/class.youtube-for-wordpress.php:1776
+#: classes/class.youtube-for-wordpress.php:1879
+#: classes/class.youtube-for-wordpress.php:1972
+#: classes/class.youtube-for-wordpress.php:2528
+#: classes/class.youtube-for-wordpress.php:2894
+#: inc/youtube_subscriptions.php:92
+#: lib/google_api_wrapper_clientid_clientsecret.php:110
+#: templates/browse_channel_videos.php:192
+#: templates/browse_subscription_videos.php:202
+msgid "You need to"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:1332
+#: classes/class.youtube-for-wordpress.php:1776
+#: classes/class.youtube-for-wordpress.php:1879
+#: classes/class.youtube-for-wordpress.php:1972
+#: classes/class.youtube-for-wordpress.php:2528
+#: classes/class.youtube-for-wordpress.php:2894
+#: inc/youtube_subscriptions.php:92
+#: lib/google_api_wrapper_clientid_clientsecret.php:110
+#: templates/browse_channel_videos.php:192
+#: templates/browse_subscription_videos.php:202
+msgid "authorize access"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:1332
+#: classes/class.youtube-for-wordpress.php:1776
+#: classes/class.youtube-for-wordpress.php:1879
+#: classes/class.youtube-for-wordpress.php:1972
+#: classes/class.youtube-for-wordpress.php:2528
+#: classes/class.youtube-for-wordpress.php:2894
+#: inc/youtube_subscriptions.php:92
+#: lib/google_api_wrapper_clientid_clientsecret.php:110
+#: templates/browse_channel_videos.php:192
+#: templates/browse_subscription_videos.php:202
+msgid "before proceeding."
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:4661
+#: classes/class.youtube-for-wordpress.php:4663
+msgid "YouTube for WP"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:4664 inc/upload_content.php:201
+msgid "Settings"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:4665 pages/addons.php:37
+msgid "Add Ons"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:4666 inc/upload_content.php:207
+msgid "Support"
+msgstr ""
+
+#: classes/class.youtube-for-wordpress.php:4668
+msgid "Welcome"
+msgstr ""
+
+#: inc/upload_content.php:97
+msgid "Successfuly authenticated. Redirecting you now..."
+msgstr ""
+
+#: inc/upload_content.php:192 templates/admin/welcome.php:31
+msgid "Welcome to YouTube for WordPress"
+msgstr ""
+
+#: inc/upload_content.php:196
+msgid "It looks like you need to set things up before you can connect "
+msgstr ""
+
+#: inc/upload_content.php:196
+msgid " with your YouTube account."
+msgstr ""
+
+#: inc/upload_content.php:204
+msgid "Documentation"
+msgstr ""
+
+#: inc/upload_content.php:211
+msgid ""
+"if this is your first time using the plugin, it's recommended you watch our "
+msgstr ""
+
+#: inc/upload_content.php:211
+msgid "video walkthrough"
+msgstr ""
+
+#: inc/upload_content.php:211
+msgid " on properly setting everything up."
+msgstr ""
+
+#: inc/upload_content.php:220
+msgid ""
+"You need to authorize access using your Google account before you can "
+"continue"
+msgstr ""
+
+#: inc/upload_content.php:224
+msgid "Authorize Now"
+msgstr ""
+
+#: inc/youtube_subscriptions.php:91
+#: lib/google_api_wrapper_clientid_clientsecret.php:109
+#: templates/browse_channel_videos.php:191
+#: templates/browse_subscription_videos.php:201
+#: templates/yt4wp-rss-feed-widget.php:156
+msgid "Access Token Has Expired - Please ReAuthenticate"
+msgstr ""
+
+#: pages/addons.php:33
+msgid "YouTube for WordPress - Add Ons"
+msgstr ""
+
+#: pages/addons.php:38
+msgid "Themes (coming soon)"
+msgstr ""
+
+#: pages/addons.php:42
+msgid ""
+"Purchase premium add ons to extend the functionality of what YouTube for "
+"WordPress can do out of the box."
+msgstr ""
+
+#: pages/addons.php:114 templates/admin/support.php:63
+msgid ""
+"Interested in release dates? Follow along with the <a href=\"%s\">release "
+"cycle</a>."
+msgstr ""
+
+#: pages/options.php:48 pages/options.php:82
+msgid "Options saved successfully."
+msgstr ""
+
+#: pages/options.php:52 pages/options.php:86
+msgid "No changes have been made."
+msgstr ""
+
+#: pages/options.php:102
+msgid ""
+"Are you sure you want to reset YouTube for WordPress back to default? This "
+"cannot be undone."
+msgstr ""
+
+#: pages/options.php:119
+msgid "YouTube for WordPress settings have successfully been reset"
+msgstr ""
+
+#: pages/options.php:143
+msgid ""
+"Are you sure you want to revoke permissions? This cannot be undone and you "
+"will need to re-authenticate to regain access."
+msgstr ""
+
+#: pages/options.php:161
+msgid ""
+"YouTube for WordPress permissions have successfully been revoked. You can "
+"now re-authenticate."
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (YouTube for WordPress 2.0.4.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: pages/options.php:312 pages/yt4wp_main.php:24
+msgid "YouTube for WordPress"
+msgstr ""
+
+#: pages/options.php:317
+msgid "YouTube Settings"
+msgstr ""
+
+#: pages/options.php:318 pages/options.php:509
+msgid "Debug Settings"
+msgstr ""
+
+#: pages/options.php:319 pages/options.php:617
+msgid "Support License"
+msgstr ""
+
+#: pages/options.php:329
+msgid "YouTube for WordPress Settings"
+msgstr ""
+
+#: pages/options.php:335
+msgid "WordPress Version Number Error"
+msgstr ""
+
+#: pages/options.php:336
+msgid ""
+"We're sorry, but it looks like your using an outdated version of WordPress. "
+"You won't be able to access the tinyMCE button to insert forms into pages "
+"and posts unless you update to 3.9 or later."
+msgstr ""
+
+#: pages/options.php:346
+msgid "LocalHost Detected :"
+msgstr ""
+
+#: pages/options.php:347
+msgid "It looks like your using YouTube for WordPress on localhost."
+msgstr ""
+
+#: pages/options.php:348
+msgid ""
+"You will want to setup a <strong>global API key</strong> and set your "
+"<strong>redirect URI</strong> as "
+msgstr ""
+
+#: pages/options.php:356
+msgid "Outdated Version of PHP :"
+msgstr ""
+
+#: pages/options.php:357
+msgid ""
+"It looks like your site is running an outdated version of PHP. YouTube for "
+"WordPress requires a minimum of PHP 5.3."
+msgstr ""
+
+#: pages/options.php:358
+msgid "Your site is currently running PHP v."
+msgstr ""
+
+#: pages/options.php:367
+msgid "Setup Guide"
+msgstr ""
+
+#: pages/options.php:368
+msgid "Google Developer Console"
+msgstr ""
+
+#: pages/options.php:373
+msgid "Google OAUTH2 Client ID"
+msgstr ""
+
+#: pages/options.php:379
+msgid "Google OAUTH2 Client Secret"
+msgstr ""
+
+#: pages/options.php:387
+msgid "Please enter your Google OAUTH2 Keys above."
+msgstr ""
+
+#: pages/options.php:392
+msgid "Google Public API Key"
+msgstr ""
+
+#: pages/options.php:400
+msgid "Please enter your Google API Key above."
+msgstr ""
+
+#: pages/options.php:408
+msgid "Select Your Region"
+msgstr ""
+
+#: pages/options.php:416
+msgid ""
+"Your region will determine some data returned from the API. For example, "
+"when searching, YouTube will return videos from your country first."
+msgstr ""
+
+#: pages/options.php:422
+msgid "Note : Use Wordlwide if you are in the United States."
+msgstr ""
+
+#: pages/options.php:427
+msgid "Select Your Language"
+msgstr ""
+
+#: pages/options.php:435
+msgid ""
+"This will determine the language of some data returned from the YouTube API "
+"(ie: category names)."
+msgstr ""
+
+#: pages/options.php:443
+msgid "YouTube Player Style"
+msgstr ""
+
+#: pages/options.php:446
+msgid "YouTube Default"
+msgstr ""
+
+#: pages/options.php:447
+msgid "Media Element Player"
+msgstr ""
+
+#: pages/options.php:455
+msgid "Select your video style above."
+msgstr ""
+
+#: pages/options.php:460
+msgid "Display Video Statistics"
+msgstr ""
+
+#: pages/options.php:463
+msgid "Enable Video Stats"
+msgstr ""
+
+#: pages/options.php:464
+msgid "Disable Video Stats"
+msgstr ""
+
+#: pages/options.php:472
+msgid ""
+"Select if you would like the video statistics to be displayed below videos. "
+"Video stats include view count, dislikes, likes and favorites."
+msgstr ""
+
+#: pages/options.php:473
+msgid ""
+"Note : including stats will significantly increase page load times in the "
+"dashboard."
+msgstr ""
+
+#: pages/options.php:478
+msgid "Background Updates"
+msgstr ""
+
+#: pages/options.php:480
+msgid "Yes, keep YouTube for WordPress up to date at all times."
+msgstr ""
+
+#: pages/options.php:480
+msgid "No, I will keep YouTube for WordPress up to date myself."
+msgstr ""
+
+#: pages/options.php:487
+msgid ""
+"Enable this setting if you would like <strong>YouTube for WordPress</strong> "
+"to be automatically updated. This will ensure you always have the most up to "
+"date version of the plugin."
+msgstr ""
+
+#: pages/options.php:517
+msgid "Plugin Information"
+msgstr ""
+
+#: pages/options.php:520
+msgid "If you experience any issues with YouTube for WordPress, please "
+msgstr ""
+
+#: pages/options.php:520
+msgid "submit a new ticket"
+msgstr ""
+
+#: pages/options.php:520
+msgid "with the YouTube for WordPress support team"
+msgstr ""
+
+#: pages/options.php:520
+msgid ""
+"You will need to be a support license holder to receive any level of "
+"support. Please include the information below and any eror messages or error "
+"numbers to help us troubleshoot your problem."
+msgstr ""
+
+#: pages/options.php:525
+msgid "Plugin Version"
+msgstr ""
+
+#: pages/options.php:529
+msgid "Wordpress Version"
+msgstr ""
+
+#: pages/options.php:542
+msgid "PHP Version"
+msgstr ""
+
+#: pages/options.php:554
+msgid "Browser Information"
+msgstr ""
+
+#: pages/options.php:566
+msgid "Error Log"
+msgstr ""
+
+#: pages/options.php:566
+msgid "clear log"
+msgstr ""
+
+#: pages/options.php:577
+msgid "Error Message"
+msgstr ""
+
+#: pages/options.php:578
+msgid "Error Number"
+msgstr ""
+
+#: pages/options.php:579
+msgid "Time"
+msgstr ""
+
+#: pages/options.php:596
+msgid "no errors logged"
+msgstr ""
+
+#: pages/options.php:625
+msgid "Support License Key"
+msgstr ""
+
+#: pages/options.php:633
+msgid ""
+"The license key is used for access to automatic upgrades and support. Please "
+"see the"
+msgstr ""
+
+#: pages/options.php:633
+msgid "support"
+msgstr ""
+
+#: pages/options.php:633
+msgid "page for further details about purchasing a support license."
+msgstr ""
+
+#: pages/yt4wp_main.php:59 pages/yt4wp_main.php:172
+msgid "Upload"
+msgstr ""
+
+#: pages/yt4wp_main.php:60 pages/yt4wp_main.php:173
+msgid "Browse"
+msgstr ""
+
+#: pages/yt4wp_main.php:61 pages/yt4wp_main.php:174
+msgid "Search"
+msgstr ""
+
+#: pages/yt4wp_main.php:62 pages/yt4wp_main.php:175
+msgid "Subscriptions"
+msgstr ""
+
+#: templates/admin/support.php:23
+msgid "YouTube for WordPress - Support"
+msgstr ""
+
+#: templates/admin/support.php:32
+msgid ""
+"Thank you for installing and trying out YouTube for WordPress. Free users "
+"receive limited support. Please consider purchasing a support license to "
+"access our support ticketing system."
+msgstr ""
+
+#: templates/admin/support.php:36
+msgid ""
+"If you're running into issues, please reach out for support. We're working "
+"to make this plugin better, so your inqueries and comments are invaluable."
+msgstr ""
+
+#: templates/admin/welcome.php:35
+msgid ""
+"Thank you for updating to the latest version! YouTube for WordPress v%s is "
+"ready to make integration with YouTube, safer and easier! Check out some of "
+"the newest features below."
+msgstr ""
+
+#: templates/yt4wp-rss-feed-widget.php:17
+msgid "YouTube for WordPress : RSS Feed"
+msgstr ""
+
+#: templates/yt4wp-rss-feed-widget.php:20
+msgid "Display latest content from a YouTube user or channel."
+msgstr ""
+
+#: templates/yt4wp-rss-feed-widget.php:367
+msgid " from "
+msgstr ""
+
+#: templates/yt4wp-rss-feed-widget.php:463
+msgid "Sign Up For Our Newsletter"
+msgstr ""
+
+#: templates/yt4wp-rss-feed-widget.php:470
+msgid "Sign Me Up"
+msgstr ""
+
+#: templates/yt4wp-rss-feed-widget.php:479
+msgid "Widget Title :"
+msgstr ""
+
+#: templates/yt4wp-rss-feed-widget.php:485
+msgid "Select Feed :"
+msgstr ""
+
+#: templates/yt4wp-rss-feed-widget.php:491
+msgid "Feed Limit :"
+msgstr ""
+
+#: templates/yt4wp-rss-feed-widget.php:502
+msgid "Feed To Display :"
+msgstr ""
+
+#: templates/yt4wp-rss-feed-widget.php:513
+msgid "Randomize Feed? :"
+msgstr ""
+
+#: templates/yt4wp-upload-widget.php:13
+msgid "YouTube Plus : User Upload Widget"
+msgstr ""
+
+#: templates/yt4wp-upload-widget.php:16
+msgid "Allow visitors to upload content from a simple sidebar widget."
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (YouTube for WordPress 2.0.4.3)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (YouTube for WordPress 2.0.4.3)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.yt4wp.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Upload videos, browse your account, and insert them in to posts without "
+"having to leave your blog! Now built with YouTube API v3 and lots of love"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YouTubeforWordPress, Evan Herman"
+msgstr ""

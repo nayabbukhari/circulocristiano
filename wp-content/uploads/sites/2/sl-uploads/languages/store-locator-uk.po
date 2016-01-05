@@ -1,0 +1,905 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: store_locator\n"
+"POT-Creation-Date: 2015-06-16 04:39-0500\n"
+"PO-Revision-Date: 2015-07-15 06:15-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk_UA\n"
+"X-Poedit-SearchPath-0: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-"
+"content/plugins/store-locator.3.0\n"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-define.php:19
+msgid "Manage Locations"
+msgstr "Управляти точками"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:528
+msgid "Update(s) currently available for Store Locator"
+msgstr "Доступні оновлення для поточної версії Store Locator"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:557
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:597
+msgid "is available, you are using"
+msgstr "доступно, ви користуєтесь"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:563
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:105
+msgid "You will now be updating to Store Locator"
+msgstr "Зараз ви оновите Store Locator"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:563
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:105
+msgid "click OK or Confirm to continue"
+msgstr "Натисніть ОК або Підтвердити для продовження"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:563
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:105
+msgid "Update to"
+msgstr "Оновити до"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:604
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1437
+msgid "Store Locator"
+msgstr "Store Locator"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:605
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1446
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1449
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:3
+msgid "News & Upgrades"
+msgstr "Новини та оновлення"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:606
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1457
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1460
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:31
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:6
+msgid "Locations"
+msgstr "Локації"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:607
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:40
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:11
+msgid "MapDesigner"
+msgstr "MapDesigner"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:730
+msgid "You haven't activated this upgrade yet"
+msgstr "Ви ще не активували це оновлення"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:732
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/module-keys.php:47
+msgid "Activate"
+msgstr "Активувати"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:734
+msgid "Go to pull-out Dashboard, and activate under 'Activation Keys' section."
+msgstr "Перейти до висувної панелі, і активувати в розділі 'Ключі активації'."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:875
+msgid "Love it! I've made my site more user-friendly with"
+msgstr "Супер! Я зробив мій сайт більш зручним для користувачів з"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:876
+msgid "Great! I can now easily display my locations using"
+msgstr "Класс! Тепер я можу легко відображати мої локації за допомогою"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:879
+msgid ""
+"<b>Like the Store Locator? Help guide others' decisions:</b><br><a href='#' "
+"class='star_button'>Give my review now</a> -- 1 sentence is "
+"plenty<br><br><b>Any problems? View:</b><br><a href='http://docs.viadat."
+"com/' target='_blank'>Documentation</a> / <a href='http://www.viadat.com/"
+"contact/' target='_blank'>Contact us</a>"
+msgstr ""
+"<b>Подобається Store Locator? Допоможи іншим прийняти правильне рішення:</"
+"b><br><a href='#' class='star_button'>Напишіть зараз відгук</a> -- 1 речення "
+"вже достатньо<br><br><b>Виникли проблеми? Огляд:</b><br><a href='http://docs."
+"viadat.com/' target='_blank'>Документація</a> / <a href='http://www.viadat."
+"com/contact/' target='_blank'>Зв'язатися з нами</a>"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:881
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:149
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:169
+msgid "My Views"
+msgstr "Мої відгуки"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:882
+msgid "Buttons to Spread the Word!"
+msgstr "Поділитися зі світом!"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:886
+msgid ""
+"<b>Liking this? Help guide others' decisions:</b>&nbsp;<a href='#' "
+"class='star_button'>Give my review now</a><br><b>Any problems? View:</"
+"b>&nbsp;<a href='http://docs.viadat.com/' target='_blank'>Documentation</"
+"a> / <a href='http://www.viadat.com/contact/' target='_blank'>Contact us</a>"
+msgstr ""
+"<b>Подобається ? Допоможи іншим прийняти правильне рішення:</b>&nbsp;<a "
+"href='#' class='star_button'>Напишіть зараз відгук</a><br><b>Виникли "
+"проблеми? Огляд:</b>&nbsp;<a href='http://docs.viadat.com/' "
+"target='_blank'>Документація</a> / <a href='http://www.viadat.com/contact/' "
+"target='_blank'>Зв'язатися з нами</a>"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:893
+msgid "Done!  I've tweeted about / rated it"
+msgstr "Готово! Я твітнув про/оцінив це"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:894
+msgid "Don't show this message again"
+msgstr "Не показувати повідомлення знову"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1148
+msgid "Type&nbsp;Address"
+msgstr "Написати&nbsp;адресу"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1152
+msgid "The General Address Format"
+msgstr "Загальний формат адреси"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1152
+msgid "show/hide"
+msgstr "показати/сховати"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1153
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1157
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1241
+msgid "Name of Location"
+msgstr "Назва локації"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1154
+msgid "Address (Street - Line1)"
+msgstr "Адреса (вулиця - 1 строка)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1155
+msgid "Address (Street - Line2 - optional)"
+msgstr "Адреса (вулиця - 2 строка - опційне)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1156
+msgid "City, State Zip"
+msgstr "Місто, індекс"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1158
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1242
+msgid "Address"
+msgstr "Адреса"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1158
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1242
+msgid "Street - Line1"
+msgstr "Вулиця - 1 строка"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1159
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1243
+msgid "Street - Line 2 - optional"
+msgstr "вулиця - 2 строка - опційне"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1160
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1244
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:119
+msgid "City"
+msgstr "Місто"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1161
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1245
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:120
+msgid "State"
+msgstr "Штат"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1162
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1246
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:121
+msgid "Zip"
+msgstr "Індекс"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1164
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1256
+msgid "Additional Information"
+msgstr "Додаткова інформація"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1165
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1257
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:125
+msgid "Description"
+msgstr "Опис"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1166
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1258
+msgid "Tags (seperate with commas)"
+msgstr "Теги (відокремлені комами)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1167
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1259
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:126
+msgid "URL"
+msgstr "URL - адреса"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1168
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1260
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:127
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:136
+msgid "Hours"
+msgstr "часи"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1169
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1261
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:128
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:138
+msgid "Phone"
+msgstr "телефон"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1170
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1262
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:129
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:140
+msgid "Fax"
+msgstr "Факс"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1171
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1263
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:130
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:142
+msgid "Email"
+msgstr "Email"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1172
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1264
+msgid "Image URL (shown with location)"
+msgstr "URL зображення (показується з локацією)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1177
+msgid "Add Location"
+msgstr "Додати локацію"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1254
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:38
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:41
+msgid "Update"
+msgstr "Оновити"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1254
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1322
+msgid "table of contents"
+msgstr "Зміст"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1326
+msgid "Table of Contents"
+msgstr "Зміст"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1468
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1471
+msgid "Settings"
+msgstr "Налаштування"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1524
+msgid ""
+"Note: Clicking this button should update permissions, however, if it doesn"
+"\\'t, you may need to update permissions by using an FTP program.  Click "
+"&quot;OK&quot; or &quot;Confirm&quot; to continue ..."
+msgstr ""
+"Примітка: При натисненні мають оновитися дозволи, тим не менш, якщо це не "
+"відбудеться, ви маєте оновити дозволи за допомогою FTP програми. Натисніть "
+"&quot;OK&quot; або &quot;Підтвердити&quot; щоб продовжити..."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1528
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:35
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:75
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:96
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:114
+msgid "Important Note"
+msgstr "Важлива примітка"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1528
+msgid ""
+"Some of your folders / files may need updating to the proper permissions "
+"(folders: 755 / files: 644), otherwise, all functionality may not work as "
+"intended.  View folders / files below"
+msgstr ""
+"Деякі з ваших папок / файлів, можливо, потребують оновлення до відповідних "
+"дозволів (папки: 755 / файлів: 644), в іншому випадку, всі функції можуть не "
+"працювати коректно. Продивіться папки / файли нижче"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1528
+msgid "display / hide list of folders & files"
+msgstr "відображати/сховати список папок та файлів"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1529
+msgid "Hide This Notice Permanently"
+msgstr "Сховати цю примітки назавжди"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1532
+msgid "Folders"
+msgstr "Папки"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1532
+msgid "Update Checked Folders' Permissions"
+msgstr "Оновити дозволи відмічених папок"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1539
+msgid "Files"
+msgstr "Файли"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1539
+msgid "Update Checked Files' Permissions"
+msgstr "Оновити дозволи відмічених файлів"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1707
+msgid "Address "
+msgstr "Адреса"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1709
+msgid "Received status "
+msgstr "Отриманий статус"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/add-locations.php:19
+msgid "Successful Addition"
+msgstr "Успішне додавання"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/add-locations.php:21
+msgid "Unsucessful addition due to security check failure"
+msgstr "Безуспішне додавання через відмову реєстрації безпеки"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:47
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:49
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:87
+msgid "Normal"
+msgstr "Звичайний"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:47
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:49
+msgid "Expanded"
+msgstr "Розширений"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:53
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:55
+msgid "Tagging"
+msgstr "Маркування"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:53
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:55
+msgid "Multiple Fields"
+msgstr "Множинні поля"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:106
+msgid "Actions"
+msgstr "Дії"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:107
+msgid "ID"
+msgstr "ідентифікатор"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:116
+msgid "Name"
+msgstr "Назва"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:117
+msgid "Street"
+msgstr "Вулиця "
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:118
+msgid "Street2"
+msgstr "Вулиця 2"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:122
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:34
+msgid "Tags"
+msgstr "Теги"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:131
+msgid "Image"
+msgstr "Зображення"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:161
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:162
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:163
+msgid "View"
+msgstr "Перегляд"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:170
+msgid "Edit"
+msgstr "Редагувати"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:170
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:5
+msgid "Delete"
+msgstr "Видалити"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:213
+msgid "No Locations Showing for this Search of "
+msgstr "Для цього пошуку локації не знайдені"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:213
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:51
+msgid "Clear&nbsp;Results"
+msgstr "Очистити&nbsp;результати"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:213
+msgid "No Locations Currently in Database"
+msgstr "На зараз немає розташувань в базі даних"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:214
+msgid "Add Locations"
+msgstr "Додати локації"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:19
+msgid "Successful Update"
+msgstr "Успішне оновлення"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:24
+msgid "Select Your Location"
+msgstr "Вибрати вашу локацію"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:30
+msgid "Select Map Language"
+msgstr "Вибрати мову карти"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:40
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:41
+msgid "API Key"
+msgstr "API ключ"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:41
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:41
+msgid ""
+"Google Maps API V3 actually doesn't require an API Key, however, if needed "
+"(it appears that high usage requires a key)"
+msgstr ""
+"Google Maps API V3 в дійсності не вимагає API Key, тим не менш, якщо таке "
+"трапиться (таке може бути при частому користуванні)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:41
+msgid "get your key here"
+msgstr "тримайте ваш ключ тут"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:41
+msgid "Designer"
+msgstr "Designer"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:45
+msgid "Defaults"
+msgstr "За замовчуванням"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:73
+msgid "Labels"
+msgstr "Мітки"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:78
+msgid "Dimensions"
+msgstr "Розміри"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:83
+msgid "Design"
+msgstr "Дізайн"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/news-upgrades.php:9
+msgid ""
+"<b>Note:</b> Your directory is <b>'wordpress-store-locator-location-finder'</"
+"b>. Please rename to <b>'store-locator'</b> to continue receiving "
+"notifications of future updates in your admin panel. After changing to "
+"<b>'store-locator'</b>, make sure to also update your icon URLs on the 'Map "
+"Designer' page."
+msgstr ""
+"<b>Примітка: <b>Назва директорії <b> 'wordpress-store-locator-location-"
+"finder'</b>. Будь ласка перейменуйте її в <b>'store-locator'</b>щоб "
+"продовжити отримувати повідомлення про оновлення в панелі управління. Після "
+"перейменування директорії в <b>'store-locator'</b>, переконайтеся також в "
+"оновленні URL-адреси до іконок на сторінці 'Map Designer' ."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/news-upgrades.php:21
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:171
+msgid "Latest News"
+msgstr "Останні новини"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/news-upgrades.php:82
+msgid "Addons & Themes"
+msgstr "Додатки та Теми"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:15
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:38
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:78
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:117
+msgid "Hide Message"
+msgstr "Сховати повідомлення"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:19
+msgid "Addons Platform"
+msgstr "Платформа додатків"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:21
+msgid ""
+"Provides you with an addons management page for updating settings and "
+"activating each of your addons"
+msgstr ""
+"Вам пропонується сторінка управління додатками для оновлення налаштувань і "
+"активації кожного з ваших додатків"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:22
+msgid ""
+"Allows you to conveniently browse and install addons directly from this "
+"admin area from the Addons Marketplace to enhance your Store Locator's "
+"abilities"
+msgstr ""
+"Дозволяє зручно переглядати і встановлювати додатки прямо з цієї адмінки від "
+"Addons Marketplace для підвищення функціоналу вашого Store Locator"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:23
+msgid ""
+"Create multiple Store locators on different Pages or Posts on your website "
+"using the format: <div class='code sl_code'>[STORE-LOCATOR {tag_name}="
+"{tag_value}, ...] (One of the many addon features available)</div> "
+msgstr ""
+"Створює багато Store locators на різних сторінках та публікаціях на вашому "
+"сайті за допомогою формату:  <div class='code sl_code'>[STORE-LOCATOR "
+"{tag_name}={tag_value}, ...] (Одна с багатьох доступних функції додатків)</"
+"div> "
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:24
+msgid ""
+"Backwards-compatible with addons purchased before version 2.0, including the "
+"CSV Importer, DB Importer, & Multiple Field Updater"
+msgstr ""
+"Сумісне з додатками, купленими до версії 2.0, в тому числі CSV Importer, DB "
+"Importer, та Multiple Field Updater"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:25
+msgid ""
+"Learn more about G2 Addons that come with the purchase of the "
+"LotsOfLocales&trade; Addons Platform from the 'ReadMe Instructions' in the "
+"pull-out Dashboard"
+msgstr ""
+"Дізнайтеся більше про G2 додатки, які йдуть разом із покупкою "
+"LotsOfLocales&trade; Платформа додатків з 'Інструкції README ' в висувній  "
+"панелі"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:36
+msgid ""
+"It appears that you do not have <a href='http://us3.php.net/manual/en/book."
+"curl.php' target='_blank'>cURL</a> actively running on this website.  cURL "
+"or <a href='http://us3.php.net/manual/en/function.file-get-contents.php' "
+"target='_blank'>file_get_contents()</a> needs to be active in order to "
+"receive coordinates for locations, validate addons, and other important "
+"actions performed by Store Locator"
+msgstr ""
+"Виявилось, що у вас<a href='http://us3.php.net/manual/en/book.curl.php' "
+"target='_blank'>cURL</a> не активований на сайті.  cURL або <a href='http://"
+"us3.php.net/manual/en/function.file-get-contents.php' "
+"target='_blank'>file_get_contents()</a> має бути активований для отримання "
+"координатів для розташувань, для перевірки додатків та інших важливих дій в "
+"Store Locator"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:76
+msgid ""
+"You have the CSV Importer installed.  Due to a new directive added to PHP "
+"5.3.9 called 'max_input_vars', which restricts maximum array sizes to 1000 "
+"by default, you may need to update your 'php.ini' & '.htaccess' files to "
+"allow for larger imports (<b>Your current 'max_input_vars' value is"
+msgstr ""
+"У вас встановлений CSV Importer. Згідно з новою директивою PHP 5.3.9 з "
+"назвою  'max_input_vars', яка обмежує максимальний розмір масиву до 1000 за "
+"замовчуванням, ви маєте оновити ваші 'php.ini' & '.htaccess' файли, щоб мати "
+"змогу імпортувати більші розміри (<b> Ваше поточне 'max_input_vars' значення"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:76
+msgid "View instructions on making updates"
+msgstr "Переглянути інструкції щодо дій з оновленнями"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:97
+msgid "You have placed files in your 'addons' directory here"
+msgstr "Ви помістили файли в каталог ваших 'додатків' тут"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:97
+msgid ""
+"There should only be folders.  All addon-related files need to be inside of "
+"their proper addon folder in order to work with Store Locator"
+msgstr ""
+"Там повинні бути тільки папки. Всі файли, пов'язані з додатками, повинні "
+"бути всередині своїх відповідних папок для того, щоб функціонувати з Store "
+"Locator"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:97
+msgid "Correct"
+msgstr "Вірно"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:97
+msgid "Incorrect"
+msgstr "Невірно"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:97
+msgid "Files that need to be moved"
+msgstr "Файли, що треба перемістити"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:100
+msgid "Hide Message Permanently"
+msgstr "Сховати повідомлення назавжди"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/admin-notices.php:115
+msgid ""
+"It appears that you have a <b>.htaccess</b> file in your 'wp-content' "
+"directory here"
+msgstr ""
+"Виявилось, у вас <b>.htaccess</b> файл в вашому каталозі 'wp-content' тут"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:88
+msgid "Normal + Terrain (Physical)"
+msgstr "Звичайний +мсцевість (фізичний)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:89
+msgid "Satellite"
+msgstr "Супутник"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:90
+msgid "Satellite + Labels (Hybrid)"
+msgstr "Супутник + мітки (гібрид)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:97
+msgid ""
+"You have switched from <strong>'wordpress-store-locator-location-finder'</"
+"strong> to <strong>'store-locator'</strong> --- great!<br>Now, please re-"
+"select your <b>'Home Icon'</b> and <b>'Destination Icon'</b> below, so that "
+"they show up properly on your store locator map."
+msgstr ""
+"Ви перемикнули з <strong>'wordpress-store-locator-location-finder'</strong> "
+"до <strong>'store-locator'</strong> --- great!<br>Тепер, будь ласка, "
+"переоберіть<b>'Home Icon'</b> та <b>'Destination Icon'</b> внизу, щоб вони "
+"відображались правильно на ваші карті store locator ."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:101
+msgid "Default Map Type"
+msgstr "Тип карти за замовчуванням"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:103
+msgid "Locations in Results"
+msgstr "Локації в результатах"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:105
+msgid "JS & CSS Loading"
+msgstr "JS & CSS завантаження"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:105
+#, php-format
+msgid ""
+"<h2 style='margin-top:0px'>JavaScript & Cascading Style Sheets Loading</"
+"h2><b>Selective Loading:</b><br>Attempts to detect where Store Locator JS & "
+"CSS scripts are needed and only loads them on those necessary pages. "
+"<br><br><b>All Pages:</b><br>Loads JS & CSS scripts on every page of your "
+"website.<br><br><div class='sl_code code'><b>Note:</b>&nbsp;\"Selective "
+"Loading\" will work for 99% of sites, however, if you experience map loading "
+"issues or missing CSS styling on your Store Locator or addon-generated "
+"pages, choose the \"All Pages\" option.</div>"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:107
+msgid "Also Load On"
+msgstr "Також завантажте"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:107
+msgid "Home"
+msgstr "Додому"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:107
+msgid "Archives"
+msgstr "Архіви"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:109
+msgid "Search By City"
+msgstr "Пошук за містом"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:109
+msgid "Show Map Inset Box"
+msgstr "Показати поле для вводу карти"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:111
+msgid "Auto-Locate User"
+msgstr "Користувач з авто-локацією"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:111
+msgid "Auto-Load Locations"
+msgstr "Локації, що автоматично завантажуються"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:111
+msgid "Listing"
+msgstr "Список"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:111
+msgid ""
+"<h2 style='margin-top:0px'>Search Results Listing By Default</h2>Determine "
+"whether or not both the map icons and the results listing show when loading "
+"locations by default. <br><Br>No results listings are shown even if this is "
+"checked, but 'Auto-Load Locations' is unchecked"
+msgstr ""
+"<h2 style='margin-top:0px'>Пошук результатів за замовчуванням</h2>Визначити, "
+"показуються чи ні обидва іконки карти і результати списку при завантаженні "
+"місця локації за замовчуванням. <br><Br>Не показується список результатів, "
+"навіть, якщо стоїть відмітка, а  'Локації, що автоматично завантажуються' "
+"без відмітки."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:120
+msgid "Address Input"
+msgstr "Введення адреси"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:122
+msgid "Radius Dropdown"
+msgstr "Радіус випадаюче вікно"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:124
+msgid "Website URL"
+msgstr "URL - адреса веб-сайту"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:126
+msgid "Directions URL"
+msgstr "URL - адреса направлень"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:128
+msgid "Instruction to Users"
+msgstr "Інструкції для користувачів"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:130
+msgid "City Dropdown"
+msgstr "Місто випадаюче вікно"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:132
+msgid "Location Doesn't Exist"
+msgstr "Локація не існує"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:134
+msgid "No Results Are Found"
+msgstr "Жодного результату не знайдено"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:146
+msgid "Zoom Level"
+msgstr "Рівень приближення"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:148
+msgid "Map Dimensions (H x W)"
+msgstr "Розміри карти (В х Ш)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:151
+msgid "Km"
+msgstr "км"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:152
+msgid "Miles"
+msgstr "мілі"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:158
+msgid "Radii Options"
+msgstr "Опції Radii "
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:158
+msgid "in"
+msgstr "в"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:158
+msgid "Parentheses '( )' are for the default radius</span>"
+msgstr "Скобки  '( )' для радіусу за замовчуванням </span>"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:162
+msgid "Choose Theme"
+msgstr "Вибрати тему"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:162
+msgid "No Theme Selected"
+msgstr "Жодної теми не вибрано"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:162
+msgid "Get&nbsp;Themes"
+msgstr "Більше&nbsp;тем"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:164
+msgid "Remove Credits"
+msgstr "Видалити"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:166
+msgid "Choose"
+msgstr "Вибрати"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:166
+msgid "Home Icon"
+msgstr "Home Icon"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:166
+msgid "Destination Icon"
+msgstr "Destination Icon"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mapdesigner-options.php:168
+msgid "For more unique icons, visit"
+msgstr "Знайти більше унікальних іконок можна тут"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:5
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:34
+msgid "You sure"
+msgstr "Ви впевнені"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:34
+msgid "Add Tag"
+msgstr "Додати тег"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:34
+msgid "Remove Tag"
+msgstr "Видалити тег"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/module-keys.php:31
+msgid "Key"
+msgstr "Ключ"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/module-keys.php:47
+msgid "Looking for more addons & themes"
+msgstr "Більше додатків та тем"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/module-keys.php:47
+msgid "They're all right here"
+msgstr "Все добре тут"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:51
+msgid "for your search of"
+msgstr "з вашим пошуком"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:58
+msgid "Results"
+msgstr "результатів"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:60
+msgid "total"
+msgstr "всього"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:71
+msgid "Previous"
+msgstr "Попередній"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:80
+msgid "Next"
+msgstr "Наступний"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:7
+msgid "Manage"
+msgstr "Керувати"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:8
+msgid "Add"
+msgstr "Додати"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:138
+msgid "&apos; folder to &apos;"
+msgstr "&apos; папка до&apos;"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:143
+msgid "Store Locator Version"
+msgstr "Версія Store Locator"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:143
+msgid "and"
+msgstr "та"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:143
+msgid "PHP Version"
+msgstr "Версія PHP "
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:165
+msgid "Dashboard"
+msgstr "Приладова панель"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:170
+msgid "Information & ReadMe Instructions"
+msgstr "Інструкції з детальною інформації та ReadMe "
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:172
+msgid "Activation Keys"
+msgstr "Ключі активації"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/via-latest.php:26
+msgid "Latest about Store Locator for WordPress"
+msgstr "Останні новини про Store Locator для WordPress"

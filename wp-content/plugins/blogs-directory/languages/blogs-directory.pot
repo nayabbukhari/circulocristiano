@@ -1,0 +1,149 @@
+# Copyright (C) 2013 Blogs Directory
+# This file is distributed under the same license as the Blogs Directory package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blogs Directory 1.2.0.1\n"
+"Report-Msgid-Bugs-To: http://premium.wpmudev.org/\n"
+"POT-Creation-Date: 2013-10-23 20:24:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: blogs-directory.php:63
+msgid "Site Directory"
+msgstr ""
+
+#: blogs-directory.php:105
+msgid "Sites"
+msgstr ""
+
+#: blogs-directory.php:128
+msgid "Settings saved."
+msgstr ""
+
+#: blogs-directory.php:131
+msgid "Error: %s"
+msgstr ""
+
+#: blogs-directory.php:136
+msgid "Site Directory Settings"
+msgstr ""
+
+#: blogs-directory.php:141
+msgid "Sort By"
+msgstr ""
+
+#: blogs-directory.php:144
+msgid "Site Name (A-Z)"
+msgstr ""
+
+#: blogs-directory.php:145
+msgid "Newest"
+msgstr ""
+
+#: blogs-directory.php:146
+msgid "Last Updated"
+msgstr ""
+
+#: blogs-directory.php:151
+msgid "Listing Per Page"
+msgstr ""
+
+#: blogs-directory.php:168
+msgid "Hide Sites"
+msgstr ""
+
+#: blogs-directory.php:171
+msgid "Pro Site plugin"
+msgstr ""
+
+#: blogs-directory.php:172
+msgid "(Hide unpaid blogs.)"
+msgstr ""
+
+#: blogs-directory.php:175
+msgid "Private"
+msgstr ""
+
+#: blogs-directory.php:176
+msgid "(Hide blogs which block search engines.)"
+msgstr ""
+
+#: blogs-directory.php:180
+msgid "Title of Site page"
+msgstr ""
+
+#: blogs-directory.php:183 blogs-directory.php:196 blogs-directory.php:201
+#: blogs-directory.php:206
+msgid "Default"
+msgstr ""
+
+#: blogs-directory.php:187
+msgid "Display Description"
+msgstr ""
+
+#: blogs-directory.php:190
+msgid "Show the description for each site on Sites page"
+msgstr ""
+
+#: blogs-directory.php:194
+msgid "Background Color"
+msgstr ""
+
+#: blogs-directory.php:199
+msgid "Alternate Background Color"
+msgstr ""
+
+#: blogs-directory.php:204
+msgid "Border Color"
+msgstr ""
+
+#: blogs-directory.php:210
+msgid "Save Changes"
+msgstr ""
+
+#: blogs-directory.php:342 blogs-directory.php:344 blogs-directory.php:622
+msgid "Search"
+msgstr ""
+
+#: blogs-directory.php:592
+msgid "No results..."
+msgstr ""
+
+#: blogs-directory.php:602
+msgid "Invalid page."
+msgstr ""
+
+#: blogs-directory.php:659 blogs-directory.php:720
+msgid "Previous"
+msgstr ""
+
+#: blogs-directory.php:675 blogs-directory.php:735
+msgid "Next"
+msgstr ""
+
+#: blogs-directory.php:762
+msgid "Please install the latest version of <a href=\"http://premium.wpmudev.org/project/update-notifications/\" title=\"Download Now &raquo;\">our free Update Notifications plugin</a> which helps you stay up-to-date with the most stable, secure versions of WPMU DEV themes and plugins. <a href=\"http://premium.wpmudev.org/wpmu-dev/update-notifications-plugin-information/\">More information &raquo;</a>"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Blogs Directory"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://premium.wpmudev.org/project/blogs-directory"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin provides a paginated, fully search-able, avatar inclusive, automatic and rather good looking directory of all of the blogs on your WordPress Multisite or BuddyPress installation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ivan Shaovchev, Ulrich Sossou, Andrew Billits, Andrey Shipilov (Incsub), S H Mohanjith (Incsub)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://premium.wpmudev.org"
+msgstr ""

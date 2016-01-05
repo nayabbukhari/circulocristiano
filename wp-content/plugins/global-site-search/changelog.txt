@@ -1,0 +1,28 @@
+== 3.2.2 ==
+* Fixed .po files for translations
+
+== 3.2.1 ==
+* Corrected reported issue to stripslashes on search phrase in pager links
+
+== 3.2 ==
+
+* Implemented ability to override form and search result templates.
+* Fixed issue with search form submission issue when global site search is located at sub-site
+* Fixed search page auto creation issue
+
+== 3.1.0.1 ==
+
+* Fixed issue with loading wrong widgets script.
+
+== 3.1 ==
+
+* Implemented ability to select on which blog to show global site search.
+* Fixed content stripping issue for multi bite sites.
+
+== 3.0.3 ==
+
+* Removed shortcodes from search results.
+* Changed submit method from POST to GET for search form.
+
+
+147928-1450032940-ai

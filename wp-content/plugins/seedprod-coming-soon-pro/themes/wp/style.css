@@ -1,0 +1,9 @@
+#cspv4-content{
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+
+.seed-csp4 input[type=text]{
+border-color: #ddd;
+background-color:#FBFBFB;
+}

@@ -1,0 +1,1376 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SeedProd Coming Soon Pro v3.0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-07-25 15:32:10+0000\n"
+"Last-Translator: surbma <peter@surbma.hu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: framework/field-types/customaweberauth.php:11
+#@ seedprod
+msgid "Save"
+msgstr "Mentés"
+
+#: framework/field-types/customaweberlists.php:23
+#: framework/field-types/customcampaignmonitorclients.php:22
+#: framework/field-types/customcampaignmonitorlists.php:23
+#: framework/field-types/customconstantcontactlist.php:23
+#: framework/field-types/customgetresponse.php:23
+#: framework/field-types/custommailchimplist.php:23
+#@ seedprod
+msgid "Refresh List"
+msgstr "Lista frissítése"
+
+#: framework/field-types/customcontainereffects.php:21
+#@ seedprod
+msgid "Width"
+msgstr "Szélesség"
+
+#: framework/field-types/customcontainereffects.php:33
+#@ seedprod
+msgid "Color"
+msgstr "Szín"
+
+#: framework/field-types/customcontainereffects.php:46
+#@ seedprod
+msgid "Radius"
+msgstr "Sugár"
+
+#: framework/field-types/customemaillist.php:22
+#@ seedprod
+msgid "This option will bypass the builtin referral system, after form confirmation and social share buttons. Entires will on be available on FeedBurner."
+msgstr ""
+
+#: framework/field-types/customemaillist.php:23
+#@ seedprod
+msgid "Click \"Save Changes\" after selectiing this option to populate the forms. This option will bypass the builtin referral system, after form confirmation and social share buttons. Entires will on be available in Gravity Forms."
+msgstr ""
+
+#: framework/field-types/customsharebuttons.php:14
+#@ seedprod
+msgid "Optional Tweet Text"
+msgstr "Opcionális Tweet szöveg"
+
+#: framework/field-types/customsharebuttons.php:18
+#@ seedprod
+msgid "Image for Facebook Like. Optimal Size: 50px x 50px"
+msgstr "Kép használata Facebook tetszikhez. Optimális méret: 50 x 50 px"
+
+#: framework/field-types/customsharebuttons.php:19
+#: framework/field-types/customsharebuttons.php:30
+#: framework/field-types/upload.php:8
+#@ seedprod
+msgid "Media Image Library"
+msgstr "Médiatár"
+
+#: framework/field-types/customsharebuttons.php:29
+#@ seedprod
+msgid "Image for Pinterest"
+msgstr ""
+
+#: framework/field-types/customsocialfollow.php:32
+#@ seedprod
+msgid "Enter your social profile url's. Drag &amp; Drop the icons to reorder. Remember to save your changes."
+msgstr ""
+
+#: framework/field-types/date.php:8
+#: framework/field-types/daterange.php:8
+#@ seedprod
+msgid "01-Jan"
+msgstr "01-Jan"
+
+#: framework/field-types/date.php:9
+#: framework/field-types/daterange.php:9
+#@ seedprod
+msgid "02-Feb"
+msgstr "02-Feb"
+
+#: framework/field-types/date.php:10
+#: framework/field-types/daterange.php:10
+#@ seedprod
+msgid "03-Mar"
+msgstr "03-Már"
+
+#: framework/field-types/date.php:11
+#: framework/field-types/daterange.php:11
+#@ seedprod
+msgid "04-Apr"
+msgstr "04-Ápr"
+
+#: framework/field-types/date.php:12
+#: framework/field-types/daterange.php:12
+#@ seedprod
+msgid "05-May"
+msgstr "05-Máj"
+
+#: framework/field-types/date.php:13
+#: framework/field-types/daterange.php:13
+#@ seedprod
+msgid "06-Jun"
+msgstr "06-Jún"
+
+#: framework/field-types/date.php:14
+#: framework/field-types/daterange.php:14
+#@ seedprod
+msgid "07-Jul"
+msgstr "07-Júl"
+
+#: framework/field-types/date.php:15
+#: framework/field-types/daterange.php:15
+#@ seedprod
+msgid "08-Aug"
+msgstr "08-Aug"
+
+#: framework/field-types/date.php:16
+#: framework/field-types/daterange.php:16
+#@ seedprod
+msgid "09-Oct"
+msgstr "09-Szep"
+
+#: framework/field-types/date.php:17
+#: framework/field-types/daterange.php:17
+#@ seedprod
+msgid "10-Sep"
+msgstr "10-Okt"
+
+#: framework/field-types/date.php:18
+#: framework/field-types/daterange.php:18
+#@ seedprod
+msgid "11-Nov"
+msgstr "11-Nov"
+
+#: framework/field-types/date.php:19
+#: framework/field-types/daterange.php:19
+#@ seedprod
+msgid "12-Dec"
+msgstr "12-Dec"
+
+#: framework/field-types/date.php:29
+#: framework/field-types/daterange.php:29
+#: framework/field-types/daterange.php:42
+#@ seedprod
+msgid "day"
+msgstr "nap"
+
+#: framework/field-types/date.php:32
+#: framework/field-types/daterange.php:32
+#: framework/field-types/daterange.php:45
+#@ seedprod
+msgid "year"
+msgstr "év"
+
+#: framework/field-types/daterange.php:22
+#@ seedprod
+msgid "Start Date"
+msgstr "Kezdés dátuma"
+
+#: framework/field-types/daterange.php:35
+#@ seedprod
+msgid "End Date"
+msgstr "Befejezés dátuma"
+
+#: framework/framework.php:78
+#@ default
+msgid "Settings reset."
+msgstr ""
+
+#: framework/framework.php:233
+#@ seedprod
+msgid "&larr; Close Window"
+msgstr "&larr; Ablak bezárása"
+
+#: framework/framework.php:233
+#@ seedprod
+msgid "Live Preview"
+msgstr "Valós előnézet"
+
+#: framework/framework.php:234
+#@ seedprod
+msgid "Support"
+msgstr "Támogatás"
+
+#: framework/framework.php:287
+#: framework/framework.php:332
+#: framework/framework.php:549
+#@ seedprod
+msgid "Save All Changes"
+msgstr "Minden változtatás mentése"
+
+#: framework/framework.php:288
+#: framework/framework.php:333
+#@ seedprod
+msgid "Reset Settings"
+msgstr "Beállítások visszaállítása"
+
+#: framework/framework.php:351
+#@ seedprod
+msgid "This tabs settings be deleted and reset to the defaults. Are you sure you want to reset?"
+msgstr ""
+
+#: framework/validations/color.php:13
+#@ seedprod
+msgid "Please enter a valid color value."
+msgstr ""
+
+#: framework/validations/email.php:10
+#: framework/validations/escurlraw.php:11
+#: inc/config.php:599
+#@ seedprod
+msgid "Please enter a valid email."
+msgstr ""
+
+#: framework/validations/number.php:11
+#@ seedprod
+msgid "Please enter a valid number."
+msgstr ""
+
+#: framework/validations/required.php:10
+#@ seedprod
+msgid "is required."
+msgstr ""
+
+#: inc/class-plugin.php:212
+#@ seedprod
+msgid "Coming Soon Mode Active"
+msgstr "Hamarosan mód aktiválva"
+
+#: inc/class-plugin.php:214
+#@ seedprod
+msgid "Maintenance Mode Active"
+msgstr "Karbantartás mód aktiválva"
+
+#: inc/class-plugin.php:241
+#@ seedprod
+msgid "Are you sure you want to DELETE all subscribers?"
+msgstr "Biztosan TÖRLÖD az összes feliratkozót?"
+
+#: inc/class-plugin.php:242
+#@ seedprod
+msgid "Are you sure you want to IMPORT these settings? Current settings will be erased!"
+msgstr ""
+
+#: inc/class-plugin.php:339
+#: inc/class-plugin.php:381
+#@ seedprod
+msgid "No lists Found"
+msgstr "Nincs ilyen lista"
+
+#: inc/class-plugin.php:343
+#@ seedprod
+msgid "Unable to load MailChimp lists, check your API Key."
+msgstr "Nem lehet betölteni a MailChimp listát. Ellenőrizd az API kulcsot!"
+
+#: inc/class-plugin.php:432
+#@ seedprod
+msgid "Unable to load Constant Contact lists"
+msgstr ""
+
+#: inc/class-plugin.php:481
+#@ seedprod
+msgid "Unable to load Campaign Monitor lists"
+msgstr ""
+
+#: inc/class-plugin.php:525
+#@ seedprod
+msgid "Unable to load Campaign Monitor clients"
+msgstr ""
+
+#: inc/class-plugin.php:578
+#@ seedprod
+msgid "Unable to load Aweber lists"
+msgstr ""
+
+#: inc/class-plugin.php:695
+#: inc/class-plugin.php:701
+#@ seedprod
+msgid "New Email Subscriber"
+msgstr "Új Email feliratkozó"
+
+#: inc/class-plugin.php:1123
+#@ seedprod
+msgid "Do not display an Email SignUp"
+msgstr "Ne jelenítse meg az Email feliratkozó űrlapot"
+
+#: inc/class-plugin.php:1124
+#@ seedprod
+msgid "Database"
+msgstr "Adatbázis"
+
+#: inc/class-plugin.php:1125
+#@ seedprod
+msgid "FeedBurner"
+msgstr "FeedBurner"
+
+#: inc/class-plugin.php:1193
+#@ seedprod
+msgid "All subscribers deleted."
+msgstr "Minden feliratkozó törölve."
+
+#: inc/class-plugin.php:1303
+#@ seedprod
+msgid "Subscribed on: "
+msgstr "Feliratkozva:"
+
+#: inc/class-plugin.php:1332
+#: inc/config.php:1096
+#@ seedprod
+msgid "Subscribers"
+msgstr "Feliratkozók"
+
+#: inc/class-plugin.php:1333
+#@ seedprod
+msgid "Stats"
+msgstr "Statisztikák"
+
+#: inc/class-plugin.php:1334
+#@ seedprod
+msgid "Insights"
+msgstr ""
+
+#: inc/class-plugin.php:1366
+#@ seedprod
+msgid "Export All"
+msgstr "Összes exportálása"
+
+#: inc/class-plugin.php:1367
+#@ seedprod
+msgid "Delete All"
+msgstr "Összes törlése"
+
+#: inc/config.php:20
+#: seedprod-coming-soon-pro.php:27
+#@ seedprod
+msgid "Coming Soon Pro"
+msgstr "Coming Soon Pro"
+
+#: inc/config.php:31
+#@ seedprod
+msgid "Settings"
+msgstr "Beállítások"
+
+#: inc/config.php:42
+#@ seedprod
+msgid "General"
+msgstr "Általános"
+
+#: inc/config.php:48
+#@ seedprod
+msgid "Status"
+msgstr "Állapot"
+
+#: inc/config.php:50
+#@ seedprod
+msgid "Disabled"
+msgstr "Kikapcsolva"
+
+#: inc/config.php:51
+#@ seedprod
+msgid "Enable Coming Soon Mode"
+msgstr "Hamarosan mód bekapcsolása"
+
+#: inc/config.php:52
+#@ seedprod
+msgid "Enable Maintenance Mode"
+msgstr "Karbantartás mód bekapcsolása"
+
+#: inc/config.php:54
+#@ seedprod
+msgid "Coming Soon Mode will be available to search engines if your site is not private. Maintenance Mode will notify search engines that the site is unavailable."
+msgstr "A Hamarosan mód akkor elérhető a keresők számára, ha a honlap indexelése engedélyezve van. A Karbantartás mód arról értesíti a keresőket, hogy a honlap elérhetetlen."
+
+#: inc/config.php:63
+#@ seedprod
+msgid "API key"
+msgstr "API kulcs"
+
+#: inc/config.php:64
+#@ seedprod
+msgid "Enter your <a href='http://app.seedprod.com' target='_blank'>API Key</a> to receive automatic plugin updates."
+msgstr ""
+
+#: inc/config.php:72
+#@ seedprod
+msgid "Page Settings"
+msgstr "Oldal beállítások"
+
+#: inc/config.php:78
+#@ seedprod
+msgid "Logo"
+msgstr "Logó"
+
+#: inc/config.php:79
+#@ seedprod
+msgid "Upload a logo or teaser image (or) enter the url to your image."
+msgstr "Töltsd fel a logódat vagy add meg a logó kép elérési útvonalát."
+
+#: inc/config.php:86
+#@ seedprod
+msgid "Headline"
+msgstr "Címsor"
+
+#: inc/config.php:87
+#@ seedprod
+msgid "Enter a headline for your page. Replace the default headline if it exists."
+msgstr "Add meg az oldalad címsorát."
+
+#: inc/config.php:93
+#@ seedprod
+msgid "Description"
+msgstr "Leírás"
+
+#: inc/config.php:94
+#@ seedprod
+msgid "Tell the visitor what to expect from your site. Also supports WordPress shortcodes and <a href='http://codex.wordpress.org/Embeds' target='_target'>video embeds</a>."
+msgstr "Írd le a látogatóknak, hogy mire számíthatnak az oldaladon. A WordPress rövidkódok (shortcodes) és a <a href='http://codex.wordpress.org/Embeds' target='_target'>videó beágyazások</a> használata is lehetséges."
+
+#: inc/config.php:110
+#@ seedprod
+msgid "Form Settings"
+msgstr "Űrlap beállítások"
+
+#: inc/config.php:116
+#@ seedprod
+msgid "Save subscribers to:"
+msgstr "Feliratkozók mentése ide:"
+
+#: inc/config.php:124
+#@ seedprod
+msgid "Name Field"
+msgstr "Név mező"
+
+#: inc/config.php:125
+#@ seedprod
+msgid "Ask for the visitors name."
+msgstr "Bekéri a látogató nevét."
+
+#: inc/config.php:127
+#@ seedprod
+msgid "Display Name Field"
+msgstr "Név mező megjelenítése"
+
+#: inc/config.php:162
+#@ seedprod
+msgid "FeedBurner Settings"
+msgstr "FeedBurner beállítások"
+
+#: inc/config.php:168
+#@ seedprod
+msgid "Address"
+msgstr "Cím"
+
+#: inc/config.php:169
+#@ seedprod
+msgid "Enter your FeedBurner address."
+msgstr ""
+
+#: inc/config.php:175
+#@ seedprod
+msgid "Local"
+msgstr "Nyelv"
+
+#: inc/config.php:178
+#@ seedprod
+msgid "The language the FeedBurner form is displayed in. The default is English. <a href=\"http://support.google.com/feedburner/bin/answer.py?hl=en&answer=81423\">Learn more</a>."
+msgstr ""
+
+#: inc/config.php:185
+#@ seedprod
+msgid "Aweber Settings"
+msgstr "Aweber beállítások"
+
+#: inc/config.php:192
+#@ seedprod
+msgid "<a href=\"https://auth.aweber.com/1.0/oauth/authorize_app/a662998e\" target=\"_blank\">Authorize App</a> &larr; Click the link to get you Authorization Code."
+msgstr ""
+
+#: inc/config.php:198
+#@ seedprod
+msgid "Authorization Code"
+msgstr ""
+
+#: inc/config.php:199
+#@ seedprod
+msgid "Paste in the Authorization Code you received when authorizing the app and click <strong>Save</strong>."
+msgstr ""
+
+#: inc/config.php:205
+#: inc/config.php:233
+#: inc/config.php:262
+#: inc/config.php:319
+#@ seedprod
+msgid "List"
+msgstr "Lista"
+
+#: inc/config.php:213
+#@ seedprod
+msgid "Campaign Monitor Settings"
+msgstr "Campaign Monitor beállítások"
+
+#: inc/config.php:219
+#: inc/config.php:276
+#: inc/config.php:312
+#@ seedprod
+msgid "API Key"
+msgstr "API kulcs"
+
+#: inc/config.php:220
+#@ seedprod
+msgid "Get your <a target=\"_blank\" href=\"http://help.campaignmonitor.com/topic.aspx?t=206\">API key</a>"
+msgstr ""
+
+#: inc/config.php:226
+#@ seedprod
+msgid "Client"
+msgstr "Ügyfél"
+
+#: inc/config.php:242
+#@ seedprod
+msgid "Constant Contact Settings"
+msgstr "Constant Contact beállítások"
+
+#: inc/config.php:248
+#@ seedprod
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: inc/config.php:249
+#@ seedprod
+msgid "Enter your Constant Contact username."
+msgstr ""
+
+#: inc/config.php:255
+#@ seedprod
+msgid "Password"
+msgstr "Jelszó"
+
+#: inc/config.php:256
+#@ seedprod
+msgid "Enter your Constant Contact password."
+msgstr ""
+
+#: inc/config.php:270
+#@ seedprod
+msgid "GetResponse Settings"
+msgstr "GetResponse beállítások"
+
+#: inc/config.php:277
+#@ seedprod
+msgid "Enter your API Key. <a target=\"_blank\" href=\"https://app.getresponse.com/my_account.html\" target=\"_blank\">Get your API key</a>"
+msgstr ""
+
+#: inc/config.php:283
+#@ seedprod
+msgid "Campaign"
+msgstr "Kampány"
+
+#: inc/config.php:291
+#@ seedprod
+msgid "Gravity Forms Settings"
+msgstr "Gravity Forms beállítások"
+
+#: inc/config.php:297
+#@ seedprod
+msgid "Form"
+msgstr "Űrlap"
+
+#: inc/config.php:299
+#@ seedprod
+msgid "Select a form to display on your page."
+msgstr "Válaszd ki azt az űrlapot, amelyik megjelenik az oldalon!"
+
+#: inc/config.php:306
+#@ seedprod
+msgid "MailChimp Settings"
+msgstr "MailChimp beállítások"
+
+#: inc/config.php:313
+#@ seedprod
+msgid "Enter your API Key. <a target=\"_blank\" href=\"http://admin.mailchimp.com/account/api-key-popup\" target=\"_blank\">Get your API key</a>"
+msgstr ""
+
+#: inc/config.php:326
+#@ seedprod
+msgid "Enable Double Opt-In"
+msgstr "Dupla megerősítéses feliratkozás engedélyezése"
+
+#: inc/config.php:327
+#@ seedprod
+msgid "Learn  more about <a href=\"http://kb.mailchimp.com/article/how-does-confirmed-optin-or-double-optin-work\">Double Opt-In</a>"
+msgstr ""
+
+#: inc/config.php:329
+#: inc/config.php:371
+#: inc/config.php:388
+#: inc/config.php:673
+#: inc/config.php:863
+#: inc/config.php:1027
+#: inc/config.php:1038
+#: inc/config.php:1050
+#@ seedprod
+msgid "Yes"
+msgstr "Igen"
+
+#: inc/config.php:337
+#@ seedprod
+msgid "After Subscribe Settings"
+msgstr "Feliratkozás utáni beállítások"
+
+#: inc/config.php:343
+#@ seedprod
+msgid "Thank You or Incentive Message"
+msgstr "Köszönöm oldal szövege"
+
+#: inc/config.php:344
+#@ seedprod
+msgid "Leave a thank you or incentive information after the user has subscribed. This will override the default success message."
+msgstr ""
+
+#: inc/config.php:351
+#@ seedprod
+msgid "Share Buttons"
+msgstr "Megosztás gombok"
+
+#: inc/config.php:352
+#@ seedprod
+msgid "Select the checkboxes above to display Social Share Buttons after you capture an email."
+msgstr "Válaszd ki azokat a közösségi szolgáltatásokat, amiket meg szeretnél jeleníteni a feliratkozás után."
+
+#: inc/config.php:354
+#@ seedprod
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/config.php:355
+#@ seedprod
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/config.php:356
+#@ seedprod
+msgid "Google Plus"
+msgstr "Google Plusz"
+
+#: inc/config.php:357
+#@ seedprod
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/config.php:358
+#@ seedprod
+msgid "PinIt"
+msgstr "PinIt"
+
+#: inc/config.php:360
+#@ seedprod
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/config.php:368
+#@ seedprod
+msgid "Display Referrer Link"
+msgstr "Ajánló link megjelenítése"
+
+#: inc/config.php:369
+#@ seedprod
+msgid "The referrer link is a special link that you can encourage your subscribers to share so you track who referred who."
+msgstr "Az ajánló link egy speciális link, amivel ösztönözheted a feliratkozókat, hogy osszák meg az oldalad, így követni tudod, hogy ki ajánlott kit."
+
+#: inc/config.php:379
+#@ seedprod
+msgid "Progress Bar Settings"
+msgstr "Állapot jelző beállítások"
+
+#: inc/config.php:385
+#@ seedprod
+msgid "Enable Progress Bar"
+msgstr "Állapot jelző megjelenítése"
+
+#: inc/config.php:386
+#@ seedprod
+msgid "Displays a progress bar on your site."
+msgstr "Megjeleníti az állapot jelzőt az oldalon."
+
+#: inc/config.php:395
+#@ seedprod
+msgid "Start and End Date"
+msgstr "Kezdés és befejezés dátuma"
+
+#: inc/config.php:396
+#@ seedprod
+msgid "The percent complete will be automatically calculated if you enter a start and end date."
+msgstr "A százalékos kijelzés automatikusan lesz kiszámolva, ha megadod a kezdés és befejezés dátumát."
+
+#: inc/config.php:403
+#@ seedprod
+msgid "Percent Complete Override"
+msgstr "Százalékos állapot mutatása"
+
+#: inc/config.php:404
+#@ seedprod
+msgid "Enter the percentage complete without the percentage sign. This will override the date calculation above."
+msgstr "Add meg a százalékos állapotot a % jel nélkül. Ez az opció felülírja az automatikus dátum kalkuláció értékét."
+
+#: inc/config.php:411
+#@ seedprod
+msgid "Progress Bar Effect"
+msgstr "Állapot jelző típusa"
+
+#: inc/config.php:413
+#@ seedprod
+msgid "Basic"
+msgstr "Alap"
+
+#: inc/config.php:414
+#@ seedprod
+msgid "Striped"
+msgstr "Vonalas"
+
+#: inc/config.php:415
+#@ seedprod
+msgid "Animated"
+msgstr "Animált"
+
+#: inc/config.php:418
+#@ seedprod
+msgid "Striped and Animated are not supported in Internet Explorer"
+msgstr "A vonalas és az animált megjelenés nem működik az Internet Explorer böngészőben."
+
+#: inc/config.php:453
+#@ seedprod
+msgid "Header"
+msgstr "Fejléc meta elemek"
+
+#: inc/config.php:458
+#@ seedprod
+msgid "Favicon"
+msgstr "Favicon"
+
+#: inc/config.php:459
+#@ seedprod
+msgid "Favicons are displayed in a browser tab. Need Help <a href=\"http://tools.dynamicdrive.com/favicon/\" target=\"_blank\">creating a favicon</a>?"
+msgstr ""
+
+#: inc/config.php:465
+#@ seedprod
+msgid "SEO Title"
+msgstr "SEO címsor (title)"
+
+#: inc/config.php:466
+#@ seedprod
+msgid "If left empty the <a href=\"http://www.seomoz.org/learn-seo/title-tag\" target=\"_blank\">title tag</a> of your page will be: "
+msgstr "Ha üresen hasgyod, az oldal <a href=\"http://www.seomoz.org/learn-seo/title-tag\" target=\"_blank\">címsora</a> a következő lesz: "
+
+#: inc/config.php:472
+#@ seedprod
+msgid "SEO Meta Description"
+msgstr "SEO leírás (description)"
+
+#: inc/config.php:473
+#@ seedprod
+msgid "If left empty the <a href=\"http://www.seomoz.org/learn-seo/meta-description\" target=\"_blank\">meta description</a> of your page will be: "
+msgstr "Ha üresen hagyod, az oldal <a href=\"http://www.seomoz.org/learn-seo/meta-description\" target=\"_blank\">leírása</a> a következő lesz: "
+
+#: inc/config.php:481
+#@ seedprod
+msgid "Analytics Code"
+msgstr "Google Analitika követő kód"
+
+#: inc/config.php:482
+#@ seedprod
+msgid "Paste in your <a href=\"http://www.google.com/analytics/\" target=\"_blank\">Google Analytics</a> code. Example: UA-xxxxxxxxx"
+msgstr "Másold ide a <a href=\"http://www.google.com/analytics/\" target=\"_blank\">Google Analytics</a> követő kódot. Például: UA-xxxxxxxxx"
+
+#: inc/config.php:489
+#@ seedprod
+msgid "Footer Credit"
+msgstr "Lábléc referencia"
+
+#: inc/config.php:501
+#@ seedprod
+msgid "Credit Image"
+msgstr "Referencia kép"
+
+#: inc/config.php:502
+#@ seedprod
+msgid "Use an image to add a footer credit."
+msgstr "Használj egy képet a referencia használatához"
+
+#: inc/config.php:508
+#@ seedprod
+msgid "Link to be used for your footer credit."
+msgstr "Hivatkozás megadása a lábléc referenciához."
+
+#: inc/config.php:509
+#@ seedprod
+msgid "Credit Link"
+msgstr "Referencia link"
+
+#: inc/config.php:524
+#@ seedprod
+msgid "Social Media Profiles"
+msgstr "Közösségi oldal profilok"
+
+#: inc/config.php:530
+#@ seedprod
+msgid "Social Media Icons Size"
+msgstr "Közösségi oldalak ikon méretei"
+
+#: inc/config.php:532
+#@ seedprod
+msgid "Small 16px"
+msgstr "Kicsi 16px"
+
+#: inc/config.php:533
+#@ seedprod
+msgid "Medium 24px"
+msgstr "Közepes 24px"
+
+#: inc/config.php:534
+#@ seedprod
+msgid "Large 32px"
+msgstr "Nagy 32px"
+
+#: inc/config.php:543
+#@ seedprod
+msgid "Social Profiles"
+msgstr "Közösségi profilok"
+
+#: inc/config.php:550
+#@ seedprod
+msgid "Language Strings"
+msgstr "Nyelvi változók"
+
+#: inc/config.php:556
+#@ seedprod
+msgid "Subscribe Button"
+msgstr "Feliratkozás gomb"
+
+#: inc/config.php:557
+#@ seedprod
+msgid "Notify Me"
+msgstr "Kérek értesítést"
+
+#: inc/config.php:563
+#@ seedprod
+msgid "Subscribe Field"
+msgstr "Feliratkozás mező"
+
+#: inc/config.php:564
+#@ seedprod
+msgid "Enter Your Email"
+msgstr "Email cím megadása"
+
+#: inc/config.php:570
+#@ seedprod
+msgid "First Name Field"
+msgstr "Családnév mező"
+
+#: inc/config.php:571
+#@ seedprod
+msgid "First Name"
+msgstr "Családnév"
+
+#: inc/config.php:577
+#@ seedprod
+msgid "Last Name Field"
+msgstr "Keresztnév mező"
+
+#: inc/config.php:578
+#@ seedprod
+msgid "Last Name"
+msgstr "Keresztnév"
+
+#: inc/config.php:584
+#@ seedprod
+msgid "Success"
+msgstr "Sikeres feliratkozás"
+
+#: inc/config.php:585
+#@ seedprod
+msgid "You'll be notified soon!"
+msgstr "Hamarosan értesítünk."
+
+#: inc/config.php:591
+#@ seedprod
+msgid "Already Subscribed"
+msgstr "Már feliratkoztál"
+
+#: inc/config.php:592
+#@ seedprod
+msgid "You're already subscribed."
+msgstr "Már feliratkoztál az értesítésre."
+
+#: inc/config.php:598
+#@ seedprod
+msgid "Invalid Email"
+msgstr "Érvénytelen Email cím"
+
+#: inc/config.php:605
+#@ seedprod
+msgid "API Error"
+msgstr "API hiba"
+
+#: inc/config.php:606
+#@ seedprod
+msgid "Error, please try again."
+msgstr "Hiba, kérlek próbálkozz újra!"
+
+#: inc/config.php:616
+#@ seedprod
+msgid "Design"
+msgstr "Megjelenés"
+
+#: inc/config.php:647
+#@ seedprod
+msgid "Background"
+msgstr "Háttér"
+
+#: inc/config.php:654
+#@ seedprod
+msgid "Background Color"
+msgstr "Háttér szín"
+
+#: inc/config.php:657
+#@ seedprod
+msgid "Choose between having a solid color background or uploading an image. By default images will cover the entire background."
+msgstr ""
+
+#: inc/config.php:664
+#@ seedprod
+msgid "Background Image"
+msgstr "Háttér kép"
+
+#: inc/config.php:670
+#@ seedprod
+msgid "Cover or Stretch"
+msgstr "Befedés vagy széthúzás"
+
+#: inc/config.php:671
+#@ seedprod
+msgid "Cover will scale the image to the smallest size such that both its width and its height can fit inside the content area. The image will be stretched for older browsers."
+msgstr "A befedés használatával a háttérkép tökéletesen kitölti a teljes képernyőt függetlenül a böngésző ablak méretétől. A kép szét lesz húzva a régi böngészőkben."
+
+#: inc/config.php:681
+#@ seedprod
+msgid "Background Repeat"
+msgstr "Háttér ismétlés"
+
+#: inc/config.php:683
+#@ seedprod
+msgid "No-Repeat"
+msgstr "Nincs ismétlés"
+
+#: inc/config.php:684
+#@ seedprod
+msgid "Tile"
+msgstr "Ismétlés minden irányban"
+
+#: inc/config.php:685
+#@ seedprod
+msgid "Tile Horizontally"
+msgstr "Ismétlés vízszintesen"
+
+#: inc/config.php:686
+#@ seedprod
+msgid "Tile Vertically"
+msgstr "Ismétlés függőlegesen"
+
+#: inc/config.php:694
+#@ seedprod
+msgid "Background Position"
+msgstr "Háttér helyzete"
+
+#: inc/config.php:696
+#@ seedprod
+msgid "Left Top"
+msgstr "Bal oldalon felül"
+
+#: inc/config.php:697
+#@ seedprod
+msgid "Left Center"
+msgstr "Bal oldalon középen"
+
+#: inc/config.php:698
+#@ seedprod
+msgid "Left Bottom"
+msgstr "Bal oldalon alul"
+
+#: inc/config.php:699
+#@ seedprod
+msgid "Right Top"
+msgstr "Jobb oldalon felül"
+
+#: inc/config.php:700
+#@ seedprod
+msgid "Right Center"
+msgstr "Jobb oldalon középen"
+
+#: inc/config.php:701
+#@ seedprod
+msgid "Right Bottom"
+msgstr "Jobb oldalon alul"
+
+#: inc/config.php:702
+#@ seedprod
+msgid "Center Top"
+msgstr "Középen felül"
+
+#: inc/config.php:703
+#@ seedprod
+msgid "Center Center"
+msgstr "Középen"
+
+#: inc/config.php:704
+#@ seedprod
+msgid "Center Bottom"
+msgstr "Középen alul"
+
+#: inc/config.php:711
+#@ seedprod
+msgid "Background Attachment"
+msgstr "Háttér viselkedése"
+
+#: inc/config.php:713
+#@ seedprod
+msgid "Fixed"
+msgstr "Rögzített"
+
+#: inc/config.php:714
+#@ seedprod
+msgid "Scroll"
+msgstr "Gördül"
+
+#: inc/config.php:721
+#@ seedprod
+msgid "Background Effects"
+msgstr "Háttér effekt"
+
+#: inc/config.php:723
+#@ seedprod
+msgid "None"
+msgstr "Nincs"
+
+#: inc/config.php:724
+#@ seedprod
+msgid "Noise"
+msgstr "Zajos"
+
+#: inc/config.php:726
+#@ seedprod
+msgid "Background effects can be applied to Background Colors or Background Images."
+msgstr ""
+
+#: inc/config.php:734
+#@ seedprod
+msgid "Text"
+msgstr "Szöveg"
+
+#: inc/config.php:740
+#@ seedprod
+msgid "Text Color"
+msgstr "Szöveg színe"
+
+#: inc/config.php:750
+#@ seedprod
+msgid "Link &amp; Button Color"
+msgstr "Link &amp; gomb színe"
+
+#: inc/config.php:758
+#@ seedprod
+msgid "Headline Color"
+msgstr "Címsor színe"
+
+#: inc/config.php:760
+#@ seedprod
+msgid "If no Headline Color is choosen then the Link &amp; Button Color will be used. "
+msgstr "Ha nem adsz meg színt a címsorhoz, akkor a link &amp; gomb szín lesz használva."
+
+#: inc/config.php:768
+#@ seedprod
+msgid "Text Font"
+msgstr "Szöveg betűtípusa"
+
+#: inc/config.php:789
+#@ seedprod
+msgid "Headline Font"
+msgstr "Címsor betűtípusa"
+
+#: inc/config.php:805
+#@ seedprod
+msgid "If you choose 'Inherit' as a headline font then the text font will be used."
+msgstr "Ha az 'örökölt' betűtípust választod a címsornak, akkor a szöveg betűtípusát fogja örökölni."
+
+#: inc/config.php:811
+#@ seedprod
+msgid "Button Font"
+msgstr "Gomb betűtípusa"
+
+#: inc/config.php:827
+#@ seedprod
+msgid "If you choose 'Inherit' as a button font then the headline font will be used."
+msgstr "Ha az 'örökölt' betűtípust választod a gombnak, akkor a címsor betűtípusát fogja örökölni."
+
+#: inc/config.php:834
+#@ seedprod
+msgid "Typekit Kit ID"
+msgstr "Typekit Kit ID"
+
+#: inc/config.php:835
+#@ seedprod
+msgid "Enter your <a href=\"https://typekit.com\" target=\"_blank\">Typekit</a> Kit ID. This will override the fonts above."
+msgstr ""
+
+#: inc/config.php:841
+#@ seedprod
+msgid "Text Effects"
+msgstr "Szöveg hatások"
+
+#: inc/config.php:843
+#@ seedprod
+msgid "Inset <small class=\"description\">: Adds a subtle inset shadow</small>"
+msgstr "Inset <small class=\"description\">: Egy halvány árnyékot ad hozzá</small>"
+
+#: inc/config.php:854
+#@ seedprod
+msgid "Container"
+msgstr "Doboz"
+
+#: inc/config.php:860
+#@ seedprod
+msgid "Enable Container"
+msgstr "Doboz megjelenítése"
+
+#: inc/config.php:861
+#@ seedprod
+msgid "A container is a wrapper that will encapsulate your coming soon content."
+msgstr "A doboz egy keret, ami körbeveszi a tartalmat az oldalon."
+
+#: inc/config.php:870
+#@ seedprod
+msgid "Container Color"
+msgstr "Doboz színe"
+
+#: inc/config.php:878
+#@ seedprod
+msgid "Container Position"
+msgstr "Doboz elhelyezkedése"
+
+#: inc/config.php:880
+#@ seedprod
+msgid "Left"
+msgstr "Bal oldalon"
+
+#: inc/config.php:881
+#@ seedprod
+msgid "Center"
+msgstr "Középen"
+
+#: inc/config.php:882
+#@ seedprod
+msgid "Right"
+msgstr "Jobb oldalon"
+
+#: inc/config.php:890
+#@ seedprod
+msgid "Container Effects"
+msgstr "Doboz hatások"
+
+#: inc/config.php:892
+#@ seedprod
+msgid "Fade In"
+msgstr "Előtűnés"
+
+#: inc/config.php:893
+#@ seedprod
+msgid "Drop Shadow"
+msgstr "Árnyék megjelenítése"
+
+#: inc/config.php:894
+#@ seedprod
+msgid "Glow"
+msgstr "Izzás"
+
+#: inc/config.php:895
+#@ seedprod
+msgid "Border"
+msgstr "Keret"
+
+#: inc/config.php:896
+#@ seedprod
+msgid "Rounded Corners"
+msgstr "Kerekített sarkok"
+
+#: inc/config.php:897
+#@ seedprod
+msgid "Opacity"
+msgstr "Áttetszőség"
+
+#: inc/config.php:899
+#@ seedprod
+msgid "These effects only work in modern browsers. Not sure what a <a target=\"_blank\" href=\"http://browsehappy.com/\">modern browser</a> is?"
+msgstr ""
+
+#: inc/config.php:920
+#@ seedprod
+msgid "Template"
+msgstr "Sablon"
+
+#: inc/config.php:928
+#@ seedprod
+msgid "Custom CSS"
+msgstr "Egyedi CSS"
+
+#: inc/config.php:929
+#@ seedprod
+msgid "Need to tweaks the styles? Add your custom CSS here."
+msgstr ""
+
+#: inc/config.php:936
+#@ seedprod
+msgid "Code"
+msgstr "Kód"
+
+#: inc/config.php:937
+#@ seedprod
+msgid "If you need to make some advanced changes to the template you can edit the code directly."
+msgstr ""
+
+#: inc/config.php:948
+#@ seedprod
+msgid "Advanced"
+msgstr "Haladó"
+
+#: inc/config.php:959
+#@ seedprod
+msgid "Access"
+msgstr "Elérés"
+
+#: inc/config.php:966
+#@ seedprod
+msgid "Client View URL"
+msgstr "Ügyfél elérési URL"
+
+#: inc/config.php:967
+#@ seedprod
+msgid "Give your client a secret url that will allow them to bypass the Coming Soon page. If they close their browser, they will need to revisit the client view url to regain access."
+msgstr "Megadhatsz az ügyfelednek egy titkos elérési címet, amivel kikerüli a Karbantartás oldalt. Ha bezárja a böngészőjét, utána újra meg kell látogatni ezt a címet, hogy megint láthassa az oldalt."
+
+#: inc/config.php:973
+#@ seedprod
+msgid "Access by IP"
+msgstr "Elérés IP cím alapján"
+
+#: inc/config.php:974
+#@ seedprod
+msgid "All visitors from certain IP's to bypass the Coming Soon page. Put each IP on it's own line."
+msgstr "A megadott IP címek kikerülik a Karbantartás oldalt. Minden IP címet külön sorba kell írni."
+
+#: inc/config.php:980
+#@ seedprod
+msgid "Exclude URL Pattern"
+msgstr "URL kivételek"
+
+#: inc/config.php:981
+#@ seedprod
+msgid "Exclude certain urls from displaying the Coming Soon page using <a href=\"http://en.wikipedia.org/wiki/Regex\" target=\"_blank\">regular expressions</a>. For example enter \"blog\" will exclude the url: http://example.org/blog/."
+msgstr "Megadhatsz bizonyos címeket, amikre nem jelenik meg a Karbantartás oldal az <a href=\"http://en.wikipedia.org/wiki/Regex\" target=\"_blank\">általános kifejezések</a> segítségével. Például a \"blog\" megadásával megjeleníthető a következő url: http://oldalad.hu/blog/."
+
+#: inc/config.php:1007
+#@ seedprod
+msgid "Scripts"
+msgstr "Kódolás"
+
+#: inc/config.php:1024
+#@ seedprod
+msgid "Enable Responsiveness"
+msgstr "Mobil kompatibilitás engedélyezése"
+
+#: inc/config.php:1025
+#@ seedprod
+msgid "Makes the page responsive."
+msgstr "Az oldal mobil kompatibilis lesz."
+
+#: inc/config.php:1035
+#@ seedprod
+msgid "Enable FitVid"
+msgstr "FitVid engedélyezése"
+
+#: inc/config.php:1036
+#@ seedprod
+msgid "Makes your videos responsive."
+msgstr "A videók megjelenítése mobil kompatibilis lesz."
+
+#: inc/config.php:1047
+#@ seedprod
+msgid "Enable wp_head &amp; wp_footer"
+msgstr "A wp_head &amp; wp_footer funkciók engedélyezése"
+
+#: inc/config.php:1048
+#@ seedprod
+msgid "The <a href=\"http://codex.wordpress.org/Plugin_API/Action_Reference/wp_head\" target=\"_blank\">wp_head</a> and <a href=\"http://codex.wordpress.org/Plugin_API/Action_Reference/wp_footer\" target=\"_blank\">wp_footer</a> functions are required by some plugins. If you are unsure do not enable it. These functions can cause styling issues with the page."
+msgstr "A <a href=\"http://codex.wordpress.org/Plugin_API/Action_Reference/wp_head\" target=\"_blank\">wp_head</a> és a <a href=\"http://codex.wordpress.org/Plugin_API/Action_Reference/wp_footer\" target=\"_blank\">wp_footer</a> funkciók használata némely bővítmények használatához elengedhetetlen. Ha nem vagy benne biztos, a legjobb, ha nem engedélyezed. Ezek a funkciók károsan befolyásolhatják az oldal megjelenítését."
+
+#: inc/config.php:1057
+#@ seedprod
+msgid "Header Scripts"
+msgstr "Fejléc kódok"
+
+#: inc/config.php:1058
+#@ seedprod
+msgid "Enter any custom scripts. You can enter Javascript or CSS. This will be rendered before the closing head tag."
+msgstr ""
+
+#: inc/config.php:1065
+#@ seedprod
+msgid "Footer Scripts"
+msgstr "Lábléc kódok"
+
+#: inc/config.php:1066
+#@ seedprod
+msgid "Enter any custom scripts. This will be rendered before the closing body tag."
+msgstr ""
+
+#: inc/config.php:1073
+#@ seedprod
+msgid "Import / Export"
+msgstr "Import / Export"
+
+#: inc/config.php:1079
+#@ seedprod
+msgid "Import"
+msgstr "Importálás"
+
+#: inc/config.php:1080
+#@ seedprod
+msgid "Paste settings form another Coming Soon Pro instance to import."
+msgstr ""
+
+#: inc/config.php:1086
+#@ seedprod
+msgid "Export"
+msgstr "Exportálás"
+
+#: inc/config.php:1087
+#@ seedprod
+msgid "Copy these settings and use the import them to another Coming Soon Pro instance."
+msgstr ""
+
+#: seedprod-coming-soon-pro.php:48
+#, php-format
+#@ seedprod
+msgid "WordPress %s and higher required. The plugin has now disabled itself. On a side note why are you running an old version :( Upgrade!"
+msgstr "WordPress %s vagy magasabb verzió használata szükséges. A bővítmény automatikusan kikapcsolta magát. Csak megjegyzésként: miért használsz ilyen régi verziót? :( Frissíts!"
+

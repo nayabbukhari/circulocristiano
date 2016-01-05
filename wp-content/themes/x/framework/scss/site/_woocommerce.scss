@@ -1,0 +1,633 @@
+// =============================================================================
+// SCSS/SITE/_WOOCOMMERCE.SCSS
+// -----------------------------------------------------------------------------
+// Global styling for WooCommerce.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Columns
+//   02. Navbar Cart
+//   03. AJAX Cart Notification
+//   04. Messages and Errors
+//   05. Popups
+//   06. Star Rating
+//   07. Button Icons
+//   08. Shipping Method
+//   09. Product Name Variation
+//   10. Select2
+// =============================================================================
+
+// Columns
+// =============================================================================
+
+.woocommerce {
+  .cols-1,
+  .cols-2,
+  .cols-3,
+  .cols-4,
+  &.columns-1,
+  &.columns-2,
+  &.columns-3,
+  &.columns-4 {
+    @include clearfix();
+  }
+
+  .cols-1, &.columns-1 { li.product { width: 100%;      } }
+  .cols-2, &.columns-2 { li.product { width: 48%;       } }
+  .cols-3, &.columns-3 { li.product { width: 30.66667%; } }
+  .cols-4, &.columns-4 { li.product { width: 22%;       } }
+
+  .cols-3,
+  .cols-4,
+  &.columns-3,
+  &.columns-4 {
+    li.product {
+      @include break(cubs) {
+        width: 48%;
+
+        &.first           { clear: none;      }
+        &.last            { margin-right: 4%; }
+        &:nth-child(2n+3) { clear: both;      }
+        &:nth-child(2n+2) { margin-right: 0;  }
+      }
+    }
+  }
+
+  .cols-2,
+  .cols-3,
+  .cols-4,
+  &.columns-2,
+  &.columns-3,
+  &.columns-4 {
+    li.product {
+      @include break(baby-bear) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+// Navbar Cart
+// =============================================================================
+
+.x-navbar {
+  .desktop {
+    .x-nav > li.x-menu-item-woocommerce {
+      > a {
+        &:hover,
+        &:focus {
+          box-shadow: none;
+        }
+
+        span {
+          &:after {
+            content: "";
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .mobile {
+    .x-nav > li.x-menu-item-woocommerce {
+      > a {
+        margin: 25px 0 0;
+        line-height: 1.1;
+      }
+    }
+  }
+}
+
+.x-navbar {
+  .x-nav > li.x-menu-item-woocommerce {
+    > a {
+      border: 0;
+      padding: 0;
+
+      .x-cart {
+        margin: 0;
+        border: 0.25em solid;
+        padding: 0;
+        overflow: auto;
+        text-align: center;
+        background-clip: content-box;
+
+        > span {
+          display: block;
+          float: left;
+          padding: 0.35em 0.625em;
+        }
+
+        &.rounded {
+          border-radius: 0.415em;
+        }
+
+        &.inline {
+          &.outer-inner { border-left: 0;  }
+          &.inner-outer { border-right: 0; }
+        }
+
+        &.stacked {
+          > span {
+            clear: both;
+            width: 100%;
+          }
+
+          &.outer-inner,
+          &.inner-outer {
+            > span.inner {
+              padding-top: 0.465em;
+              padding-bottom: 0.465em;
+            }
+          }
+
+          &.outer-inner { > span.inner { border-top: 0.25em solid;    } }
+          &.inner-outer { > span.inner { border-bottom: 0.25em solid; } }
+        }
+      }
+    }
+
+    @include break(cubs) {
+      > a {
+        .x-cart {
+          > span {
+            width: 100%;
+          }
+
+          &.inline {
+            &.outer-inner,
+            &.inner-outer {
+              > span {
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.x-navbar-fixed-left,
+  &.x-navbar-fixed-right {
+    .x-nav > li.x-menu-item-woocommerce {
+      > a {
+        .x-cart {
+          > span {
+            width: 100%;
+          }
+
+          &.inline {
+            &.outer-inner,
+            &.inner-outer {
+              > span {
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+// AJAX Cart Notification
+// =============================================================================
+
+.x-cart-notification {
+  display: block;
+  position: fixed;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  width: 8em;
+  height: 8em;
+  margin: -4em 0 0 -4em;
+  font-size: 28px;
+  line-height: 1;
+  text-align: center;
+  z-index: -99999;
+  border-radius: 100em;
+  opacity: 0;
+  -webkit-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: opacity 0.65s $easeOutQuint, -webkit-transform 0.65s $easeOutQuint;
+          transition: opacity 0.65s $easeOutQuint, transform 0.65s $easeOutQuint;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $black;
+    opacity: 0.85;
+    @include transition(#{background-color 0.65s $easeOutQuint});
+  }
+
+  &.bring-forward {
+    z-index: 99999;
+  }
+
+  &.appear {
+    opacity: 1;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+  }
+
+  &.loading {
+    .x-cart-notification-icon.loading {
+      -webkit-transform: translate(0, 0);
+          -ms-transform: translate(0, 0);
+              transform: translate(0, 0);
+    }
+  }
+
+  &.added {
+    &:before {
+      background-color: $green;
+    }
+
+    .x-cart-notification-icon.loading {
+      opacity: 0;
+      -webkit-transform: translate(0, 0) scale(0.5) rotate(180deg);
+          -ms-transform: translate(0, 0) scale(0.5) rotate(180deg);
+              transform: translate(0, 0) scale(0.5) rotate(180deg);
+    }
+
+    .x-cart-notification-icon.added {
+      opacity: 1;
+      -webkit-transform: scale(1.25) rotate(0);
+          -ms-transform: scale(1.25) rotate(0);
+              transform: scale(1.25) rotate(0);
+    }
+  }
+}
+
+.x-cart-notification-icon {
+  width: 100%;
+  height: 100%;
+  line-height: 7.85em;
+  @include transition(#{all 0.65s $easeOutQuint});
+
+  > i {
+    font-size: 3.85em;
+  }
+
+  &.loading {
+    color: rgba(255, 255, 255, 0.35);
+    opacity: 1;
+    -webkit-transform: translate(0, -100%);
+        -ms-transform: translate(0, -100%);
+            transform: translate(0, -100%);
+  }
+
+  &.added {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: $white;
+    opacity: 0;
+    -webkit-transform: scale(0.5) rotate(-180deg);
+        -ms-transform: scale(0.5) rotate(-180deg);
+            transform: scale(0.5) rotate(-180deg);
+  }
+}
+
+
+
+// Messages and Errors
+// =============================================================================
+
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+  a {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+}
+
+.woocommerce-message {
+  .button {
+    display: block;
+    margin: 0 0 0 40px;
+    border: 0;
+    padding: 0;
+    float: right;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    text-align: inherit;
+    text-shadow: inherit;
+    background-color: transparent;
+    @include box-shadow(#{none});
+
+    &:hover {
+      margin: 0;
+      border: 0;
+      padding: 0;
+      color: inherit;
+      text-decoration: underline;
+      text-shadow: inherit;
+      background-color: transparent;
+      @include box-shadow(#{none});
+    }
+  }
+}
+
+.woocommerce-error {
+  margin: $baseMargin 0;
+  list-style: none;
+}
+
+.woocommerce-info {
+  margin-bottom: $baseMargin;
+}
+
+
+
+// Popups
+// =============================================================================
+
+.woocommerce,
+.woocommerce-page {
+  .pp_woocommerce {
+    .ppt {
+      visibility: hidden;
+    }
+
+    .pp_content_container {
+      padding-top: 40px;
+      padding-bottom: 10px;
+    }
+
+    .pp_expand:before,
+    .pp_contract:before {
+      top: -1px;
+      right: -1px;
+    }
+
+    .pp_nav {
+      line-height: 1;
+    }
+
+    .pp_arrow_previous:before,
+    .pp_arrow_next:before {
+      top: -1px;
+    }
+
+    .pp_close:before {
+      top: -1px;
+    }
+
+    .pp_description {
+      visibility: hidden;
+    }
+  }
+}
+
+
+
+// Star Rating
+// =============================================================================
+
+.woocommerce,
+.woocommerce-page {
+  .star-rating-container {
+    display: inline-block;
+  }
+
+  .star-rating {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    float: none;
+    width: 5.4em;
+    height: 1em;
+    margin: 0;
+    font-size: 1em;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-family: "star";
+    line-height: 1em;
+
+    &:before {
+      content: "\73\73\73\73\73";
+      position: absolute;
+      top: 0;
+      left: 0;
+      float: left;
+      color: $accentColor;
+    }
+
+    span {
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      float: left;
+      padding-top: 1.5em;
+
+      &:before {
+        content: "\53\53\53\53\53";
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: $accentColor;
+      }
+    }
+  }
+
+  .x-comments-area {
+    .star-rating-container.aggregate {
+      @include font-size(2.1);
+      margin-bottom: 8px;
+    }
+  }
+
+  li.product {
+    .star-rating-container {
+      position: absolute;
+      @include opacity(0);
+      @include translate3d(0, 0, 0);
+      @include transition(#{opacity 0.3s ease});
+
+      .star-rating {
+        &:before {
+          color: $white;
+        }
+
+        span {
+          &:before {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  p.stars {
+    @include clearfix();
+
+    span {
+      position: relative;
+      float: left;
+
+      a {
+        float: left;
+        padding-right: 5px;
+        line-height: 1em;
+
+        &.star-1 { &:after { content: "\f005";                                         } }
+        &.star-2 { &:after { content: "\f005\0020\f005";                               } }
+        &.star-3 { &:after { content: "\f005\0020\f005\0020\f005";                     } }
+        &.star-4 { &:after { content: "\f005\0020\f005\0020\f005\0020\f005";           } }
+        &.star-5 { &:after { content: "\f005\0020\f005\0020\f005\0020\f005\0020\f005"; } }
+
+        &.active {
+          &:after {
+            display: block;
+          }
+        }
+
+        &:hover,
+        &:focus {
+          &:after {
+            display: block;
+            z-index: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+@font-face {
+  font-family: "star";
+  src: url("../../../../../../plugins/woocommerce/assets/fonts/star.eot");
+  src: url("../../../../../../plugins/woocommerce/assets/fonts/star.eot?#iefix") format("embedded-opentype"),
+       url("../../../../../../plugins/woocommerce/assets/fonts/star.woff") format("woff"),
+       url("../../../../../../plugins/woocommerce/assets/fonts/star.ttf") format("truetype"),
+       url("../../../../../../plugins/woocommerce/assets/fonts/star.svg#star") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+// Button Icons
+// =============================================================================
+
+.woocommerce,
+.woocommerce-page {
+  .button {
+    &.product_type_simple,
+    &.product_type_variable,
+    &.single_add_to_cart_button {
+      &:before {
+        @include font-awesome();
+      }
+    }
+
+    &.product_type_simple,
+    &.single_add_to_cart_button {
+      &:before {
+        content: "\f07a\0020";
+      }
+    }
+
+    &.product_type_variable {
+      &:before {
+        content: "\f14a\0020";
+      }
+    }
+  }
+}
+
+
+
+// Shipping Method
+// =============================================================================
+
+.woocommerce,
+.woocommerce-page {
+  #shipping_method {
+    margin-left: 0;
+    list-style: none;
+    @include clearfix();
+
+    li {
+      float: left;
+      width: 100%;
+      display: block;
+    }
+
+    label {
+      display: inline-block;
+      position: relative;
+      top: 0.05em;
+      margin: 0 0 0 0.2em;
+    }
+  }
+
+  select.shipping_method {
+    width: 100%;
+    margin: 0.25em 0 $baseMargin;
+
+    &:last-child {
+      margin-bottom: 0.25em;
+    }
+  }
+}
+
+
+
+// Product Name Variation
+// =============================================================================
+
+//
+// Found in cart table and review order table.
+//
+
+.woocommerce,
+.woocommerce-page {
+  .product-name {
+    .variation {
+      margin-bottom: 0;
+
+      dt,
+      dd {
+        margin: 0;
+      }
+    }
+  }
+}
+
+
+
+// Select2
+// =============================================================================
+
+.woocommerce,
+.woocommerce-page {
+  .select2-container {
+    display: block !important;
+    margin: 0 0 $baseMargin;
+  }
+}

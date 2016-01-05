@@ -1,0 +1,50 @@
+// =============================================================================
+// SCSS/SHORTCODES-ICON.SCSS
+// -----------------------------------------------------------------------------
+// Contains all shortcode styles for the Icon Stack.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. Shortcodes
+//   03. Animations
+//   04. Utilities
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "site/inc/functions";
+@import "site/inc/variables";
+@import "site/stacks/icon/inc/variables";
+@import "site/inc/mixins";
+@import "site/stacks/icon/inc/mixins";
+
+
+
+// Shortcodes
+// =============================================================================
+
+@import "site/shortcodes";
+@import "site/stacks/icon/shortcodes";
+@import "site/mejs";
+@import "site/stacks/icon/mejs";
+
+
+
+// Animations
+// =============================================================================
+
+@import "site/animate";
+
+
+
+// Utilities
+// =============================================================================
+
+@import "site/util/main";
+@import "site/util/type";
+@import "site/util/responsive";
+@import "site/util/spacing-helpers";

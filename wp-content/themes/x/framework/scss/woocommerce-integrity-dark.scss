@@ -1,0 +1,29 @@
+// =============================================================================
+// SCSS/WOOCOMMERCE-INTEGRITY-DARK.SCSS
+// -----------------------------------------------------------------------------
+// Contains all WooCommerce styles for the Integrity Stack (dark version).
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. WooCommerce
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "site/inc/functions";
+@import "site/inc/variables";
+@import "site/stacks/integrity/inc/variables-dark";
+@import "site/inc/mixins";
+@import "site/stacks/integrity/inc/mixins";
+
+
+
+// WooCommerce
+// =============================================================================
+
+@import "site/woocommerce";
+@import "site/stacks/integrity/woocommerce";

@@ -1,0 +1,51 @@
+.seedredux-main {
+    .seedredux-container-background {
+        .seedredux-background-position,
+        .seedredux-background-position select,
+        .seedredux-background-attachment,
+        .seedredux-background-attachment select,
+        .seedredux-background-clip,
+        .seedredux-background-clip select,
+        .seedredux-background-origin,
+        .seedredux-background-origin select,
+        .seedredux-background-size,
+        .seedredux-background-size select,
+        .seedredux-background-repeat,
+        .seedredux-background-repeat select {
+            width:200px !important;
+            margin-right: 10px;
+            margin-bottom: 7px;
+        }
+
+        .background-preview {
+            display:block;
+            width: 100%;
+            margin: 5px 0 10px;
+            border:1px dotted lightgray;
+        }
+
+        .select2-container {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .wp-picker-container {
+            margin-bottom: 10px;
+        }
+
+        .upload {
+            width: 100%;
+            margin-bottom: 8px;
+        }
+    }
+
+    .seedredux-container-select {
+        li.ui-state-highlight {
+            height: 20px;
+            margin-top:2px;
+            margin-left: 5px;
+            width: 64px;
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+// =============================================================================
+// SCSS/SITE/STACKS/RENEW/_IE.SCSS
+// -----------------------------------------------------------------------------
+// All styles for Internet Explorer should be placed in this file using
+// specialized classes determined in conditional statements located directly
+// beneath <!DOCTYPE html> at the top of all documents.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Internet Explorer 9
+// =============================================================================
+
+// Internet Explorer 9
+// =============================================================================
+
+//
+// Flexslider.
+//
+
+.ie9 .flex-direction-nav a {
+  font-size: 80px;
+  line-height: 53px;
+}

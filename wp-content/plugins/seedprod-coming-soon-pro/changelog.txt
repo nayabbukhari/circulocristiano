@@ -1,0 +1,619 @@
+4.3.5 - 9/10/15
+Fixed - Constant Contact Warning
+
+4.3.4 -9/1/15
+Fixed -  Various Typos
+Fixed - Container width when it's transparent.
+Added - FaceBook Send Email Button
+
+4.3.3- 8/10/15
+Tweak - Nameclassed framework to avoid conflicts
+Fixed - fixed notice when exporting
+Fixed - MailPoet already subscribed fix
+
+4.3.2 7/6/15
+Tweak - Show selected theme
+
+4.3.1 6/23/15
+* Fixed - Drip Integration Double Optin Bug
+
+4.3.0 6/19/15
+* Added - FeedBlitz Integration
+
+4.2.7 6/8/15
+* Tweak - Add Infusionsoft Tag Support
+* Fixed - MyMail Form ID
+
+4.2.6 5/20/15
+* Tweak - iOS full screen background fix
+* Fixed - Vimeo Social Profile
+
+4.2.5 5/7/15
+* Tweak - optin Infusionsoft Emails via the api
+
+4.2.4 5/1/15
+* Tweak - Open Preview in New Window to prevent setting from being lost
+
+4.2.3 4/9/15
+* Tweak - Disabled ajax save
+
+4.2.2 4/9/15
+* Tweak - Remove feed and menu added by SeedRedux Framework
+* Tweak - Updated BigVideo JS script
+
+4.2.1 4/8/15
+* Fixed - Countdown language strings not displaying.
+
+4.2.0 4/7/15
+* Added - Major Framework Update
+
+4.1.8 4/6/15
+* Added - FollowUp Emails for WooCommerce Integration
+
+4.1.7 3/30/15
+* Added - New Social Profile Icons: Tumblr, Github, Dribble, Slack
+
+4.1.6 2/27/15
+* Tweak - ios background image fix
+* Fixed - add WordPress default gallery css
+* Fixed - Gravity Forms responsive
+
+4.1.5 2/9/15
+* Fixed - fixed an error due to a function only available in php 5.5 or higher.
+
+4.1.4 2/8/15
+* Tweak - Remove theme stylesheet if Gravity Form is enabled.
+* Tweak - Make Share Buttons https compatible
+* Added - Added plugin api method to remove above tweak for edge cases.
+* Added = ios background fixed hack to the plugin api
+
+4.1.3 1/21/15
+* Tweak - Remove theme stylesheet when 3rd party plugins enabled
+* Tweak - Updated framework
+
+4.1.2 - 1/15/15
+* Fixed - Google Fonts
+
+4.1.1 - 1/12/15
+* Tweak - Updated Framework
+* Fixed - Undefined Var
+* Fixed - Header Font Sizing
+
+4.1.0 - 1/12/15
+* Added - MyMail and getDrip.com Integration
+* Added - Redirect Mode
+* Added - Filter for MailChimp Merge Vars (seed_cspv4_mailchimp_merge_vars)
+* Fixed - Undefined Vars
+* Fixed - Remove ref url in tweet if not in use
+* Tweak - Added backup landing page mode detection.
+* Tweak - Added additional RTL styling
+* Tweak - Updated SeedRedux framework to the latest version
+* Tweak - Gravity Forms Styles
+
+4.0.31 12/17/14
+* Tweak - Added prefixes to subscriber actions to avoid conflicts
+* Fixed - 404 error on for non google fonts
+
+4.0.30 12/09/14
+* Fixed - Social Link new window target bug
+
+4.0.29 12/08/14
+* Fixed - Social Link new window target bug
+
+4.0.28 12/07/14
+* Tweak - Remove filter for social profile urls.
+* Tweak - Suppress regex errors
+* Fixed - Added new fields for WPML
+
+4.0.27 12/04/14
+* Fixed - Update so WPML and other language plugin would work properly.
+
+4.0.26 11/21/14
+* Tweak - Removed Debug Statement when wpml is active
+* Tweak - updated framework to fix and import/export issue
+* Tweak - Catch dup emails with Constant Contact
+
+4.0.25 11/18/14
+* Added - Plugin API Commands
+* Tweak - Updated Framework
+* Tweak - Normilize email field
+* Tweak - Catch no countdown time field
+* Tweak - Catch mal formed color field
+
+
+4.0.24 11/6/14
+* Tweak - Updated Framework
+* Tweak - Default countdown css bottom margin
+* Tweak - Opacity Description
+
+4.0.23 10/20/14
+* Fixed - Undefined Var when database email providor selected
+
+4.0.22 10/20/14
+* Added - More Hooks and Filters
+* Tweak - Default Css and Placeholder Styles
+* Tweak - Remove url esc on social profiles
+* Fixed - Undefined Var in SellWP Updater
+
+4.0.21 10/18/14
+* Tweaked - Bypass URL logic
+
+4.0.20 10/15/14
+* Added - Toggle to display WPML language switcher
+* Tweak - Update Framework
+* Tweak - Bypass role check when bypass url used
+* Tweak - Database Confirmation Email Text
+* Added - Added Update user switch to MailChimp
+
+4.0.19 - 9/22/14
+* Fixed - Fixed referral url
+* Tweak - Forgot to bump version
+
+4.0.18 - 9/22/14
+* Fixed - MailChimp name not being Captured
+
+4.0.17 - 9/20/14
+* Added - MailChimp REFURL and REFID Merge Variables
+* Added - Ref Count Shortcode [seed_cspv4_subscriber_count]
+* Added - Site URL to Subscribed Email
+
+4.0.16 - 9/13/14
+* Added - Filter to remve default style sheet
+* Fixed - Multisite Clientview and Bypass URL
+* Fixed - Mobile Full Screen Backgrounds
+* Tweak - Footer Credit to be static instead of fixed on mobile.
+* Tweak - Show users IP in the IP access control setting.
+
+4.0.15 - 9/1/14
+* Added - Name to notification email
+* Added - Run the_content filter when 3rd party plugins are enabled
+* Fixed - Tweak countdown css
+
+4.0.14 - 8/31/14
+* Added - ManageWP Autoupdates
+* Fixed - Removed ref on share links if not defined
+* Fixed - Conversion Scripts rendering
+* Tweak - Force 200 HTTP Status Response
+
+4.0.13 - 8/25/14
+* Added - Toggle to disable default excluded urls
+* Added - Toggle to open social links in a new window
+* Fixed - Fixed auto launch
+
+4.0.12 - 8/19/14
+* Tweak - Facebook Share button css tweak
+* Fixed - undefined var notices
+* Tweak - Remove the content filter from the thankyou msg
+
+4.0.11 - 8/18/14
+* Fix - Added back extensions folder
+
+4.0.10 - 8/18/14
+* Tweak - Force seedredux is_plugin for edge case paths
+* Tweak - Bumped OKVideo version to fix vimeo audio and loop bug
+* Added - Option to require name
+
+4.0.9 - 8/17/14
+* Fixed - Moved filter to default extensions load
+
+4.0.8 - 8/17/14
+* Tweak - Added list refresh button
+* Tweak - Add advanced tab for the editor
+* Tweak - Add slideshow api under scripts
+* Tweak - Updated Settings framework
+* Tweak - Added filter to default extensions load
+* Fixed - Typo
+* Fixed - Access by IP not working
+
+4.0.7 - 8/14/14
+* Fixed - YouTube Background videos not working
+
+4.0.6 - 8/13/14
+* Tweak - Activation Tweaks Thx @cfoellmann
+* Tweak  - Removed Lots of Sample Code
+* Fixed - Removed Database Undefined var
+* Fixed - Background Slide was not working
+
+4.0.5 - 8/7/14
+* Tweak - Body CSS
+* Added  - Retina JS Support
+
+4.0.4 - 8/6/14
+* Tweak - Removed readonly from media fields
+* Fixed - Typography Notices
+
+4.0.3 - 8/6/14
+* Tweak - Remove the content filter if wp_head not enabled.
+
+4.0.2 - 8/6/14
+* Fixed - Logo Position bug
+
+
+4.0.1 - 8/6/14
+* Fixed - Removed shortcode in title
+* Fixed - Reverted back to template redirect
+* Fixed - Removed 2 default social media values
+* Fixed - Removed SeedRedux Tracking
+* Fixed - Social Media Profile email value
+
+
+4.0.0 - 6/1/14
+* Added - Container Animation
+* Added - New options framework more validations when submitting options
+* Added - More design options for fonts, backgrounds, etc
+* Added - Privacy Policy Text
+* Added - Footer Credit Text Option
+* Added - Social Font Icons
+* Added - Custom Container Width
+* Added - Support for classic and universal analytics
+* Added - Auto Launch email notification
+* Added - Moved language string to it's own tab.
+* Added - Themes Framework, allows for 3rd party themes
+* Added - Third Party Marking List Framework
+* Added - MyMail Integration
+* Added - Affliate Link Option
+* Added - New templating system
+* Added - Lots of hooks and filters for developers
+* Tweak - namespaced css to prevent style clashes when wp_head was enabled
+* Tweak - Updated all 3rd part libraries included in the plugin
+* Tweak - Upse the Facebook Share instead of Like button
+* Tweak - Multisite Custom Icon Support
+* Fixed - Sometimes large social icon were not fully clickable, made sure clickable are cover full icon
+* Fixed - Client URL / bypass would not work on heavy cached platforms like WPEngine, now works
+
+
+3.15.3 - 3/30/14
+*	Fixed: Countdown Format
+
+3.15.2 - 2/9/14
+*	Fixed: Email notification when database is selected
+*	Fixed: Fixed compatibility for shortcodes
+* 	Fixed: Issue with MailChimp not showing tracking stats to user.
+*	Fixed: Javascript errors on Thank You page cause description to show.
+
+3.15.1 - 2/3/14
+*	Fixed: Updated support links within the plugin
+*	Fixed: Updated automatic updater
+* 	Fixed: Gravity Form override when plugin not active
+* 	Fixed: MailChimp check if user already subscribed
+*	Tweak: autocomplete='off' on text fields
+
+3.15.0 - 1/9/13
+*	Added: Add full screen background video support
+*	Added: Added autocomplete='off'
+*   Added: New SellWP plugin updater
+*	Added: Ability to translate singlular and plural values for countdown.
+*   Added: Ability to define multiple emails for notifications if using Database integration.
+*	Added: Gravity Forms filter to enable ajax
+*	Fixed: Fixed undefined var
+*	Fixed: Sendy Integration undefined var
+*   Fixed: Incompatible Gravity Forms 1.8 and Modernizr, updated Modernizr lib
+*	Fixed: Clientview for multisite and encrypted key
+*	Tweak: Updated language po file
+
+3.14.1 - 11/4/13
+*	Fixed: FireFox Responsive Textbox sizing
+*	Fixed: Countdown in Mavericks Safari
+*	Tweak: When Enable WP Head, use apply filter "the_content" to be compatible with shortcodes that use this filter.
+
+3.14.0 - 10/4/13
+*	Added: Infusionsoft Integration
+*	Added: HTML Forms Integration
+
+3.13.0 - 10/1/13
+*	Added: iContact Integration
+
+3.12.1 - 9/27/13
+*	Tweak: Catch Aweber api error.
+*	Tweak: Removed undefined index
+*	Tweak: Fix permission for admin user on multisite when deleting a use
+*	Tweak: escape wysija double opt-in urls
+*	Tweak: added skype icon
+
+3.12.0 - 9/5/13
+* 	Added: New File Picker
+* 	Added: New Color Picker
+*	Added: Prevent ClientView From being cached.
+*	Added: Sendy Integration
+*	Added: Added more settings for the background slideshow.
+*   Added: Real-time license checking.
+*	Tweak: Hide feed if feedburner is not selected.
+* 	Tweak: Load class only in admin for performance.
+*	Tweak: Make social follow icons in admin the same size as the value selected
+
+3.11.2 - 7/23/13
+*	Fixed: Access by role display bug
+*	Fixed: Retrieve all Constant Contact lists
+
+3.11.1 - 7/4/13
+*	Fixed: Subscriber table add bug
+
+3.11.0 - 6/25/13
+*	Added: WPML Compatible
+*	Added: MailChimp Group Support
+* 	Tweak: Updated recommended Facebook thumbnail size
+*	Tweak: Button CSS
+*	Fixed: Undefined var
+*	Fixed: iPhone and iPad background issue
+
+3.10.2 - 5/19/13
+*	Added: French Translation
+*	Added: Support for Theme my Login and other custom login plugins
+*	Tweak: Fixed Typos
+*	Tweak: Changed API Key to License Key
+*	Bug: Removed unused call to progress.gif
+
+3.10.1 - 4/25/13
+*	Tweak: Updated api url to point to sellwp.co
+
+3.10.0 - 3/30/13
+*	Fix: Typo
+*	Fix: Gravity forms logic check
+*	Added: Danish Translation
+
+3.9.4 - 3/8/13
+*	Tweak: Updated Facebook Like button code.
+*	Fix: Singular Countdown Translations not being displayed
+
+3.9.3 - 3/8/13
+*	Tweak: Added Super Admin to Access by Role if Multisite
+*	Fixed: Edge case when selecting override gravity forms and Gravity forms is not selected caused error.
+
+3.9.2 - 3/4/13
+*	Updated less lib which was causing colors not to be calculated right in IE 8 #76
+*	Fixed bug to allow Gravity Forms multipage with Comings Soon override
+*	Fixed bug that prevents all list updates from firing when doing ajax
+*	Trim api key when sending it to the server
+
+3.9.1 - 2/26/13
+*	Fixed timeout bug in autoupdate api
+*	Fixed headline if no post exist
+
+3.9.0 - 2/15/13
+*	Added BuddyPress Support
+*	Fixed Campaign Monitor Issue
+*	Fixed Gravity Form MailChimp Override conflict
+*	Updated Aweber API lib
+
+3.8.1 - 1/30/13
+*	Fixed bug where if subscriber was already subscribed referral link and details would display for Aweber.
+*	Fixed a bug where the background slideshow was not being displayed correctly on mobile.
+*	Made Container Color Required
+*	Linked to more exclude and include url examples and how to set up client view.
+*	Enqueue jQuery if wp-head is enabled
+*	Check if CS_REST_SERIALISATION_get_available function exist in CC class
+*	Fix countdown bug in Chrome, updated countdown code.
+*	Performance updates
+
+3.8.0 - 12/31/12
+*	Show MailChimp Error Message
+*	Show Preview even when an include pattern is present
+*	Fixed bug on export introduced in WP 3.5: Warning: Missing argument 2 for wpdb::prepare()
+*	Added the ability to use maintenance.php if it exists in maintenance mode.
+*	Show referral stats when a user re-enter their email.
+*	Added the ability to show name on WYSIJA forms.
+
+3.7.0 - 12/17/12
+*	Added Mad Mimi API
+*	Fix issue with Get Response API
+*	Added Italian Translation
+
+3.6.3 - 12/4/12
+*	Update GetResponse API
+*	Conditional api loading
+*	WordPress 3.5.0 Compatibility Updates
+*	Fixed a php notice
+
+3.6.1 - 12/03/12
+*	Added a check for Campaign Monitor's new api classes to avoid conflicts
+
+
+3.6.0 - 12/03/12
+*	Added tighter Gravity Forms Integration. Now you can use the referral system and thank you page.
+*	Fix: Removed the mis placed gravity forms notice under wysija settings
+*	Upgrade Bootstrap Version to 2.2.1
+*	Display the subscriber referrer url if they are already subscribed and resubmitted the frontend form for every mail provider.
+*	The apikey field now hides the text
+*	Fixed Tumblr share button not showing
+*	Fixed a undefined variable notice in the admin
+*	Rounded Conversion %'s
+*	Updated Campaign Monitor's API code
+*	Added a script area for conversion tracking.
+*	Added a include url pattern
+*	Added the ability to display a full screen slideshow.
+
+
+
+3.5.0 - 10/17/12
+*	Initialize class in init hook to avoid conflicts
+*	Added WYSIJA provider
+* 	Added the ability to delete individual subscribers. Fixes #49
+*	Rearranged subscriber table and added sort options and referrer links
+*	Display the subscriber referrer url if they are already subscribed and resubmitted the front end form. Fixes Issue #50
+*	Expire the client view immediately when removed.
+
+3.4.5 - 9/25/12
+* 	Fixed a bug in headway themes in where is_page(0) = true and cause the site not to be viewable when logged in.
+
+3.4.4 - 9/24/12
+* 	Redeploy of 3.4.0 with patches
+*	Add support to limit access by role issue #42
+*   Add the ability to display the coming soon page on a single page to act like a landing page.
+*	Add RTL css support for RTL languages - needs testing
+*	Updated pot file
+*	Updated Spanish translation
+*	Added German translation
+*	Fixed quotes encoding in custom css
+*	Removed duplicate campaign monitor library warnings
+
+3.4.3 - 9/20/12
+*	Fixed bugs from 3.4.0 release
+
+3.4.2 - 9/20/12
+*	Rolled back to 3.3.1 due to a bug
+
+3.4.1 - 9/19/12
+*	Removed new warning and notices
+
+3.4.0 - 9/19/12
+*	Add support to limit access by role issue #42
+*   Add the ability to display the coming soon page on a single page to act like a landing page.
+*	Add RTL css support for RTL languages - needs testing
+*	Updated pot file
+*	Updated Spanish translation
+*	Added German translation
+
+3.3.1 - 8/29/12
+*	Fixed bug, counter always showing even though not enabled.
+
+3.3.0 - 8/26/12
+*	Add countdown timer
+*   Change ClientView cookie life 6 hours instead of browser session.
+*	Fixed internal issue #43
+
+3.1.2 - 8/10/12
+*	Fixed share buttons display bug
+
+3.1.1 - 8/06/12
+*	Check that Gravity Forms class exist
+*	Fixed FeedBurner label bug
+*	Moved menu under Settings
+
+3.1.0 - 7/31/12
+*	Added a upgrade safe way to add custom social icons
+*	Removed test and sample folder from campaign monitor api
+*	Fixed database int defaults
+*	Fix iphone layout
+*	Added work around in for mod_security 400 error
+*	Updated .pot file
+
+3.0.10 - 7/28/12
+*	Removed default notifications
+*	Updated pot file
+
+3.0.9 - 7/25/12
+*	Fixed progress bar animation
+*	Fixed translation loading
+*	Fixed date bug
+
+3.0.8 - 7/20/12
+*	Removed location lookup because of random timeouts
+
+3.0.1 - 3.0.7 - 7/15/12
+*	Bug Fixes
+
+3.0.0 - 7/10/12
+*	Rebuilt underlying framework and UI to use all WordPress native components.
+*	Ability to customize the template in an upgrade safe way.
+*	Embed videos in the description by by entering the url Example: http://www.youtube.com/watch?v=A-PRCQFXXJs
+*	Added Get Response as an email list provider
+*	Added the ability to capture First and Last name.
+*	Made the after form submit process easier to understand.
+*	Added PinIt and Tumblr to the Share Buttons
+*	Added the ability to include a Facebook Like thumbnail image.
+*	Built a referral system in to keep track of Subscribers, who the referrer and how many of those convert.
+*	Added a progress bar with automatic completion calculation.
+*	Change the location of the footer credit to the fixed bottom right of the page.
+*	Added more icon sizes.
+*	Added more social follow icons: Twitter, Facebook, LinkedIn,Google Plus, YouTube, Flickr, Vimeo, Pinterest, Instagram, Foursquare, Tumblr, RSS, email
+*	Drag & Drop Change order of social follow icons
+*	Made language strings easier to find
+*	Created the foundation for an upcoming themes
+*	Created the foundation for more background effects
+*	Created the foundation for more text effects
+*	More container options: color, positon, effects
+*	Control access by IP
+*	Enable template responsiveness
+*	Better import/export using json
+*	More insight into your subscribers. Tries to find their referral, avatar, name (if you did not ask for it) and where they are from automatically.
+*	Inline Preview
+*	Made maintenance mode easier to enable and added the ability to capture emails in maintenance mode.
+
+2.6.3 - 7/04/12
+*   Changed the priority  in which the template redirect fires .
+
+2.6.2 - 6/18/12
+*   Typekit fix
+
+2.6.1 - 6/15/12
+*   3.4 fixes
+
+2.6.0 - 6/4/12
+*  Enabled Client View in Maintenance Mode
+
+2.5.3 - 5/30/12
+*  Revert
+
+2.5.2 - 5/30/12
+*    Reverted - Don't show email strings if using gravity forms
+
+2.5.1 - 5/30/12
+*  Moved CSS to bottom of head so it can override all styles
+*    Don't show email strings if using gravity forms
+
+2.5.0 - 5/29/12
+*  Updated Gravity forms support to the latest version.
+*  Shadow Box Opacity fallback support
+*  Added Generator Tag
+*    Respect WordPress privacy settings
+*    Permalink notice for Client View to work.
+*    Made Language strings easier to find
+*    Added FeedBurner Language setting
+*  Added FitVideo JS
+*  Integrated Typekit
+*  Fixed bug in Client URL when site in sub folder
+
+2.4.2
+*  Added trim to client view url
+*  Stripslashes on seo description
+
+2.4.1
+*  Fixed Mobile display view bug
+*  Fixed feedburner issue
+
+2.4.0
+*  Added better MailChimp error feedback
+*  Fixed bug in client view that if client returned to client view url in the same session they would get a 404
+*  Fixed bug in client view if category used as permalink
+
+2.3.2
+*  Fixed bug where quotes where not render properly on Custom CSS
+
+2.3.1
+*  Fixed bug for users who had not previously set a shadow box opacity
+
+2.3.0
+* Added IE 7 and IE8 support for fullscreen backgrounds
+* Ability to adjust opacity on the shadow box
+* Ability to use larger social icons
+* Fix config array setup
+
+2.2.1
+* Fix bug to allow contacts in Constant Contact to be added to multiple list
+* Fix database counter bug
+
+2.2.0
+* Added Admin Bar Notification
+* Added Client View
+*  Fixed Aweber Subscribe bug.
+
+2.1.4
+* Fixed Custom CSS bug.
+
+2.1.3
+* Check is JSON class already exist
+
+2.1.2
+* Fixed wp-editor bug
+* Fix link color bug
+
+2.1.1
+* Fixed a bug in the wp-editor and removed a console.log
+* Must use version 3.3 or higher to activate
+
+2.1.0
+* Added Pinterest Profile Link
+* Fixed Javascript wp-editor bug
+
+2.0.0
+* Initial 2 Release

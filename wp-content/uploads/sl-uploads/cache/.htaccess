@@ -1,0 +1,7 @@
+<FilesMatch "\.(php|gif|jpe?g|png|css|js|csv|xml|json)$">
+Allow from all
+</FilesMatch>
+order deny,allow
+deny from all
+allow from none
+Options All -Indexes

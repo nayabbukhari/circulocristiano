@@ -1,0 +1,104 @@
+/** Responsive mediaelement js **/
+	.wp-video-shortcode, .wp-video {
+		max-width: 100%;
+		width: 100% !important;
+	}
+	
+	.mejs-poster {
+		overflow:hidden !important;
+	}
+		.mejs-poster img {
+			display:block !important;
+		}	
+	
+	/** Media Element Shadow **/
+		/** 
+			Shadow
+		**/
+		.video-container-shadow {
+			background: url(images/shadow.png) 0 100.5% no-repeat;
+			margin: 0 auto;
+			background-size: contain;
+			padding-bottom: 1.1%;
+		}
+
+		
+	/* Responsive Video Container on Mobile */
+		.ytplus-video-container {
+			position: relative;
+			padding-bottom: 56.25%; /* 16:9 */
+			padding-top: 25px;
+			height: 0;
+		}
+		.ytplus-video-container iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		
+		.ytplus-video-container.mobile {
+			max-width: 100%;
+		}
+		
+		.ytplus-video-container.mobile {
+			position: relative;
+			padding-bottom: 56.25%; /* 16:9 */
+			padding-top: 25px;
+			height: 0;
+			margin-bottom: .5em;
+		}
+		.ytplus-video-container.mobile iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	/* End Mobile */
+	
+		
+	/** Front End Masonry Styles **/
+	.yt4wp-rss-feed a.fancybox {
+		display: block;
+		margin: 1.5em 0;
+	}
+	#masonry-container {
+		width: 100%;
+		margin-left: 0 !important;
+	}
+		#masonry-container li {
+			list-style: none !important;
+		}	
+	
+	.yt4wp-video-single-list-item {
+		width: 30%;
+		min-width: 174px;
+		word-break: break-word;
+	}
+	
+	.yt4wp-video-single-list-item .yt4wp-video-thumbnail {
+		width: 100%;
+	}	
+			
+			/* Fix shadow gap issue on mobile **/
+			@media screen and (max-width: 633px) {
+				
+				.video-container-shadow {
+					background: url(images/shadow.png) 0 99% no-repeat;
+					margin: 0 auto;
+					background-size: contain;
+					padding-bottom: 2.1%;
+				}
+				
+			}
+			
+			/* Let Masonry containers be 100% on mobile */
+			@media screen and (max-width: 450px) {
+				
+				.yt4wp-video-single-list-item {
+					width: 100%;
+				}
+				
+			}

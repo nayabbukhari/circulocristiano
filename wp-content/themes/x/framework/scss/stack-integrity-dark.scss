@@ -1,0 +1,178 @@
+// =============================================================================
+// SCSS/STACK-INTEGRITY-DARK.SCSS
+// -----------------------------------------------------------------------------
+// Contains all styles for the Integrity Stack (dark version).
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. CSS Normalization
+//   03. Grid System and Page Structure
+//   04. Base CSS
+//   05. Components
+//   06. Shortcodes
+//   07. Unique Site Styles
+//   08. Responsive Styles
+//   09. Internet Explorer
+//   10. Print Styles
+//   11. Animations
+//   12. Utilities
+//   13. Fonts
+//   14. Media Query Debugging
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "site/inc/functions";
+@import "site/inc/variables";
+@import "site/stacks/integrity/inc/variables-dark";
+@import "site/inc/mixins";
+@import "site/stacks/integrity/inc/mixins";
+
+
+
+// CSS Normalization
+// =============================================================================
+
+@import "site/norm/universal-border-box";
+@import "site/norm/normalize";
+
+
+
+// Grid System and Page Structure
+// =============================================================================
+
+@import "site/stacks/integrity/scaffolding";
+
+
+
+// Base CSS
+// =============================================================================
+
+@import "site/stacks/integrity/type";
+@import "site/stacks/integrity/code";
+@import "site/stacks/integrity/forms";
+@import "site/tables";
+@import "site/stacks/integrity/tables";
+
+
+
+// Components
+// =============================================================================
+
+@import "site/buttons";
+@import "site/component-animations";
+@import "site/searchform-overlay";
+@import "site/stacks/integrity/dropdowns";
+@import "site/stacks/integrity/widgetbar";
+@import "site/stacks/integrity/topbar";
+@import "site/stacks/integrity/logobar";
+@import "site/navbar";
+@import "site/stacks/integrity/navbar";
+@import "site/stacks/integrity/navs";
+@import "site/stacks/integrity/megamenu";
+@import "site/stacks/integrity/breadcrumbs";
+@import "site/stacks/integrity/pagination";
+@import "site/stacks/integrity/tooltips";
+@import "site/stacks/integrity/popovers";
+@import "site/stacks/integrity/flexslider";
+@import "site/stacks/integrity/integrated-sliders";
+@import "site/stacks/integrity/isotope";
+@import "site/stacks/integrity/ilightbox";
+@import "site/stacks/integrity/social";
+@import "site/stacks/integrity/scroll-top";
+
+
+
+// Shortcodes
+// =============================================================================
+
+@import "site/shortcodes";
+@import "site/stacks/integrity/shortcodes";
+@import "site/mejs";
+@import "site/stacks/integrity/mejs";
+
+
+
+// Unique Site Styles
+// =============================================================================
+
+@import "site/stacks/integrity/masthead";
+@import "site/stacks/integrity/colophon";
+@import "site/stacks/integrity/sidebar";
+@import "site/stacks/integrity/posts-and-pages";
+@import "site/stacks/integrity/comments";
+@import "site/stacks/integrity/widgets";
+@import "site/stacks/integrity/native";
+
+
+
+// Responsive Styles
+// =============================================================================
+
+//
+// 1. Global.
+// 2. Stack specific.
+//
+
+@import "site/resp/baby-bear";   // 1
+@import "site/resp/middle-bear"; // 1
+@import "site/resp/old-bear";    // 1
+@import "site/resp/cubs";        // 1
+@import "site/resp/mama-bear";   // 1
+@import "site/resp/papa-bear";   // 1
+
+@import "site/stacks/integrity/resp/baby-bear";   // 2
+@import "site/stacks/integrity/resp/middle-bear"; // 2
+@import "site/stacks/integrity/resp/old-bear";    // 2
+@import "site/stacks/integrity/resp/cubs";        // 2
+@import "site/stacks/integrity/resp/mama-bear";   // 2
+@import "site/stacks/integrity/resp/papa-bear";   // 2
+
+
+
+// Internet Explorer
+// =============================================================================
+
+@import "site/stacks/integrity/ie";
+
+
+
+// Print Styles
+// =============================================================================
+
+@import "site/print";
+
+
+
+// Animations
+// =============================================================================
+
+@import "site/animate";
+
+
+
+// Utilities
+// =============================================================================
+
+@import "site/util/main";
+@import "site/util/type";
+@import "site/util/responsive";
+@import "site/util/spacing-helpers";
+
+
+
+// Fonts
+// =============================================================================
+
+@import "site/font-awesome";
+
+
+
+// Media Query Debugging
+// =============================================================================
+
+// @import "site/inc/media-query-testing"

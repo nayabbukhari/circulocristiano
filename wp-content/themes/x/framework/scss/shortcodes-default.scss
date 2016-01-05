@@ -1,0 +1,66 @@
+// =============================================================================
+// SCSS/SHORTCODES-DEFAULT.SCSS
+// -----------------------------------------------------------------------------
+// Contains all default shortcode styles.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. Shortcodes
+//   03. Components
+//   04. Animations
+//   05. Utilities
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "site/inc/functions";
+@import "site/inc/variables";
+@import "site/shortcodes_default/inc/variables";
+@import "site/inc/mixins";
+
+
+
+// Shortcodes
+// =============================================================================
+
+@import "site/shortcodes_default/normalization";
+.x-section { @import "site/shortcodes"; }
+@import "site/shortcodes_default/shortcodes";
+
+
+
+// Components
+// =============================================================================
+
+.x-section {
+  @import "site/component-animations";
+  @import "site/shortcodes_default/mejs";
+}
+
+@import "site/font-awesome";
+
+
+
+// Animations
+// =============================================================================
+
+.x-section {
+  @import "site/animate";
+}
+
+
+
+// Utilities
+// =============================================================================
+
+.x-section {
+  @import "site/util/main";
+  @import "site/util/type";
+  @import "site/util/spacing-helpers";
+}
+
+@import "site/util/responsive";

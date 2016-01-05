@@ -1,0 +1,25 @@
+/*
+|| #################################################################### ||
+|| #                             ArrowChat                            # ||
+|| # ---------------------------------------------------------------- # ||
+|| #    Copyright ©2010-2012 ArrowSuites LLC. All Rights Reserved.    # ||
+|| # This file may not be redistributed in whole or significant part. # ||
+|| # ---------------- ARROWCHAT IS NOT FREE SOFTWARE ---------------- # ||
+|| #   http://www.arrowchat.com | http://www.arrowchat.com/license/   # ||
+|| #################################################################### ||
+*/
+
+==========================
+INSTALLATION INSTRUCTIONS
+==========================
+
+Please visit http://www.arrowchat.com/install/ for instructions on installing ArrowChat on a supported integration.
+
+Please visit http://www.arrowchat.com/documentation/?p=custom-website for instructions on installing on a non-supported integration.
+
+
+==========================
+   LICENSE INFORMATION
+==========================
+
+Please visit http://www.arrowchat.com/license/ for more information on the Arrowchat license.

@@ -1,0 +1,1959 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SeedProd Coming Soon Pro v3.9.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-03-30 14:55-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: da_DK\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ seedprod
+#: framework/field-types/customaweberauth.php:11
+msgid "Save"
+msgstr "Gem"
+
+# @ seedprod
+#: framework/field-types/customaweberlists.php:25
+#: framework/field-types/customcampaignmonitorclients.php:25
+#: framework/field-types/customcampaignmonitorlists.php:26
+#: framework/field-types/customconstantcontactlist.php:26
+#: framework/field-types/customgetresponse.php:25
+#: framework/field-types/custommadmini.php:25
+#: framework/field-types/custommailchimplist.php:25
+msgid "Refresh List"
+msgstr "Genlæs"
+
+# @ seedprod
+#: framework/field-types/customcontainereffects.php:21
+msgid "Width"
+msgstr "Bredde"
+
+# @ seedprod
+#: framework/field-types/customcontainereffects.php:33
+msgid "Color"
+msgstr "Farve"
+
+# @ seedprod
+#: framework/field-types/customcontainereffects.php:46
+msgid "Radius"
+msgstr "Radius"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:8
+#: framework/field-types/date.php:8 framework/field-types/daterange.php:8
+msgid "01-Jan"
+msgstr "01-Jan"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:9
+#: framework/field-types/date.php:9 framework/field-types/daterange.php:9
+msgid "02-Feb"
+msgstr "02-Feb"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:10
+#: framework/field-types/date.php:10 framework/field-types/daterange.php:10
+msgid "03-Mar"
+msgstr "03-Mar"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:11
+#: framework/field-types/date.php:11 framework/field-types/daterange.php:11
+msgid "04-Apr"
+msgstr "04-Apr"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:12
+#: framework/field-types/date.php:12 framework/field-types/daterange.php:12
+msgid "05-May"
+msgstr "05-Maj"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:13
+#: framework/field-types/date.php:13 framework/field-types/daterange.php:13
+msgid "06-Jun"
+msgstr "06-Jun"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:14
+#: framework/field-types/date.php:14 framework/field-types/daterange.php:14
+msgid "07-Jul"
+msgstr "07-Jul"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:15
+#: framework/field-types/date.php:15 framework/field-types/daterange.php:15
+msgid "08-Aug"
+msgstr "08-Aug"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:16
+#: framework/field-types/date.php:16 framework/field-types/daterange.php:16
+msgid "09-Sep"
+msgstr "09-Sep"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:17
+#: framework/field-types/date.php:17 framework/field-types/daterange.php:17
+msgid "10-Oct"
+msgstr "10-Okt"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:18
+#: framework/field-types/date.php:18 framework/field-types/daterange.php:18
+msgid "11-Nov"
+msgstr "11-Nov"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:19
+#: framework/field-types/date.php:19 framework/field-types/daterange.php:19
+msgid "12-Dec"
+msgstr "12-Dec"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:32
+#: framework/field-types/date.php:29 framework/field-types/daterange.php:29
+#: framework/field-types/daterange.php:42
+msgid "day"
+msgstr "dag"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:35
+#: framework/field-types/date.php:32 framework/field-types/daterange.php:32
+#: framework/field-types/daterange.php:45
+msgid "year"
+msgstr "år"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:38
+msgid "hh"
+msgstr "tt"
+
+# @ seedprod
+#: framework/field-types/customcountdown.php:39
+msgid "mm"
+msgstr "mm"
+
+# @ seedprod
+#: framework/field-types/customemaillist.php:22
+msgid ""
+"This option will bypass the builtin referral system, after form confirmation "
+"and social share buttons. Entires will on be available on FeedBurner."
+msgstr ""
+"Dette vil overstyre det indbyggede henvisningssystem, efter formular "
+"bekræftelse og sociale knapper. Posterne vil blive gemt hos FeedBurner."
+
+# @ seedprod
+#: framework/field-types/customemaillist.php:23
+msgid ""
+"Click \"Save Changes\" after selectiing this option to populate the forms. "
+"This option will bypass the builtin referral system, after form confirmation "
+"and social share buttons. Entires will on be available in Gravity Forms."
+msgstr ""
+"Klik på \"Gem ændringer\" efter du har valgt dette for at udfylde formular "
+"felterne. Dette vil overstyre det indbyggede henvisningssystem, efter "
+"formular bekræftelsen, og de sociale knapper. Posterne vil blive gemt i "
+"Gravity Forms."
+
+# @ seedprod
+#: framework/field-types/customsharebuttons.php:14
+msgid "Optional Tweet Text"
+msgstr "Valgfrit Tweet"
+
+# @ seedprod
+#: framework/field-types/customsharebuttons.php:18
+msgid "Image for Facebook Like. Optimal Size: 50px x 50px"
+msgstr "Ikon til Facebook synes godt om. Optimal størelse er 50 x 50 px"
+
+# @ seedprod
+#: framework/field-types/customsharebuttons.php:19
+#: framework/field-types/customsharebuttons.php:30
+#: framework/field-types/upload.php:8
+msgid "Media Image Library"
+msgstr "Medier"
+
+# @ seedprod
+#: framework/field-types/customsharebuttons.php:29
+msgid "Image for Pinterest"
+msgstr "Ikon for Pinterest"
+
+# @ seedprod
+#: framework/field-types/customsocialfollow.php:32
+msgid ""
+"Enter your social profile url's. Drag &amp; Drop the icons to reorder. "
+"Remember to save your changes. <a href='https://seedprod.zendesk.com/"
+"entries/21778652-adding-custom-icons' target='_blank'>Learn how to add your "
+"own custom icons</a>."
+msgstr ""
+"Indtast url til din sociale profil. Træk og slip ikonerne for at ændre "
+"rækkefølgen. Husk at gemme dine ændringer. <a href='https://seedprod.zendesk."
+"com/entries/21778652-adding-custom-icons' target='_blank'>Lær hvordan du "
+"bruger dine egne ikoner</a>."
+
+# @ seedprod
+#: framework/field-types/daterange.php:22
+msgid "Start Date"
+msgstr "Start dato"
+
+# @ seedprod
+#: framework/field-types/daterange.php:35
+msgid "End Date"
+msgstr "Slut dato"
+
+# @ default
+#: framework/framework.php:68
+msgid "Settings reset."
+msgstr "Nulstilling."
+
+# @ seedprod
+#: framework/framework.php:223
+msgid "&larr; Close Window"
+msgstr "&larr; Luk vinduet"
+
+# @ seedprod
+#: framework/framework.php:223
+msgid "Live Preview"
+msgstr "Se Preview"
+
+# @ seedprod
+#: framework/framework.php:225
+msgid "Support"
+msgstr "Support"
+
+# @ seedprod
+#: framework/framework.php:279 framework/framework.php:326
+#: framework/framework.php:543
+msgid "Save All Changes"
+msgstr "Gem alle ændringer"
+
+# @ seedprod
+#: framework/framework.php:281 framework/framework.php:327
+msgid "Reset Settings"
+msgstr "Gendan standard opsætning"
+
+# @ seedprod
+#: framework/framework.php:345
+msgid ""
+"This tabs settings be deleted and reset to the defaults. Are you sure you "
+"want to reset?"
+msgstr ""
+"Disse indstillinger sættes tilbage til standard værdierne. Er du sikker på "
+"at du vil nulstille?"
+
+# @ seedprod
+#: framework/validations/color.php:13
+msgid "Please enter a valid color value."
+msgstr "Indtast venligst en farve."
+
+# @ seedprod
+#: framework/validations/email.php:10 framework/validations/escurlraw.php:11
+#: inc/config.php:745
+msgid "Please enter a valid email."
+msgstr "Indtast venligst en gyldig e-mail adresse."
+
+# @ seedprod
+#: framework/validations/number.php:11
+msgid "Please enter a valid number."
+msgstr "Indtast venligst et tal"
+
+# @ seedprod
+#: framework/validations/required.php:10
+msgid "is required."
+msgstr "skal udfyldes."
+
+# @ seedprod
+#: inc/class-plugin.php:222
+msgid "Coming Soon Mode Active"
+msgstr "Kommer-snart tilstand aktivt"
+
+# @ seedprod
+#: inc/class-plugin.php:224
+msgid "Maintenance Mode Active"
+msgstr "Vedligeholdelses tilstand aktivt"
+
+# @ seedprod
+#: inc/class-plugin.php:251
+msgid "Are you sure you want to DELETE all subscribers?"
+msgstr "Er du sikker på at du vil slette alle tilmeldte?"
+
+# @ seedprod
+#: inc/class-plugin.php:252
+msgid ""
+"Are you sure you want to IMPORT these settings? Current settings will be "
+"erased!"
+msgstr ""
+"Er du sikker på at du vil importere en opsætning? Aktuel opsætning "
+"overskrives!"
+
+# @ seedprod
+#: inc/class-plugin.php:361 inc/class-plugin.php:412 inc/class-plugin.php:454
+msgid "No lists Found"
+msgstr "Ingen nyhedsbreve fundet"
+
+# @ seedprod
+#: inc/class-plugin.php:365
+msgid "Unable to load MailChimp lists, check your API Key."
+msgstr "Kan ikke læse MailChimp nyhedsbreve. Kontroller din API nøgle"
+
+# @ seedprod
+#: inc/class-plugin.php:407
+msgid "Unable to authenticate"
+msgstr "Kunne ikke logge ind"
+
+# @ seedprod
+#: inc/class-plugin.php:509
+msgid "Unable to load Constant Contact lists"
+msgstr "Kunne ikke indlæse Constant Contact nyhedsbreve"
+
+# @ seedprod
+#: inc/class-plugin.php:562
+msgid "Unable to load Campaign Monitor lists"
+msgstr "Kunne ikke indlæse Campaign Monitor nyhedsbreve"
+
+# @ seedprod
+#: inc/class-plugin.php:610
+msgid "Unable to load Campaign Monitor clients"
+msgstr "Kunne ikke indlæse Campaign Monitor modtagere"
+
+# @ seedprod
+#: inc/class-plugin.php:667
+msgid "Unable to load Aweber lists"
+msgstr "Kunne ikke indlæse Aweber nyhedsbreve"
+
+# @ seedprod
+#: inc/class-plugin.php:793
+msgid "New Email Subscriber"
+msgstr "Ny tilmelding"
+
+# @ seedprod
+#: inc/class-plugin.php:1389
+msgid "Do not display an Email SignUp"
+msgstr "Vis ikke en e-mail tilmelding"
+
+# @ seedprod
+#: inc/class-plugin.php:1390
+msgid "Database"
+msgstr "Database"
+
+# @ seedprod
+#: inc/class-plugin.php:1391
+msgid "FeedBurner"
+msgstr "FeedBurner"
+
+# @ seedprod
+#: inc/class-plugin.php:1478
+msgid "All subscribers deleted."
+msgstr "Alle tilmeldte er slettet."
+
+# @ seedprod
+#: inc/class-plugin.php:1485
+msgid "Selected subscribers deleted."
+msgstr "Valgte tilmeldte slettet."
+
+# @ seedprod
+#: inc/class-plugin.php:1608
+msgid "Subscribed on: "
+msgstr "Tilmeldt den:"
+
+# @ seedprod
+#: inc/class-plugin.php:1662 inc/config.php:1322
+msgid "Subscribers"
+msgstr "Tilmeldte"
+
+# @ seedprod
+#: inc/class-plugin.php:1663
+msgid "Clicks"
+msgstr "Antal klik"
+
+# @ seedprod
+#: inc/class-plugin.php:1664
+msgid "# People Signed Up"
+msgstr "# har tilmeldt sig"
+
+# @ seedprod
+#: inc/class-plugin.php:1665
+msgid "Conversion Rate"
+msgstr "Konverterings rate"
+
+# @ seedprod
+#: inc/class-plugin.php:1666
+msgid "Created"
+msgstr "Oprettet"
+
+# @ seedprod
+#: inc/class-plugin.php:1702
+msgid "Export All"
+msgstr "Eksporter alle"
+
+# @ seedprod
+#: inc/class-plugin.php:1703
+msgid "Delete All"
+msgstr "Slet alle"
+
+# @ seedprod
+#: inc/class-plugin.php:1704
+msgid "Delete Selected"
+msgstr "Slet valgte"
+
+# @ seedprod
+#: inc/config.php:26 seedprod-coming-soon-pro.php:34
+msgid "Coming Soon Pro"
+msgstr "Coming Soon Pro"
+
+# @ seedprod
+#: inc/config.php:37
+msgid "Settings"
+msgstr "Opsætning"
+
+# @ seedprod
+#: inc/config.php:48
+msgid "General"
+msgstr "Generel"
+
+# @ seedprod
+#: inc/config.php:54
+msgid "Status"
+msgstr "Status"
+
+# @ seedprod
+#: inc/config.php:56
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+# @ seedprod
+#: inc/config.php:57
+msgid "Enable Coming Soon Mode"
+msgstr "Aktiver Kommer-snart tilstand"
+
+# @ seedprod
+#: inc/config.php:58
+msgid "Enable Maintenance Mode"
+msgstr "Aktiver Vedligeholdelses tilstand"
+
+# @ seedprod
+#: inc/config.php:60
+msgid ""
+"Coming Soon Mode will be available to search engines if your site is not "
+"private. Maintenance Mode will notify search engines that the site is "
+"unavailable."
+msgstr ""
+"Kommer-snart tilstanden vil gøre siden tilgængelig for søge maskiner."
+"Vedligeholdelses tilstanden vil fortælle søge maskiner at siden ikke er "
+"tilgængelig"
+
+# @ seedprod
+#: inc/config.php:70
+msgid "Use maintenance.php"
+msgstr "Anvend maintenance.php"
+
+# @ seedprod
+#: inc/config.php:71
+msgid ""
+"maintenance.php detected, would you like to use this for your maintenance "
+"page?"
+msgstr ""
+"maintenance.php er fundet, vil du anvende denne til din \"Siden vedligeholdes"
+"\" side?"
+
+# @ seedprod
+#: inc/config.php:73 inc/config.php:186 inc/config.php:369 inc/config.php:415
+#: inc/config.php:457 inc/config.php:474 inc/config.php:520 inc/config.php:545
+#: inc/config.php:819 inc/config.php:883 inc/config.php:894
+#: inc/config.php:1040 inc/config.php:1235 inc/config.php:1246
+#: inc/config.php:1258 inc/config.php:1292
+msgid "Yes"
+msgstr "Ja"
+
+# @ seedprod
+#: inc/config.php:84
+msgid "API key"
+msgstr "API nøgle"
+
+# @ seedprod
+#: inc/config.php:85
+msgid ""
+"Enter your <a href='http://app.seedprod.com' target='_blank'>API Key</a> to "
+"receive automatic plugin updates."
+msgstr ""
+"Indtast din <a href='http://app.seedprod.com' target='_blank'>API nøgle</a> "
+"for at modtage automatiske opdateringer."
+
+# @ seedprod
+#: inc/config.php:94
+msgid "Page Settings"
+msgstr "Side opsætning"
+
+# @ seedprod
+#: inc/config.php:100
+msgid "Logo"
+msgstr "Logo"
+
+# @ seedprod
+#: inc/config.php:101
+msgid "Upload a logo or teaser image (or) enter the url to your image."
+msgstr ""
+"Upload et logo eller et teaser billede, eller indtast en url til et billede."
+
+# @ seedprod
+#: inc/config.php:108
+msgid "Headline"
+msgstr "Overskrift"
+
+# @ seedprod
+#: inc/config.php:109
+msgid ""
+"Enter a headline for your page. Replace the default headline if it exists."
+msgstr ""
+"Indtast en overskrift for din side. Overstyrer standard overskriften hvis "
+"den findes."
+
+# @ seedprod
+#: inc/config.php:115
+msgid "Description"
+msgstr "Besked tekst"
+
+# @ seedprod
+#: inc/config.php:116
+msgid ""
+"Tell the visitor what to expect from your site. Also supports WordPress "
+"shortcodes and <a href='http://codex.wordpress.org/Embeds' "
+"target='_target'>video embeds</a>."
+msgstr ""
+"Beskriv hvad besøgende skal forvente af din side. WordPress Shortcodes og <a "
+"href='http://codex.wordpress.org/Embeds' target='_target'>video indlejring</"
+"a> virker også."
+
+# @ seedprod
+#: inc/config.php:132
+msgid "Form Settings"
+msgstr "Formular opsætning"
+
+# @ seedprod
+#: inc/config.php:138
+msgid "Save subscribers to:"
+msgstr "Gem tilmeldte i:"
+
+# @ seedprod
+#: inc/config.php:146
+msgid "Name Field"
+msgstr "Navne felt"
+
+# @ seedprod
+#: inc/config.php:147
+msgid "Ask for the visitors name."
+msgstr "Spørg efter brugerens navn."
+
+# @ seedprod
+#: inc/config.php:149
+msgid "Display Name Field"
+msgstr "Vis navne felt"
+
+# @ seedprod
+#: inc/config.php:177
+msgid "Database Settings"
+msgstr "Database opsætning"
+
+# @ seedprod
+#: inc/config.php:183
+msgid "Enable New Subscriber Notifications"
+msgstr "Aktiver besked for nye tilmeldte"
+
+# @ seedprod
+#: inc/config.php:184
+msgid "Get an email notification when some subscribes."
+msgstr "Modtag en e-mail når nogen tilmelder sig."
+
+# @ seedprod
+#: inc/config.php:194
+msgid "FeedBurner Settings"
+msgstr "FeedBurner opsætning"
+
+# @ seedprod
+#: inc/config.php:200
+msgid "Address"
+msgstr "Adresse"
+
+# @ seedprod
+#: inc/config.php:201
+msgid "Enter your FeedBurner address."
+msgstr "Indtast din FeedBurner adresse."
+
+# @ seedprod
+#: inc/config.php:207
+msgid "Local"
+msgstr "Lokal"
+
+# @ seedprod
+#: inc/config.php:210
+msgid ""
+"The language the FeedBurner form is displayed in. The default is English. <a "
+"href=\"http://support.google.com/feedburner/bin/answer.py?"
+"hl=en&answer=81423\">Learn more</a>."
+msgstr ""
+"Sproget som FeedBurner formularen vises i. Standarden er Engelsk. <a href="
+"\"http://support.google.com/feedburner/bin/answer.py?"
+"hl=en&answer=81423\">Læs mere</a>."
+
+# @ seedprod
+#: inc/config.php:217
+msgid "Aweber Settings"
+msgstr "Aweber opsætning"
+
+# @ seedprod
+#: inc/config.php:224
+msgid ""
+"<a href=\"https://auth.aweber.com/1.0/oauth/authorize_app/a662998e\" target="
+"\"_blank\">Authorize App</a> &larr; Click the link to get you Authorization "
+"Code."
+msgstr ""
+"<a href=\"https://auth.aweber.com/1.0/oauth/authorize_app/a662998e\" target="
+"\"_blank\">Godkend App</a> &larr; Klik på linket for at få din godkendelses "
+"kode."
+
+# @ seedprod
+#: inc/config.php:230
+msgid "Authorization Code"
+msgstr "Godkendelses kode"
+
+# @ seedprod
+#: inc/config.php:231
+msgid ""
+"Paste in the Authorization Code you received when authorizing the app and "
+"click <strong>Save</strong>."
+msgstr ""
+"Indsæt godkendelses koden du fik da du fik godkendt din app og klik på "
+"<strong>Gem</strong>."
+
+# @ seedprod
+#: inc/config.php:237 inc/config.php:265 inc/config.php:294 inc/config.php:383
+#: inc/config.php:405
+msgid "List"
+msgstr "Liste"
+
+# @ seedprod
+#: inc/config.php:245
+msgid "Campaign Monitor Settings"
+msgstr "Campaign Monitor opsætning"
+
+# @ seedprod
+#: inc/config.php:251 inc/config.php:308 inc/config.php:337 inc/config.php:398
+msgid "API Key"
+msgstr "API nøgle"
+
+# @ seedprod
+#: inc/config.php:252
+msgid ""
+"Get your <a target=\"_blank\" href=\"http://help.campaignmonitor.com/topic."
+"aspx?t=206\">API key</a>"
+msgstr ""
+"Hent din <a target=\"_blank\" href=\"http://help.campaignmonitor.com/topic."
+"aspx?t=206\">API nøgle</a>"
+
+# @ seedprod
+#: inc/config.php:258
+msgid "Client"
+msgstr "Klient"
+
+# @ seedprod
+#: inc/config.php:274
+msgid "Constant Contact Settings"
+msgstr "Constant Contact opsætning"
+
+# @ seedprod
+#: inc/config.php:280
+msgid "Username"
+msgstr "Brugernavn"
+
+# @ seedprod
+#: inc/config.php:281
+msgid "Enter your Constant Contact username."
+msgstr "Indtast dit Constant Contact brugernavn"
+
+# @ seedprod
+#: inc/config.php:287
+msgid "Password"
+msgstr "Adgangskode"
+
+# @ seedprod
+#: inc/config.php:288
+msgid "Enter your Constant Contact password."
+msgstr "Indtast din Constant Contact adgangskode."
+
+# @ seedprod
+#: inc/config.php:302
+msgid "GetResponse Settings"
+msgstr "GetResponse opsætning"
+
+# @ seedprod
+#: inc/config.php:309
+msgid ""
+"Enter your API Key. <a target=\"_blank\" href=\"https://app.getresponse.com/"
+"my_account.html\" target=\"_blank\">Get your API key</a>"
+msgstr ""
+"Indtast din API nøgle. a target=\"_blank\" href=\"https://app.getresponse."
+"com/my_account.html\" target=\"_blank\">Hent din API nøgle</a>"
+
+# @ seedprod
+#: inc/config.php:315 inc/config.php:344
+msgid "Campaign"
+msgstr "Kampagne"
+
+# @ seedprod
+#: inc/config.php:324
+msgid "Mad Mimi Settings"
+msgstr "Mad Mimi opsætning"
+
+# @ seedprod
+#: inc/config.php:330
+msgid "Username or Email"
+msgstr "Brugernavn eller e-mail"
+
+# @ seedprod
+#: inc/config.php:331
+msgid "Enter your username or email."
+msgstr "Indtast dit brugernavn eller din e-mail adresse."
+
+# @ seedprod
+#: inc/config.php:338
+msgid ""
+"Enter your API Key. <a target=\"_blank\" href=\"https://madmimi.com/user/"
+"edit?set_api&account_info_tabs=account_info_personal\" target=\"_blank\">Get "
+"your API key</a>"
+msgstr ""
+"Indtast din API nøgle. <a target=\"_blank\" href=\"https://madmimi.com/user/"
+"edit?set_api&account_info_tabs=account_info_personal\" target=\"_blank"
+"\">Hent din API nøgle</a>"
+
+# @ seedprod
+#: inc/config.php:352
+msgid "Gravity Forms Settings"
+msgstr "Gravity Forms opsætning"
+
+# @ seedprod
+#: inc/config.php:358
+msgid "Form"
+msgstr "Formular"
+
+# @ seedprod
+#: inc/config.php:360
+msgid "Select a form to display on your page."
+msgstr "Vælg en fomular der skal vises på din side."
+
+# @ seedprod
+#: inc/config.php:366
+msgid "Override Gravity Form's confirmation page"
+msgstr "Overstyr Gravity Forms bekræftelses side"
+
+# @ seedprod
+#: inc/config.php:367
+msgid ""
+"Redirect to this plugin's Thank You page instead of the default Gravity "
+"Forms Confirmation page."
+msgstr ""
+"Viderstil til dette plugins TAK side i stedet for at anvende Gravity Forms "
+"formular bekræftelse."
+
+# @ seedprod
+#: inc/config.php:377
+msgid "WYSIJA Settings"
+msgstr "WUSIJA opsætning"
+
+# @ seedprod
+#: inc/config.php:385
+msgid "Select a list to save your contacts to."
+msgstr "Gem en liste du vil gemme tilmeldte i."
+
+# @ seedprod
+#: inc/config.php:392
+msgid "MailChimp Settings"
+msgstr "MailChimp opsætning"
+
+# @ seedprod
+#: inc/config.php:399
+msgid ""
+"Enter your API Key. <a target=\"_blank\" href=\"http://admin.mailchimp.com/"
+"account/api-key-popup\" target=\"_blank\">Get your API key</a>"
+msgstr ""
+"Indtast din API nøgle. <a target=\"_blank\" href=\"http://admin.mailchimp."
+"com/account/api-key-popup\" target=\"_blank\">Hent din API nøgle</a>"
+
+# @ seedprod
+#: inc/config.php:412
+msgid "Enable Double Opt-In"
+msgstr "Aktiver Double Opt-In"
+
+# @ seedprod
+#: inc/config.php:413
+msgid ""
+"Learn  more about <a href=\"http://kb.mailchimp.com/article/how-does-"
+"confirmed-optin-or-double-optin-work\">Double Opt-In</a>"
+msgstr ""
+"Læs mere om <a href=\"http://kb.mailchimp.com/article/how-does-confirmed-"
+"optin-or-double-optin-work\">Double Opt-In</a>"
+
+# @ seedprod
+#: inc/config.php:423
+msgid "After Subscribe Settings"
+msgstr "Efter tilmelding"
+
+# @ seedprod
+#: inc/config.php:429
+msgid "Thank You or Incentive Message"
+msgstr "Tak eller ansporende besked "
+
+# @ seedprod
+#: inc/config.php:430
+msgid ""
+"Leave a thank you or incentive information after the user has subscribed. "
+"This will override the default success message."
+msgstr ""
+"Vis en Tak eller en ansporende information efter brugeren har tilmeldt sig. "
+"Dette vil overstyre standard beskeden."
+
+# @ seedprod
+#: inc/config.php:437
+msgid "Share Buttons"
+msgstr "Sociale knapper"
+
+# @ seedprod
+#: inc/config.php:438
+msgid ""
+"Select the checkboxes above to display Social Share Buttons after you "
+"capture an email."
+msgstr "Vælg sociale knapper der skal vises efter e-mail feltet."
+
+# @ seedprod
+#: inc/config.php:440
+msgid "Twitter"
+msgstr "Twitter"
+
+# @ seedprod
+#: inc/config.php:441
+msgid "Facebook"
+msgstr "Facebook"
+
+# @ seedprod
+#: inc/config.php:442
+msgid "Google Plus"
+msgstr "Google Plus"
+
+# @ seedprod
+#: inc/config.php:443
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+# @ seedprod
+#: inc/config.php:444
+msgid "PinIt"
+msgstr "PinIt"
+
+# @ seedprod
+#: inc/config.php:446
+msgid "Tumblr"
+msgstr "Tumblr"
+
+# @ seedprod
+#: inc/config.php:454
+msgid "Display Referrer Link"
+msgstr "Vis henvisnings link"
+
+# @ seedprod
+#: inc/config.php:455
+msgid ""
+"The referrer link is a special link that you can encourage your subscribers "
+"to share so you track who referred who."
+msgstr ""
+"Henvisnings linket er et specielt link som du kan opfordre de tilmeldte til "
+"at dele, så du kan spore hvem der henviste hvem."
+
+# @ seedprod
+#: inc/config.php:465
+msgid "Progress Bar Settings"
+msgstr "Statusbjælke opsætning"
+
+# @ seedprod
+#: inc/config.php:471
+msgid "Enable Progress Bar"
+msgstr "Aktiver statusbjælke"
+
+# @ seedprod
+#: inc/config.php:472
+msgid "Displays a progress bar on your site."
+msgstr "Viser en statusbjælke på siden"
+
+# @ seedprod
+#: inc/config.php:481
+msgid "Start and End Date"
+msgstr "Start og slut datoer"
+
+# @ seedprod
+#: inc/config.php:482
+msgid ""
+"The percent complete will be automatically calculated if you enter a start "
+"and end date."
+msgstr ""
+"Færdiggørelses procenten beregnes automatisk hvis du indtaster en start og "
+"slut dato."
+
+# @ seedprod
+#: inc/config.php:489
+msgid "Percent Complete Override"
+msgstr "Overstyr færdiggørelses procent"
+
+# @ seedprod
+#: inc/config.php:490
+msgid ""
+"Enter the percentage complete without the percentage sign. This will "
+"override the date calculation above."
+msgstr ""
+"Indtast procent færdig uden procent tegnet. Dette overstyrer dato "
+"beregningen ovenfor."
+
+# @ seedprod
+#: inc/config.php:497
+msgid "Progress Bar Effect"
+msgstr "Statusbjælke effekt"
+
+# @ seedprod
+#: inc/config.php:499
+msgid "Basic"
+msgstr "Enkel"
+
+# @ seedprod
+#: inc/config.php:500
+msgid "Striped"
+msgstr "Stiplet"
+
+# @ seedprod
+#: inc/config.php:501
+msgid "Animated"
+msgstr "Animeret"
+
+# @ seedprod
+#: inc/config.php:504
+msgid "Striped and Animated are not supported in Internet Explorer"
+msgstr "Stiplet og animeret, virker ikke i Internet Explorer"
+
+# @ seedprod
+#: inc/config.php:511
+msgid "Countdown Settings"
+msgstr "Nedtælling opsætning"
+
+# @ seedprod
+#: inc/config.php:517
+msgid "Enable Countdown"
+msgstr "Aktiver nedtælling"
+
+# @ seedprod
+#: inc/config.php:518
+msgid "Displays a countdown on your site."
+msgstr "Viser en nedtælling på siden."
+
+# @ seedprod
+#: inc/config.php:527
+msgid "End DateTime"
+msgstr "Slut dato-tid"
+
+# @ seedprod
+#: inc/config.php:528
+msgid "Enter the datetime to countdown to."
+msgstr "Indtast dato-tid der skal tælles ned til."
+
+# @ seedprod
+#: inc/config.php:542
+msgid "Auto Launch"
+msgstr "Auto Start"
+
+# @ seedprod
+#: inc/config.php:543
+msgid ""
+"This will automatically launch your site when countdown reaches the end."
+msgstr ""
+"Dette starter automatisk siden som almindelig side når nedtællingen er "
+"færdig."
+
+# @ seedprod
+#: inc/config.php:552 inc/config.php:696
+msgid "Language Strings"
+msgstr "Sprog tekster"
+
+# @ seedprod
+#: inc/config.php:553
+msgid "Translate the text strings below into your language if not English."
+msgstr ""
+"Oversæt teksterne nedenfor til dit lokale sprog hvis det ikke er engelsk."
+
+# @ seedprod
+#: inc/config.php:560
+msgid "Days"
+msgstr "Dage"
+
+# @ seedprod
+#: inc/config.php:561 inc/config.php:569 inc/config.php:578 inc/config.php:587
+msgid "Translate into your language."
+msgstr "Oversæt til dit lokale sprog."
+
+# @ seedprod
+#: inc/config.php:568
+msgid "Hours"
+msgstr "Timer"
+
+# @ seedprod
+#: inc/config.php:577
+msgid "Minutes"
+msgstr "Minutter"
+
+# @ seedprod
+#: inc/config.php:586
+msgid "Seconds"
+msgstr "Sekunder"
+
+# @ seedprod
+#: inc/config.php:599
+msgid "Header"
+msgstr "Header"
+
+# @ seedprod
+#: inc/config.php:604
+msgid "Favicon"
+msgstr "Favicon"
+
+# @ seedprod
+#: inc/config.php:605
+msgid ""
+"Favicons are displayed in a browser tab. Need Help <a href=\"http://tools."
+"dynamicdrive.com/favicon/\" target=\"_blank\">creating a favicon</a>?"
+msgstr ""
+"Faviconer vises i browseres tabsider. Vil du vide mere om <a href=\"http://"
+"tools.dynamicdrive.com/favicon/\" target=\"_blank\">hvordan du laver et "
+"favicon</a>?"
+
+# @ seedprod
+#: inc/config.php:611
+msgid "SEO Title"
+msgstr "SEO Titel"
+
+# @ seedprod
+#: inc/config.php:612
+msgid ""
+"If left empty the <a href=\"http://www.seomoz.org/learn-seo/title-tag\" "
+"target=\"_blank\">title tag</a> of your page will be: "
+msgstr ""
+"Hvis feltet er blankt vil dit <a href=\"http://www.seomoz.org/learn-seo/"
+"title-tag\" target=\"_blank\">titel tag</a> for siden være: "
+
+# @ seedprod
+#: inc/config.php:618
+msgid "SEO Meta Description"
+msgstr "SEO Meta beskrivelse"
+
+# @ seedprod
+#: inc/config.php:619
+msgid ""
+"If left empty the <a href=\"http://www.seomoz.org/learn-seo/meta-description"
+"\" target=\"_blank\">meta description</a> of your page will be: "
+msgstr ""
+"Hvis feltet er blankt vil <a href=\"http://www.seomoz.org/learn-seo/meta-"
+"description\" target=\"_blank\">meta beskrivelsen</a> for siden være:"
+
+# @ seedprod
+#: inc/config.php:627
+msgid "Analytics Code"
+msgstr "Analytics kode"
+
+# @ seedprod
+#: inc/config.php:628
+msgid ""
+"Paste in your <a href=\"http://www.google.com/analytics/\" target=\"_blank"
+"\">Google Analytics</a> code. Example: UA-xxxxxxxxx"
+msgstr ""
+"Indsæt din <a href=\"http://www.google.com/analytics/\" target=\"_blank"
+"\">Google Analytics</a> kode. Eksempel: UA-xxxxxxxxx"
+
+# @ seedprod
+#: inc/config.php:635
+msgid "Footer Credit"
+msgstr "Footer kreditering"
+
+# @ seedprod
+#: inc/config.php:647
+msgid "Credit Image"
+msgstr "Krediter billede"
+
+# @ seedprod
+#: inc/config.php:648
+msgid "Use an image to add a footer credit."
+msgstr "Anvend et billede til kreditering i footer."
+
+# @ seedprod
+#: inc/config.php:654
+msgid "Link to be used for your footer credit."
+msgstr "Link der skal anvendes til footer krediteringen."
+
+# @ seedprod
+#: inc/config.php:655
+msgid "Credit Link"
+msgstr "Krediterings link"
+
+# @ seedprod
+#: inc/config.php:670
+msgid "Social Media Profiles"
+msgstr "Sociale medier profiler"
+
+# @ seedprod
+#: inc/config.php:676
+msgid "Social Media Icons Size"
+msgstr "Sociale medier ikon størelse"
+
+# @ seedprod
+#: inc/config.php:678
+msgid "Small 16px"
+msgstr "Lille 16px"
+
+# @ seedprod
+#: inc/config.php:679
+msgid "Medium 24px"
+msgstr "Medium 24px"
+
+# @ seedprod
+#: inc/config.php:680
+msgid "Large 32px"
+msgstr "Stor 32px"
+
+# @ seedprod
+#: inc/config.php:689
+msgid "Social Profiles"
+msgstr "Sociale profiler"
+
+# @ seedprod
+#: inc/config.php:702
+msgid "Subscribe Button"
+msgstr "Tilmeld knap"
+
+# @ seedprod
+#: inc/config.php:703
+msgid "Notify Me"
+msgstr "Giv mig besked"
+
+# @ seedprod
+#: inc/config.php:709
+msgid "Subscribe Field"
+msgstr "Tilmeldingsfelt"
+
+# @ seedprod
+#: inc/config.php:710
+msgid "Enter Your Email"
+msgstr "Indtast din e-mail adresse"
+
+# @ seedprod
+#: inc/config.php:716
+msgid "First Name Field"
+msgstr "Fornavn felt"
+
+# @ seedprod
+#: inc/config.php:717
+msgid "First Name"
+msgstr "Fornavn"
+
+# @ seedprod
+#: inc/config.php:723
+msgid "Last Name Field"
+msgstr "Efternavns felt"
+
+# @ seedprod
+#: inc/config.php:724
+msgid "Last Name"
+msgstr "Efternavn"
+
+# @ seedprod
+#: inc/config.php:730
+msgid "Success"
+msgstr "Success"
+
+# @ seedprod
+#: inc/config.php:731
+msgid "You'll be notified soon!"
+msgstr "Du får snart mere at vide!"
+
+# @ seedprod
+#: inc/config.php:737
+msgid "Already Subscribed"
+msgstr "Allerede tilmeldt"
+
+# @ seedprod
+#: inc/config.php:738
+msgid "You're already subscribed."
+msgstr "Du har allerede tilmeldt dig."
+
+# @ seedprod
+#: inc/config.php:744
+msgid "Invalid Email"
+msgstr "Ugyldig e-mail"
+
+# @ seedprod
+#: inc/config.php:751
+msgid "API Error"
+msgstr "API Fejl"
+
+# @ seedprod
+#: inc/config.php:752
+msgid "Error, please try again."
+msgstr "Fejl, prøv venligst igen."
+
+# @ seedprod
+#: inc/config.php:762
+msgid "Design"
+msgstr "Design"
+
+# @ seedprod
+#: inc/config.php:793
+msgid "Background"
+msgstr "Baggrund"
+
+# @ seedprod
+#: inc/config.php:800
+msgid "Background Color"
+msgstr "Baggrundsfarve"
+
+# @ seedprod
+#: inc/config.php:803
+msgid ""
+"Choose between having a solid color background or uploading an image. By "
+"default images will cover the entire background."
+msgstr ""
+"Vælg mellem at have en enkelt farvet baggrund, eller upload et billed. Som "
+"standard vil billeder fylde hele baggrunden."
+
+# @ seedprod
+#: inc/config.php:810
+msgid "Background Image"
+msgstr "Baggrundsbillede"
+
+# @ seedprod
+#: inc/config.php:816
+msgid "Cover or Stretch"
+msgstr "Dæk eller stræk"
+
+# @ seedprod
+#: inc/config.php:817
+msgid ""
+"Cover will scale the image to the smallest size such that both its width and "
+"its height can fit inside the content area. The image will be stretched for "
+"older browsers."
+msgstr ""
+"Dæk vil skalere billedet til mindste størelse, således at både bredde og "
+"højde kan være inden for indholdsområdet. Billedet bliver strukket i ældre "
+"browsere."
+
+# @ seedprod
+#: inc/config.php:827
+msgid "Background Repeat"
+msgstr "Gentag baggrunden"
+
+# @ seedprod
+#: inc/config.php:829
+msgid "No-Repeat"
+msgstr "Ingen gentagelse"
+
+# @ seedprod
+#: inc/config.php:830
+msgid "Tile"
+msgstr "Fliselagt"
+
+# @ seedprod
+#: inc/config.php:831
+msgid "Tile Horizontally"
+msgstr "Horisontal flise"
+
+# @ seedprod
+#: inc/config.php:832
+msgid "Tile Vertically"
+msgstr "Vertikal flise"
+
+# @ seedprod
+#: inc/config.php:840
+msgid "Background Position"
+msgstr "Baggrunds position"
+
+# @ seedprod
+#: inc/config.php:842
+msgid "Left Top"
+msgstr "Øverste venstre"
+
+# @ seedprod
+#: inc/config.php:843
+msgid "Left Center"
+msgstr "Centreret venstre"
+
+# @ seedprod
+#: inc/config.php:844
+msgid "Left Bottom"
+msgstr "Nederst venstre"
+
+# @ seedprod
+#: inc/config.php:845
+msgid "Right Top"
+msgstr "Øverste højre"
+
+# @ seedprod
+#: inc/config.php:846
+msgid "Right Center"
+msgstr "Centreret højre"
+
+# @ seedprod
+#: inc/config.php:847
+msgid "Right Bottom"
+msgstr "Nederst højre"
+
+# @ seedprod
+#: inc/config.php:848
+msgid "Center Top"
+msgstr "Centrer top"
+
+# @ seedprod
+#: inc/config.php:849
+msgid "Center Center"
+msgstr "Centrer centrum"
+
+# @ seedprod
+#: inc/config.php:850
+msgid "Center Bottom"
+msgstr "Centrer bund"
+
+# @ seedprod
+#: inc/config.php:857
+msgid "Background Attachment"
+msgstr "Baggrund vedhæftelse"
+
+# @ seedprod
+#: inc/config.php:859
+msgid "Fixed"
+msgstr "Fast"
+
+# @ seedprod
+#: inc/config.php:860
+msgid "Scroll"
+msgstr "Scroll"
+
+# @ seedprod
+#: inc/config.php:867
+msgid "Background Effects"
+msgstr "Baggrundseffekter"
+
+# @ seedprod
+#: inc/config.php:869
+msgid "None"
+msgstr "Ingen"
+
+# @ seedprod
+#: inc/config.php:870
+msgid "Noise"
+msgstr "Støj"
+
+# @ seedprod
+#: inc/config.php:872
+msgid ""
+"Background effects can be applied to Background Colors or Background Images."
+msgstr ""
+"Baggrundseffekter kan anvendes på baggrundsfarven eller baggrunds billedet."
+
+# @ seedprod
+#: inc/config.php:880
+msgid "Background Slideshow"
+msgstr "Baggrund slideshow"
+
+# @ seedprod
+#: inc/config.php:881
+msgid "This will override the setting above and create a background slideshow."
+msgstr ""
+"Dette overstyrer opsætningen ovenfor og i stedet vises et baggrunds slideshow"
+
+# @ seedprod
+#: inc/config.php:891
+msgid "Slideshow Randomize"
+msgstr "Blandet slideshow"
+
+# @ seedprod
+#: inc/config.php:892
+msgid ""
+"This will display a random slideshow each time as oppose to the order listed "
+"below."
+msgstr ""
+"Dette vil blande billederne hver gang, i stedet for at følge rækkefølgen "
+"nedenfor."
+
+# @ seedprod
+#: inc/config.php:902
+msgid "Slideshow Images"
+msgstr "Slideshow billeder"
+
+# @ seedprod
+#: inc/config.php:903
+msgid ""
+"Paste in the urls to the images you like to use for your slideshow one per "
+"line. <a href=\"https://seedprod.zendesk.com/entries/22545416-how-to-create-"
+"a-background-slideshow\" target=\"_blank\">Learn How</a>"
+msgstr ""
+"Indsæt URL'er til de billeder der skal bruges til slideshowet. En URL per "
+"linje. <a href=\"https://seedprod.zendesk.com/entries/22545416-how-to-create-"
+"a-background-slideshow\" target=\"_blank\">Se hvordan</a>"
+
+# @ seedprod
+#: inc/config.php:911
+msgid "Text"
+msgstr "Tekst"
+
+# @ seedprod
+#: inc/config.php:917
+msgid "Text Color"
+msgstr "Tekst farve"
+
+# @ seedprod
+#: inc/config.php:927
+msgid "Link &amp; Button Color"
+msgstr "Link &amp; Knap farve"
+
+# @ seedprod
+#: inc/config.php:935
+msgid "Headline Color"
+msgstr "Overskriftsfarve"
+
+# @ seedprod
+#: inc/config.php:937
+msgid ""
+"If no Headline Color is choosen then the Link &amp; Button Color will be "
+"used. "
+msgstr ""
+"Hvis der ikke vælges en farve til overskriften anvendes \"Link &amp; Knap\" "
+"farven."
+
+# @ seedprod
+#: inc/config.php:945
+msgid "Text Font"
+msgstr "Tekst skrifttype"
+
+# @ seedprod
+#: inc/config.php:966
+msgid "Headline Font"
+msgstr "Overskriftens skrifttype"
+
+# @ seedprod
+#: inc/config.php:982
+msgid ""
+"If you choose 'Inherit' as a headline font then the text font will be used."
+msgstr ""
+"Hvis du vælger 'Nedarv' til overskriftens skrifttype, anvendes tekstens "
+"skrifttype også til overskriften. "
+
+# @ seedprod
+#: inc/config.php:988
+msgid "Button Font"
+msgstr "Knap skrifttype"
+
+# @ seedprod
+#: inc/config.php:1004
+msgid ""
+"If you choose 'Inherit' as a button font then the headline font will be used."
+msgstr ""
+"Hvis du vælger 'Nedarv' til knappens skrifttype, anvendes overskrifttens "
+"skrifttype til knappen."
+
+# @ seedprod
+#: inc/config.php:1011
+msgid "Typekit Kit ID"
+msgstr "TypeKit Kit ID"
+
+# @ seedprod
+#: inc/config.php:1012
+msgid ""
+"Enter your <a href=\"https://typekit.com\" target=\"_blank\">Typekit</a> Kit "
+"ID. This will override the fonts above."
+msgstr ""
+"Indtast din <a href=\"https://typekit.com\" target=\"_blank\">Typekit</a> "
+"Kit ID. Dette overstyrer dine skrifttyper ovenfor."
+
+# @ seedprod
+#: inc/config.php:1018
+msgid "Text Effects"
+msgstr "Tekst effekter"
+
+# @ seedprod
+#: inc/config.php:1020
+msgid "Inset <small class=\"description\">: Adds a subtle inset shadow</small>"
+msgstr ""
+"Forsænket <small class=\"description\">: Tilføjer en forsænket skygge</small>"
+
+# @ seedprod
+#: inc/config.php:1031
+msgid "Container"
+msgstr "Indramning"
+
+# @ seedprod
+#: inc/config.php:1037
+msgid "Enable Container"
+msgstr "Aktiver indramning"
+
+# @ seedprod
+#: inc/config.php:1038
+msgid ""
+"A container is a wrapper that will encapsulate your coming soon content."
+msgstr "Indramning indrammer dit budskab i en grafisk kasse."
+
+# @ seedprod
+#: inc/config.php:1047
+msgid "Container Color"
+msgstr "Indramningsfarve"
+
+# @ seedprod
+#: inc/config.php:1055
+msgid "Container Position"
+msgstr "Indramnings position"
+
+# @ seedprod
+#: inc/config.php:1057
+msgid "Left"
+msgstr "Venstre"
+
+# @ seedprod
+#: inc/config.php:1058
+msgid "Center"
+msgstr "Centreret"
+
+# @ seedprod
+#: inc/config.php:1059
+msgid "Right"
+msgstr "Højre"
+
+# @ seedprod
+#: inc/config.php:1067
+msgid "Container Effects"
+msgstr "Indramnings effekter"
+
+# @ seedprod
+#: inc/config.php:1069
+msgid "Fade In"
+msgstr "Fade ind"
+
+# @ seedprod
+#: inc/config.php:1070
+msgid "Drop Shadow"
+msgstr "Skygge"
+
+# @ seedprod
+#: inc/config.php:1071
+msgid "Glow"
+msgstr "Glød"
+
+# @ seedprod
+#: inc/config.php:1072
+msgid "Border"
+msgstr "Kant"
+
+# @ seedprod
+#: inc/config.php:1073
+msgid "Rounded Corners"
+msgstr "Afrundede hjørner"
+
+# @ seedprod
+#: inc/config.php:1074
+msgid "Opacity"
+msgstr "Gennemsigtig"
+
+# @ seedprod
+#: inc/config.php:1076
+msgid ""
+"These effects only work in modern browsers. Not sure what a <a target="
+"\"_blank\" href=\"http://browsehappy.com/\">modern browser</a> is?"
+msgstr ""
+"Disse effekter virker kun i en <a target=\"_blank\" href=\"http://"
+"browsehappy.com/\">moderne browser</a>"
+
+# @ seedprod
+#: inc/config.php:1097
+msgid "Template"
+msgstr "Skabelon"
+
+# @ seedprod
+#: inc/config.php:1105
+msgid "Custom CSS"
+msgstr "Tilpasset CSS"
+
+# @ seedprod
+#: inc/config.php:1106
+msgid "Need to tweaks the styles? Add your custom CSS here."
+msgstr "Har du brug for at ændre styles? Gør dette her."
+
+# @ seedprod
+#: inc/config.php:1113
+msgid "Code"
+msgstr "Kode"
+
+# @ seedprod
+#: inc/config.php:1114
+msgid ""
+"If you need to make some advanced changes to the template you can edit the "
+"code above directly."
+msgstr ""
+"Hvis du vil lave nogle avancerede ændringer til skabelonen, kan du gøre det "
+"i koden ovenfor."
+
+# @ seedprod
+#: inc/config.php:1121
+msgid "Template Tags"
+msgstr "Skabelon Tags"
+
+# @ seedprod
+#: inc/config.php:1122
+msgid ""
+"\n"
+"            <code>{Title}</code> - Display your title. Settings > Coming "
+"Soon Pro Settings > Header > SEO Title <br>\n"
+"            <code>{MetaDescription}</code> - Displays your description along "
+"with the proper meta tags. Settings > Coming Soon Pro > Settings > Header > "
+"SEO Meta Description <br>\n"
+"            <code>{Privacy}</code> - Displays noindex tag if set to private. "
+"Settings > Privacy <br>\n"
+"            <code>{Favicon}</code> - Displays favicon tag. Settings > Coming "
+"Soon Pro > Settings > Header > Favicon <br>\n"
+"            <code>{Head}</code> - Required in the <head> Displays custom "
+"scripts for the page. Settings > Coming Soon Pro > Advanced > Scripts<br>\n"
+"            <code>{Custom CSS}</code> - Displays custom css page. Settings > "
+"Coming Soon Pro > Design > Template > Custom CSS<br>\n"
+"            <code>{Logo}</code> - Displays your logo if set. Settings > "
+"Coming Soon Pro > Settings > Page Settings > Logo<br>\n"
+"            <code>{Headline}</code> - Displays your headline if set. "
+"Settings > Coming Soon Pro > Settings > Page Settings > Headline<br>\n"
+"            <code>{Description}</code> - Displays your description if set. "
+"Settings > Coming Soon Pro > Settings > Page Settings > Description<br>\n"
+"            <code>{ProgressBar}</code> - Displays a progress bar if enabled. "
+"Settings > Coming Soon Pro > Settings > Progress Bar Settings<br>\n"
+"            <code>{Countdown}</code> - Displays a countdown if enabled. "
+"Settings > Coming Soon Pro > Settings > Countdown Settings<br>\n"
+"            <code>{Form}</code> - Displays signup form and thank you page. "
+"Settings > Coming Soon Pro > Settings<br>\n"
+"            <code>{SocialProfiles}</code> - Displays your social profiles if "
+"set. Settings > Coming Soon Pro > Settings > Social Media Profiles<br>\n"
+"            <code>{Credit}</code> - Displays your footer credit if set. "
+"Settings > Coming Soon Pro > Settings > Footer Credit<br>\n"
+"            <code>{Footer}</code> - Displays required scripts for the page."
+"<br>\n"
+"            "
+msgstr ""
+"\n"
+"            <code>{Title}</code> - Viser din titel. Indstillinger > Coming "
+"Soon Pro > Opsætning > Header > SEO Title <br>\n"
+"            <code>{MetaDescription}</code> - Viser din beskrivelse sammen "
+"med meta tags. Indstillinger > Coming Soon Pro > Opsætning > Header > SEO "
+"Meta beskrivelse <br>\n"
+"            <code>{Privacy}</code> - Viser et noindex tag hvis "
+"søgemaskinesynlighed er slået fra. Indstillinger > Læsning > "
+"Søgemaskinesynlighed <br>\n"
+"            <code>{Favicon}</code> - Viser favicon.  Indstillinger > Coming "
+"Soon Pro > Opsætning > Header > Favicon <br>\n"
+"            <code>{Head}</code> - Kræves for <head> viser scripts for siden. "
+"Indstillinger > Coming Soon Pro > Avanceret > Scripts<br>\n"
+"            <code>{Custom CSS}</code> - Viser tilpasset CSS. Indstillinger > "
+"Coming Soon Pro > Design > Skabelon > Tilpasset CSS<br>\n"
+"            <code>{Logo}</code> - Viser dit logo hvis det er sat op. "
+"Indstillinger > Coming Soon Pro > Opsætning > Side opsætning > Logo<br>\n"
+"            <code>{Headline}</code> - Viser din overskrift hvis den er sat "
+"op. Indstillinger > Coming Soon Pro > Opsætning > Side opsætning > "
+"Overskrift<br>\n"
+"            <code>{Description}</code> - Viser din besked tekst hvis den "
+"findes. Indstilligner > Coming Soon Pro > Opsætning > Side opsætning > "
+"Besked tekst<br>\n"
+"            <code>{ProgressBar}</code> - Viser en status bjælke hvis den er "
+"aktiveret. Indstillinger > Coming Soon Pro > Opsætning > Status bjælke "
+"opsætning<br>\n"
+"            <code>{Countdown}</code> - Viser en nedtælling hvis den er "
+"aktiveret. Indstillinger > Coming Soon Pro > Opsætning > Nedtælling "
+"opsætning<br>\n"
+"            <code>{Form}</code> - Viser et tilmeldingsformular og en Tak "
+"side. Indstillingers> Coming Soon Pro > Opsætning<br>\n"
+"            <code>{SocialProfiles}</code> - Viser dine sociale profiler hvis "
+"de er sat op. Indstillinger > Coming Soon Pro > Opsætning > Sociale Medier "
+"Profiler<br>\n"
+"            <code>{Credit}</code> - Viser din footer kreditering hvis den er "
+"opsat. Indstillinger > Coming Soon Pro > Opsætning > Footer kreditering<br>\n"
+"            <code>{Footer}</code> - Viser krævede scripts for siden.<br>\n"
+"            "
+
+# @ seedprod
+#: inc/config.php:1148
+msgid "Advanced"
+msgstr "Avanceret"
+
+# @ seedprod
+#: inc/config.php:1159
+msgid "Access"
+msgstr "Adgang"
+
+# @ seedprod
+#: inc/config.php:1166
+msgid "Client View URL"
+msgstr "Adgangs URL"
+
+# @ seedprod
+#: inc/config.php:1167
+msgid ""
+"Enter a phrase above and give your client a secret url that will allow them "
+"to bypass the Coming Soon page. The cookie life is 6 hours. After the cookie "
+"expires they will need to revisit the client view url to regain access."
+msgstr ""
+"Indtast en hemmelig url, som du kan give til dine brugere som skal kunne få "
+"adgang. Der placeres en cookie der holder i 6 timer hos brugeren. Efter 6 "
+"timer, skal de bruge den hemmelige url for at få adgang igen."
+
+# @ seedprod
+#: inc/config.php:1173
+msgid "Access by IP"
+msgstr "Adgang via IP adresse"
+
+# @ seedprod
+#: inc/config.php:1174
+msgid ""
+"All visitors from certain IP's to bypass the Coming Soon page. Put each IP "
+"on it's own line."
+msgstr ""
+"Alle besøgende fra bestemte IP adresser kan tilgå siden. Skriv en IP adresse "
+"pr linje."
+
+# @ seedprod
+#: inc/config.php:1180
+msgid "Acess by Role"
+msgstr "Rollebaseret"
+
+# @ seedprod
+#: inc/config.php:1181
+msgid ""
+"By default anyone logged in will see the regular site and not the coming "
+"soon page. To override this select Roles that will be given access to see "
+"the regular site."
+msgstr ""
+"Som standard vil alle brugere der er loggt ind se standard siden og ikke din "
+"besked. Dette kan du ændre ved at give rollebaseret adgang."
+
+# @ seedprod
+#: inc/config.php:1190
+msgid "Landing Page Mode"
+msgstr "Landing Page tilstand"
+
+# @ seedprod
+#: inc/config.php:1191
+msgid ""
+"Only display the coming soon page on one page of your site and use it as a "
+"landing page. Leave unselected if you want the coming soon page to be "
+"display on your entire site."
+msgstr ""
+"Vis kun din besked på en side, og brug den som en landing page. Lad stå "
+"blankt hvis din besked skal dække alt adgang."
+
+# @ seedprod
+#: inc/config.php:1199
+msgid "Include URL Pattern"
+msgstr "Inkluder URL mønster"
+
+# @ seedprod
+#: inc/config.php:1200
+msgid ""
+"Include certain urls to only diplay the coming soon page on a section of "
+"your site using <a href=\"http://en.wikipedia.org/wiki/Regex\" target="
+"\"_blank\">regular expressions</a>. For example enter \"blog\" will include "
+"pages with the url: http://example.org/blog/*. <a href=\"https://seedprod."
+"zendesk.com/entries/23050096-exclude-and-include-urls-pattern-examples\" "
+"target=\"_blank\">See more examples</a> and learn how to include multiple "
+"pages. This is useful if you are working on a new section of your site."
+msgstr ""
+"Anvend bestemte URL'er for kun at vise beskeden på dele af din side ved "
+"hjælp af <a href=\"http://en.wikipedia.org/wiki/Regex\" target=\"_blank"
+"\">regulære udtryk</a>. Som eksempel skriv \"blog\" for kun at vise beskeden "
+"på url: http://example.org/blog/*. <a href=\"https://seedprod.zendesk.com/"
+"entries/23050096-exclude-and-include-urls-pattern-examples\" target=\"_blank"
+"\">Se flere eksempler</a> og lær hvordan du kan inkludere flere sider. Kan "
+"anvendes hvis du arbejder på en ny funktion på siden som ikke må ses endnu."
+
+# @ seedprod
+#: inc/config.php:1206
+msgid "Exclude URL Pattern"
+msgstr "Udeladelses URL mønster"
+
+# @ seedprod
+#: inc/config.php:1207
+msgid ""
+"Exclude certain urls from displaying the Coming Soon page using <a href="
+"\"http://en.wikipedia.org/wiki/Regex\" target=\"_blank\">regular "
+"expressions</a>. For example enter \"blog\" will exclude the url: http://"
+"example.org/blog/. <a href=\"https://seedprod.zendesk.com/entries/23050096-"
+"exclude-and-include-urls-pattern-examples\" target=\"_blank\">See more "
+"examples</a> and learn how to exclue multiple pages. This is useful if a "
+"section of you site is ready to be viewed or you have a login page on the "
+"frontend."
+msgstr ""
+"Udelad bestemte URL'er fra at vise din besked ved hjælp af <a href=\"http://"
+"en.wikipedia.org/wiki/Regex\" target=\"_blank\">regulære udtryk</a>. Som "
+"eksempel skriv \"blog\" vil udelade URL: http://example.org/blog/. <a href="
+"\"https://seedprod.zendesk.com/entries/23050096-exclude-and-include-urls-"
+"pattern-examples\" target=\"_blank\">Se flere eksempler</a> og lær hvordan "
+"du kan udelade flere sider ad gangen. Kan anvendes hvis du arbejder på en ny "
+"funktion på siden som ikke må ses endnu."
+
+# @ seedprod
+#: inc/config.php:1215
+msgid "Scripts"
+msgstr "Scripts"
+
+# @ seedprod
+#: inc/config.php:1232
+msgid "Enable Responsiveness"
+msgstr "Aktiver Responsivitet"
+
+# @ seedprod
+#: inc/config.php:1233
+msgid "Makes the page responsive."
+msgstr "Gør siderne responsive"
+
+# @ seedprod
+#: inc/config.php:1243
+msgid "Enable FitVid"
+msgstr "Aktiver FitVid"
+
+# @ seedprod
+#: inc/config.php:1244
+msgid "Makes your videos responsive."
+msgstr "Gør dine videoer responsive."
+
+# @ seedprod
+#: inc/config.php:1255
+msgid "Enable wp_head &amp; wp_footer"
+msgstr "Aktiver wp_head &amp; wp_footer"
+
+# @ seedprod
+#: inc/config.php:1256
+msgid ""
+"The <a href=\"http://codex.wordpress.org/Plugin_API/Action_Reference/wp_head"
+"\" target=\"_blank\">wp_head</a> and <a href=\"http://codex.wordpress.org/"
+"Plugin_API/Action_Reference/wp_footer\" target=\"_blank\">wp_footer</a> "
+"functions are required by some plugins. If you are unsure do not enable it. "
+"These functions can cause styling issues with the page."
+msgstr ""
+"<a href=\"http://codex.wordpress.org/Plugin_API/Action_Reference/wp_head\" "
+"target=\"_blank\">wp_head</a> og <a href=\"http://codex.wordpress.org/"
+"Plugin_API/Action_Reference/wp_footer\" target=\"_blank\">wp_footer</a> "
+"funktioner kræves af nogle plugins. Hvis du ikke er sikker på om det er "
+"tilfældet så lad være med at aktivere dette. Det kan give nogle stylings "
+"problemer."
+
+# @ seedprod
+#: inc/config.php:1265
+msgid "Header Scripts"
+msgstr "Header Scripts"
+
+# @ seedprod
+#: inc/config.php:1266
+msgid ""
+"Enter any custom scripts. You can enter Javascript or CSS. This will be "
+"rendered before the closing head tag."
+msgstr ""
+"Indtast ekstra scripts. Du kan indtaste Javascript eller CSS, som skal "
+"medtages i header HTML sektionen."
+
+# @ seedprod
+#: inc/config.php:1273
+msgid "Footer Scripts"
+msgstr "Footer Scripts"
+
+# @ seedprod
+#: inc/config.php:1274
+msgid ""
+"Enter any custom scripts. This will be rendered before the closing body tag."
+msgstr ""
+"Indtast ekstra scripts. Disse placeres til sidst i body HTML sektionen."
+
+# @ seedprod
+#: inc/config.php:1281
+msgid "Conversion Scripts"
+msgstr "Konverterings scripts"
+
+# @ seedprod
+#: inc/config.php:1282
+msgid ""
+"This will render only after the form has been submitted. This will be "
+"rendered before the closing body tag."
+msgstr ""
+"Dette vil blive afviklet efter at formularen er sendt. Det vil blive indsat "
+"til sidst i body HTML sektionen."
+
+# @ seedprod
+#: inc/config.php:1289
+msgid "Disable Custom Code Template"
+msgstr "Deaktiver tilpasset skabelon"
+
+# @ seedprod
+#: inc/config.php:1290
+msgid ""
+"Mod_security will cause false positive 400 error on some host. Disable the "
+"custom template to avoid this error and notify your host of the false "
+"positive."
+msgstr ""
+"Mod_security vil give falske positive 400 fejl hos nogle hosts. Deaktiver "
+"den tilpassede skabelon, for at undgå dette og kontakt eventuelt din host."
+
+# @ seedprod
+#: inc/config.php:1299
+msgid "Import / Export"
+msgstr "Importer / Eksporter"
+
+# @ seedprod
+#: inc/config.php:1305
+msgid "Import"
+msgstr "Importer"
+
+# @ seedprod
+#: inc/config.php:1306
+msgid "Paste settings form another Coming Soon Pro instance to import."
+msgstr "Indsæt opsætningen fra en anden installation af Coming Soon Pro"
+
+# @ seedprod
+#: inc/config.php:1312
+msgid "Export"
+msgstr "Eksporter"
+
+# @ seedprod
+#: inc/config.php:1313
+msgid ""
+"Copy these settings and use the import them to another Coming Soon Pro "
+"instance."
+msgstr ""
+"Kopier opsætningen og importer den på en anden installation af Comming Soon "
+"Pro"
+
+# @ seedprod
+#: seedprod-coming-soon-pro.php:59
+#, php-format
+msgid ""
+"WordPress %s and higher required. The plugin has now disabled itself. On a "
+"side note why are you running an old version :( Upgrade!"
+msgstr ""
+"WordPress %s eller senere kræves. Dette plugin har du deaktiveret sig selv."
+
+# @ seedprod
+#: themes/default/functions.php:659
+msgid "Your Referral URL is:"
+msgstr "Din henvisnings URL er:"
+
+# @ seedprod
+#: themes/default/functions.php:660
+msgid "Your Referral Stats"
+msgstr "Din henvisnings statestik"

@@ -1,0 +1,962 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lol-zh_TW\n"
+"POT-Creation-Date: 2014-12-16 09:48-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: C.Y.Ronnie.W <cyrw1224@googlemail.com>\n"
+"Language-Team: C.Y.Ronnie.W <cyrw1224@googlemail.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-define.php:19
+msgid "Manage Locations"
+msgstr "管理地點"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:130
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:162
+msgid "Search By City"
+msgstr "搜尋城市"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:408
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1104
+msgid "Store Locator"
+msgstr "Store Locator<br>(店家位置)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:409
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1113
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1116
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:3
+msgid "News & Upgrades"
+msgstr "最新消息與升級"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:410
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1124
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1127
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:31
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:6
+msgid "Locations"
+msgstr "店家地點"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:411
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:71
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:11
+msgid "MapDesigner"
+msgstr "地圖設計(設定)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:537
+msgid "You haven't activated this upgrade yet"
+msgstr "您還沒有啟動這個升級"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:539
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/module-keys.php:47
+msgid "Activate"
+msgstr "啟動"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:541
+msgid "Go to pull-out Dashboard, and activate under 'Activation Keys' section."
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:681
+msgid "Love it! I've made my site more user-friendly with"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:682
+msgid "Great! I can now easily display my locations using"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:685
+msgid ""
+"<b>Like the Store Locator? Help guide others' decisions:</b><br><a href='#' class='star_button'>Give my review now</a> -- 1 "
+"sentence is plenty<br><br><b>Any problems? View:</b><br><a href='http://docs.viadat.com/' target='_blank'>Documentation</a> / "
+"<a href='http://www.viadat.com/contact/' target='_blank'>Contact us</a>"
+msgstr ""
+"<b>喜歡Store Locator嗎? 幫助其他人決定使用:</b><br><a href='#' class='star_button'>馬上幫我評分吧</a> -- 一句話代表意義非凡"
+"<br><br><b>有任何問題嗎? </b><br><a href='http://docs.viadat.com/' target='_blank'>解答文件</a> / <a href='http://www.viadat."
+"com/contact/' target='_blank'>聯絡我們</a>"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:687
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:101
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:168
+msgid "My Views"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:688
+msgid "Buttons to Spread the Word!"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:692
+msgid ""
+"<b>Liking this? Help guide others' decisions:</b>&nbsp;<a href='#' class='star_button'>Give my review now</a><br><b>Any "
+"problems? View:</b>&nbsp;<a href='http://docs.viadat.com/' target='_blank'>Documentation</a> / <a href='http://www.viadat.com/"
+"contact/' target='_blank'>Contact us</a>"
+msgstr ""
+"<b>喜歡Store Locator嗎? 幫助其他人決定使用:</b>&nbsp;<a href='#' class='star_button'>馬上幫我評分吧</a><br><b>有任何問題嗎?</"
+"b>&nbsp;<a href='http://docs.viadat.com/' target='_blank'>解答文件</a> / <a href='http://www.viadat.com/contact/' "
+"target='_blank'>聯絡我們</a>"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:699
+msgid "Done!  I've tweeted about / rated it"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:700
+msgid "Don't show this message again"
+msgstr "不要在顯示此訊息"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:817
+msgid "Type&nbsp;Address"
+msgstr "輸入地址"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:821
+msgid "The General Address Format"
+msgstr "一般地址格式"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:821
+msgid "show/hide"
+msgstr "顯示/隱藏"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:822
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:826
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:908
+msgid "Name of Location"
+msgstr "地點名稱"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:823
+msgid "Address (Street - Line1)"
+msgstr "地址 (第一行)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:824
+msgid "Address (Street - Line2 - optional)"
+msgstr "地址 (第二行)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:825
+msgid "City, State Zip"
+msgstr "城市,或郵遞區號"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:827
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:909
+msgid "Address"
+msgstr "地址"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:827
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:909
+msgid "Street - Line1"
+msgstr "街道-第一行"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:828
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:910
+msgid "Street - Line 2 - optional"
+msgstr "街道-第二行"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:829
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:911
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:117
+msgid "City"
+msgstr "城市"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:830
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:912
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:118
+msgid "State"
+msgstr "州/省/區"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:831
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:913
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:119
+msgid "Zip"
+msgstr "郵遞區號"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:833
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:923
+msgid "Additional Information"
+msgstr "其他訊息"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:834
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:924
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:123
+msgid "Description"
+msgstr "描述"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:835
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:925
+msgid "Tags (seperate with commas)"
+msgstr "標籤 (用逗號分隔)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:836
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:926
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:124
+msgid "URL"
+msgstr "URL連結"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:837
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:927
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:125
+msgid "Hours"
+msgstr "時間"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:838
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:928
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:126
+msgid "Phone"
+msgstr "電話"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:839
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:929
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:127
+msgid "Fax"
+msgstr "傳真"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:840
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:930
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:128
+msgid "Email"
+msgstr "電子郵件"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:841
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:931
+msgid "Image URL (shown with location)"
+msgstr "圖片連結URL(和地點同時顯示)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:846
+msgid "Add Location"
+msgstr "增加位置"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:921
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:69
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:72
+msgid "Update"
+msgstr "更新"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:921
+msgid "Cancel"
+msgstr "取消"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:989
+msgid "table of contents"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:993
+msgid "Table of Contents"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1135
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1138
+msgid "Settings"
+msgstr "設定"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1191
+msgid ""
+"Note: Clicking this button should update permissions, however, if it doesn\\'t, you may need to update permissions by using an "
+"FTP program.  Click &quot;OK&quot; or &quot;Confirm&quot; to continue ..."
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1195
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:139
+msgid "Important Note"
+msgstr "重要提示"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1195
+msgid ""
+"Some of your folders / files may need updating to the proper permissions (folders: 755 / files: 644), otherwise, all "
+"functionality may not work as intended.  View folders / files below"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1195
+msgid "display / hide list of folders & files"
+msgstr "顯示/隱藏檔案&資料夾列表"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1196
+msgid "Hide This Notice Permanently"
+msgstr "永遠隱藏此提示"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1199
+msgid "Folders"
+msgstr "資料夾"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1199
+msgid "Update Checked Folders' Permissions"
+msgstr "更新已選中的資料夾的許可權"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1206
+msgid "Files"
+msgstr "檔案"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1206
+msgid "Update Checked Files' Permissions"
+msgstr "更新已選中檔案的許可權"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1325
+msgid "Address "
+msgstr "地址"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-functions.php:1326
+msgid "Received status "
+msgstr "接收狀態"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/add-locations.php:19
+msgid "Successful Addition"
+msgstr "新增成功"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/add-locations.php:21
+msgid "Unsucessful addition due to security check failure"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:47
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:49
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:143
+msgid "Normal"
+msgstr "一般"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:47
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:49
+msgid "Expanded"
+msgstr "展開"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:53
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:55
+msgid "Tagging"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:53
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:55
+msgid "Multiple Fields"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:104
+msgid "Actions"
+msgstr "動作"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:105
+msgid "ID"
+msgstr "ID"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:114
+msgid "Name"
+msgstr "商店名字"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:115
+msgid "Street"
+msgstr "街道"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:116
+msgid "Street2"
+msgstr "街道2"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:120
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:34
+msgid "Tags"
+msgstr "標籤"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:129
+msgid "Image"
+msgstr "圖片"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:159
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:160
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:161
+msgid "View"
+msgstr "查看"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:168
+msgid "Edit"
+msgstr "編輯"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:168
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:5
+msgid "Delete"
+msgstr "刪除"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:211
+msgid "No Locations Showing for this Search of "
+msgstr "沒有搜索到符合條件的位置"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:211
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:51
+msgid "Clear&nbsp;Results"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:211
+msgid "No Locations Currently in Database"
+msgstr "目前資料庫中的沒有位置"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/manage-locations.php:212
+msgid "Add Locations"
+msgstr "增加位置"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:50
+msgid "Successful Update"
+msgstr "更新成功"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:56
+msgid "Select Your Location"
+msgstr "選擇你的位置"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:62
+msgid "Select Map Language"
+msgstr "選擇地圖語言"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:71
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:72
+msgid "API Key"
+msgstr "API 金鑰"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:72
+msgid "Google Maps"
+msgstr "Google 地圖"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:72
+msgid "Google Maps API V3 actually doesn't require an API Key, however, if needed (it appears that high usage requires a key)"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:72
+msgid "get your key here"
+msgstr "取得你的金鑰"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:72
+msgid "Designer"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:144
+msgid "Normal + Terrain (Physical)"
+msgstr "一般+地形圖"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:145
+msgid "Satellite"
+msgstr "衛星檢視"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:146
+msgid "Satellite + Labels (Hybrid)"
+msgstr "衛星檢視+地名"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:153
+msgid ""
+"You have switched from <strong>'wordpress-store-locator-location-finder'</strong> to <strong>'store-locator'</strong> --- "
+"great!<br>Now, please re-select your <b>'Home Icon'</b> and <b>'Destination Icon'</b> below, so that they show up properly on "
+"your store locator map."
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:156
+msgid "Defaults"
+msgstr "預設值"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:158
+msgid "Default Map Type"
+msgstr "預設地圖顯示的模式"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:160
+msgid "Locations in Results"
+msgstr "地點搜尋結果"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:161
+msgid "Recommended Max"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:163
+msgid "Show Map Inset Box"
+msgstr "顯示地圖預覽(地圖右下角)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:164
+msgid "Auto-Locate User"
+msgstr "自動加載使用者位置"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:165
+msgid "Auto-Load Locations"
+msgstr "自動加載地點"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:165
+msgid "Listing"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:165
+msgid ""
+"<h2 style='margin-top:0px'>Search Results Listing By Default</h2>Determine whether or not both the map icons and the results "
+"listing show when loading locations by default. <br><Br>No results listings are shown even if this is checked, but 'Auto-Load "
+"Locations' is unchecked"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:172
+msgid "Allow User Search By Name of Location?"
+msgstr "允許使用地點名稱搜尋?"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:178
+msgid "Labels"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:180
+msgid "Address Input Label"
+msgstr "地址輸入欄顯示名稱"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:181
+msgid "Radius Dropdown Label"
+msgstr "搜尋範圍欄顯示名稱"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:182
+msgid "Website URL Label"
+msgstr "網站欄顯示名稱"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:183
+msgid "Directions URL Label"
+msgstr "連結至Google地圖欄顯示名稱"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:188
+msgid "Instruction Message to Users"
+msgstr "地址輸入欄顯示訊息"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:190
+msgid "City Dropdown Label"
+msgstr "搜尋城市欄顯示名稱"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:196
+msgid "Location Doesn't Exist Message"
+msgstr "搜尋的地點不存在顯示訊息"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:198
+msgid "No Results Are Found Message"
+msgstr "未搜尋到任何結果顯示訊息"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:202
+msgid "Dimensions"
+msgstr "地圖尺寸設定"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:203
+msgid "Zoom Level"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:205
+msgid "Map Dimensions (H x W)"
+msgstr "地圖顯示尺寸(高X寬)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:207
+msgid "Map Width"
+msgstr "地圖寬度"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:209
+msgid "Radii Options"
+msgstr "搜尋範圍選項"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:210
+msgid "Km"
+msgstr "公里"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:211
+msgid "Miles"
+msgstr "英里"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:217
+msgid "Parentheses '( )' are for the default radius</span>"
+msgstr "括號中（）是默認的範圍"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:218
+msgid "Distance Unit"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:221
+msgid "Design"
+msgstr "設計風格"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:224
+msgid "Choose Theme"
+msgstr "選擇風格"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:224
+msgid "No Theme Selected"
+msgstr "沒有可選的風格"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:224
+msgid "Get&nbsp;Themes"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:225
+msgid "Remove Credits"
+msgstr "移除地圖下方的版權欄"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:227
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:228
+msgid "Choose"
+msgstr "選擇"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:227
+msgid "Home Icon"
+msgstr "目前位置圖示"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:228
+msgid "Destination Icon"
+msgstr "目的地圖示"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/mapdesigner.php:232
+msgid "For more unique icons, visit"
+msgstr "取得更多圖示, 請拜訪"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/news-upgrades.php:9
+msgid ""
+"<b>Note:</b> Your directory is <b>'wordpress-store-locator-location-finder'</b>. Please rename to <b>'store-locator'</b> to "
+"continue receiving notifications of future updates in your admin panel. After changing to <b>'store-locator'</b>, make sure to "
+"also update your icon URLs on the 'Map Designer' page."
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/news-upgrades.php:21
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:170
+msgid "Latest News"
+msgstr "最新新聞"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-admin/pages/news-upgrades.php:82
+msgid "Addons & Themes"
+msgstr "擴展和風格"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:5
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:34
+msgid "You sure"
+msgstr "確定"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:34
+msgid "Add Tag"
+msgstr "增加標籤"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/mgmt-buttons-links.php:34
+msgid "Remove Tag"
+msgstr "移除標籤"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/module-keys.php:31
+msgid "Key"
+msgstr "金鑰"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/module-keys.php:47
+msgid "Looking for more addons & themes"
+msgstr "搜尋更多擴展和風格"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/module-keys.php:47
+msgid "They're all right here"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:51
+msgid "for your search of"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:58
+msgid "Results"
+msgstr "結果"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:60
+msgid "total"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:71
+msgid "Previous"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/search-links.php:80
+msgid "Next"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:7
+msgid "Manage"
+msgstr "管理"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:8
+msgid "Add"
+msgstr "新增"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:89
+msgid "You will now be updating to Store Locator"
+msgstr "你將會升級Store Locator外掛程式"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:89
+msgid "click OK or Confirm to continue"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:89
+msgid "Update to"
+msgstr "更新至"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:95
+msgid "Store Locator Version"
+msgstr "Store Locator 版本"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:95
+msgid "and"
+msgstr "和"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:95
+msgid "PHP Version"
+msgstr "PHP 版本"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:120
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:142
+msgid "Hide Message"
+msgstr "隱藏訊息"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:124
+msgid "Addons Platform"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:126
+msgid "Provides you with an addons management page for updating settings and activating each of your addons"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:127
+msgid ""
+"Allows you to conveniently browse and install addons directly from this admin area from the Addons Marketplace to enhance your "
+"Store Locator's abilities"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:128
+msgid ""
+"Create multiple Store locators on different Pages or Posts on your website using the format: <div class='code sl_code'>[STORE-"
+"LOCATOR {tag_name}={tag_value}, ...] (One of the many addon features available)</div> "
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:129
+msgid ""
+"Backwards-compatible with addons purchased before version 2.0, including the CSV Importer, DB Importer, & Multiple Field "
+"Updater"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:130
+msgid ""
+"Learn more about G2 Addons that come with the purchase of the LotsOfLocales&trade; Addons Platform from the 'ReadMe "
+"Instructions' in the pull-out Dashboard"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:140
+msgid ""
+"It appears that you do not have <a href='http://us3.php.net/manual/en/book.curl.php' target='_blank'>cURL</a> actively running "
+"on this website.  cURL or <a href='http://us3.php.net/manual/en/function.file-get-contents.php' "
+"target='_blank'>file_get_contents()</a> needs to be active in order to receive coordinates for locations, validate addons, and "
+"other important actions performed by Store Locator"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:164
+msgid "Dashboard"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:169
+msgid "Information & ReadMe Instructions"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/top-nav.php:171
+msgid "Activation Keys"
+msgstr "啟用金鑰"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.3.0/sl-inc/includes/via-latest.php:26
+msgid "Latest about Store Locator for WordPress"
+msgstr ""
+
+#~ msgid "API Key Submitted"
+#~ msgstr "API Key 已提交"
+
+#~ msgid "Address (Street - Line 2 - optional)"
+#~ msgstr "地址 (第二行)"
+
+#~ msgid "CSV"
+#~ msgstr "CSV"
+
+#~ msgid "CSV&nbsp;Template"
+#~ msgstr "CSV&nbsp;模組"
+
+#~ msgid "Change Updater"
+#~ msgstr "更改更新"
+
+#~ msgid "Change View"
+#~ msgstr "更改視圖"
+
+#~ msgid "Choose Heading That Matches Columns You Want to Import"
+#~ msgstr "選擇標題匹配您要導入的列"
+
+#~ msgid "Leave headings for undesired columns unchanged"
+#~ msgstr "離開不喜歡的列的標題不做更改"
+
+#~ msgid "Current View"
+#~ msgstr "目前的視圖"
+
+#~ msgid "Database Name"
+#~ msgstr "資料庫名稱"
+
+#~ msgid "Delete Selected"
+#~ msgstr "清除所選"
+
+#~ msgid ""
+#~ "Each API Key is unique to one web domain. To obtain a Google API Key for this domain ($_SERVER[HTTP_HOST]):<br><br><b>Step "
+#~ "1.</b> Log into your Google Account<br>(If you use any Google Product, such as Gmail, Google Docs, etc., then you have a "
+#~ "Google Account. If not, <a href='https://www.google.com/accounts/' target='_blank'>you can sign up for one</a>) "
+#~ "<br><br><b>Step 2.</b> Visit: <a href='http://code.google.com/apis/maps/signup.html' target='_blank'>http://code.google.com/"
+#~ "apis/maps/signup.html</a> and submit your domain, and receive an API Key from Google"
+#~ msgstr ""
+#~ "每一個網站都對應唯一的API金鑰。要為該功能變數名稱取得一個Google API key($_SERVER[HTTP_HOST]):<br><br><b>第1步</b>登陸你的"
+#~ "Google帳戶<br>(如果您使用任何Google的產品，如Gmail，Google文件等，請用此帳戶登陸。如果沒有，<a href='https://www.google.com/"
+#~ "accounts/' target='_blank'>請註冊一個</a>。)<br><br><b>第2步</b>訪問：<a href='http://code.google.com/apis/maps/signup."
+#~ "html' target='_blank'>http://code.google.com/apis/maps/signup.html</a>並提交您的功能變數名稱，取得你的Google API key。"
+
+#~ msgid "Enter Google API Key"
+#~ msgstr "輸入你的Google API Key"
+
+#~ msgid "Enter Your Address or Zip Code Above"
+#~ msgstr "在上面設置你的地址或郵遞區號"
+
+#~ msgid "Export"
+#~ msgstr "匯出"
+
+#~ msgid "Google API Key"
+#~ msgstr "Google API Key"
+
+#~ msgid "Google's Terms of Use"
+#~ msgstr "使用Google的條款"
+
+#~ msgid "Host"
+#~ msgstr "主機"
+
+#~ msgid "Image (shown on map with location)"
+#~ msgstr "圖片 (在地圖的相應位置上顯示)"
+
+#~ msgid "Import"
+#~ msgstr "匯入"
+
+#~ msgid "Import Locations"
+#~ msgstr "匯入位置"
+
+#~ msgid "Import&nbsp;CSV&nbsp;File"
+#~ msgstr "匯入&nbsp;CSV&nbsp;文件"
+
+#~ msgid "Import&nbsp;From&nbsp;Local/Remote&nbsp;Database"
+#~ msgstr "從本地/遠端資料庫匯入"
+
+#~ msgid "Is Private?"
+#~ msgstr "是否私有?"
+
+#~ msgid "License Keys"
+#~ msgstr "許可證金鑰"
+
+#~ msgid "Location Name"
+#~ msgstr "位置"
+
+#~ msgid "Looking to create or find a unique icon? For ideas, visit"
+#~ msgstr "希望創建或找到一個獨一無二的圖示嗎?如果你有好的想法,請訪問..."
+
+#~ msgid "Map Designer"
+#~ msgstr "地圖設計器"
+
+#~ msgid "Map Height"
+#~ msgstr "地圖高度"
+
+#~ msgid "Map Radii Options (in miles)"
+#~ msgstr "地圖半徑選擇"
+
+#~ msgid "Note: <br>"
+#~ msgstr "備註： <br>"
+
+#~ msgid ""
+#~ "Note: Seperate each number with a comma ',' , and put paratheseses '( )' around the default radius you would like to show"
+#~ msgstr "每個選項用','隔開，用'( )'括起來的，表示你希望預設顯示的選項。"
+
+#~ msgid "Password"
+#~ msgstr "密碼"
+
+#~ msgid "Please Update Your Google API Key"
+#~ msgstr "請提交你的Google API Key"
+
+#~ msgid "Preview Locator User Interface"
+#~ msgstr "使用者介面預覽"
+
+#~ msgid "Query (Only works with 'Select' Queries)"
+#~ msgstr "查詢（只適用於'Select'查詢）"
+
+#~ msgid "Radius"
+#~ msgstr "半徑"
+
+#~ msgid "ReadMe"
+#~ msgstr "說明文件"
+
+#~ msgid "Remove Tag From Selected"
+#~ msgstr "刪除選中的標籤"
+
+#~ msgid "Search Zip or City & State to Center Map"
+#~ msgstr "在地圖中間搜索郵編或城市和州或省份"
+
+#~ msgid "Search,&nbsp;Click,&nbsp;Add"
+#~ msgstr "搜索,&nbsp;點擊,&nbsp;添加"
+
+#~ msgid "Show/Hide More Fields"
+#~ msgstr "顯示/隱藏更多的區域"
+
+#~ msgid "Skip 1st line of CSV file"
+#~ msgstr "跳過第一行的CSV文件"
+
+#~ msgid "Street(Line1)"
+#~ msgstr "街道(第一行)"
+
+#~ msgid "Street(Line2)"
+#~ msgstr "街道(第二行)"
+
+#~ msgid "Tag Selected"
+#~ msgstr "標籤選擇"
+
+#~ msgid "Try Again"
+#~ msgstr "再試一次"
+
+#~ msgid "URL<br><nobr>(Leave blank if importing from this server)</nobr>"
+#~ msgstr "URL<br><nobr>(如果留空從該伺服器匯入)</nobr>"
+
+#~ msgid "Update API Key"
+#~ msgstr "更新API Key"
+
+#~ msgid "Update All"
+#~ msgstr "全部更新"
+
+#~ msgid "Update Your Google API Key"
+#~ msgstr "更新你的Google API Key"
+
+#~ msgid "Updater"
+#~ msgstr "更新工具"
+
+#~ msgid "Username"
+#~ msgstr "用户名"
+
+#~ msgid "View All Locations"
+#~ msgstr "查看所有地點"
+
+#~ msgid "View Locations"
+#~ msgstr "查看位置"
+
+#~ msgid "XML"
+#~ msgstr "XML"
+
+#~ msgid "You May Only Use 'Select' Queries"
+#~ msgstr "您可能只能使用 'Select'查詢"
+
+#~ msgid "Your API Key Status"
+#~ msgstr "您的API key狀態"
+
+#~ msgid "License Key"
+#~ msgstr "許可證金鑰"
+
+#~ msgid "About Lots of Locales (LoL) Store Locator Plugin for WordPress"
+#~ msgstr "更多關於 Locales (LoL)Store Locator的WordPress外掛程式"
+
+#~ msgid "Option"
+#~ msgstr "選項"
+
+#~ msgid "Value"
+#~ msgstr "值"
+
+#~ msgid "Localization"
+#~ msgstr "設定位置"
+
+#~ msgid "Multi-Update"
+#~ msgstr "更多更新"
+
+#~ msgid "Update Selected"
+#~ msgstr "更新選項"
+
+#~ msgid "Remove From Selected"
+#~ msgstr "清除所選"
+
+#~ msgid "Looking for more upgrades & themes"
+#~ msgstr "尋找更多的升級和主題"
+
+#~ msgid "It's all right here"
+#~ msgstr "一切都在這裡了"
+
+#~ msgid "Default Map Zoom Level"
+#~ msgstr "默認的地圖縮放級別"

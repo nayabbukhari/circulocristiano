@@ -1,0 +1,78 @@
+// =============================================================================
+// SCSS/SITE/INC/_MEDIA-QUERY-TESTING.SCSS
+// -----------------------------------------------------------------------------
+// Activate to help with debugging media queries.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Base Styles
+//   02. Breakpoints
+// =============================================================================
+
+// Base Styles
+// =============================================================================
+
+body:after {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 15px 15px 20px;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: $sansFontFamily;
+  text-align: center;
+  color: $white;
+  z-index: 9999999;
+  @include translate3d(0, 0, 0);
+}
+
+
+
+// Breakpoints
+// =============================================================================
+
+@include break(mama-bear) {
+  body:after {
+    content: "more than #{$breakMediumLarge + 1} (mama-bear: default display)";
+    background-color: hsla(288, 60%, 40%, 0.7);
+  }
+}
+
+@include break(papa-bear) {
+  body:after {
+    content: "more than #{$breakLarge} (papa-bear)";
+    background-color: hsla(360, 60%, 40%, 0.7);
+  }
+}
+
+@include break(cubs) {
+  body:after {
+    content: "less than #{$breakMediumLarge} (cubs)";
+    background-color: hsla(216, 60%, 40%, 0.7);
+  }
+}
+
+@include break(old-bear) {
+  body:after {
+    content: "#{$breakMedium + 1} to #{$breakMediumLarge} (old-bear)";
+    background-color: hsla(144, 60%, 40%, 0.7);
+  }
+}
+
+@include break(middle-bear) {
+  body:after {
+    content: "less than #{$breakMedium} (middle-bear)";
+    background-color: hsla(72, 60%, 40%, 0.7);
+  }
+}
+
+@include break(baby-bear) {
+  body:after {
+    content: "less than #{$breakSmall} (baby-bear)";
+    background-color: hsla(1, 60%, 40%, 0.7);
+  }
+}

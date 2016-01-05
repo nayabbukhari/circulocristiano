@@ -1,0 +1,28 @@
+// =============================================================================
+// SCSS/BUDDYPRESS-INTEGRITY-DARK.SCSS
+// -----------------------------------------------------------------------------
+// Contains all BuddyPress styles for the Integrity Stack (dark version).
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. BuddyPress
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "site/inc/functions";
+@import "site/inc/variables";
+@import "site/stacks/integrity/inc/variables-dark";
+@import "site/inc/mixins";
+@import "site/stacks/integrity/inc/mixins";
+
+
+
+// BuddyPress
+// =============================================================================
+
+@import "site/stacks/integrity/buddypress";

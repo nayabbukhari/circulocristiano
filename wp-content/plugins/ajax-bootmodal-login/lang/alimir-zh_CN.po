@@ -1,0 +1,932 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajax BootModal Login\n"
+"POT-Creation-Date: 2014-09-28 22:28+0330\n"
+"PO-Revision-Date: 2014-09-28 22:28+0330\n"
+"Last-Translator: Alimir <info@alimir.ir>\n"
+"Language-Team: suoling.net <suifengtec@qq.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../alimir-bootmodal-login.php:23 ../inc/functions.php:5
+#: ../inc/widget.php:27
+msgid "Login"
+msgstr "登录"
+
+#: ../alimir-bootmodal-login.php:24 ../inc/functions.php:11
+#: ../tmp/user-profile.php:37
+msgid "Profile"
+msgstr "个人资料"
+
+#: ../inc/authenticate.php:48 ../inc/authenticate.php:81
+#: ../inc/authenticate.php:126
+msgid ""
+"<p class=\"alert alert-info\" data-alert=\"alert\">Please fill all the "
+"fields.</p>"
+msgstr ""
+"<p class=\"alert alert-info\" data-alert=\"alert\">请填写所有字段。</p>"
+
+#: ../inc/authenticate.php:51 ../inc/authenticate.php:84
+#: ../inc/authenticate.php:129
+msgid ""
+"<p class=\"alert alert-error\" data-alert=\"alert\">captcha invalid.</p>"
+msgstr "<p class=\"alert alert-error\" data-alert=\"alert\">验证码无效。</p>"
+
+#: ../inc/authenticate.php:58
+msgid ""
+"<p class=\"alert alert-error\" data-alert=\"alert\"><strong>ERROR</strong>: "
+"Wrong username or password.</p>"
+msgstr ""
+"<p class=\"alert alert-error\" data-alert=\"alert\"><strong>错误</strong>: 用"
+"户名或密码错误</p>"
+
+#: ../inc/authenticate.php:62
+msgid ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Login successful, "
+"redirecting...</p>"
+msgstr ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">登录成功.....</p>"
+
+#: ../inc/authenticate.php:104
+msgid ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Registration complete. "
+"Please check your e-mail.</p>"
+msgstr ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">注册完成。请检查您的E-"
+"mail。</p>"
+
+#: ../inc/authenticate.php:156
+msgid ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Password Reset. Please "
+"check your email.</p>"
+msgstr ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">密码重置。请检查您的电"
+"子邮件。</p>"
+
+#: ../inc/authenticate.php:171
+msgid "Please enter a username or e-mail address."
+msgstr "请输入用户名或电邮地址。"
+
+#: ../inc/authenticate.php:175
+msgid "There is no user registered with that email address."
+msgstr "此电邮地址未被任何注册用户使用。"
+
+#: ../inc/authenticate.php:185
+msgid "Invalid username or e-mail."
+msgstr "无效的用户名或电子邮件"
+
+#: ../inc/authenticate.php:197
+msgid "Password reset is not allowed for this user"
+msgstr "该用户不允许重置密码"
+
+#: ../inc/authenticate.php:210
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "某人要求重置下列用户的密码:"
+
+#: ../inc/authenticate.php:212
+#, php-format
+msgid "Username: %s"
+msgstr "用户名: %s"
+
+#: ../inc/authenticate.php:213
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "如果这是一个错误，请忽略这封邮件，什么都不会发生。"
+
+#: ../inc/authenticate.php:214
+msgid "To reset your password, visit the following address:"
+msgstr "要重置密码，请访问以下地址："
+
+#: ../inc/authenticate.php:216
+msgid "powered by < http://wordpress.org/plugins/ajax-bootmodal-login >"
+msgstr "powered by < http://wordpress.org/plugins/ajax-bootmodal-login >"
+
+#: ../inc/authenticate.php:217
+msgid "Ali Mizraei < http://alimir.ir >"
+msgstr "Ali Mizraei < http://alimir.ir >"
+
+#: ../inc/authenticate.php:225
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] 重置密码"
+
+#: ../inc/authenticate.php:230
+msgid ""
+"The e-mail could not be sent.<br />Possible reason: your host may have "
+"disabled the mail() function."
+msgstr "电子邮件无法发送<br/>可能的原因：您的主机可能已经禁用了mail（）函数。"
+
+#: ../inc/functions.php:68 ../inc/functions.php:82
+msgid "Username"
+msgstr "用户名"
+
+#: ../inc/functions.php:70 ../inc/functions.php:84
+msgid "Password"
+msgstr "密码"
+
+#: ../inc/functions.php:72 ../inc/functions.php:86
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../inc/functions.php:74 ../inc/functions.php:88
+msgid "Username or Email"
+msgstr "用户名或电子邮件"
+
+#: ../inc/functions.php:76 ../inc/functions.php:90
+msgid "Captcha"
+msgstr "验证码"
+
+#: ../inc/settings.php:5
+msgid "BootModal Login Settings"
+msgstr "BootModal Login设置"
+
+#: ../inc/settings.php:32
+msgid "Alimir Ajax BootModal Login"
+msgstr "Ajax BootModal Login"
+
+#: ../inc/settings.php:38
+msgid ""
+"Using <code>[Alimir_BootModal_Login]</code> shortcode, to display ajax "
+"bootmodal login."
+msgstr "使用短代码<code>[Alimir_BootModal_Login]</ code>可以以显示登录表单。"
+
+#: ../inc/settings.php:41
+msgid "Non-use BootStrap modules"
+msgstr "不使用引导程序模块"
+
+#: ../inc/settings.php:44
+msgid "If your theme support bootstrap, Check this option."
+msgstr "如果你的主题支持bootstrap，勾选这个选项"
+
+#: ../inc/settings.php:49
+msgid "Do you use from bootstrap +3?"
+msgstr "你是否使用bootstrap +3?"
+
+#: ../inc/settings.php:52
+msgid "If you use from bootstrap +3 in your theme, Check this option."
+msgstr "如果你的主题使用bootstrap +3，选中此选项"
+
+#: ../inc/settings.php:57
+msgid "Theme"
+msgstr ""
+
+#: ../inc/settings.php:63
+msgid "Select your favorite Theme for modal box."
+msgstr ""
+
+#: ../inc/settings.php:68
+msgid "Deactivate User Panel"
+msgstr "禁用用户面板"
+
+#: ../inc/settings.php:71
+msgid "This option disables user modal profile button."
+msgstr "该选项可禁用用户资料按钮。"
+
+#: ../inc/settings.php:76
+msgid "disable user registration?"
+msgstr "禁止用户注册？"
+
+#: ../inc/settings.php:79
+msgid "This option disables user registration form."
+msgstr "该选项禁用用户登记表单"
+
+#: ../inc/settings.php:84
+msgid "Label Setting"
+msgstr ""
+
+#: ../inc/settings.php:89
+msgid "Select Your favorite Setting: Placeholder/Lable"
+msgstr ""
+
+#: ../inc/settings.php:95
+msgid "Login Button Text"
+msgstr "登录按钮文本"
+
+#: ../inc/settings.php:100
+msgid "Profile Button Text"
+msgstr "个人资料按钮文本"
+
+#: ../inc/settings.php:105
+msgid "Enable login captcha"
+msgstr "启用登录验证码"
+
+#: ../inc/settings.php:108
+msgid "This option enables captcha on login form."
+msgstr "此选项启用登录表单上的验证码。"
+
+#: ../inc/settings.php:113
+msgid "Enable register captcha"
+msgstr "启用注册验证码"
+
+#: ../inc/settings.php:116
+msgid "This option enables captcha on registration form."
+msgstr "此选项启用注册表单上的验证码"
+
+#: ../inc/settings.php:121
+msgid "Enable lostpass captcha"
+msgstr "启用重置密码表单上的验证码"
+
+#: ../inc/settings.php:124
+msgid "This option enables captcha on lostpass form."
+msgstr "此选项启用重置密码表单上的验证码"
+
+#: ../inc/settings.php:129
+msgid "Captcha Font"
+msgstr ""
+
+#: ../inc/settings.php:139
+msgid "Select your favorite Captcha font."
+msgstr ""
+
+#: ../inc/settings.php:144
+msgid "Default buttons"
+msgstr "默认按钮"
+
+#: ../inc/settings.php:153
+msgid "choose your button style."
+msgstr "选择你想要的按钮样式。"
+
+#: ../inc/settings.php:159
+msgid "Button sizes"
+msgstr "按钮大小"
+
+#: ../inc/settings.php:165
+msgid "choose your button size."
+msgstr "选择你想要的按钮大小。"
+
+#: ../inc/settings.php:171
+msgid "login redirect URL"
+msgstr "登录后重定向到"
+
+#: ../inc/settings.php:176
+msgid "Registration redirect URL"
+msgstr "注册后重定向到"
+
+#: ../inc/settings.php:183
+msgid "Like this plugin?"
+msgstr "喜欢这个插件?"
+
+#: ../inc/settings.php:186
+msgid ""
+"Show your support by Rating 5 Star in <a href=\"http://wordpress.org/plugins/"
+"ajax-bootmodal-login\"> Plugin Directory reviews</a>"
+msgstr ""
+"请给它5星好评吧： <a href=\"http://wordpress.org/plugins/ajax-bootmodal-login"
+"\"> 去插件目录评价</a>"
+
+#: ../inc/settings.php:187
+msgid ""
+"Follow me on <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>"
+msgstr ""
+"在 <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>上关注我"
+
+#: ../inc/settings.php:188
+msgid ""
+"Plugin Author Blog: <a href=\"http://alimir.ir\"> Wordpress & Programming "
+"World.</a>"
+msgstr ""
+"插件作者的博客: <a href=\"http://alimir.ir\"> Wordpress与程序的世界.</a>"
+
+#: ../inc/widget.php:8
+msgid "Ajax BootModal Login"
+msgstr "Ajax BootModal Login"
+
+#: ../inc/widget.php:9
+msgid ""
+"Ajax BootModal Login is a WordPress plugin that is powered by bootstrap and "
+"ajax for better login, registration or lost password."
+msgstr ""
+"这是一个基于bootstrap 和 ajax 的用户交互插件，能够为您的网站用户带来更好的注"
+"册、登录和密码重置体验。"
+
+#: ../inc/widget.php:31
+msgid "Title:"
+msgstr "标题:"
+
+#: ../tmp/login-form.php:4
+msgid "User Login"
+msgstr "用户登录"
+
+#: ../tmp/login-form.php:15 ../tmp/lostpass-form.php:14
+#: ../tmp/registrer-form.php:15
+msgid "Click to refresh captcha"
+msgstr "点击刷新验证码"
+
+#: ../tmp/login-form.php:19
+msgid "Remember Me"
+msgstr "记住我"
+
+#: ../tmp/login-form.php:22
+msgid "Not registered?"
+msgstr "还没注册？"
+
+#: ../tmp/login-form.php:24
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: ../tmp/login-form.php:28 ../tmp/lostpass-form.php:21
+#: ../tmp/registrer-form.php:23
+msgid "loading..."
+msgstr "载入中..."
+
+#: ../tmp/login-form.php:28 ../tmp/lostpass-form.php:21
+#: ../tmp/registrer-form.php:23
+msgid "Submit"
+msgstr "提交"
+
+#: ../tmp/lostpass-form.php:4
+msgid "User LostPassword"
+msgstr "用户忘记密码"
+
+#: ../tmp/lostpass-form.php:7
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"请输入您的用户名或电子邮件地址。您将通过电子邮件收到一个链接以创建一个新的密"
+"码。"
+
+#: ../tmp/lostpass-form.php:17
+msgid "Log in"
+msgstr "登录"
+
+#: ../tmp/registrer-form.php:4
+msgid "User Registration"
+msgstr "用户注册"
+
+#: ../tmp/registrer-form.php:18
+msgid "Already registered? Login"
+msgstr "已注册？注册"
+
+#: ../tmp/registrer-form.php:19
+msgid "A password will be emailed to you."
+msgstr "密码将通过电子邮件发送给您。"
+
+#: ../tmp/user-profile.php:8
+msgid "Welcome Dear"
+msgstr "欢迎"
+
+#: ../tmp/user-profile.php:16
+msgid "User Name:"
+msgstr "用户名:"
+
+#: ../tmp/user-profile.php:17
+msgid "User ID:"
+msgstr "用户ID:"
+
+#: ../tmp/user-profile.php:18
+msgid "Display Name:"
+msgstr "显示名称："
+
+#: ../tmp/user-profile.php:19
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: ../tmp/inc/recent-comments.php:1
+msgid "Recent Comments"
+msgstr "最新评论"
+
+#: ../tmp/inc/recent-comments.php:21
+msgid "You have not made any comment."
+msgstr "你还没有发表任何评论。"
+
+#: ../tmp/inc/recent-Viewed.php:1
+msgid "Recently Viewed Posts"
+msgstr "最近浏览过的文章"
+
+#: ../tmp/inc/recent-Viewed.php:13
+msgid "You have not viewed any posts recently."
+msgstr "你最近没有浏览过任何文章。"
+
+#~ msgid ""
+#~ "<p class=\"alert\" data-alert=\"alert\">Sending user info, please wait..."
+#~ "</p>"
+#~ msgstr ""
+#~ "<p class=\"alert\" data-alert=\"alert\">در حال ارسال اطلاعات، لطفا صبور "
+#~ "باشید...</p>"
+
+#~ msgid ""
+#~ "<p class=\"alert\" data-alert=\"alert\">Processing Registration...</p>"
+#~ msgstr ""
+#~ "<p class=\"alert\" data-alert=\"alert\">در حال پردازش اطلاعات عضویت...</p>"
+
+#~ msgid "I want this to be my logo!"
+#~ msgstr "این تصویر را به عنوان لوگو انتخاب میکنم!"
+
+#~ msgid "Select Login Logo"
+#~ msgstr "لوگو صفحه ورود"
+
+#~ msgid "Options Saved"
+#~ msgstr "تغییرات ذخیره شد"
+
+#~ msgid "Login Logo Options"
+#~ msgstr "تنظیمات لوگو صفحه ورود"
+
+#~ msgid "Powered by"
+#~ msgstr "قدرت گرفته از"
+
+#~ msgid "Wordpress And Programming World"
+#~ msgstr "دنیای وردپرس و برنامه نویسی"
+
+#~ msgid "Join me on facebook"
+#~ msgstr "دنبال کنید"
+
+#~ msgid "Ali Mirzaei"
+#~ msgstr "علی میرزائی"
+
+#~ msgid "Logo Options"
+#~ msgstr "تنظیمات لوگو"
+
+#~ msgid "Logo"
+#~ msgstr "لوگو"
+
+#~ msgid "Logo Preview"
+#~ msgstr "نمایش"
+
+#~ msgid "Manage Logo Options for WP-Login Form."
+#~ msgstr "لوگوی صفحه ورود خود را در این بخش مدیریت کنید."
+
+#~ msgid "Upload Logo"
+#~ msgstr "بارگذاری لوگو"
+
+#~ msgid "Delete Logo"
+#~ msgstr "حذف لوگو"
+
+#~ msgid "Upload an image for the banner."
+#~ msgstr "بارگذاری تصویر لوگو"
+
+#~ msgid "Login Page Message"
+#~ msgstr "پیغام صفحه ورود:"
+
+#~ msgid "After Log Out Redirect Link"
+#~ msgstr "لینک تغییر مسیر خروج کاربران"
+
+#~ msgid "Select Style"
+#~ msgstr "یک طرح را انتخاب کن:"
+
+#~ msgid "Select Your Custom Setting..."
+#~ msgstr "در این بخش می توانید تنظیمات مورد نظر خود را انجام دهید"
+
+#~ msgid "wp-login logo"
+#~ msgstr "تنظیمات لوگو ورود"
+
+#~ msgid "Sliders"
+#~ msgstr "اسلاید ها"
+
+#~ msgid "Slider"
+#~ msgstr "اسلاید"
+
+#~ msgid "Add New"
+#~ msgstr "افزودن اسلاید جدید"
+
+#~ msgid "Add New Slider"
+#~ msgstr "افزودن اسلاید جدید"
+
+#~ msgid "Edit Slider"
+#~ msgstr "ویرایش اسلاید"
+
+#~ msgid "New Slider"
+#~ msgstr "اسلاید جدید"
+
+#~ msgid "All Sliders"
+#~ msgstr "همه اسلایدها"
+
+#~ msgid "View Slider"
+#~ msgstr "مشاهده اسلایدها"
+
+#~ msgid "Search Sliders"
+#~ msgstr "جستجوی اسلایدها"
+
+#~ msgid "No Slider Found"
+#~ msgstr "\"اسلایدی یافت نشد"
+
+#~ msgid "No slider found in Trash"
+#~ msgstr "اسلایدی در زباله دان یافت نشد"
+
+#~ msgid "Animate Slider"
+#~ msgstr "اسلایدر"
+
+#~ msgid "Link:"
+#~ msgstr "پیوند:"
+
+#~ msgid "Caption Style:"
+#~ msgstr "شیوه نامه عنوان"
+
+#~ msgid "Light"
+#~ msgstr "روشن"
+
+#~ msgid "Dark"
+#~ msgstr "تاریک"
+
+#~ msgid "Caption Position:"
+#~ msgstr "وضعیت قرارگیری عنوان"
+
+#~ msgid "Left"
+#~ msgstr "چپ"
+
+#~ msgid "Right"
+#~ msgstr "راست"
+
+#~ msgid "Center"
+#~ msgstr "وسط"
+
+#~ msgid "Background Image:"
+#~ msgstr "تصویر پس زمینه:"
+
+#~ msgid "Choose Image"
+#~ msgstr "انتخاب تصویر"
+
+#~ msgid "Remove Image"
+#~ msgstr "حذف تصویر"
+
+#~ msgid "Background for the slide. For thumbnail set in the featured image."
+#~ msgstr ""
+#~ "این تصویر به عنوان پس زمینه اسلاید شما تعریف خواهد شد، برای تصویر "
+#~ "بندانگشتی می توانید تصویر شاخصی را نیز برگزینید."
+
+#~ msgid "Read More"
+#~ msgstr "ادامه مطلب"
+
+#~ msgid "Simple Responsive Slider"
+#~ msgstr "اسلایدر"
+
+#~ msgid ""
+#~ "This plugin not is supported in current WordPress version. <a href=\"./"
+#~ "update-core.php\">Please update the WordPress for version 3.6 or above.</"
+#~ "a>"
+#~ msgstr ""
+#~ " این افزونه ورژن فعلی وردپرس شما را پشتیبانی نمی کنید<a href=\"./update-"
+#~ "core.php\">لطفا به وردپرس +3.6 به روزرسانی کنید.</a>"
+
+#~ msgid "Crop images"
+#~ msgstr "برش تصویر"
+
+#~ msgid "Max-width of the slider (in pixels)"
+#~ msgstr "بیشترین طول اسلایدر (به پیکسل)"
+
+#~ msgid "Max-height of the slider (in pixels)"
+#~ msgstr "بیشترین عرض اسلایدر (به پیکسل)"
+
+#~ msgid "Animate automatically"
+#~ msgstr "انیمیشن خودکار"
+
+#~ msgid "Yes"
+#~ msgstr "بله"
+
+#~ msgid "No"
+#~ msgstr "خیر"
+
+#~ msgid "Speed of the transition (in milliseconds)"
+#~ msgstr "سرعت انتقال اسلایدها (به میلی ثانیه)"
+
+#~ msgid "Time between slide transitions (in milliseconds)"
+#~ msgstr "زمان مکث اسلایدها (به میلی ثانیه)"
+
+#~ msgid "Show pager"
+#~ msgstr "نمایش پیجر"
+
+#~ msgid "Show navigation"
+#~ msgstr "نمایش ناوبری"
+
+#~ msgid "Randomize the order of the slides"
+#~ msgstr "نمایش تصادفی اسلایدها"
+
+#~ msgid "Pause on hover"
+#~ msgstr "توقت در صورت قرارگیری موس"
+
+#~ msgid "Pause when hovering controls"
+#~ msgstr "توقف با قرارگیری موس بر روی کنترل کننده ها"
+
+#~ msgid "Text for the \"previous\" button"
+#~ msgstr "متن دکمه \"قبلی\" اسلایدر"
+
+#~ msgid "Back"
+#~ msgstr "قبلی"
+
+#~ msgid "Text for the \"next\" button"
+#~ msgstr "متن دکمه \"بعدی\" اسلایدر"
+
+#~ msgid "Next"
+#~ msgstr "بعدی"
+
+#~ msgid "Load default CSS for the slider"
+#~ msgstr "استفاده از استایل پیشفرض"
+
+#~ msgid ""
+#~ "If you use a custom CSS, <a href=\"%s\" class=\"thickbox\">click here and "
+#~ "copy the default CSS</a> to use as an example."
+#~ msgstr ""
+#~ "اگر قصد استفاده از استایل پیشفرض خود را دارید, <a href=\"%s\" class="
+#~ "\"thickbox\">اینجا کلیک کنید</a>."
+
+#~ msgid "No, I'll use a custom CSS"
+#~ msgstr "نه، من از استایل خودم استفاده میکنم"
+
+#~ msgid "Add images and their corresponding link and captions"
+#~ msgstr "تصاویر و توضیحات اسلایدهای خود را در این قسمت قرار دهید"
+
+#~ msgid "Crop Images"
+#~ msgstr "برش تصاویر"
+
+#~ msgid "Click and position the crop"
+#~ msgstr "جهت برش کلیک کنید"
+
+#~ msgid "Prev"
+#~ msgstr "قبلی"
+
+#~ msgid "Add images in gallery"
+#~ msgstr "افزودن تصاویر به گالری"
+
+#~ msgid "Add in gallery"
+#~ msgstr "افزودن به گالری"
+
+#~ msgid "Add images"
+#~ msgstr "افزودن تصویر"
+
+#~ msgid "Save changes to finish deleting the images removed"
+#~ msgstr "جهت اتمام پروسه حذف تصاویر، بر روی ذخیره تغییرات کلیک کنید."
+
+#~ msgid "Clop image"
+#~ msgstr "برش تصویر"
+
+#~ msgid "Image link"
+#~ msgstr "لینک تصویر"
+
+#~ msgid "Open in new windown/tab?"
+#~ msgstr "بازکردن لینک در صفحه/تب جدید؟"
+
+#~ msgid "Image caption"
+#~ msgstr "توضیحات تصویر"
+
+#~ msgid "an"
+#~ msgstr "یک"
+
+#~ msgid "other"
+#~ msgstr "بقیه"
+
+#~ msgid "image to crop"
+#~ msgstr "یک تصویر را انتخاب کنید"
+
+#~ msgid "Click to crop this image"
+#~ msgstr "برای برش این تصویر کلیک کنید"
+
+#, fuzzy
+#~ msgid "If you use a custom CSS, <a href=\""
+#~ msgstr "Se você for usar uma CSS personalizada, <a href=\""
+
+#~ msgid "test"
+#~ msgstr "teste"
+
+#~ msgid ""
+#~ "If you use a custom CSS, <a href=\"#the_defalut_css\" class="
+#~ "\"get_defalut_css\"> click here and copy the default CSS </a> to use as "
+#~ "an example. \n"
+#~ "\t\t\t\t\t<div id=\"the_defalut_css\" class=\"the_defalut_css\">\n"
+#~ "\t\t\t\t\t\t<pre>\n"
+#~ ".rslides {\n"
+#~ "  position: relative;\n"
+#~ "  list-style: none;\n"
+#~ "  overflow: hidden;\n"
+#~ "  width: 100%;\n"
+#~ "  padding: 0;\n"
+#~ "  margin: 0;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides li {\n"
+#~ "  -webkit-backface-visibility: hidden;\n"
+#~ "  position: absolute;\n"
+#~ "  display: none;\n"
+#~ "  width: 100%;\n"
+#~ "  left: 0;\n"
+#~ "  top: 0;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides li:first-child {\n"
+#~ "  position: relative;\n"
+#~ "  display: block;\n"
+#~ "  float: left;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides img {\n"
+#~ "  display: block;\n"
+#~ "  height: auto;\n"
+#~ "  float: left;\n"
+#~ "  width: 100%;\n"
+#~ "  border: 0;\n"
+#~ "  }\n"
+#~ ".rslides_container {\n"
+#~ "  margin-bottom: 50px;\n"
+#~ "  position: relative;\n"
+#~ "  float: left;\n"
+#~ "  width: 100%;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_nav {\n"
+#~ "  z-index: 3;\n"
+#~ "  position: absolute;\n"
+#~ "  -webkit-tap-highlight-color: rgba(0,0,0,0);\n"
+#~ "  top: 50%;\n"
+#~ "  left: 0;\n"
+#~ "  opacity: 0.7;\n"
+#~ "  text-indent: -9999px;\n"
+#~ "  overflow: hidden;\n"
+#~ "  text-decoration: none;\n"
+#~ "  height: 61px;\n"
+#~ "  width: 38px;\n"
+#~ "  background: transparent url(\"themes/themes.gif\") no-repeat left top;\n"
+#~ "  margin-top: -55px;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_nav:active {\n"
+#~ "  opacity: 1.0;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_nav.next {\n"
+#~ "  left: auto;\n"
+#~ "  background-position: right top;\n"
+#~ "  right: 0;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_nav:focus {\n"
+#~ "  outline: none;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_tabs {\n"
+#~ "  margin-top: 10px;\n"
+#~ "  text-align: center;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_tabs li {\n"
+#~ "  display: inline;\n"
+#~ "  float: none;\n"
+#~ "  _float: left;\n"
+#~ "  *float: left;\n"
+#~ "  margin-right: 5px;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_tabs a{\n"
+#~ "  text-indent: -9999px;\n"
+#~ "  overflow: hidden;\n"
+#~ "  -webkit-border-radius: 15px;\n"
+#~ "  -moz-border-radius: 15px;\n"
+#~ "  border-radius: 15px;\n"
+#~ "  background: #ccc;\n"
+#~ "  background: rgba(0,0,0, .2);\n"
+#~ "  display: inline-block;\n"
+#~ "  _display: block;\n"
+#~ "  *display: block;\n"
+#~ "  -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);\n"
+#~ "  -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);\n"
+#~ "  box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);\n"
+#~ "  width: 9px;\n"
+#~ "  height: 9px;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_here a {\n"
+#~ "  background: #222;\n"
+#~ "  background: rgba(0,0,0, .8);\n"
+#~ "  }\n"
+#~ ".caption {\n"
+#~ "  position: absolute;\n"
+#~ "  display: block;\n"
+#~ "  bottom: -20px;\n"
+#~ "  left: 0;\n"
+#~ "  right: 0;\n"
+#~ "  padding: 15px;\n"
+#~ "  text-align: center;\n"
+#~ "  background: #000;\n"
+#~ "  background: rgba(0,0,0, .8);\n"
+#~ "  color: #fff;\n"
+#~ "}\n"
+#~ "\t\t\t\t\t\t</pre>\n"
+#~ "\t\t\t\t\t</div>"
+#~ msgstr ""
+#~ "If you use a custom CSS, <a href=\"#the_defalut_css\" class="
+#~ "\"get_defalut_css\"> click here and copy the default CSS </a> to use as "
+#~ "an example. \n"
+#~ "\t\t\t\t\t<div id=\"the_defalut_css\" class=\"the_defalut_css\">\n"
+#~ "\t\t\t\t\t\t<pre>\n"
+#~ ".rslides {\n"
+#~ "  position: relative;\n"
+#~ "  list-style: none;\n"
+#~ "  overflow: hidden;\n"
+#~ "  width: 100%;\n"
+#~ "  padding: 0;\n"
+#~ "  margin: 0;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides li {\n"
+#~ "  -webkit-backface-visibility: hidden;\n"
+#~ "  position: absolute;\n"
+#~ "  display: none;\n"
+#~ "  width: 100%;\n"
+#~ "  left: 0;\n"
+#~ "  top: 0;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides li:first-child {\n"
+#~ "  position: relative;\n"
+#~ "  display: block;\n"
+#~ "  float: left;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides img {\n"
+#~ "  display: block;\n"
+#~ "  height: auto;\n"
+#~ "  float: left;\n"
+#~ "  width: 100%;\n"
+#~ "  border: 0;\n"
+#~ "  }\n"
+#~ ".rslides_container {\n"
+#~ "  margin-bottom: 50px;\n"
+#~ "  position: relative;\n"
+#~ "  float: left;\n"
+#~ "  width: 100%;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_nav {\n"
+#~ "  z-index: 3;\n"
+#~ "  position: absolute;\n"
+#~ "  -webkit-tap-highlight-color: rgba(0,0,0,0);\n"
+#~ "  top: 50%;\n"
+#~ "  left: 0;\n"
+#~ "  opacity: 0.7;\n"
+#~ "  text-indent: -9999px;\n"
+#~ "  overflow: hidden;\n"
+#~ "  text-decoration: none;\n"
+#~ "  height: 61px;\n"
+#~ "  width: 38px;\n"
+#~ "  background: transparent url(\"themes/themes.gif\") no-repeat left top;\n"
+#~ "  margin-top: -55px;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_nav:active {\n"
+#~ "  opacity: 1.0;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_nav.next {\n"
+#~ "  left: auto;\n"
+#~ "  background-position: right top;\n"
+#~ "  right: 0;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_nav:focus {\n"
+#~ "  outline: none;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_tabs {\n"
+#~ "  margin-top: 10px;\n"
+#~ "  text-align: center;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_tabs li {\n"
+#~ "  display: inline;\n"
+#~ "  float: none;\n"
+#~ "  _float: left;\n"
+#~ "  *float: left;\n"
+#~ "  margin-right: 5px;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_tabs a{\n"
+#~ "  text-indent: -9999px;\n"
+#~ "  overflow: hidden;\n"
+#~ "  -webkit-border-radius: 15px;\n"
+#~ "  -moz-border-radius: 15px;\n"
+#~ "  border-radius: 15px;\n"
+#~ "  background: #ccc;\n"
+#~ "  background: rgba(0,0,0, .2);\n"
+#~ "  display: inline-block;\n"
+#~ "  _display: block;\n"
+#~ "  *display: block;\n"
+#~ "  -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);\n"
+#~ "  -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);\n"
+#~ "  box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);\n"
+#~ "  width: 9px;\n"
+#~ "  height: 9px;\n"
+#~ "  }\n"
+#~ "\n"
+#~ ".rslides_here a {\n"
+#~ "  background: #222;\n"
+#~ "  background: rgba(0,0,0, .8);\n"
+#~ "  }\n"
+#~ ".caption {\n"
+#~ "  position: absolute;\n"
+#~ "  display: block;\n"
+#~ "  bottom: -20px;\n"
+#~ "  left: 0;\n"
+#~ "  right: 0;\n"
+#~ "  padding: 15px;\n"
+#~ "  text-align: center;\n"
+#~ "  background: #000;\n"
+#~ "  background: rgba(0,0,0, .8);\n"
+#~ "  color: #fff;\n"
+#~ "}\n"
+#~ "\t\t\t\t\t\t</pre>\n"
+#~ "\t\t\t\t\t</div>"

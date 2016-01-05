@@ -1,0 +1,550 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Viadat Creations
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Store Locator\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Diana <diana@wpcouponshop.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: Serbian\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: add-locations.php:5 functions.sl.php:510 view-locations.php:256
+msgid "Add Locations"
+msgstr "Dodaj lokaciju"
+
+#: add-locations.php:26
+msgid "Successful Addition"
+msgstr "Uspesno Dodavanje"
+
+#: add-locations.php:80 view-locations.php:180
+msgid "Type&nbsp;Address"
+msgstr "Type&nbsp;Address"
+
+#: add-locations.php:83
+msgid "The General Address Format"
+msgstr "Generalni Format Adrese"
+
+#: add-locations.php:83
+msgid "show/hide"
+msgstr "pokazi/sakrij"
+
+#: add-locations.php:84 add-locations.php:88 view-locations.php:182
+msgid "Name of Location"
+msgstr "Ime od Lokacije"
+
+#: add-locations.php:85
+msgid "Address (Street - Line1)"
+msgstr "Adresa (Ulica - Line1)"
+
+#: add-locations.php:86
+msgid "Address (Street - Line2 - optional)"
+msgstr "Adresa (Ulica - Line2 - nije obavezno)"
+
+#: add-locations.php:87
+msgid "City, State Zip"
+msgstr "Grad, Drzava, Zip"
+
+#: add-locations.php:89 view-locations.php:183
+msgid "Address"
+msgstr "Adresa"
+
+#: add-locations.php:89 view-locations.php:183
+msgid "Street - Line1"
+msgstr "Ulica - Line1"
+
+#: add-locations.php:90 view-locations.php:184
+msgid "Street - Line 2 - optional"
+msgstr "Ulica - Line 2 - nije obavezno"
+
+#: add-locations.php:91 functions.sl.php:569 view-locations.php:145
+#: view-locations.php:185
+msgid "City"
+msgstr "Grad"
+
+#: add-locations.php:92 functions.sl.php:570 view-locations.php:146
+#: view-locations.php:186
+msgid "State"
+msgstr "Drzava"
+
+#: add-locations.php:93 functions.sl.php:571 view-locations.php:147
+#: view-locations.php:187
+msgid "Zip"
+msgstr "Zip"
+
+#: add-locations.php:95 functions.sl.php:573 view-locations.php:151
+#: view-locations.php:191
+msgid "Description"
+msgstr "Opis"
+
+#: add-locations.php:96 view-locations.php:192
+msgid "Tags (seperate with commas)"
+msgstr "Tagovi (odvojite zarezima)"
+
+#: add-locations.php:97 functions.sl.php:575 view-locations.php:152
+#: view-locations.php:193
+msgid "URL"
+msgstr "URL"
+
+#: add-locations.php:98 functions.sl.php:574 view-locations.php:153
+#: view-locations.php:194
+msgid "Hours"
+msgstr "Sati"
+
+#: add-locations.php:99 functions.sl.php:576 view-locations.php:154
+#: view-locations.php:195
+msgid "Phone"
+msgstr "Telefon"
+
+#: add-locations.php:100 view-locations.php:196
+msgid "Image URL (shown with location)"
+msgstr "URL slike (prikazano sa lokacijom)"
+
+#: add-locations.php:101
+msgid "Add Location"
+msgstr "Dodaj lokaciju"
+
+#: api-key.php:15 map-designer.php:34
+msgid "Successful Update"
+msgstr "Uspesno Azuriranje"
+
+#: api-key.php:18
+msgid "Update Your Google API Key"
+msgstr "Azurirajte Vas Google API Key"
+
+#: api-key.php:18
+msgid "Your API Key Status"
+msgstr "Vas API Key status"
+
+#: api-key.php:24
+msgid "Please Update Your Google API Key"
+msgstr "Molimo Vas Azurirajte Vas Google API Key"
+
+#: api-key.php:27
+msgid "API Key Submitted"
+msgstr "Podnet API Key "
+
+#: api-key.php:30 functions.sl.php:513
+msgid "Google API Key"
+msgstr "Google API Key"
+
+#: api-key.php:30
+msgid "Get your Google API Key"
+msgstr "Nabavite Vas Google API Key"
+
+#: api-key.php:30
+msgid ""
+"You'll need to log in with your Google account on the page that opens up. If "
+"you don't have an account"
+msgstr ""
+"Moracete da se prijavite na Google nalog na stranici koja se otvara. Ukoliko "
+"nemate nalog"
+
+#: api-key.php:30
+msgid "sign up here"
+msgstr "prijavite se ovde"
+
+#: api-key.php:42
+msgid "Select Your Location"
+msgstr "Izaberite Vasu lokaciju"
+
+#: api-key.php:107
+msgid "Select Character Encoding"
+msgstr "Izaberite kodni raspored"
+
+#: api-key.php:115 map-designer.php:182 view-locations.php:188
+msgid "Update"
+msgstr "Azuriranje"
+
+#: functions.sl.php:273
+msgid "Address "
+msgstr "Adresa"
+
+#: functions.sl.php:274
+msgid "Received status "
+msgstr "Primljeni status"
+
+#: functions.sl.php:506
+msgid "Store Locator"
+msgstr "Store Locator"
+
+#: functions.sl.php:508
+msgid "News & Upgrades"
+msgstr "Vesti i apdejtovi"
+
+#: functions.sl.php:509 variables.sl.php:10 view-locations.php:13
+msgid "Manage Locations"
+msgstr "Upravljenje lokacijom"
+
+#: functions.sl.php:511 map-designer.php:36
+msgid "Map Designer"
+msgstr "Dizajner mape"
+
+#: functions.sl.php:513
+msgid "Localization"
+msgstr "Lokalizacija"
+
+#: functions.sl.php:516
+msgid "ReadMe"
+msgstr "Procitaj "
+
+#: functions.sl.php:557
+msgid "Choose Heading That Matches Columns You Want to Import"
+msgstr "Izaberi heding koji se slaze sa kolumnama koje hoces da uvezes"
+
+#: functions.sl.php:557
+msgid "Leave headings for undesired columns unchanged"
+msgstr "Ostavi heding za nepozeljne kolumne nepopunjen"
+
+#: functions.sl.php:559 functions.sl.php:598 view-locations.php:188
+msgid "Cancel"
+msgstr "Zaustavi"
+
+#: functions.sl.php:559 functions.sl.php:598
+msgid "Import Locations"
+msgstr "Unesi lokaciju"
+
+#: functions.sl.php:565
+msgid "Choose"
+msgstr "Izabrati"
+
+#: functions.sl.php:566 view-locations.php:142
+msgid "Name"
+msgstr "Ime"
+
+#: functions.sl.php:567
+msgid "Street(Line1)"
+msgstr "Ulica(Line1)"
+
+#: functions.sl.php:568
+msgid "Street(Line2)"
+msgstr "Ulica(Line2)"
+
+#: functions.sl.php:572 mgmt-buttons-links.php:16 view-locations.php:148
+msgid "Tags"
+msgstr "tagovi"
+
+#: functions.sl.php:577 view-locations.php:155
+msgid "Image"
+msgstr "Slike"
+
+#: functions.sl.php:578
+msgid "Is Private?"
+msgstr "Ovo je privatno?"
+
+#: functions.sl.php:670
+msgid "You haven't activated this upgrade yet"
+msgstr "Niste jos aktivirali ovaj apdejt "
+
+#: functions.sl.php:670 news-upgrades.php:135
+msgid "Activate"
+msgstr "Aktiviraj"
+
+#: map-designer.php:36
+msgid "Designer"
+msgstr "Dizajner"
+
+#: map-designer.php:108
+msgid "Normal"
+msgstr "Normalno"
+
+#: map-designer.php:109
+msgid "Satellite"
+msgstr "Satelit"
+
+#: map-designer.php:110
+msgid "Hybrid"
+msgstr "Hibrid"
+
+#: map-designer.php:111
+msgid "Physical"
+msgstr "Fizicki"
+
+#: map-designer.php:121
+msgid "Defaults"
+msgstr "Primarni"
+
+#: map-designer.php:122
+msgid "Choose Default Map Type Shown to Visitors"
+msgstr "Izaberite podrazumevani tip mape za prikaz posetiocima"
+
+#: map-designer.php:124
+msgid "Allow User Search By City?"
+msgstr "Dozvoli korisnicima da pretrazuju po gradovima?"
+
+#: map-designer.php:126
+msgid "Show Map Inset Box?"
+msgstr "Pokazi Map Inset Box?"
+
+#: map-designer.php:128
+msgid "Show Locations By Default When Map Loads?"
+msgstr "Prikazi lokacije po difoltu kada se mapa ucita?"
+
+#: map-designer.php:130
+msgid "Number of Locations Shown By Default"
+msgstr "Podrazumevani broj prikazanih lokacija"
+
+#: map-designer.php:131
+msgid "Recommended Max: 50"
+msgstr "Preporuceno max: 50"
+
+#: map-designer.php:134
+msgid "Allow User Search By Name of Location?"
+msgstr "Dozvoli pretrazivanje korisnika po imenu lokacije?"
+
+#: map-designer.php:136
+msgid "Labels"
+msgstr "Etikete"
+
+#: map-designer.php:138
+msgid "Address Input Label"
+msgstr "Address Input Label"
+
+#: map-designer.php:140
+msgid "Radius Dropdown Label"
+msgstr "Radius Dropdown Label"
+
+#: map-designer.php:142
+msgid "Website URL Label"
+msgstr "Website URL Label"
+
+#: map-designer.php:144
+msgid "Instruction Message to Users"
+msgstr "Poruke sa instrukcijama korisnicima"
+
+#: map-designer.php:149
+msgid "Dimensions"
+msgstr "Dimenzije"
+
+#: map-designer.php:150
+msgid "Zoom Level"
+msgstr "Nivo zumiranja"
+
+#: map-designer.php:152
+msgid "Map Height"
+msgstr "Visina karte"
+
+#: map-designer.php:154
+msgid "Map Width"
+msgstr "Sirina karte"
+
+#: map-designer.php:156
+msgid "Radii Options<br>(in "
+msgstr "Radii Options<br>(in "
+
+#: map-designer.php:157
+msgid ""
+"Note: Seperate each number with a comma ',' , and put paratheseses '( )' "
+"around the default radius you would like to show</span>"
+msgstr ""
+"Beleska: Odvojite svaki broj sa zapetom ',' , i umetnite '( )' oko "
+"podrazumevanog radijusa koji zelite da prikazete</span>"
+
+#: map-designer.php:158
+msgid "Distance Unit"
+msgstr "Jedinica udaljenosti"
+
+#: map-designer.php:159
+msgid "Kilometers"
+msgstr "Kilometri"
+
+#: map-designer.php:160
+msgid "Miles"
+msgstr "Milje"
+
+#: map-designer.php:169
+msgid "Design"
+msgstr "Dizajn"
+
+#: map-designer.php:172
+msgid "Choose Theme"
+msgstr "Izaberite temu"
+
+#: map-designer.php:172
+msgid "No Theme Selected"
+msgstr "Nema izabranih tema"
+
+#: map-designer.php:173
+msgid "Remove Credits"
+msgstr "Ukloni zasluge"
+
+#: map-designer.php:175
+msgid "Home Icon"
+msgstr "Pocetna ikona"
+
+#: map-designer.php:177
+msgid "Destination Icon"
+msgstr "Ikona za destinaciju"
+
+#: map-designer.php:180
+msgid "Looking to create or find a unique icon? For ideas, visit"
+msgstr "Trazite da stvori ili da nadje jedinstvenu ikonu? Za ideje, posetite"
+
+#: mgmt-buttons-links.php:5
+msgid "Delete Selected"
+msgstr "Izbrisi izabrano"
+
+#: mgmt-buttons-links.php:5 mgmt-buttons-links.php:16
+msgid "You sure"
+msgstr "Da li ste sigurni"
+
+#: mgmt-buttons-links.php:16
+msgid "Tag Selected"
+msgstr "Oznaka Izabrani"
+
+#: mgmt-buttons-links.php:16
+msgid "Remove Tag From Selected"
+msgstr "Uklonite oznaku iz Izabrani"
+
+#: news-upgrades.php:17
+msgid "Current Version"
+msgstr "Trenutna verzija"
+
+#: news-upgrades.php:17
+msgid "Upgrade to Newest Version"
+msgstr "Nadogradnja na najnoviju verziju"
+
+#: news-upgrades.php:18
+msgid ""
+"(This upgrader preserves added themes, addons, images, icons, & language "
+"files as requested.  Remember to backup & check for upgrades often.)"
+msgstr ""
+"(Ova nadogradnja cuva dodate teme, addons, slike, ikone, & jezicke datoteke "
+"na zahtev. Zapamti da napravis bekap i cesto proveravaj nova dostupna "
+"azuriranja.)"
+
+#: news-upgrades.php:34
+#, php-format
+msgid "Please make sure that %s is writable."
+msgstr "Molim vas pobrinite se da %s je upisiv."
+
+#: news-upgrades.php:46
+msgid "Latest News"
+msgstr "Najnovije vesti"
+
+#: news-upgrades.php:93
+msgid "Activation Keys"
+msgstr "Aktivacioni kljuc"
+
+#: news-upgrades.php:121
+msgid "Key"
+msgstr "Kljuc"
+
+#: news-upgrades.php:136
+msgid "Looking for more addons & themes"
+msgstr "Trazi viseaddons & themes"
+
+#: news-upgrades.php:136
+msgid "It's all right here"
+msgstr "Sve je ovde"
+
+#: news-upgrades.php:147
+msgid "Addons & Themes"
+msgstr "Addons & Themes"
+
+#: sl-update.php:83
+#, php-format
+msgid "Could not download distribution (%s)"
+msgstr "Nije moguce preuzeti distribuciju (%s)"
+
+#: sl-update.php:86
+#, php-format
+msgid "Could not download distribution (%s): %s"
+msgstr "Nije moguce preuzeti distribuciju  (%s): %s"
+
+#: sl-update.php:93
+#, php-format
+msgid "Could not open %s for writing"
+msgstr "Ne mogu da otvorim %s za pisanje"
+
+#: sl-update.php:95
+#, php-format
+msgid "Please make sure %s is writable"
+msgstr "Molim Vas pobrinite se da %s je upisiv."
+
+#: sl-update.php:101
+#, php-format
+msgid "Could not write to %s"
+msgstr "Nije moguce pisati na  %s"
+
+#: sl-update.php:149
+msgid "Upgrade failed"
+msgstr "Azuriranje neuspesno"
+
+#: sl-update.php:157
+msgid "Great, successful upgrade."
+msgstr "Sjajno, uspesna nadogradnja."
+
+#: sl-update.php:159
+msgid "Return to Plugins page"
+msgstr "Povratak na Plugins stranu"
+
+#: via-latest.php:23
+msgid "Latest about Store Locator for WordPress"
+msgstr "Najnovije o Store Locator for WordPress"
+
+#: view-locations.php:102
+msgid "Current View"
+msgstr "Trenutni pogled"
+
+#: view-locations.php:102
+msgid "Change View"
+msgstr "Promeni pogled"
+
+#: view-locations.php:112
+msgid "Change"
+msgstr "Promeni"
+
+#: view-locations.php:118
+msgid "Updater"
+msgstr "Azuriranje"
+
+#: view-locations.php:118
+msgid "Change Updater"
+msgstr "Promeni azuriranje"
+
+#: view-locations.php:140
+msgid "Actions"
+msgstr "Akcije"
+
+#: view-locations.php:141
+msgid "ID"
+msgstr "ID"
+
+#: view-locations.php:143
+msgid "Street"
+msgstr "Ulica"
+
+#: view-locations.php:144
+msgid "Street2"
+msgstr "Ulica2"
+
+#: view-locations.php:225 view-locations.php:226 view-locations.php:227
+msgid "View"
+msgstr "Pregledati"
+
+#: view-locations.php:231
+msgid "Edit"
+msgstr "Promeni"
+
+#: view-locations.php:231
+msgid "Delete"
+msgstr "Izbrisi"
+
+#: view-locations.php:255
+msgid "No Locations Showing for this Search of "
+msgstr "Nema Locations Showing za ovu pretragu za"
+
+#: view-locations.php:255
+msgid "No Locations Currently in Database"
+msgstr "Nema lokacije trenutno u bazi"

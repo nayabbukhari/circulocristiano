@@ -1,0 +1,64 @@
+// =============================================================================
+// SCSS/SITE/STACKS/INTEGRITY/_SCAFFOLDING.SCSS
+// -----------------------------------------------------------------------------
+// Set base styles for <body> and links.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Site Wrap
+//   02. Body Reset
+//   03. Grid Container
+//   04. Links
+// =============================================================================
+
+// Site Wrap
+// =============================================================================
+
+.site {
+  @include clearfix();
+}
+
+.x-boxed-layout-active .site {
+  margin: 0 auto;
+  border: 1px solid #d5d5d5;
+  border: 1px solid $siteBorderColor;
+  border-top: 0;
+  border-bottom: 0;
+  background-color: $siteBackground;
+  @include box-shadow(#{$siteBoxShadow});
+  @include box-sizing(#{content-box});
+}
+
+
+
+// Body Reset
+// =============================================================================
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  line-height: $baseLineHeight;
+}
+
+
+
+// Grid Container
+// =============================================================================
+
+.x-container {
+  &.offset {
+    margin: 40px auto;
+  }
+}
+
+
+
+// Links
+// =============================================================================
+
+a {
+  text-decoration: none;
+  @include transition($linkTransitions);
+}

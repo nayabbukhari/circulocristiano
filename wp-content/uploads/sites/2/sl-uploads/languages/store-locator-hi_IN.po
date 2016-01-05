@@ -1,0 +1,451 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Store locator\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/store-locator\n"
+"POT-Creation-Date: 2009-02-05 13:31+0000\n"
+"PO-Revision-Date: 2012-05-31 13:07+0530\n"
+"Last-Translator: shivangi <shivangi@outshinesolutions.com>\n"
+"Language-Team: Team Outshine <ash.pr@outshinesolutions.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hindi\n"
+"X-Poedit-Country: INDIA\n"
+
+#: add-locations.php:5
+#: functions.sl.php:382
+#: view-locations.php:195
+msgid "Add Locations"
+msgstr "स्थान जोडो"
+
+#: add-locations.php:26
+msgid "Successful Addition"
+msgstr "सफल जोड़"
+
+#: add-locations.php:79
+msgid "Type&nbsp;Address"
+msgstr "प्रकार&nbsp; पता"
+
+#: add-locations.php:82
+msgid "The General Address Format"
+msgstr "जनरल पता स्वरूप"
+
+#: add-locations.php:82
+msgid "show/hide"
+msgstr "दिखाएँ / छुपाएँ"
+
+#: add-locations.php:83
+#: add-locations.php:87
+msgid "Location Name"
+msgstr "स्थान का नाम"
+
+#: add-locations.php:84
+#: add-locations.php:88
+msgid "Address (Street - Line1)"
+msgstr "पता (स्ट्रीट - लाइन 1)"
+
+#: add-locations.php:85
+msgid "Address (Street - Line2 - optional)"
+msgstr "पता (स्ट्रीट लाइन 2 - वैकल्पिक)"
+
+#: add-locations.php:86
+msgid "City, State Zip"
+msgstr "शहर, राज्य ज़िप"
+
+#: add-locations.php:89
+msgid "Address (Street - Line 2 - optional)"
+msgstr "पता (स्ट्रीट लाइन 2 - वैकल्पिक)"
+
+#: add-locations.php:90
+#: functions.sl.php:427
+#: view-locations.php:112
+msgid "City"
+msgstr "शहर"
+
+#: add-locations.php:91
+#: functions.sl.php:428
+#: view-locations.php:113
+msgid "State"
+msgstr "राज्य"
+
+#: add-locations.php:92
+#: functions.sl.php:429
+#: view-locations.php:114
+msgid "Zip"
+msgstr "ज़िप"
+
+#: add-locations.php:93
+msgid "Show/Hide More Fields"
+msgstr "दिखाएँ / छिपाएँ अतिरिक्त फ़ील्ड"
+
+#: add-locations.php:95
+msgid "Tags (seperate with commas)"
+msgstr "टैग (अल्पविराम से अलग)"
+
+#: add-locations.php:96
+#: functions.sl.php:431
+#: view-locations.php:118
+msgid "Description"
+msgstr "विवरण"
+
+#: add-locations.php:97
+#: functions.sl.php:433
+#: view-locations.php:119
+msgid "URL"
+msgstr "यूआरएल"
+
+#: add-locations.php:98
+#: functions.sl.php:432
+#: view-locations.php:120
+msgid "Hours"
+msgstr "घंटे"
+
+#: add-locations.php:99
+#: functions.sl.php:434
+#: view-locations.php:121
+msgid "Phone"
+msgstr "फ़ोन"
+
+#: add-locations.php:100
+msgid "Image (shown on map with location)"
+msgstr "छवि (स्थान के साथ नक्शे पर दिखाया)"
+
+#: add-locations.php:102
+msgid "Add Location"
+msgstr "स्थान जोड़ें"
+
+#: api-key.php:12
+#: map-designer.php:27
+msgid "Successful Update"
+msgstr "सफल अपडेट"
+
+#: api-key.php:15
+msgid "Update Your Google API Key"
+msgstr "अपडेट आपका गूगल एपीआई कुंजी"
+
+#: api-key.php:15
+msgid "Your API Key Status"
+msgstr "आपकी API कुंजी की स्थिति"
+
+#: api-key.php:21
+msgid "Please Update Your Google API Key"
+msgstr "Bitte Google API Key updaten"
+
+#: api-key.php:24
+msgid "API Key Submitted"
+msgstr "एपीआई कुंजी पोस्ट किया गया"
+
+#: api-key.php:27
+#: functions.sl.php:385
+msgid "Google API Key"
+msgstr "गूगल एपीआई कुंजी"
+
+# What kind of note? Makes a difference in German
+#: api-key.php:27
+msgid "Note: <br>"
+msgstr "Note: <br>"
+
+#: api-key.php:39
+msgid "Select Your Location"
+msgstr "अपना स्थान चुनें"
+
+#: api-key.php:70
+#: map-designer.php:115
+#: view-locations.php:142
+msgid "Update"
+msgstr "अपडेट"
+
+#: functions.sl.php:181
+msgid "Address "
+msgstr "पता"
+
+#: functions.sl.php:182
+msgid "Received status "
+msgstr "प्राप्त स्थिति"
+
+#: functions.sl.php:361
+msgid "Enter Your Address or Zip Code Above"
+msgstr "आपका पता या ऊपर ज़िप कोड दर्ज करें"
+
+#: functions.sl.php:378
+msgid "Store Locator"
+msgstr "स्टोर लोकेटर"
+
+#: functions.sl.php:380
+msgid "News & Upgrades"
+msgstr "समाचार और नवीनीकरण"
+
+#: functions.sl.php:381
+#: view-locations.php:13
+msgid "Manage Locations"
+msgstr "स्थान प्रबंधित करें"
+
+#: functions.sl.php:383
+#: map-designer.php:29
+msgid "Map Designer"
+msgstr "नक्शा डिजाइनर"
+
+#: functions.sl.php:385
+msgid "Localization"
+msgstr "स्थानीयकरण"
+
+#: functions.sl.php:388
+msgid "ReadMe"
+msgstr "रीडमी"
+
+#: functions.sl.php:415
+msgid "Choose Heading That Matches Columns You Want to Import"
+msgstr "शीर्षक मेल खाता स्तंभ आप आयात करना चाहते हैं चुनें"
+
+#: functions.sl.php:415
+msgid "Leave headings for undesired columns unchanged"
+msgstr "अवांछित अपरिवर्तित कॉलम के लिए शीर्षकों छोड़ें"
+
+#: functions.sl.php:417
+#: functions.sl.php:456
+#: view-locations.php:142
+msgid "Cancel"
+msgstr "रद्द करना"
+
+#: functions.sl.php:417
+#: functions.sl.php:456
+msgid "Import Locations"
+msgstr "आयात स्थान"
+
+#: functions.sl.php:423
+msgid "Choose"
+msgstr "चुनें"
+
+#: functions.sl.php:424
+#: view-locations.php:109
+msgid "Name"
+msgstr "नाम"
+
+#: functions.sl.php:425
+msgid "Street(Line1)"
+msgstr "स्ट्रीट (लाइन 1)"
+
+#: functions.sl.php:426
+msgid "Street(Line2)"
+msgstr "स्ट्रीट (लाइन 2)"
+
+#: functions.sl.php:430
+#: mgmt-buttons-links.php:16
+#: view-locations.php:115
+msgid "Tags"
+msgstr "टैग"
+
+#: functions.sl.php:435
+#: view-locations.php:122
+msgid "Image"
+msgstr "छवि"
+
+#: functions.sl.php:436
+msgid "Is Private?"
+msgstr "निजी है?"
+
+#: functions.sl.php:525
+msgid "You haven't activated this upgrade yet"
+msgstr "आपको यह उन्नयन अभी तक सक्रिय नहीं है"
+
+#: functions.sl.php:525
+msgid "Activate"
+msgstr "सक्रिय"
+
+#: map-designer.php:29
+msgid "Option"
+msgstr "विकल्प"
+
+#: map-designer.php:29
+msgid "Value"
+msgstr "मूल्य"
+
+#: map-designer.php:87
+msgid "Choose Default Map Type Shown to Visitors"
+msgstr "डिफ़ॉल्ट नक्शा आगंतुक को दिखाया प्रकार चुनें"
+
+#: map-designer.php:89
+msgid "Allow User Search By City?"
+msgstr "सिटी द्वारा उपयोगकर्ता खोज की अनुमति दें?"
+
+#: map-designer.php:91
+msgid "Allow User Search By Name of Location?"
+msgstr "स्थान के नाम से उपयोगकर्ता की खोज की अनुमति दें?"
+
+#: map-designer.php:93
+msgid "Address Input Label"
+msgstr "पता इनपुट लेबल"
+
+#: map-designer.php:95
+msgid "Radius Dropdown Label"
+msgstr "रेडियस ड्रापडाउन लेबल"
+
+#: map-designer.php:97
+msgid "Website URL Label"
+msgstr "वेबसाइट यूआरएल लेबल"
+
+#: map-designer.php:99
+msgid "Default Map Zoom Level"
+msgstr "डिफ़ॉल्ट नक्शा ज़ूम स्तर"
+
+#: map-designer.php:101
+msgid "Map Height"
+msgstr "नक्शा ऊँचाई"
+
+#: map-designer.php:103
+msgid "Map Width"
+msgstr "नक्शा चौड़ाई"
+
+#: map-designer.php:105
+msgid "Map Radii Options (in miles)"
+msgstr "नक्शा radii विकल्प (मील में)"
+
+#: map-designer.php:106
+msgid "Note: Seperate each number with a comma ',' , and put paratheseses '( )' around the default radius you would like to show"
+msgstr "नोट: अलग एक अल्पविराम ',' प्रत्येक संख्या के साथ, और डिफ़ॉल्ट त्रिज्या के आसपास paratheseses '()' डाल आप दिखाना चाहते हैं"
+
+#: map-designer.php:107
+msgid "Choose Theme"
+msgstr "थीम चुनें"
+
+#: map-designer.php:107
+msgid "No Theme Selected"
+msgstr "चयनित थीम नहीं है "
+
+#: map-designer.php:108
+msgid "Remove Credits & Google Terms link?"
+msgstr "क्रेडिट और शर्तें लिंक निकालें?"
+
+#: map-designer.php:110
+msgid "Home Icon"
+msgstr "घर चिह्न"
+
+#: map-designer.php:112
+msgid "Destination Icon"
+msgstr "डेस्टिनेशन चिह्न"
+
+#: map-designer.php:114
+msgid "Looking to create or find a unique icon? For ideas, visit"
+msgstr "बनाने या एक अद्वितीय आइकन खोजने के लिए खोज रहे हैं? विचारों के लिए यात्रा,"
+
+#: mgmt-buttons-links.php:5
+msgid "Delete Selected"
+msgstr "चुने गए हटाएँ"
+
+# not sure what's meant here
+#: mgmt-buttons-links.php:5
+#: mgmt-buttons-links.php:16
+msgid "You sure"
+msgstr "आपको यकीन है"
+
+#: mgmt-buttons-links.php:16
+msgid "Tag Selected"
+msgstr "टैग चुने गए"
+
+#: mgmt-buttons-links.php:16
+msgid "Remove Tag From Selected"
+msgstr "चुने गए  टैग से निकालें"
+
+#: news-upgrades.php:10
+msgid "Latest News"
+msgstr "नवीनतम समाचार"
+
+#: news-upgrades.php:54
+msgid "Activation Keys"
+msgstr "सक्रियकरण कुंजी"
+
+#: news-upgrades.php:81
+msgid "Key"
+msgstr "कुंजी"
+
+#: news-upgrades.php:93
+msgid "Update All"
+msgstr "सभी अपडेट"
+
+#: news-upgrades.php:94
+msgid "Looking for more upgrades & themes"
+msgstr "अधिक उन्नयन और विषयों के लिए खोज रहे हैं"
+
+#: news-upgrades.php:94
+msgid "It's all right here"
+msgstr "सब यहाँ ठीक है"
+
+#: news-upgrades.php:105
+msgid "Addons & Themes"
+msgstr "Addons और थीम्स"
+
+#: variables.sl.php:9
+msgid "View All Locations"
+msgstr "सभी स्थल देखें"
+
+#: view-locations.php:95
+msgid "Current View"
+msgstr "वर्तमान दृश्य"
+
+#: view-locations.php:95
+msgid "Change View"
+msgstr "परिवर्तन देखें "
+
+#: view-locations.php:98
+msgid "Updater"
+msgstr "अपडेटर"
+
+# not sure what's meant here
+#: view-locations.php:98
+msgid "Change Updater"
+msgstr "परिवर्तन अपडेटर"
+
+#: view-locations.php:107
+msgid "Actions"
+msgstr "क्रियाएँ"
+
+#: view-locations.php:108
+msgid "ID"
+msgstr "आईडी"
+
+#: view-locations.php:110
+msgid "Street"
+msgstr "सड़क"
+
+#: view-locations.php:111
+msgid "Street2"
+msgstr "Street2"
+
+#: view-locations.php:164
+#: view-locations.php:165
+#: view-locations.php:166
+msgid "View"
+msgstr "देखना"
+
+#: view-locations.php:170
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: view-locations.php:170
+msgid "Delete"
+msgstr "हटाना"
+
+#: view-locations.php:194
+msgid "No Locations Showing for this Search of "
+msgstr "नहीं की इस खोज के के लिए दिखा रहा है"
+
+#: view-locations.php:194
+msgid "No Locations Currently in Database"
+msgstr "डाटाबेस में वर्तमान में स्थान नहीं है"
+
+#. Plugin URI of an extension
+msgid "http://www.viadat.com/store-locator"
+msgstr "http://www.viadat.com/store-locator"
+
+#. Description of an extension
+msgid "A store locator / location finder plugin focused on providing mapping tools for web designers & developers who create sites in Wordpress & web site owners needing to show important stores or any other type of location."
+msgstr "एक दुकान खोजक / सुनने का यंत्र स्थान प्लगइन वेब डिजाइनरों और डेवलपर्स जो WordPress की और वेब साइट के लिए महत्वपूर्ण भंडार या स्थान के किसी भी अन्य प्रकार को दिखाने की जरूरत के मालिकों में साइट्स बनाने के लिए मानचित्रण उपकरण उपलब्ध कराने पर जोर दिया."
+
+#. Author of an extension
+msgid "Viadat Creations"
+msgstr "viadat रचना"
+
+#. Author URI of an extension
+msgid "http://www.viadat.com"
+msgstr "http://www.viadat.com"
+

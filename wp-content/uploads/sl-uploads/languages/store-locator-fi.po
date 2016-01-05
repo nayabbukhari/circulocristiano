@@ -1,0 +1,651 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StoreLocator Finland\n"
+"POT-Creation-Date: 2013-09-12 23:46-0500\n"
+"PO-Revision-Date: 2013-09-19 13:44+0200\n"
+"Last-Translator: Esa Immonen <esa.raato@gmail.com>\n"
+"Language-Team:  <esa.raato@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"Language: Finnish\n"
+"X-Poedit-SearchPath-0: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-"
+"content/plugins/store-locator.2.0\n"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-define.php:18
+msgid "Manage Locations"
+msgstr "Hallitse sijainteja"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:287
+msgid "Address "
+msgstr "Osoite"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:288
+msgid "Received status "
+msgstr "Vastaanotettu status"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:436
+msgid "Store Locator"
+msgstr "Store Locator"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:437
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:3
+msgid "News & Upgrades"
+msgstr "Uutiset & Lisäosat"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:438
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:31
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:6
+msgid "Locations"
+msgstr "Sijainnit"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:439
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:70
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:11
+msgid "MapDesigner&trade;"
+msgstr "MapDesigner&trade;"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:562
+msgid "You haven't activated this upgrade yet"
+msgstr "Lisäosaa ei ole vielä aktivoitu"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:564
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/module-keys.php:46
+msgid "Activate"
+msgstr "Aktivoi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:566
+msgid "Go to pull-out Dashboard, and activate under 'Activation Keys' section."
+msgstr "Mene hallintapaneeliin ja aktivoi kohdan 'Aktivointi Avaimet' alta."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:676
+msgid "Love it! I've made my site more user-friendly with"
+msgstr ""
+"Rakastan! Olen tehnyt sivustostani paljon käyttäjäystävällisemmän Store "
+"Locatorin avulla!"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:677
+msgid "Great! I can now easily display my locations using"
+msgstr "Hienoa! Nyt voin näyttää helposti omat sijaintini!"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:680
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:687
+msgid ""
+"<b>Let us know how fantastic you think WordPress Store Locator is!</b> "
+"<br><a href='#' class='star_button'>Go to our page in the WordPress plugin "
+"repository and rate us</a>.<br><br><b>Any problems?</b><br><a href='http://"
+"docs.viadat.com/' target='_blank'>Documentation</a> is available or <a "
+"href='http://www.viadat.com/contact/' target='_blank'>contact us</a>."
+msgstr ""
+"<b>Kerro meille kuinka fantastinen Store Locator on!</b> <br><a href='#' "
+"class='star_button'>Mene meidän sivuille WordPress plug-in hakemistossa ja "
+"arvostele meidät</a>.<br><br><b>Ongelmia?</b><br><a href='http://docs.viadat."
+"com/' target='_blank'>Dokumentaatio</a> on saatavilla tai <a href='http://"
+"www.viadat.com/contact/' target='_blank'>contact us</a>."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:682
+msgid "Want to Help Us Improve WordPress?"
+msgstr "Haluatko auttaa meitä parantamaan WordPress:iä?"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:683
+msgid "Buttons to Spread the Word!"
+msgstr "Nappulat Viestin Levittämiseksi!"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:694
+msgid "Done!  I've tweeted about / rated it"
+msgstr "Valmista! Olen twiitannut / arvostellut tämän"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:695
+msgid "Don't show this message again"
+msgstr "Älä näytä tätä viestiä uudelleen"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:812
+msgid "Type&nbsp;Address"
+msgstr "Kirjoita Osoite"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:816
+msgid "The General Address Format"
+msgstr "Yleinen Osoite Muoto"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:816
+msgid "show/hide"
+msgstr "näytä/piilota"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:817
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:821
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:903
+msgid "Name of Location"
+msgstr "Sijainnin nimi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:818
+msgid "Address (Street - Line1)"
+msgstr "Osoite"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:819
+msgid "Address (Street - Line2 - optional)"
+msgstr "Osoite 2 (valinnainen)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:820
+msgid "City, State Zip"
+msgstr "Kaupunki, Postinumero"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:822
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:904
+msgid "Address"
+msgstr "Osoite"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:822
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:904
+msgid "Street - Line1"
+msgstr "Katuosoite"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:823
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:905
+msgid "Street - Line 2 - optional"
+msgstr "Katuosoite (valinnainen)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:824
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:906
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:125
+msgid "City"
+msgstr "Kaupunki"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:825
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:907
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:126
+msgid "State"
+msgstr "Kunta"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:826
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:908
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:127
+msgid "Zip"
+msgstr "Postinro"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:828
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:918
+msgid "Additional Information"
+msgstr "Lisätietoa"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:829
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:919
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:131
+msgid "Description"
+msgstr "Kuvaus"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:830
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:920
+msgid "Tags (seperate with commas)"
+msgstr "Merkinnät (tags)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:831
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:921
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:132
+msgid "URL"
+msgstr "URL"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:832
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:922
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:133
+msgid "Hours"
+msgstr "Aukiolo"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:833
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:923
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:134
+msgid "Phone"
+msgstr "Puhelin"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:834
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:924
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:135
+msgid "Fax"
+msgstr "Fax"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:835
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:925
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:136
+msgid "Email"
+msgstr "Email"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:836
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:926
+msgid "Image URL (shown with location)"
+msgstr "Kuvan URL (näytetään sijainnin yhteydessä)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:841
+msgid "Add Location"
+msgstr "Lisää sijainti"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:916
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:68
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "Update"
+msgstr "Päivitä"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:916
+msgid "Cancel"
+msgstr "Peru"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-functions.php:1192
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:161
+msgid "Search By City"
+msgstr "Etsi kaupungilla"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/add-locations.php:18
+msgid "Successful Addition"
+msgstr "Lisäys onnistunut"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:42
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:44
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:142
+msgid "Normal"
+msgstr "Normaali"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:42
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:44
+msgid "Expanded"
+msgstr "Laajennettu"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:48
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:50
+msgid "Tagging"
+msgstr "Merkintä (tagging)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:48
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:50
+msgid "Multiple Fields"
+msgstr "Useita kenttiä"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:59
+msgid "Re-Geocode Selected"
+msgstr "Re-Geocode valittu"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:67
+msgid "Un-Geocoded"
+msgstr "Un-Geocoded"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:116
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:117
+msgid "ID"
+msgstr "ID"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:122
+msgid "Name"
+msgstr "Nimi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:123
+msgid "Street"
+msgstr "Katu"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:124
+msgid "Street2"
+msgstr "Katu 2 "
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:128
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:32
+msgid "Tags"
+msgstr "Merkit (Tags)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:137
+msgid "Image"
+msgstr "Kuva"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:167
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:168
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:169
+msgid "View"
+msgstr "Katsele"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:176
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:176
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:5
+msgid "Delete"
+msgstr "Poista"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:205
+msgid "No Locations Showing for this Search of "
+msgstr "Haku ei antanut sijainteja"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:205
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:51
+msgid "Clear&nbsp;Results"
+msgstr "Poista tulokset"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:205
+msgid "No Locations Currently in Database"
+msgstr "Tietokannassa ei ole sijainteja"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/manage-locations.php:206
+msgid "Add Locations"
+msgstr "Lisää sijainteja"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:49
+msgid "Successful Update"
+msgstr "Päivitys onnistui"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:55
+msgid "Select Your Location"
+msgstr "Määritä sijaintisi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:61
+msgid "Select Map Language"
+msgstr "Valitse kartan kieli"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:70
+msgid "API Key "
+msgstr "API Avain"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "Google Maps"
+msgstr "Google Kartat"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "API Key"
+msgstr "API Avain"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid ""
+"Google Maps API V3 actually doesn't require an API Key, however, if needed "
+"(it appears that high usage requires a key)"
+msgstr ""
+"Google Kartat API v3 ei itseasiassa tarvitse API avainta mutta korkeat "
+"käyttömäärät edellyttävät avainta."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "get your key here"
+msgstr "Hae avainta täältä"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:71
+msgid "Designer"
+msgstr "Designer"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:143
+msgid "Normal + Terrain (Physical)"
+msgstr "Normaali + Maasto (Fyysinen)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:144
+msgid "Satellite"
+msgstr "Satelliitti"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:145
+msgid "Satellite + Labels (Hybrid)"
+msgstr "Satelliitti + Nimike (Hybridi)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:152
+msgid ""
+"You have switched from <strong>'wordpress-store-locator-location-finder'</"
+"strong> to <strong>'store-locator'</strong> --- great!<br>Now, please re-"
+"select your <b>'Home Icon'</b> and <b>'Destination Icon'</b> below, so that "
+"they show up properly on your store locator map."
+msgstr ""
+"Olet vaihtanut pois <strong>'wordpress-store-locator-location-finder'</"
+"strong> käyttääksesi <strong>'store-locator'</strong> --- Hienoa!<br>Nyt "
+"valitse uudelleen alta<b>'Home Icon'</b> and <b>'Destination Icon'</b>, "
+"jotta ne näyttäytyvät oikein kauppapaikantimen kartalla"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:155
+msgid "Defaults"
+msgstr "Oletusarvot"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:157
+msgid "Default Map Type"
+msgstr "Oletuskartta"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:159
+msgid "Number of Locations in Results"
+msgstr "Sijaintien määrä hakutuloksessa"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:160
+msgid "Recommended Max: 50"
+msgstr "Suositus on max.50"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:162
+msgid "Show Map Inset Box"
+msgstr "Näytä kartan syväyslaatikko"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:163
+msgid "Try to Auto-Locate User"
+msgstr "Pyri näyttämään käyttäjän sijainti"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:164
+msgid "Auto-Load Locations"
+msgstr "Lataa sijainnit automaattisesti"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:164
+msgid "with Results Listing"
+msgstr "Tulosten listauksen kanssa"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:164
+msgid ""
+"<h2 style='margin-top:0px'>Search Results Listing By Default</h2>Determine "
+"whether or not both the map icons and the results listing show when loading "
+"locations by default. <br><Br>No results listings are shown even if this is "
+"checked, but 'Auto-Load Locations' is unchecked"
+msgstr ""
+"<h2 style='margin-top:0px'>Oletuksena Hakutuloksen Listaus</h2>Määrittele "
+"näytetäänkö karttaikonit ja tuloslistaus kun haetaan sijainnit "
+"automaattisesti. <br><Br>Tuloslistausta ei näytetä vaikka tämä olisi valittu "
+"mutta 'Lataa Sijainnit' ei olisi valittuna."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:171
+msgid "Allow User Search By Name of Location?"
+msgstr "Salli Käyttäjän Etsiä Sijainnin Nimellä?"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:177
+msgid "Labels"
+msgstr "Nimet"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:179
+msgid "Address Input Label"
+msgstr "Osoiterivin nimi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:180
+msgid "Radius Dropdown Label"
+msgstr "Etäisyysrivin nimi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:181
+msgid "Website URL Label"
+msgstr "Kotisivu URL nimi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:182
+msgid "Directions URL Label"
+msgstr "Ajo-ohjeet URL nimi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:187
+msgid "Instruction Message to Users"
+msgstr "Ohjeviesti käyttäjille"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:192
+msgid "Location Doesn't Exist Message"
+msgstr "Sijaintia ei löytynyt -viesti"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:194
+msgid "No Results Are Found Message"
+msgstr "Ei hakutuloksia -viesti"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:199
+msgid "Dimensions"
+msgstr "Koko"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:200
+msgid "Zoom Level"
+msgstr "Zoom tarkkuus"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:202
+msgid "Map Dimensions (H x W)"
+msgstr "Kartan koko (korkeu x leveys"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:204
+msgid "Map Width"
+msgstr "Kartan leveys"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:206
+msgid "Radii Options"
+msgstr "Etäisyyden vaihtoehdot"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:207
+msgid "Km"
+msgstr "Kilometrit"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:208
+msgid "Miles"
+msgstr "Mailit"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:214
+msgid "Parentheses '( )' are for the default radius</span>"
+msgstr "Sulkeilla valitaan oletusarvo etäisyydeksi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:215
+msgid "Distance Unit"
+msgstr "Etäisyysyksikkö"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:218
+msgid "Design"
+msgstr "Design"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:221
+msgid "Choose Theme"
+msgstr "Valitse ulkoasu"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:221
+msgid "No Theme Selected"
+msgstr "Ulkoasua ei ole valittu"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:221
+msgid "Get&nbsp;Themes"
+msgstr "Hae ulkoasuteemoja"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:222
+msgid "Remove Credits"
+msgstr "Poista creditit"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:224
+msgid "Home Icon"
+msgstr "Kotikuvake"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:224
+msgid "Click icon to change"
+msgstr "Paina vaihtaaksesi kuvaketta"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:224
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:225
+msgid "Choose"
+msgstr "Valitse"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:225
+msgid "Destination Icon"
+msgstr "Kohteen Kuvake"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/mapdesigner.php:229
+msgid "For more unique icons, visit"
+msgstr "Hae lisää kuvakkeita:"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/news-upgrades.php:9
+msgid ""
+"<b>Note:</b> Your directory is <b>'wordpress-store-locator-location-finder'</"
+"b>. Please rename to <b>'store-locator'</b> to continue receiving "
+"notifications of future updates in your admin panel. After changing to "
+"<b>'store-locator'</b>, make sure to also update your icon URLs on the 'Map "
+"Designer' page."
+msgstr ""
+"<b>Huom:</b> Asennukshakemisto on <b>'wordpress-store-locator-location-"
+"finder'</b>. Ole hyvä ja uudelleennimeä se <b>'store-locator'</b> saadaksesi "
+"jatkossakin päivityksiä hallintapaneeliin. Päivitettyäsi hakemiston nimen "
+"<b>'store-locator'</b>, muista päivittää myös karttakuvakkeiden URL "
+"osoitteet 'Karttasuunnittelu' sivulla."
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/news-upgrades.php:21
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:110
+msgid "Latest News"
+msgstr "Viimeisimmät Uutiset"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/news-upgrades.php:69
+msgid "For Your Information"
+msgstr "Tiedoksesi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-admin/pages/news-upgrades.php:142
+msgid "Addons & Themes"
+msgstr "Lisäosat & Ulkoasut"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:5
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:32
+msgid "You sure"
+msgstr "Oletko varma"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:32
+msgid "Add Tag"
+msgstr "Lisää Merkintä (Tag)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/mgmt-buttons-links.php:32
+msgid "Remove Tag"
+msgstr "Poista Merkintä (Tag)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/module-keys.php:30
+msgid "Key"
+msgstr "Avain"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/module-keys.php:46
+msgid "Looking for more addons & themes"
+msgstr "Etsikö lisäosia tai ulkoasuja?"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/module-keys.php:46
+msgid "They're all right here"
+msgstr "Ne löytyvät täältä"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:51
+msgid "for your search of"
+msgstr "sinun hakusi"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:58
+msgid "Results"
+msgstr "Tulokset"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:60
+msgid "total"
+msgstr "täydellinen"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:71
+msgid "Previous"
+msgstr "Edellinen"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/search-links.php:80
+msgid "Next"
+msgstr "Seuraava"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:7
+msgid "Manage"
+msgstr "Hallitse"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:8
+msgid "Add"
+msgstr "Lisää"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:104
+msgid "Dashboard"
+msgstr "Hallintaikkuna"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:108
+msgid "Rate Us"
+msgstr "Arvostele Meidät"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:109
+msgid "Information & ReadMe Instructions"
+msgstr "Informaatio & LueMinut Ohjeistus"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/top-nav.php:111
+msgid "Activation Keys"
+msgstr "Aktivointi Avaimet"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/store-locator.2.0/sl-inc/includes/via-latest.php:26
+msgid "Latest about Store Locator for WordPress"
+msgstr "Viimeisimmät uutiset Store Locatorista WordPressin kanssa"

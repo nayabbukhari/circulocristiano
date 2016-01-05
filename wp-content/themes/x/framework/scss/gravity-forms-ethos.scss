@@ -1,0 +1,28 @@
+// =============================================================================
+// SCSS/GRAVITY-FORMS-ETHOS.SCSS
+// -----------------------------------------------------------------------------
+// Contains all Gravity Forms styles for the Ethos Stack.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. Functions, Variables, and Mixins
+//   02. Gravity Forms
+// =============================================================================
+
+// Functions, Variables, and Mixins
+// =============================================================================
+
+@import "site/inc/functions";
+@import "site/inc/variables";
+@import "site/stacks/ethos/inc/variables";
+@import "site/inc/mixins";
+@import "site/stacks/ethos/inc/mixins";
+
+
+
+// Gravity Forms
+// =============================================================================
+
+@import "site/stacks/ethos/gravity-forms";

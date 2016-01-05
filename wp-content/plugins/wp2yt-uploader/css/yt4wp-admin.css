@@ -1,0 +1,2207 @@
+			/** Admin YT Plus File 3.2.2 **/
+/* =========== Helper Classes =========== */
+
+.yt4wp-hidden {display: none;}
+
+.yt4wp-text-right {text-align: right;}
+.yt4wp-text-left {text-align: left;}
+.yt4wp-text-center {text-align: center;}
+
+.yt4wp-right {float: right;}
+.yt4wp-left {float: left;}
+
+.yt4wp-margin-left {margin-left: 2em;}
+
+.pro-feature-list {
+	list-style: disc;
+	margin-left:1.5em;
+}
+
+.child-li {
+	margin-left: .5em;
+}
+
+a.button-secondary.create_video_post_button:hover, a.button-secondary.send_to_playlist_button:hover, 
+a.button-secondary.youtube-plus-delete-playlist-button:hover, a.button-secondary.yt-plus-create-new-playlist:hover,
+a.button-secondary.youtube-plus-delete-video-button:hover {
+	cursor:pointer;
+}
+
+/*******************************************/
+/**** Include Our Custom Web Font ****/
+@font-face {
+	font-family: 'yt4wp-mc-font';
+	src:url('fonts/yt4wp-mc-font.eot?-e5ggdf');
+	src:url('fonts/yt4wp-mc-font.eot?#iefix-e5ggdf') format('embedded-opentype'),
+		url('fonts/yt4wp-mc-font.woff?-e5ggdf') format('woff'),
+		url('fonts/yt4wp-mc-font.ttf?-e5ggdf') format('truetype'),
+		url('fonts/yt4wp-mc-font.svg?-e5ggdf#yt4wp-mc-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.yt_plus_error_x {
+	color:#DD3D36;
+}
+
+/* TinyMCE Button Class */
+/* Icon Fonts */
+.mce-i-yt4wp-mc-icon-yt4wp-button-image:before {
+	content: "\e600" !important;
+	font-family: 'yt4wp-mc-font' !important;
+}
+
+.youtube-pro_page_youtube-plus-pro-settings .update-nag {
+	padding-top:0;
+	margin-top:0;
+	width:95%;
+}
+
+.yt4wp-mc-icon-notice {
+	display:block;
+}
+
+.update-nag .yt4wp-mc-icon-notice:before {
+	content: "\f348" !important;
+	font-family: 'dashicons' !important;
+	float:left;
+	font-size:1.5em;
+	color: #FFBA00;
+	display:block;
+	margin-right: .25em;
+}
+
+/* Reset Plugin Modal and Icons */
+.yt4wp-mc-icon-yt4wp-mc-warning:before {
+	content: "\f158";
+	font-family: 'dashicons' !important;
+}
+
+.yt4wp-mc-reset-warning-icon {
+	font-size: 3.25em;
+	color: rgb(255, 76, 76);
+	text-align:center;
+	float:left;
+	margin-right:.25em;
+	margin-top:.5em;
+}
+
+.yt_plus_about_icon {
+	display:block;
+	float:left;
+	margin-top:2em;
+}
+
+.yt4wp-mc-delete-form-warning-icon {
+	font-size: 3.25em;
+	color: rgb(255, 76, 76);
+	text-align:center;
+	float:left;
+	margin-right:.25em;
+	margin-top:.55em;
+}
+
+.yt4wp-mc-success-icon {
+	font-size: 3.25em;
+	color: rgb(126, 207, 110);
+	text-align:center;
+	margin-top: .25em;
+	margin-right: .75em;
+	float:left;
+}
+
+.yt4wp-mc-reset-plugin-settings-preloader {
+	width: 15px;
+	text-align:center;
+	display:block;
+	margin:0 auto;
+}
+
+.yt4wp-mc-reset-plugin-settings-preloader-container {
+	width:100%;
+	text-align:center;
+}
+
+#yt_plus_reset_plugin_settings p {
+	float:left;
+	width:80%;
+}
+
+#yt4wp-oauth2-key, #yt4wp-oauth2-secret, #yt4wp-api-key {
+	width: 45em;
+}
+
+/*	Widget Icon !!  */
+/* including an image in the widget box */
+*[id*="yt_plus_widget"] > div.widget-top > div.widget-title > h4:before {
+	content: '\f236';
+	font-family: 'dashicons' !important;
+	width:25px;
+	float:left;
+	height:18px;
+	font-size: 17px;
+	margin-top: -2px;
+}
+
+
+/* Red Button Style */
+.wp-core-ui .yt4wp-mc-button-red {
+	background-color: #9B2124;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C5292E), to(#9B2124));
+	background-image: -webkit-linear-gradient(top, #C5292E, #9B2124);
+	background-image:    -moz-linear-gradient(top, #C5292E, #9B2124);
+	background-image:     -ms-linear-gradient(top, #C5292E, #9B2124);
+	background-image:      -o-linear-gradient(top, #C5292E, #9B2124);
+	background-image:   linear-gradient(to bottom, #C5292E, #9B2124);
+	border-color: #9B2124;
+	border-bottom-color: #8D1F21;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+ 	box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+ 	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	margin-left: 2em;
+	width:150px;
+	text-align:center;
+}
+
+.wp-core-ui .yt4wp-mc-button-red.hover,
+.wp-core-ui .yt4wp-mc-button-red:hover,
+.wp-core-ui .yt4wp-mc-button-red.focus,
+.wp-core-ui .yt4wp-mc-button-red:focus {
+	background-color: #B72629;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#D22E30), to(#9B2124));
+	background-image: -webkit-linear-gradient(top, #D22E30, #9B2124);
+	background-image:    -moz-linear-gradient(top, #D22E30, #9B2124);
+	background-image:     -ms-linear-gradient(top, #D22E30, #9B2124);
+	background-image:      -o-linear-gradient(top, #D22E30, #9B2124);
+	background-image:   linear-gradient(to bottom, #D22E30, #9B2124);
+	border-color: #7F1C1F;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+ 	box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.wp-core-ui .yt4wp-mc-button-red.focus,
+.wp-core-ui .yt4wp-mc-button-red:focus {
+	border-color: #500F0E;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6), 1px 1px 2px rgba(0,0,0,0.4);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,0.6), 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.wp-core-ui .yt4wp-mc-button-red.active,
+.wp-core-ui .yt4wp-mc-button-red.active:hover,
+.wp-core-ui .yt4wp-mc-button-red.active:focus,
+.wp-core-ui .yt4wp-mc-button-red:active {
+	background: #7F1C1F;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#9B2124), to(#B72629));
+	background-image: -webkit-linear-gradient(top, #9B2124, #B72629);
+	background-image:    -moz-linear-gradient(top, #9B2124, #B72629);
+	background-image:     -ms-linear-gradient(top, #9B2124, #B72629);
+	background-image:      -o-linear-gradient(top, #9B2124, #B72629);
+	background-image:   linear-gradient(to bottom, #9B2124, #B72629);
+	border-color: #601312 #AE2426 #AE2426 #AE2426;
+	color: rgba(255,255,255,0.95);
+	-webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+ 	box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.wp-core-ui .yt4wp-mc-button-red[disabled],
+.wp-core-ui .yt4wp-mc-button-red:disabled,
+.wp-core-ui .yt4wp-mc-button-red-disabled {
+	color: #E79496 !important;
+	background: #BA292B !important;
+	border-color: #7F1C1F !important;
+	-webkit-box-shadow: none !important;
+	box-shadow:         none !important;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.1) !important;
+	cursor: default;
+}
+
+
+/*********	User Profile Box And Fields 		*********/
+#userInformation {
+	width:400px;
+	height:125px;
+	position:absolute;
+	right:0;
+	top:0;
+	margin-top:2em;
+	margin-right:2em;
+	/* border:1px dashed rgb(206, 206, 206); */
+	padding:10px;
+	font-size:1.8em;
+}
+	#userInformation p, #userInformation span {
+		margin:0;
+	}
+	
+	#userInformation span { 
+		text-decoration:underline;
+	}
+
+	#yt4wp-youtube-avatar {
+		position:absolute;
+		top:0;
+		left:0;
+		margin-left:10px;
+		margin-top:1.8em;
+		width:100px;
+	}
+	
+	.userProfileInformation {
+		margin-left:110px;
+		margin-top:5px;
+	}
+	
+	.userProfileInformation p {
+		margin: 5px 0 5px 0 !important;
+		font-size:16px;
+	}
+
+
+/*		Widget Styles	*/
+.yt4wp_widget_form_description, .yt4wp_mc_widget_selected_form_dropdown { 
+	width:100%;
+	height:200px;
+	resize:none;
+}
+
+.widget_yt4wp_mc_widget p {
+	margin-bottom:10px;
+}
+
+.widget .yt_plus_interest_group_label {
+	text-align:center;
+	width:45%;
+	float:left;
+	word-break: break-word;
+}
+
+.widget_yt4wp_mc_widget input, .widget_yt4wp_mc_widget .yt4wp-youtubeFormDivRowField {
+	width:100%;
+}
+	.yt4wp-youtubeFormDivRowField input {
+		width: 100%;
+	}
+
+.widget_yt4wp_mc_widget .yt4wp-require-description {
+	padding-top:0;
+}
+
+/* general */
+
+#yt4wp-icon {
+	background: transparent url('../images/YouTube_page_head_icon.png') no-repeat 0 0;
+	display:block;
+	float:left;
+	padding: .25em 0 0 .5em;
+	height: 45px;
+	width: 35px;
+	background-size: contain;
+	margin-right:.5em;
+}
+
+.wrap #yt4wp-page-header {
+	padding-top:0;
+	margin:1em 0 .5em 0;
+	line-height: 45px;
+}
+
+.youtube_page_youtube-plus-pro-settings .wrap #yt4wp-page-header {
+	padding-top:0;
+	margin:1.5em 0 .5em 0;
+	line-height: 45px;
+}
+
+.wrap #yt_plus_review_this_plugin_container {
+	position:absolute;
+	top: 4.5em;
+	right: 1.65em;
+	padding:.5em;
+	float:right;
+}
+
+#TB_window .wrap #yt_plus_review_this_plugin_container {
+	position: relative;
+	padding:.5em;
+	right: 0;
+	top: 3em;
+}
+
+
+
+.wrap .nav-tab-wrapper {
+	padding-top: .5em !important;
+}
+
+/* Settings Page Top Container */
+/* Houses links to leave us a review, links to YIKES Inc. Website etc. */
+#yt_plus_review_this_plugin_container {
+	display:inline-block;
+}
+	#yt_plus_review_this_plugin_container .yt4wp_review_this_divider {
+		border-right:1px solid #333;
+	}
+	
+#yt_plus_review_this_plugin_container a, #yt_plus_review_this_plugin_container a:hover {
+	color: #333;
+}
+	#yt_plus_review_this_plugin_container div, #yt_plus_review_this_plugin_container span, #yt_plus_review_this_plugin_container .yt4wp_header_logo {
+		float:left;
+		margin: 0 .5em;
+		text-align:center;
+	}
+		#yt_plus_review_this_plugin_container div.dashicons {
+			margin: 0 3px;
+		}
+		#yt_plus_review_this_plugin_container div.dashicons-plus-alt {
+			display:block;
+			width:100%;
+			margin: 0 auto;
+		}
+		
+body.youtube-forms_page_yt4wp-youtube-about-yt4wp #yt4wp-page-header {
+	margin-top:1em;
+}
+
+
+.yt4wp-status	{
+	display: none;
+	width: 100%;
+	clear: both;
+	margin-top: 2em;
+}
+	
+	.yt4wp-status .yt4wp-success {
+		/*
+		color: #000;
+		width: 80%;
+		height: auto;
+		border: 2px solid #00AA00;
+		background: #C1FFC1;
+		clear: both;
+		margin: 15px auto 15px auto;
+		text-align: center;
+		*/
+		border-left: 4px solid #7ad03a;
+		padding: 5px 15px;
+		background-color:#fff;
+		-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+		box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+		min-height:25px;
+		line-height: 1.2;
+		margin-top:1em;
+	}
+	
+	.yt4wp-status-error .yt4wp-error {
+		/*
+		color: #000;
+		width: 80%;
+		height: auto;
+		border: 2px solid #AA0000;
+		background: #FFC1C1;
+		clear: both;
+		margin: 15px auto 15px auto;
+		text-align: center;
+		*/
+		border-left: 4px solid #dd3d36;
+		background-color: #fff;
+		padding: 1px 12px;
+		-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+		box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+		min-height:25px;
+		line-height: 3.2;
+		margin-top:1em;
+	}
+			.yt4wp-status .yt4wp-error p, .yt4wp-status .yt4wp-success p {
+				margin: .4em 0;
+			}
+
+	.yt4wp-status .yt4wp-notice {
+		color: #000;
+		width: 80%;
+		height: auto;
+		border: 2px solid #0033AA;
+		background: #CCDDFF;
+		clear: both;
+		margin: 15px auto 15px auto;
+		padding: 5px;
+		position: relative;
+		text-align: left;
+	}
+		.yt4wp-status .yt4wp-notice a.yt4wp-notice-close, .yt4wp-status .yt4wp-notice a.yt4wp-notice-close:active,
+		.yt4wp-status .yt4wp-notice a.yt4wp-notice-close:link, .yt4wp-status .yt4wp-notice a.yt4wp-notice-close:visited {
+			background: #0033AA;
+			color: #FFF;
+			position: absolute;
+			padding: 0 5px !important;
+			margin: 0 !important;
+			top: 0;
+			right: 0;
+			font-size: 10px;
+			text-decoration: none;
+		}
+			.yt4wp-status .yt4wp-notice a.yt4wp-notice-close:hover {
+				text-decoration: underline;
+			}
+		.yt4wp-status .yt4wp-notice p {
+			padding: 5px;
+		}
+		
+/* Plugin settings page*/
+form[name="yt4wp-youtube-form"] {
+	width: 75%;
+	float: left;
+}
+.yt4wp-admin-form {
+   float: left;
+   margin-top: 10px;
+   background: none !important
+}
+
+	.yt4wp-admin-form th {
+		font-weight: bold;
+	}
+
+.yt4wp-settings-description {
+	padding-bottom: 2em !important;
+	color: #666;
+}
+
+#single-optin-message, #double-optin-message {
+	height:150px;
+	width:600px;
+	resize:none;
+}
+	
+.yt4wp-youtube-interest-group-label {
+	width:350px;
+}
+
+/* Configure Lists page*/
+
+.yt4wp-notice-toggle {
+	background: #c9cced !important;
+	border-color: #9ea0ba !important;
+	color: #3c3a44 !important;
+}
+
+.yt4wp-youtube-delete {
+	background: #890B0B !important;
+	border-color: #890B0B !important; 
+}
+
+.yt4wp-youtube-import {
+	background: #ffc000 !important;
+	border-color: #ffc000 !important;
+	float: right;
+	margin: 0 10px 0 0;
+}
+
+.yt4wp-youtube-fields-placeholder {
+	background: #DEDEDE;
+	display: block;
+	height: 22px;
+}
+		
+.yt4wp-youtube-sorthandle {
+	background: 	transparent url('../images/16px_sortable_color.png') no-repeat 0 0;
+	margin:			0 7px -4px 4px !important;
+	padding:		0;
+	overflow:		hidden;
+	height:			16px !important;
+	width:			16px !important;
+	text-indent:	-9000px;
+	display:		inline-block;
+}
+
+	.yt4wp-youtube-sorthandle-img {
+		background: transparent url('../images/16px_sortable_color.png') no-repeat 0 0;
+		height:			16px !important;
+		width:			16px !important;
+		display:		inline-block;
+		}
+
+.yt4wp-youtube-fields-container label input[type="checkbox"] {
+	margin-top: -1px;
+}
+	
+.yt4wp-youtube-field-name {
+	display: inline-block;
+	width: 200px;
+}
+
+.yt4wp-youtube-field-merge {
+	display: inline-block;
+}
+	.yt4wp-youtube-field-merge .yt4wp-youtube-field-merge {
+		width: 100px;
+	}
+
+#yt4wp-list-wrapper .yt4wp-list-container 	{
+	border-bottom: 3px dashed #DEDEDE;
+}
+
+#yt4wp-list-wrapper .yt4wp-list-container:last-child {
+	border-bottom: 0px dashed #DEDEDE !important;
+}
+
+.yt4wp-youtube-fields-list 	{
+	background-color: #F9F9F9;
+	border: 1px solid #EEE;
+}
+.yt4wp-youtube-fields-list .yt4wp-youtube-fields-list-row:nth-child(even) {
+	background-color: #EEE;
+}
+.yt4wp-youtube-fields-list .yt4wp-youtube-fields-list-row:nth-child(odd) {
+}
+	.yt4wp-youtube-fields-list .yt4wp-youtube-fields-list-row {
+		display: block;
+		height: 30px;
+		padding-top: 3px;
+	}
+		.yt4wp-youtube-fields-list .yt4wp-youtube-fields-list-row label {
+			display: inline-block;
+		}
+
+		.yt4wp-youtube-listname {
+			font-size: 1.4em !important;
+			font-weight: 600;
+		}
+
+.yt4wp-youtube-redirect-checkbox-holder {
+	display:block;
+	margin-top:.5em;
+}
+		
+/*	Subscribers table */
+.yt4wp-youtube-subscribers-list-row {
+		height: 30px;
+		padding-top: 3px;
+		font-size:1.2em;
+	}
+	
+.yt4wp-youtube-subscribers-table-head {
+	border-bottom:1px solid grey;
+	font-size:1.3em;
+}	
+	
+	.yt4wp-youtube-subscribers-list-row:nth-child(even) {
+		background-color: #EEE;
+	}
+	
+	.yt4wp-youtube-subscribers-list-row:hover {
+		cursor:pointer;
+		background:rgba(208, 235, 241, 0.58);
+	}
+	
+.subscriber-mail-link {
+	text-decoration:none;
+}	
+	
+.displayListSubscribers {
+	font-size:10px;
+}
+
+	.yt4wp-view-subscriber-profile {
+		float:right;
+		margin-right:.35em;
+		margin-top:-.2em;
+		opacity:.5;
+		color:rgb(24, 138, 56) !important;
+		line-height:1.35;
+	}
+		
+		.yt4wp-view-subscriber-profile:hover {
+			opacity:1;
+		}
+
+	.yt4wp-remove-subscriber {
+		float:right;
+		margin-right:.5em;
+		margin-top:-.2em;
+		opacity:.5;
+		color:rgb(223, 111, 111);
+		line-height:1.35;
+	}
+	.yt4wp-remove-subscriber:hover {
+		opacity:1;
+	}
+	
+	.yt4wp-email-subscriber {
+		float:right;
+		margin-right:.25em;
+		margin-top:-.2em;
+		opacity:.5;
+		color:rgb(60, 143, 175) !important;
+		line-height:1.35;
+	}
+	
+		.yt4wp-email-subscriber:hover {
+			opacity:1;
+		}
+	
+/* About page */
+
+.ytplus-page-about {
+		
+}
+
+.youtube-pro_page_youtube-plus-pro-about-evan #wpbody {
+	background: url('../images/evan-herman-mascot.png') no-repeat bottom right;
+	background-position-x: 90%;
+}
+
+#ytplus-logo-container {
+	margin: .5em 0 .5em 0;
+}	
+	
+#ytplus-logo-container .b-sbn {
+	float: right;
+	margin: 0 2.4em 0 0;
+}	
+
+#yt4wpme-yt4wp-logo {
+	border: 0;
+	padding: 0;
+	margin: 0 0 20px 0;
+	display: block;
+}
+
+
+/* =========== Front-end Forms =========== */
+
+.yt4wp-youtube-fields-td {
+	display: block;
+	padding: 15px 0 15px 0;
+	min-width:880px;
+}
+	
+.yt4wp-youtube-fields-container label {
+	clear: both;
+	display: block;
+	padding: 2px 0;
+}
+
+.yt4wp-require-description {
+	font-size: 0.9em;
+    padding: 1em 0;
+}
+
+.yt4wp-youtubeFormDivRowLabel-required {}
+	.yt4wp-required-label {
+		font-weight: bold;
+		color: red;
+	}
+	.yt4wp-require {}
+	
+.yt4wp-youtubeFormTable	{
+	border-bottom: 0px !important;
+}
+
+.yt4wp-youtubeFormTableSubmit {
+	text-align:	center;
+}
+	
+.yt4wp-youtubeFormTableRow, .yt4wp-youtubeFormDivRow {
+	width: 100%;
+}
+	.yt4wp-youtubeFormDivRow {
+		margin: .5em 0 .5em 0;
+	}
+
+.yt4wp-youtubeFormTableRowLabel, .yt4wp-youtubeFormTableRowField,
+.yt4wp-youtubeFormDivRowLabel, .yt4wp-youtubeFormDivRowField {
+	vertical-align: top !important;
+}
+.yt4wp-youtubeFormDivRowLabel {
+	display: inline-block;
+	width: 50%;
+}
+.yt4wp-youtubeFormDivSubmit {
+	display: inline-block;
+	width: 100%;
+	margin-top: .4em;
+}
+
+.yt4wp-youtube-form-tooltip {
+	color: #CCC !important;
+	font-size: 12px;
+	display:block;
+	margin: 0 0 15px 0;
+}
+	
+#yt4wp-debug-info, #yt4wp-debug-info table,
+#yt4wp-debug-info table label, #yt4wp-debug-info table th,
+#yt4wp-debug-info table td {
+	color: #CCC !important;
+	font-size: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.mailChimp_api_key_preloader {
+	margin-left:.5em;
+	display:none;
+}
+
+.mailChimp_api_key_validation_message {
+	margin-left:.5em;
+	display:none;
+	font-size:10px;
+}
+
+	.mailChimp_api_key_validation { 
+
+	}
+
+.yt4wp-api-key-error {
+	display:none;
+	color:red;
+}
+
+/******		Interest Group Stypes 		******/
+.yt_plus_interest_group_text:first-child {
+	display:block;
+	margin-top:1em;
+}
+
+.yt_plus_interest_group_holder {
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	margin-bottom:.5em;
+}
+
+/* Table Interest Group Styles */
+td.yt_plus_table_dropdown_interest_group_holder, td.yt4wp-youtubeFormTableSubmit  {
+	border-top:0;
+}
+.yt4wp_table_label {
+	display:block;
+	margin:.75em 0;
+}
+
+.yt_plus_table_interest_group_holder {
+	width: 100%;
+	margin-bottom: 0;
+	display:block;
+}
+	.yt_plus_table_dropdown_interest_group_holder {
+		display:block;
+	}
+
+.yt_plus_interest_group_holder select {
+	width:100%;
+}
+
+.yt4wp_mc_interest_group_checkbox, .yt_plus_interest_group_label { 
+	display:inline-block;
+	margin: 0 5px;
+}
+
+.widget .yt_plus_table_td:last-child {
+	border-top:0;
+	border-bottom:0;
+}
+
+.yt4wp_mc_interest_group_radio {
+	margin-right: .5em;
+}
+
+.content .yt_plus_interest_radio_button_holder, .content .yt_plus_table_td {
+	display:inline-block;
+	width:100%;
+}
+
+/***	Subscriber List Styles	***/
+.yt4wp-mc-subscriber-go-back {
+	font-size:12px;
+	font-weight:bold;
+	color: #333;
+	opacity: .5;
+	width:300px;
+	display:block;
+	text-align:left;
+	margin-top: 1em !important;
+	width: auto;
+}
+	.yt4wp-mc-subscriber-go-back:hover {
+		opacity: 1;
+		cursor:pointer;
+	}
+
+.yt4wp-mc-subscriber-overview {
+	display:block;
+	float: left;
+	width: 100%;
+}	
+	
+.dashicons-arrow-left-alt2:before {
+	display:inline-block;
+	margin-top:.15em;
+}
+	
+.dashicons-star-filled {color:#FEBE12;}
+
+.yt4wp-mc-subscriber-star-rating {
+	margin-top: 0;
+}
+
+#yt4wp-subscriber-info-email-address {
+	margin-bottom:.5em !important;
+}
+
+.yt4wp-mc-overview-title {
+	font-size:16px;
+	color: #666;
+	opacity:.8;
+	margin-bottom:0 !important;
+}
+
+.yt4wp-mc-overview-info-value {
+	font-size:14px;
+	color: #222222;
+	margin-top:0 !important;
+}
+
+.yt4wp-mc-subscriber-firstName, .yt4wp-mc-subscriber-lastName {
+	text-transform: capitalize;
+}
+
+.yt4wp-subscriber-info-optin-data {
+	display:block;
+	margin-top:.5em;
+}
+
+.yt4wp-mc-subscriber-bottom {
+	display:block;
+	float:left;
+	width:100%;
+}
+
+.yt4wp-mc-subscriber-top {
+	margin-bottom: 1.5em;
+}
+
+.yt4wp-mc-subscriber-header {
+	border-bottom:1px dashed grey;
+	padding-bottom:.5em;
+}
+
+.yt4wp-mc-subscriber-left-container,  .yt4wp-mc-subscriber-right-container {
+	float:left;
+	width:50%;
+}
+label[for="yt4wp_youtube_comment_subscribe"] {
+	display:block;
+	margin: .5em 0 .5em 0;
+}
+label[for="yt4wp_youtube_comment_subscribe"]:hover {
+	cursor:pointer;
+}
+
+label[for="single-optin-message"], label[for="double-optin-message"] {
+	display:block;
+	width:55%;
+}
+
+#wp-double_optin_message-wrap, #wp-single_optin_message-wrap {
+	display:block;
+	margin-top:1.5em;
+}
+
+.yt4wp_widget_logo {
+	display:block;
+	margin:0 auto;
+	width: 80px;
+}
+
+.yt4wp_cURL_instructions_hidden, .yt4wp_phpinfo_container {
+	display:none;
+}
+
+.yt4wp_cURL_help_button {
+	margin-bottom: 1em !important;
+}
+
+.yt_plus_php_ini_file_location {
+	margin: .5em 0 .5em 0;
+	font-style:italic;
+}
+
+.yt_plus_no_phpini_alert {
+	color :#C93232;
+	font-weight:bold;
+}
+
+.yt_plus_no_phpini_success {
+	color :#29CA01;
+	font-weight:bold;
+}
+
+
+/** Date Picker Styles **/
+.yt4wp-youtubeFormDatepickerContainer .ui-datepicker-prev, .yt4wp-youtubeFormDatepickerContainer .ui-datepicker-next {
+	margin-top:.5em;
+}
+
+/* Form Error Classes */
+.yt4wp_error_field_required {
+	border: 1px solid rgb(252, 182, 182) !important;
+	background: rgb(255, 213, 213) !important;
+ }
+ 
+ #yt4wp_form_error_message {
+	padding:.75em;
+	font-size:12px;
+	float:left;
+	margin-bottom:1em;
+	display:none;
+ }
+	 #yt4wp_form_error_message ul {
+		list-style-type: square;
+		width: 100%;
+		float:left;
+		margin-top:.5em;
+		margin: 0.75em 0 1.25em 1.25em;
+	 }
+		 #yt4wp_form_error_message ul li {
+			width: 33%; 
+			float:left;
+		 }
+		 
+/* reCAPTCHA Responsiveness */
+#recaptcha_area {
+	margin-bottom:1.5em;
+}
+
+	.widget-area #recaptcha_area .recaptcha_input_area, .widget-area #recaptcha_table td {
+		margin-left:0 !important;
+		padding-left:0 !important;
+	}
+	
+    .widget-area .recaptchatable #recaptcha_image {
+        margin: 0 !important;
+        width: 200px !important;
+        float:left !important;
+    }
+    .widget-area .recaptchatable #recaptcha_image img {
+        max-width:100%;
+    }
+    .widget-area .recaptchatable .recaptcha_r1_c1, .widget-area .recaptchatable .recaptcha_r3_c1, .widget-area .recaptchatable .recaptcha_r3_c2, .widget-area .recaptchatable .recaptcha_r7_c1, .widget-area .recaptchatable .recaptcha_r8_c1, 
+	.widget-area .recaptchatable .recaptcha_r3_c3, .widget-area .recaptchatable .recaptcha_r2_c1, .widget-area .recaptchatable .recaptcha_r4_c1, .widget-area .recaptchatable .recaptcha_r4_c2, .widget-area .recaptchatable .recaptcha_r4_c4, 
+	.widget-area .recaptchatable .recaptcha_image_cell, .widget-area .recaptchatable .recaptcha_r2_c2 {
+        background: none !important;
+    }
+	
+	.widget-area .recaptchatable #recaptcha_image, .widget-area #recaptcha_area {
+		width: 100% !important;
+	}
+	
+	/*****
+		Start New YouTube for WordPress Styles
+	*****/		
+	.youtube-plus-video-preview-btn {
+		font-size:10px;
+		margin-left:10px;
+	}
+	
+	.youtube-plus-video-preview-title {
+		font-size:30px;
+		font-family: "Open Sans",sans-serif;
+		color: #333333;
+	}
+	
+	.youtube-plus-video-list {
+		display:inline-block;
+		width: 100%;
+	}
+	
+	.youtube-plus-video-single-list-item h3 {
+		margin-top: 0;
+	}
+	
+	/** Masonry Stuff **/
+	.youtube-plus-video-single-list-item-drop-highlight , .youtube-plus-video-single-list-item {
+		width: 23%;
+		min-width: 265px;
+		margin:0 1% 2%;
+		float: left;
+		display:block;
+		max-width:400px;
+		max-height: 485px;
+		min-height: 485px;
+		/* margin: 1em .65em; */
+		-moz-box-sizing: border-box;
+         box-sizing: border-box;
+		 overflow: visible;
+		 word-break: break-word;
+	}	
+		.youtube-plus-video-single-list-item img.youtube-plus-video-thumbnail {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			height: 220px !important;
+		}
+		
+		/** Addon Banner Hide **/
+		@media (max-width: 1070px) {
+			.price-row {
+				display: none !important;
+			}
+		}
+		/** Support/Contact Banner **/
+		@media (max-width: 720px) {
+			#yt_plus_review_this_plugin_container {
+				display: none !important;
+			}
+		}
+		/** Masonry Responsive Styles **/
+		@media (max-width: 600px) {
+		  /* 1 column for larger screens */
+		  .youtube-plus-video-single-list-item { width: 100% !important; max-width: 100% !important; }
+		  .youtube-plus-video-single-list-item img.youtube-plus-video-thumbnail { width: 100% !important; height:235px !important; }
+		  .yt-plus-outside-hidden { height: 235px !important; }
+		  #masonry-container { width: 405px !important; margin: 0 auto !important; }
+		}
+	
+		.youtube-plus-video-single-list-item-drop-highlight {
+			background: #DEDFE0;
+		}
+	
+	.youtube-plus-video-single-list-item.subscribtions {
+		display:block;
+		float:left; 
+		height: 500px !important;
+		margin: 1em .75em;
+	}	
+	
+	.youtube-plus-video-thumbnail.subscription {
+		border-radius: 5px !important;
+		display:block !important;
+		margin: 0 auto !important;
+		max-width: 240px;
+		min-width:240px;
+	}
+	
+	/** Pagination Search **/
+	
+	/* Disabled Buttons, to do - change to pagination_disabled globall */
+	.pagination_page_search_disabled, .pagination_page_browse_disabled, .pagination_page_subscriptions_disabled  {
+		opacity: .5;
+		margin-bottom: 2em !important;
+	}
+	
+	.pagination_page_search , .pagination_page_browse, .pagination_page_subscriptions  {
+		margin: 0 1.5em;
+		margin-bottom: 2em !important;
+	}
+	
+	.pagination_page_search , .pagination_page_browse, .pagination_page_search_disabled, .pagination_page_browse_disabled,
+	.pagination_page_subscriptions , .pagination_page_subscriptions_disabled {
+		margin-right: .5em !important;
+		margin-left: .5em !important;
+	}
+	
+	/* Uploade Page */
+	form#youtube-plus-pro-upload-form div.advanced-settings {
+		display:none;
+	}
+	
+	/* Video Search Page */
+	.youtube-plus-video-thumbnail {
+		width: 100%;
+	}
+	
+	h4.youtube-plus-no-data-found {
+		color:rgb(255, 136, 136);
+		display:block;
+		width:100%;
+		text-align:center;
+		margin-top:4em;
+	}
+	
+	.youtube-plus-video-thumbnail:hover {
+		cursor:pointer;
+	}
+	
+	#youtube_plus_search_form {
+		display:block;
+		margin: 1em 0 1em 0;
+	}
+	
+	/* Insert Video Button */
+		.insert_video_button {
+			/* margin-left: .25em !important; */
+		}
+		.youtube-plus-video-preview-btn {
+			margin-left: 0 !important;
+			display:block;
+		}
+		
+		.insert_video_button:hover {
+			color: #494949;
+		}
+		
+		
+		/** Response YouTube Video Code **/
+		.ytplus-video-container {
+			position: relative;
+			padding-bottom: 56.25%;
+			padding-top: 30px;
+			height: 0;
+			overflow: hidden;
+		}
+		 
+		.ytplus-video-container iframe {
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		
+		.sub-nav-button-active {
+			color: red !important;
+		}
+		
+		
+		#profile_sub_navigation ul {
+			display:inline-block;
+			width:100%;
+		}
+		#profile_sub_navigation ul li {
+			display:block;
+			float:left;
+			margin: 0 .5em;
+		}
+			#profile_sub_navigation ul li:first-child {
+				margin:0 .5 0 0 !important;
+			}
+			
+			#TB_ajaxContent #yt4wp-page-header {
+				margin-bottom: 0 !important;
+			}
+			#TB_ajaxContent #yt4wp-page-header .nav-tab-wrapper {
+				padding-top: .5em !important;
+			}
+			
+	/** YouTube for WordPress Widget Styles **/
+	.widget.youtube-plus-rss-feed a {
+		display:block;
+	}	
+	
+	/** YouTube Front End Search Masonry Styles **/
+	.page .youtube-plus-video-single-list-item { 
+		width: 25%; 
+		height:auto; 
+		margin-top:2em;
+		border:1px solid #DDD;
+		border-radius:5px;
+		padding:1em;
+	}
+	
+		/* Search page results title */
+		.page .youtube-plus-video-single-list-item h3 {
+			margin: 10px 0;
+		}
+		/* Search page results link */
+		.page .youtube-plus-video-single-list-item .youtube-plus-video-preview-btn { 
+			display:block;
+			margin-left:0 !important;
+			width:100%;
+		}
+		/* Search page results description */
+		.page .youtube-plus-video-single-list-item .youtube-plus-video-description-container { 
+			margin: 10px 0;
+		}
+		
+		
+		/** Re-order playlist Notification */
+		.edit-mode-notification {
+			width:500px;
+			text-align:center;
+			border: 10px solid rgba(0, 0, 0, 0);
+			border-radius:3px;
+			border-image: url('../images/upload/border-image.png') 25 repeat;
+			background: #333;
+			color: rgb(226, 120, 120);
+			display:block;
+			margin:0 auto;
+		}
+		
+			.edit-mode-notification p {
+				color: #fefefe !important;
+			}
+		
+		/* Edit Video Form Fields */
+		#edit-video-dialog-form input[type="text"], #edit-video-dialog-form textarea, #edit-playlist-dialog-form input[type="text"], #edit-playlist-dialog-form textarea {
+			display:block;
+			width: 100%;
+		}
+		
+		
+		/** JQuery UI Modal Fix **/
+		.edit-video-dialog-form {
+			z-index: 999999 !important;
+		}
+		.ui-widget-overlay
+        {
+            background: #000 !important;
+            opacity: .4 !important;
+            -moz-opacity: 0.4 !important;
+            filter: alpha(opacity=40) !important;
+			z-index: 999998 !important;
+        }
+		
+		/* jQuery UI Sortable */
+		.ui-sortable .youtube-plus-video-preview-btn:hover , .ui-sortable-handle {
+			cursor: move !important;
+		}
+		
+		/* Browse Videos/Subscriptions smooth transitions */
+		#subscribtions_box .youtube-plus-video-single-list-item h3 {
+			text-align: center;
+			font-size: 1.5em;
+			margin: .7em 0;
+		}
+		
+		.yt-plus-repeatable-cron-row td.select_user_row {
+			padding-left:0 !important;
+		}
+		
+		/* Upload Drop Zone */
+		#drop{
+			background-color: #2E3134;
+			padding: 40px 50px;
+			margin-bottom: 30px;
+			border: 20px solid rgba(0, 0, 0, 0);
+			border-radius: 3px;
+			border-image: url('../images/upload/border-image.png') 25 repeat;
+			text-align: center;
+			text-transform: uppercase;
+			font-size:16px;
+			font-weight:bold;
+			color:#7f858a;
+			margin-top: 2em;
+		}
+
+		#drop.front-end{
+			background-color: #2E3134;
+			padding: 25px 0px;
+			margin-bottom: 30px;
+			border: 20px solid rgba(0, 0, 0, 0);
+			border-radius: 3px;
+			border-image: url('../images/upload/border-image.png') 25 repeat;
+			text-align: center;
+			text-transform: uppercase;
+			font-size:16px;
+			font-weight:bold;
+			color:#7f858a;
+			max-width:100%;
+		}
+		
+		#drop a{
+			background-color:#007a96;
+			padding:12px 26px;
+			color:#fff;
+			font-size:14px;
+			border-radius:2px;
+			cursor:pointer;
+			display:inline-block;
+			margin-top:12px;
+			line-height:1;
+		}
+
+		#drop a:hover{
+			background-color:#0986a3;
+		}
+
+		#drop input[type="file"] {
+			display:none;
+		}
+		
+		
+		/* Progress Bar Indicator */
+		#progress_container {
+			margin-top: 10%;
+			margin-left: 40%;
+			display:none;
+			width:200px;
+			height:200px;
+		}
+		
+		#progress_container input {
+			box-shadow: none;
+			webkit-box-shadow: none;
+			border: none;
+			color: #818181;
+		}
+		
+		.youtube-plus-rss-feed .fancybox {
+			margin: .75em 0;
+		}
+		
+		/* Styling the input fields on the upload form */
+		#youtube-plus-pro-upload-form #video-title {
+			padding: 3px 8px;
+			font-size: 1.7em;
+			height: 1.7em;
+			width: 100%;
+			outline: 0;
+			margin: 0;
+			background-color: #fff;
+		}
+				
+			#youtube-plus-pro-upload-form #video-details.front-end, #youtube-plus-pro-upload-form #video-title.front-end {
+				padding: 3px 0px;
+				margin-bottom:.75em;
+			}	
+		
+		.button-secondary {
+			color: #555;
+			border-color: #ccc;
+			background: #f7f7f7;
+			-webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+			box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+			vertical-align: top;
+			display: inline-block;
+			text-decoration: none;
+			font-size: 13px;
+			line-height: 26px;
+			margin:0 ;
+			padding: 0 10px 1px;
+			cursor: pointer;
+			border-width: 1px;
+			border-style:solid;
+			-webkit-appearance: none;
+			white-space: nowrap;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		
+		#youtube-plus-pro-upload-form #video-details {
+			padding: 3px 8px;
+			font-size: 1.4em;
+			height: 350px;
+			width: 100%;
+			outline: 0;
+			margin: 0;
+			background-color: #fff;
+		}
+		
+		/** Tags on the file upload page **/
+		div.tagsinput { border:1px solid #CCC; background: #FFF; padding:5px; height:100px; overflow-y: auto; width:99% !important;}
+		div.tagsinput span.tag { border: 1px solid #a5d24a; -moz-border-radius:2px; -webkit-border-radius:2px; display: block; float: left; padding: 5px; text-decoration:none; background: #cde69c; color: #638421; margin-right: 5px; margin-bottom:5px;font-family: helvetica;  font-size:13px;}
+		div.tagsinput span.tag a { font-weight: bold; color: #82ad2b; text-decoration:none; font-size: 11px;  } 
+		div.tagsinput input { width:80px; margin:0px; font-family: helvetica; font-size: 13px; border:1px solid transparent; padding:5px; background: transparent; color: #000; outline:0px;  margin-right:5px; margin-bottom:5px; }
+		div.tagsinput div { display:block; float: left; } 
+		.tags_clear { clear: both; width: 100%; height: 0px; }
+		.not_valid {background: #FBD8DB !important; color: #90111A !important;}
+		
+		
+		/* Acceptable File Type Notification */
+		#acceptable_filetypes ul {
+			position:relative;
+			height:18px;
+			padding-left: 20px;
+		}
+		#acceptable_filetypes ul li {
+			float:left;
+			margin: .5em;
+		}
+			#acceptable_filetypes ul li:first-child {
+				margin-left:0;
+			}
+			
+		/* Switch YouTube Channel Button */
+		.switch-yt-channels {
+			margin-top: 1.8em !important;
+		}
+		
+		/* Sliding Drawer on Image Hover */
+		.drawer {
+			display:block;
+			width:100%;
+			position:absolute;
+			background:#333;
+			height: 25px;
+			padding:5px 0px;
+			top:220px;
+			transition:all 600ms;
+			text-align:center;
+		}
+			.drawer a {
+				margin: 0 .15em !important;
+			}
+			
+			.drawer a > .dashicons {
+				color: #727272 !important;
+			}
+			
+			.drawer a:disabled > .dashicons, .drawer a:disabled:hover > .dashicons {
+				color: #727272 !important;
+			}
+			
+			.drawer a:hover > .dashicons {
+				color: #333 !important;
+			}
+			
+			
+		.yt-plus-outside-hidden {
+			overflow:hidden;
+			position:relative;
+			height:220px !important;
+			width:100% !important;
+		}
+
+		.drawer.move {
+			position:absolute;
+			top: 185px;
+			height: 25px;
+			padding:5px 0px;
+		}
+		
+		/* Sliding Confirmation/Error message drawer when creating posts and adding videos to playlists */
+		.dialog_message_drawer {
+			display:block;
+			width:100%;
+			position:absolute;
+			background:#333;
+			height: 25px;
+			padding:5px 0px;
+			top:-35px;
+			transition:all 600ms;
+			text-align:center;
+			color: #ffffff;
+			z-index: 99999;
+			opacity: 1 !important;
+			line-height: 2.5;
+		}
+			.dialog_message_drawer a {
+				margin: 0 .25em;
+			}
+
+		.dialog_message_drawer.move {
+			position:absolute;
+			top: 0px;
+			height: 25px;
+			padding:5px 0px;
+			z-index: 99999;
+			opacity: 1 !important;
+		}
+		
+			/** Class specific **/
+			.add_video_to_watch_later_success {
+				color: rgba(105, 228, 105, 0.9);
+			}
+			
+			.add_video_to_watch_later_error {
+				color: rgba(252, 104, 104, 0.83);
+			}
+		
+		/** Custom erorr style **/
+		.yt-plus-error {
+			border-left: 4px solid #dd3d36;
+			background: #fff;
+			box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+			padding: 1px 12px;
+			margin: 1em 0 2em 0;
+		}
+		
+		/* No Content found error message styles */
+		.no_content_found_error {
+			width: 35%;
+			text-align:center;
+			display:block;
+			border: 1px dashed #B6B6B6;
+			padding:4em;
+			margin: 0 auto;
+			color: rgba(250, 32, 32, 0.61);
+		}
+		
+		
+	.ui-dialog {
+		position:relative;
+		z-index: 999999;
+	}
+	/** Responsive mediaelement js **/
+	.wp-video-shortcode, .wp-video {
+		max-width: 100%;
+		width: 100% !important;
+		margin: 1em 0;
+	}
+	
+	.mejs-poster {
+		overflow:hidden !important;
+	}
+		.mejs-poster img {
+			display:block !important;
+			margin-top: -9.25% !important;
+		}	
+	
+	/** Media Element Shadow **/
+		/** 
+			Shadow
+		**/
+		.video-container-shadow {
+			background: url(images/shadow.png) 0 100.5% no-repeat;
+			padding: 0 40px 1px;
+			margin: 0 auto;
+			background-size:100%;
+			background-position-y: 98.5%;
+		}
+
+			/* Fix shadow gap issue on mobile **/
+			@media screen and (max-width: 633px) {
+				.video-container-shadow {
+					background: url(images/shadow.png) 0 99% no-repeat;
+					padding: 0 40px 6px;
+					margin: 0 auto;
+					background-size:100%;
+				}
+			}
+			
+	.ui-dialog-yt-plus #edit-video-dialog-form textarea#video_description, .ui-dialog-yt-plus #edit-playlist-dialog-form textarea#playlist_description {
+		min-height: 155px;
+		max-height: 250px;
+	}	
+	
+	/** Stacked Dashicon Icons **/
+	
+	/* remove_video_from_watch_later */
+		.remove_video_from_watch_later .dashicon-no {
+			line-height: 2.2;
+			position: absolute;
+			color: rgb(248, 47, 47);
+			font-size: 17px;
+			margin-left: 7px;
+		}
+		
+		.remove_video_from_watch_later .dashicons-clock {
+			line-height: 1.1;
+			font-size: 25px;
+			margin-left: -2px;
+		}
+		
+	/* remove_video_from_watch_later */
+		.yt-plus-unlisted-icon .dashicons-no-alt {
+			position: absolute;
+			font-size: 22px;
+			color: #FF8E8E;
+			margin-left: 3px;
+			margin-top: 3px;
+		}
+		
+	/** Statistics Styles **/	
+	/**************************/
+		/** Liekes/Dislikes Icon **/
+		.yt-plus-dislikes-icon, .yt-plus-likes-icon {
+			width: 14px;
+		}
+		
+		/** Favorites Icon **/
+		.yt-plus-stats-container .dashicons-heart {
+			color: rgba(255, 73, 104, 0.55);
+		}
+		
+		/** Statis Container **/
+		.yt-plus-stats-container {		
+			display: block;
+			width: 100%;
+			margin: .5em 0 .75em 0;
+			height: 18px;
+			font-size:16px;
+		}
+			.yt-plus-stats-container .dashicons {
+				font-size: 16px;
+				line-height: 1.2;
+			}
+		
+		/** Stats and Video Count Text Styles **/
+		.yt-plus-stats-view-count, .number_of_videos_in_playlist { 
+			float:left;
+			font-style: italic;
+			font-weight: bold;
+			color: #66B3FF;
+		}
+		
+		.yt-plus-stats-likes-dislikes-favorites-count {
+			float:right;
+		}
+
+		/** YouTube SubScribe Button **/
+		.yt-subscribe-btn {
+		  border: 0 none;
+		  border-radius: 2px 2px 2px 2px;
+		  color: #FFFFFF;
+		  cursor: pointer;
+		  display: inline-block;
+		  font-family: Arial,sans-serif;
+		  font-size: 12px;
+		  font-weight: bold;
+		  line-height: 20px;
+		  margin-bottom: 2em;
+		  margin-top: 10px;
+		  padding: 7px 10px;
+		  text-transform: none;
+		  transition: all 0.3s ease 0s;
+		  -moz-transition: all 0.3s ease 0s;
+		  -webkit-transition: all 0.3s ease 0s;
+		  width: 160px; /* auto */
+		  text-align: center;
+		  background: none repeat scroll 0 0 #E0645C;
+		  color: #fff;
+		  display: block;
+		  margin-right: 100%;
+		}
+		.yt-subscribe-btn:hover {
+		 background: none repeat scroll 0 0 #999999;
+		 color: #fff;
+		}
+		
+		.search_browse_page_title {
+			float: left;
+			margin-right: 1.5em;
+			width: 100%;
+		}
+		
+		.yt-plus-unsubscribe-to-channel {
+			position: relative;
+			margin-left: 90%;
+			margin-top: -10px;
+			opacity: 1 !important;
+			font-size: 25px;
+			z-index: 999;
+			height: 0;
+			display:none; 
+		}
+			.yt-plus-unsubscribe-to-channel:hover {
+				cursor: pointer;
+				color: #E0645C;
+				z-index:99999;
+			}
+		
+		/* Switch Channels Button */		
+		.switch-yt-channels {
+			margin-top: 10px;
+			padding: 10px 15px;
+			font-size: 14px;
+			line-height: 1.6;
+			text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+			color: #fff;
+			display:inline-block;
+			vertical-align: middle;
+			text-align: center;
+			cursor: pointer;
+			font-weight: bold;
+			transition: background 0.1s ease-in-out;
+			-webkit-transition: background 0.1s ease-in-out;
+			-moz-transition: background 0.1s ease-in-out;
+			-ms-transition: background 0.1s ease-in-out;
+			-o-transition: background 0.1s ease-in-out;
+			text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+			color: #fff;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			font-family: 'Helvetica Neue', Helvetica, sans-serif;
+			background-color: #F74C4C;
+			box-shadow: 0px 3px 0px 0px #cd1313;
+			float: right;
+		}
+		.switch-yt-channels:active {
+			padding-top: 15px;
+				margin-bottom: -1px;
+		}
+		.switch-yt-channels, .switch-yt-channels:hover, .switch-yt-channels:active {
+			outline: 0 none;
+			text-decoration: none;
+			color: #fff;
+		}
+		.switch-yt-channels:hover {
+			background-color: #ed4444;
+		}
+		.switch-yt-channels:active {
+			box-shadow: 0px 1px 0px 0px #cd1313;
+		}
+		
+		/** Search Styles **/
+		
+		/** Advanced Search Button **/
+		.advanced_search_label .dashicons-admin-generic {
+			font-size: 16px !important;
+			height:16px;
+			width:16px;
+			line-height:1.05;
+		}
+		
+		#advanced_search {
+			display: none;
+		}
+		.advanced_search_label {
+			margin: 0 .5em !important;
+			padding: .6em;
+			background: rgb(238, 238, 238);
+			margin-left: 0 !important;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			margin-bottom:1em !important;
+			border-right: 1px dashed rgb(199, 199, 199);
+			border-left: 1px dashed rgb(199, 199, 199);
+			border-bottom: 1px dashed rgb(199, 199, 199);
+		}
+		
+		#advanced_search_container {
+			margin: 0 !important;
+			padding: .5em 0;
+			background: rgb(247, 247, 247);
+		}
+		
+		#youtube_plus_search_form #yt-plus-upload-search {
+			border-right-width: 1px !important;
+		}
+		#advanced_search_container { 
+			display: none;
+			float:left;
+			width:100%;
+			margin: .5em 0;
+		}
+			
+			#advanced_search_container .advanced_search_setting {
+				float:left;
+				margin: .5em;
+			}
+				#advanced_search_container .advanced_search_setting:first-child {
+					margin-left: 0;
+				}
+		#advanced_search_container .advanced_search_info {
+			font-size: 11px !important;
+			vertical-align: inherit;
+		}
+		#advanced_search_container .advanced_search_info:hover {
+			cursor: pointer;
+			color: rgb(172, 201, 163);
+		}
+		
+		/** Search Video Button **/
+		.search_my_videos {
+			font-size: 25px;
+		}
+		.search_my_videos:hover {
+			cursor: pointer;
+		}
+		
+		
+		#yt-plus-upload-search, #yt-plus-search {
+		  width: 100%;
+		  padding: 11px 16px 11px 16px;
+		  color: #5c6671;
+		  border: 1px solid #c9ced0;
+		  border-right-width: 2px;
+		  background: #fff;
+		  line-height: 1.3;
+		  transition:.05s border-color ease-in-out;
+		  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+		}
+		
+		#youtube_plus_search_form {
+		  padding: 11px 16px 11px 16px;
+		  color: #5c6671;
+		  border: 1px solid #c9ced0;
+		  border-right-width: 2px;
+		  background: #fff;
+		  line-height: 1.3;
+		  transition:.05s border-color ease-in-out;
+		  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+		}
+		#yt-plus-upload-search:focus, #youtube_plus_search_form:focus, #yt-plus-search:focus {
+		  color: #5c6671;
+		  outline: none;
+		}
+		#yt-plus-upload-search:focus + label, #youtube_plus_search_form:focus + label, #yt-plus-search:focus + label {
+		  background: transparent;
+		  opacity: .3;
+		}
+		#yt-plus-upload-search::-webkit-input-placeholder, #youtube_plus_search_form::-webkit-input-placeholder {
+		  color: #a8acae;
+		}
+		#yt-plus-upload-search :-moz-placeholder, #youtube_plus_search_form :-moz-placeholder {
+		  color: #a8acae;
+		}
+		#yt-plus-upload-search::-moz-placeholder, #youtube_plus_search_form::-moz-placeholder {
+		  color: #a8acae;
+		}
+		#yt-plus-upload-search:-ms-input-placeholder, #youtube_plus_search_form:-ms-input-placeholder {
+		  color: #a8acae;
+		}
+		#yt-plus-upload-search + label  {
+		  position: absolute;
+		  top: 10px;
+		  right: 1px;
+		  bottom: 1px;
+		  width: 48px;
+		  color: #abafb1;
+		  text-indent: -9999px;
+		  pointer-events: none;
+		}
+		
+		label.yt-plus-search-form-label {
+		  position: absolute;
+		  top: 15px !important;
+		  right: 10px !important;
+		  bottom: 1px;
+		  width: 48px;
+		  color: #abafb1;
+		  text-indent: -9999px;
+		  pointer-events: none;
+		}
+		
+		.advanced_search_label {
+			display:inline-block;
+			margin: .5em 0;
+		}
+		
+		#yt-plus-upload-search + label:after, #youtube_plus_search_form + label:after {
+		  font-family: dashicons;
+		  content: '\f179';
+		  position: absolute;
+		  right: 11px;
+		  text-align: right;
+		  top: 4px;
+		  font-size: em(24);
+		  font-weight: normal;
+		}
+		
+		#yt-plus-upload-search+label:after, #youtube_plus_search_form+label:after{content:'\f179';position:absolute;right:11px;text-align:right;top:4px;font-size:1.71429em;font-weight:normal;font-family:dashicons}
+		
+		#search_my_playlists_form {
+			position: relative;
+			width: 100%;
+			max-width: 570em;
+			margin: 0 0 2em 0;
+			overflow: hidden;
+		}
+		
+		#youtube_plus_search_form {
+			position: relative;
+			border-right-width: 1px;
+			max-width: 570em;
+			overflow: hidden;
+		}
+				
+		.searchContainer input {
+			width: 100%;
+			margin: 0; padding: 0; border: 0;
+			display: block
+		}
+			
+		/** Dialog Adjustments **/
+		.ui-dialog-yt-plus .ui-dialog-titlebar-close span {
+			margin: 0px !important;
+			margin-left: 3px !important;
+		}
+		
+		.ui-dialog-yt-plus .ui-dialog-buttonset .ui-button-text-only.ui-state-hover, .ui-dialog-yt-plus .ui-dialog-buttonset .ui-button-text-only.ui-state-focus {
+			background-color: #CDE69C !important;
+			color: #638421;
+			border-width:2px;
+			border-color: transparent;
+		}
+		
+		.ui-dialog-yt-plus .ui-dialog-buttonset .ui-button-text-only.ui-state-hover:last-child:hover, .ui-dialog-yt-plus .ui-dialog-buttonset .ui-button-text-only.ui-state-focus:last-child:hover {
+			background-color: #FC969E !important;
+			color: #772F2F;
+			border-width:2px;
+			border-color: transparent;
+		}
+		
+		/** 
+			Masonry Container 
+			- To Do : Height does not re-adjust after a search query on the users playlist items
+			- it remains at 450px and the rest of the items are covered, also the masonry doesn't run 
+		**/
+		#masonry-container {
+			margin: 0 auto;
+		}
+		
+		
+		/** Global Preloader **/
+		.youTube_api_key_preloader {
+			display: block;
+			margin-left: 50%;
+			margin-top: 20%;
+		}
+		
+		/** Elastic Gear Spin **/
+		.elastic-gear-spin {
+		  -webkit-animation: elastic-spin 1s ease;
+		  -moz-animation: elastic-spin 1s ease;
+		  -o-animation: elastic-spin 1s ease;
+		  animation: elastic-spin 1s ease;
+		}
+		@-webkit-keyframes elastic-spin {
+		  from { transform: rotate(0deg); }
+		  to { transform: rotate(720deg); }
+		}
+		@-moz-keyframes elastic-spin {
+		  from { transform: rotate(0deg); }
+		  to { transform: rotate(720deg); }
+		}
+		@-o-keyframes elastic-spin {
+		  from { transform: rotate(0deg); }
+		  to { transform: rotate(720deg); }
+		}
+		@keyframes elastic-spin {
+		  from { transform: rotate(0deg); }
+		  to { transform: rotate(720deg); }
+		}
+		
+	/* Error Message Alert */
+	.yt4wp-error-alert {
+		color: #a94442;
+		background-color: #f2dede;
+		border-color: #ebccd1;
+		padding: 15px;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		display: block;
+		border-radius: 5px;
+		margin: 1.5em 0;
+	}
+	
+	/* Append an icon to the warning */
+	.yt4wp-error-alert:before {
+		content: "\f117";
+		font-family: "dashicons";
+		font-size:20px;
+		float: left;
+		padding: 10px;
+		padding:0 !important; 
+		padding-right:10px !important; 
+		padding-top:15px !important;
+	}
+	
+	.yt4wp-error-alert.special:before {
+		content: "\f117";
+		font-family: "dashicons";
+		font-size:20px;
+		float: left;
+		padding: 10px;
+		padding:0 !important; 
+		padding-right:10px !important; 
+		padding-top:5px !important;
+	}
+	
+	.yt4wp-error-alert p { 
+		padding-left:30px !important; 
+	}
+	
+	/* Initial Setup Message */
+	#initial_setup_message {
+		margin-top: 1.5em;
+		display: block;
+		padding: 15px;
+		background: white;
+		border: 1px solid #D9D9D9;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-khtml-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		text-align: center;
+	}
+		/* Initial setup buttons */
+		#initial_setup_message .yt4wp-setup-button, #yt4wp-youtube-form .settings-setup-link {
+			color:#888;
+			background: #f6f5f1;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			-moz-border-radius: 4px;
+			-khtml-border-radius: 4px;
+			-webkit-border-radius: 4px;	
+			font-size: 17px;	
+			display: inline-block;
+			height: 45px;
+			width: 175px;
+			text-decoration: none;	
+			margin: 5px;
+			line-height: 2.5;
+			vertical-align: top;
+			padding: 2px;
+			transition: color 0.3s ease 0s;
+			-moz-transition: color 0.3s ease 0s;
+			-webkit-transition: color 0.3s ease 0s;
+			margin-top: 1.5em;
+		}
+			/* Initial setup buttons hover, change colors */
+			#initial_setup_message .yt4wp-setup-button:hover , #initial_setup_message .yt4wp-setup-button:hover > .dashicons {
+				color: #333;
+			}
+			/* Initial setup button dashicons */
+			#initial_setup_message .yt4wp-setup-button .dashicons {
+				transition: color 0.2s ease 0s;
+				-moz-transition: color 0.2s ease 0s;
+				-webkit-transition: color 0.2s ease 0s;
+				font-size: 19px;
+				margin: 0 4px;
+				line-height: 2.2;
+			}
+			
+		#yt4wp-youtube-form .settings-setup-link {
+			font-size: 14px;
+			text-align:center;
+			width: auto !important;
+			height: auto;
+			padding: 0px 12px;
+			background: #EDEDED;
+			border: 1px solid rgba(51, 51, 51, 0.21);
+			transition: all 0.15s ease 0s;
+			-moz-transition: all 0.15s ease 0s;
+			-webkit-transition: all 0.15s ease 0s;
+		}
+			#yt4wp-youtube-form .settings-setup-link:hover {
+				background: #E4E4E4;
+			}
+	
+	a.button.youtube-plus:hover {
+		cursor: pointer;
+	}
+	a.button.youtube-plus:disabled:hover {
+		cursor: pointer;
+	}
+	
+	/* Blue Get Started/Purchase Add-on Button */
+	.purchase-add-on-button {
+	  position: relative;
+	  vertical-align: top;
+	  width: 100%;
+	  height: 40px;
+	  padding: 0;
+	  font-size: 12px;
+	  color: white;
+	  text-align: center;
+	  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	  background: #3498db;
+	  border: 0;
+	  border-bottom: 2px solid #2a8bcc;
+	  cursor: pointer;
+	  -webkit-box-shadow: inset 0 -2px #2a8bcc;
+	  box-shadow: inset 0 -2px #2a8bcc;
+	}
+	.purchase-add-on-button:active {
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+	
+	/** Success Authentication Redirect Box **/
+	#sucess_redirect_box {
+		font-size: 1.35em;
+		text-align: center;
+		width: 225px;
+		margin: 0 auto;
+		/* border: 1px solid grey; */
+		padding: 3em;
+		font-family: "Open Sans";
+		opacity: .65;
+		line-height: 1.35;
+	}
+	
+	.success_redirect_preloader {
+		display: block !important;
+		margin: 0 auto;
+		margin-top: .75em;
+		display: none;
+	}
+	
+	
+	/* Reset Plugin Button Styles */
+	.reset-plugin-settings-button {
+	  position: relative;
+	  vertical-align: top;
+	  width: 150px;
+	  height: 33px;
+	  padding: 0;
+	  font-size: 12px;
+	  color: white;
+	  text-align: center;
+	  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	  background: #f39c12;
+	  border: 0;
+	  border-bottom: 2px solid #e8930c;
+	  cursor: pointer;
+	  -webkit-box-shadow: inset 0 -2px #e8930c;
+	  box-shadow: inset 0 -2px #e8930c;
+	}
+	.reset-plugin-settings-button:active {
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+
+	/* Revoke Permissions Button */
+	.revoke-permissions-button {
+	  position: relative;
+	  vertical-align: top;
+	  width: 150px;
+	  height: 33px;
+	  padding: 0;
+	  font-size: 12px;
+	  color: white;
+	  text-align: center;
+	  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	  background: #e74c3c;
+	  border: 0;
+	  border-bottom: 2px solid #db4334;
+	  cursor: pointer;
+	  -webkit-box-shadow: inset 0 -2px #db4334;
+	  box-shadow: inset 0 -2px #db4334;
+	}
+	.revoke-permissions-button:active {
+	  top: 1px;
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+	
+	/* Eye Ball , view obfuscated text */
+	.view-obfuscated-text {
+		font-size: 14px;
+		margin-top: 6px;
+		color: rgba(155, 155, 155, 0.79);
+		transition: color 0.3s ease 0s;
+		-moz-transition: color 0.3s ease 0s;
+		-webkit-transition: color 0.3s ease 0s;
+		margin-left: 3px;
+	}
+		.view-obfuscated-text:hover {
+			cursor: pointer;
+			color: #333;
+		}
+		
+	
+	/* Playlist Dropdown on Upload Selection 
+	.public-yt4wp-playlist-dropdown {
+		background: url('./images/earth.svg') no-repeat left;
+		padding: 0 5px;
+	}
+	.private-yt4wp-playlist-dropdown {
+		background: url('./images/lock.svg') no-repeat left;
+		padding: 0 5px;
+	}
+	.unlisted-yt4wp-playlist-dropdown {
+		background: url('./images/unlocked.svg') no-repeat left;
+		padding: 0 5px;
+	}
+	*/
+	
+	/* Drawer Icons */
